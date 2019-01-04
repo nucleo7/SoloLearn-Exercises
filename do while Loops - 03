@@ -1,0 +1,39 @@
+https://code.sololearn.com/c5y7Bqw1l4r7/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+         
+
+        int numOne = 1; 
+
+        int numTwo = 5; 
+
+        while (numOne < numTwo) { 
+
+           System.out.println("numOne value is: " + numOne); 
+
+           if (numOne == 4) { 
+
+              break;  
+
+           } 
+
+           numOne++; 
+
+        } 
+
+        System.out.println("The while loop stops executing when the numOne value equals 4."); 
+
+    } 
+
+} 
