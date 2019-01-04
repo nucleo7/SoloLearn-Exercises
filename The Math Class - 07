@@ -1,0 +1,59 @@
+https://code.sololearn.com/cL1sj2pc7SzZ/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+  
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+        double p = Math.pow(2, 3); 
+
+        System.out.println(p); 
+
+         
+
+        double q = Math.pow(3, 1); 
+
+        double r = Math.pow(3, 2); 
+
+        double s = Math.pow(3, 3); 
+
+        double t = Math.pow(3, 4); 
+
+         
+
+        System.out.println("3 to the power of 1 is: " + q); 
+
+        System.out.println("3 to the power of 2 is: " + r); 
+
+        System.out.println("3 to the power of 3 is: " + s); 
+
+        System.out.println("3 to the power of 4 is: " + t); 
+
+         
+
+        double a = Math.sqrt(16); 
+
+        double b = Math.sqrt(25); 
+
+        double c = Math.sqrt(64); 
+
+         
+
+        System.out.println("The square root of 16 is: " + a); 
+
+        System.out.println("The square root of 25 is: " + b); 
+
+        System.out.println("The square root of 64 is: " + c); 
+
+    } 
+
+} 
