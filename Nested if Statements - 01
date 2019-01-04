@@ -1,0 +1,51 @@
+https://code.sololearn.com/cSy4GFEkAmnd/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+        // EDIT: Change the value of the age variable to affect the results below. 
+
+        int age = 55; 
+
+        if(age > 0) { 
+
+            if(age > 5 ) { 
+
+                if(age > 10) { 
+
+                    if(age > 25) { 
+
+                       System.out.println("Well Done!"); 
+
+                    } 
+
+                } else { 
+
+                   System.out.println("Good on you! Persevere, you'll get there."); 
+
+                } 
+
+            } else { 
+
+                System.out.println("Give the phone back to your parents!"); 
+
+            } 
+
+        } else { 
+
+            System.out.println("You're not fooling me!  It' not possible to be younger than 0."); 
+
+        } 
+
+    } 
+
+} 
