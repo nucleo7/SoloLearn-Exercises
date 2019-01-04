@@ -1,0 +1,67 @@
+https://code.sololearn.com/cLT3DWxIcNuN/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+class Program { 
+
+  
+
+    public static void main(String[ ] args) { 
+
+        int resOne = max(7, 42); 
+
+        System.out.println(resOne); 
+
+         
+
+        int resTwo = min(3, 11); 
+
+        System.out.println(resTwo); 
+
+    } 
+
+  
+
+    static int max(int a, int b) { 
+
+        if(a > b) { 
+
+          return a; 
+
+        } 
+
+        else { 
+
+            return b; 
+
+        } 
+
+    } 
+
+     
+
+    static int min(int x, int y) { 
+
+        if(x < y) { 
+
+            return x; 
+
+        } 
+
+        else { 
+
+            return y; 
+
+        } 
+
+    } 
+
+  
+
+} 
