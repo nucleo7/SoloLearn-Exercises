@@ -1,0 +1,39 @@
+https://code.sololearn.com/cmYt4Fp7Xil2/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+        int x = 5; 
+
+        System.out.println(x); 
+
+        --x;  
+
+        System.out.println(x); 
+
+         
+
+        int y = 72; 
+
+        System.out.println(y); 
+
+        --y; 
+
+        System.out.println(y); 
+
+         
+
+        System.out.println(--x - --y); 
+
+    } 
+
+} 
