@@ -1,0 +1,57 @@
+https://code.sololearn.com/cm5mlzMIAYRg/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+class MyClass { 
+
+  
+
+    static void sayHello() { 
+
+        System.out.println("Hello World!"); 
+
+    } 
+
+     
+
+    static void methodOne() { 
+
+        System.out.println("Printing things to screen."); 
+
+    } 
+
+     
+
+    static void methodTwo() { 
+
+        System.out.println(1 + 3 + 5 + 7); 
+
+    } 
+
+  
+
+    public static void main(String[ ] args) { 
+
+        sayHello(); 
+
+        methodOne(); 
+
+        methodTwo(); 
+
+        methodTwo(); 
+
+        methodOne(); 
+
+        sayHello(); 
+
+    } 
+
+  
+
+} 
