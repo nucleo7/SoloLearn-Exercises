@@ -1,0 +1,33 @@
+https://code.sololearn.com/cPqNByUOu4yl/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+         
+
+        String[] stringArray = {"Red", "Green", "Blue", "Cyan", "Magenta", "Yellow", "Black"}; 
+
+        System.out.println("The first index value of stringArray: " + stringArray[0]); 
+
+        System.out.println("The length of stringArray: " + stringArray.length); 
+
+         
+
+        int[] intArray = {1, 3, 5, 7, 11, 13, 17}; 
+
+        System.out.println("The first index value of intArray: " + intArray[0]); 
+
+        System.out.println("The length of intArray: " + intArray.length); 
+
+    } 
+
+} 
