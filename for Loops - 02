@@ -1,0 +1,31 @@
+https://code.sololearn.com/cZGPR49gfQ4x/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+         
+
+        for(int c = 7; c > 0; c--) { 
+
+           System.out.println("The value of c is: " + c); 
+
+        } 
+
+        for(int d = 7; d > 0; --d) { 
+
+           System.out.println("The value of d is: " + d); 
+
+        } 
+
+    } 
+
+} 
