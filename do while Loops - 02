@@ -1,0 +1,41 @@
+https://code.sololearn.com/ct9BNn440f97/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+         
+
+        int numOne = 1; 
+
+        do { 
+
+           System.out.println("numOne value is: " + numOne); 
+
+           numOne++; 
+
+        } while (numOne < 1); 
+
+         
+
+        int numTwo = 7; 
+
+        do { 
+
+           System.out.println("numTwo value is: " + numTwo); 
+
+           numTwo++; 
+
+        } while (numTwo > 11); 
+
+    } 
+
+} 
