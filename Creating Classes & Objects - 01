@@ -1,0 +1,71 @@
+https://code.sololearn.com/cY4uQLSDBe62/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+public class Animal { 
+
+    void bark() { 
+
+        System.out.println("Woof-Woof"); 
+
+    } 
+
+} 
+
+  
+
+public class Car { 
+
+    void engine() { 
+
+        System.out.println("Vroom-Vroom"); 
+
+    } 
+
+} 
+
+  
+
+public class Color { 
+
+    void colorSystem() { 
+
+        System.out.println("Red, Green, Blue"); 
+
+    } 
+
+} 
+
+  
+
+class MyClass { 
+
+    public static void main(String[ ] args) { 
+
+        Animal dog = new Animal(); 
+
+        dog.bark(); 
+
+         
+
+        Car porsche = new Car(); 
+
+        porsche.engine(); 
+
+         
+
+        Color RGB = new Color(); 
+
+        RGB.colorSystem(); 
+
+         
+
+    } 
+
+} 
