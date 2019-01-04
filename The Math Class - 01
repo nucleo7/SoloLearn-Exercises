@@ -1,0 +1,49 @@
+https://code.sololearn.com/cDSGdX0GC0M5/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+  
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+        int a = Math.abs(10);  
+
+        System.out.println(a); 
+
+         
+
+        int b = Math.abs(-20); 
+
+        System.out.println(b); 
+
+         
+
+        int c = Math.abs(-3); 
+
+        System.out.println(c); 
+
+         
+
+        int d = Math.abs(13); 
+
+        System.out.println(d); 
+
+         
+
+        int e = Math.abs(-7); 
+
+        System.out.println(e); 
+
+    } 
+
+} 
+
+ 
