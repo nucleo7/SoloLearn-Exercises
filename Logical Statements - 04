@@ -1,0 +1,33 @@
+https://code.sololearn.com/cNfOAI09gQ8x/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+        int age = 25; 
+
+        int year = 1980; 
+
+         
+
+        if(!(age < 18) && !(year > 1985)) { 
+
+            System.out.println("Too Young"); 
+
+        } else { 
+
+            System.out.println("Welcome"); 
+
+        } 
+
+    } 
+
+} 
