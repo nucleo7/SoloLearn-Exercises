@@ -1,0 +1,39 @@
+https://code.sololearn.com/cbMXETlvZ8MT/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+  
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+        int m = Math.min(10, 20); 
+
+        System.out.println(m); 
+
+         
+
+        int n = Math.min(3, 7); 
+
+        int o = Math.min(7, 11); 
+
+        int p = Math.min(37, 7); 
+
+         
+
+        System.out.println("The minimum of 3 or 7 is: " + n); 
+
+        System.out.println("The minimum of 7 or 11 is: " + o); 
+
+        System.out.println("The minimum of 37 or 7 is: " + p); 
+
+    } 
+
+} 
