@@ -1,0 +1,45 @@
+https://code.sololearn.com/cYEg8oXmxNu0/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+         
+
+        int numOne = 5; 
+
+        int numTwo = 11; 
+
+        do { 
+
+           System.out.println("numOne value is: " + numOne); 
+
+           numOne++; 
+
+        } while (numOne < numTwo); 
+
+         
+
+        int numThree = 5; 
+
+        int numFour = 11; 
+
+        do { 
+
+           System.out.println("numThree value is: " + numThree); 
+
+           ++numThree; 
+
+        } while (numThree < numFour); 
+
+    } 
+
+} 
