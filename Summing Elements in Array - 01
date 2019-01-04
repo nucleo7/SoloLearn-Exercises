@@ -1,0 +1,29 @@
+https://code.sololearn.com/cOYs5701u0bm/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+         
+
+        int[] arrayOne = new int[3]; 
+
+        int[] arrayTwo = new int[7]; 
+
+        int[] arrayThree = new int[5]; 
+
+         
+
+        System.out.println("The sum of arrayOne length value: " + arrayOne.length + "; arrayTwo length value: " + arrayTwo.length + "; and arrayThree length value: " + arrayThree.length + "; equals: " +  (arrayOne.length + arrayTwo.length + arrayThree.length)); 
+
+    } 
+
+} 
