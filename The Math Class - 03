@@ -1,0 +1,43 @@
+https://code.sololearn.com/ccSAMDKeqjfZ/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+  
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+        double f = Math.floor(7.343); 
+
+        System.out.println(f); 
+
+         
+
+        double g = Math.floor(1.1); 
+
+        double h = Math.floor(1.1357); 
+
+        double i = Math.floor(3.5); 
+
+        double j = Math.floor(3.5711); 
+
+         
+
+        System.out.println("1.1 converts to: " + g); 
+
+        System.out.println("1.1357 converts to: " + h); 
+
+        System.out.println("3.5 converts to: " + i); 
+
+        System.out.println("3.5711 converts to: " + j); 
+
+    } 
+
+} 
