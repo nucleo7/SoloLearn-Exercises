@@ -1,0 +1,55 @@
+https://code.sololearn.com/cycH3FEL1hT0/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+class MyClass { 
+
+  
+
+    static int sum(int val1, int val2) { 
+
+        return val1 + val2; 
+
+    } 
+
+    static int mult(int mult1, int mult2) { 
+
+        return mult1 * mult2; 
+
+    } 
+
+    static int subt(int subt1, int subt2) { 
+
+        return subt1 - subt2; 
+
+    } 
+
+  
+
+    public static void main(String[ ] args) { 
+
+        int x = sum(2, 5); 
+
+        System.out.println(x); 
+
+         
+
+        int a = mult(3, 7); 
+
+        System.out.println(a); 
+
+         
+
+        int b = subt(19, 11); 
+
+        System.out.println(b); 
+
+    } 
+
+} 
