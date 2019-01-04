@@ -1,0 +1,21 @@
+https://code.sololearn.com/cVRf7VnyLGTo/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+class MyClass { 
+
+    public static void main(String[ ] args) { 
+
+        System.out.println("Hello World"); 
+
+        System.out.println("Hello again!"); 
+
+    } 
+
+} 
