@@ -1,0 +1,57 @@
+https://code.sololearn.com/cpsZHw3i4s84/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+         
+
+        int[] arrayOne = {1, 3, 5, 7, 11, 13}; 
+
+        int sumOne = 0; 
+
+        int multTwo = 1; 
+
+        double divThree = 1; 
+
+         
+
+        for (int x = 0; x < arrayOne.length; x++) { 
+
+            sumOne += arrayOne[x]; 
+
+        } 
+
+        System.out.println("The sum of the values of arrayOne is: " + sumOne); 
+
+         
+
+        for (int y = 0; y < arrayOne.length; y++) { 
+
+            multTwo *= arrayOne[y]; 
+
+        } 
+
+        System.out.println("The multiplication of the values of arrayOne is: " + multTwo); 
+
+         
+
+        for (int z = 0; z < arrayOne.length; z++) { 
+
+            divThree /= arrayOne[z]; 
+
+        } 
+
+        System.out.println("The division of the values of arrayOne is: " + divThree); 
+
+    } 
+
+} 
