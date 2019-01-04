@@ -1,0 +1,37 @@
+https://code.sololearn.com/cQmfC55qVyEu/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+        int age = 25; 
+
+        int money = 100; 
+
+        int year = 1980; 
+
+         
+
+        if (age > 18 || money > 500) { 
+
+            System.out.println("Age is older than 18 OR money is more than 500."); 
+
+            if (age > 20 || money > 700 || year < 1985) { 
+
+               System.out.println("Age is older than 20, OR money is more than 700, OR year is older than 1985."); 
+
+            } 
+
+        } 
+
+    } 
+
+} 
