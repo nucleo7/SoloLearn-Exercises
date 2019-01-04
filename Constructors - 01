@@ -1,0 +1,135 @@
+https://code.sololearn.com/cUw5EOLAhfeQ/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+  
+
+public class Vehicle { 
+
+    private String color; 
+
+     
+
+    Vehicle() { 
+
+        this.setColor("Red"); 
+
+    } 
+
+    Vehicle(String c) { 
+
+        this.setColor(c); 
+
+    } 
+
+     
+
+    // Setter 
+
+    public void setColor(String c) { 
+
+        this.color = c; 
+
+    } 
+
+     
+
+    // Getter 
+
+    public String getColor() { 
+
+        return color; 
+
+    } 
+
+} 
+
+  
+
+public class House { 
+
+    private String rooms; 
+
+     
+
+    House() { 
+
+        this.setRooms("Two Rooms"); 
+
+    } 
+
+    House(String r) { 
+
+        this.setRooms(r); 
+
+    } 
+
+     
+
+    // Setter 
+
+    public void setRooms(String r) { 
+
+        this.rooms = r; 
+
+    } 
+
+     
+
+    // Getter 
+
+    public String getRooms() { 
+
+        return rooms; 
+
+    } 
+
+} 
+
+  
+
+public class Program { 
+
+    public static void main(String[] args) {         
+
+        //color will be "Red" 
+
+        Vehicle v1 = new Vehicle(); 
+
+         
+
+        //color will be "Green" 
+
+        Vehicle v2 = new Vehicle("Green");  
+
+         
+
+        System.out.println(v1.getColor()); 
+
+        System.out.println(v2.getColor()); 
+
+         
+
+        House h1 = new House(); 
+
+        House h2 = new House("Five Rooms"); 
+
+        House h3 = new House("One Room"); 
+
+         
+
+        System.out.println(h1.getRooms()); 
+
+        System.out.println(h2.getRooms()); 
+
+        System.out.println(h3.getRooms()); 
+
+    } 
+
+} 
