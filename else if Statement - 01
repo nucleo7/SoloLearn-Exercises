@@ -1,0 +1,63 @@
+https://code.sololearn.com/c1bMTT8LwE7Z/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+        // EDIT: Change the age or year variables to affect the results of the statements. 
+
+        int age = 23; 
+
+        int year = 1980; 
+
+         
+
+        if(age <= 0) { 
+
+            System.out.println("This is obviously not possible"); 
+
+        } else if(age <= 16) { 
+
+            System.out.println("Never too young"); 
+
+        } else if(age < 100) { 
+
+            System.out.println("Welcome!"); 
+
+        } else { 
+
+            System.out.println("Very Welcome!"); 
+
+        } 
+
+         
+
+        if(year >= 2010) { 
+
+           System.out.println("Greater than or equal to 2010."); 
+
+        } else if(year >= 2000) { 
+
+           System.out.println("Greater than or equal to 2000."); 
+
+        } else if(year >= 1980) { 
+
+           System.out.println("Greater than or equal to 1980"); 
+
+        } else { 
+
+           System.out.println("Wow! That's amazing!"); 
+
+        } 
+
+    } 
+
+} 
