@@ -1,0 +1,117 @@
+https://code.sololearn.com/cFhV4D4TOsa5/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+public class Vehicle { 
+
+    private String color; 
+
+    private int wheels; 
+
+     
+
+    // Getter 
+
+    public String getColor() { 
+
+        return color; 
+
+    } 
+
+    public int getWheels() { 
+
+        return wheels; 
+
+    } 
+
+     
+
+    // Setter 
+
+    public void setColor(String c) { 
+
+        this.color = c; 
+
+    } 
+
+    public void setWheels(int w) { 
+
+        this.wheels = w; 
+
+    } 
+
+} 
+
+public class Plane { 
+
+    private int wings; 
+
+     
+
+    public int getWings() { 
+
+        return wings; 
+
+    } 
+
+     
+
+    public void setWings(int x) { 
+
+        this.wings = x; 
+
+    } 
+
+} 
+
+  
+
+class Program { 
+
+    public static void main(String[ ] args) { 
+
+        Vehicle v1 = new Vehicle(); 
+
+        Vehicle v2 = new Vehicle(); 
+
+         
+
+        v1.setColor("Red"); 
+
+        v2.setColor("Green"); 
+
+         
+
+        System.out.println("Vehicle v1 - color: " + v1.getColor()); 
+
+        System.out.println("Vehicle v2 - color: " + v2.getColor()); 
+
+         
+
+        v1.setWheels(4); 
+
+        v2.setWheels(3); 
+
+         
+
+        System.out.println("Vehicle v1 - wheels: " + v1.getWheels()); 
+
+        System.out.println("Vehicle v2 - wheels: " + v2.getWheels()); 
+
+         
+
+        Plane p1 = new Plane(); 
+
+        p1.setWings(3); 
+
+        System.out.println("Plane p1 - wings: " + p1.getWings()); 
+
+    } 
+
+} 
