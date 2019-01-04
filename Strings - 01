@@ -1,0 +1,29 @@
+https://code.sololearn.com/caHo3O6X0TvL/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+        String firstName, lastName; 
+
+        firstName = "John"; 
+
+        lastName = "Smith"; 
+
+         
+
+        System.out.println("My name is " + firstName + " " +lastName); 
+
+        System.out.println("Some more extended names: " + firstName + ". " + "The last, lastName: " + lastName + "."); 
+
+    } 
+
+} 
