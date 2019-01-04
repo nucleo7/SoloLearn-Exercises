@@ -1,0 +1,41 @@
+https://code.sololearn.com/cFDN4buPNPrE/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+        int num1 = 4; 
+
+        int num2 = 8; 
+
+        int num3 = 3; 
+
+         
+
+        num3 -= num2; 
+
+        System.out.println(num3); 
+
+         
+
+        num2 -= num1; 
+
+        System.out.println(num2); 
+
+         
+
+        num1 -= num3; 
+
+        System.out.println(num1); 
+
+    } 
+
+} 
