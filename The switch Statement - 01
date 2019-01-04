@@ -1,0 +1,47 @@
+https://code.sololearn.com/c4gAtvoPNeQe/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+        int num = 7; 
+
+        switch(num) { 
+
+            case 1: 
+
+               System.out.println("num value is 1."); 
+
+               break; 
+
+            case 3: 
+
+                System.out.println("num value is 3."); 
+
+                break; 
+
+            case 5: 
+
+                System.out.println("num value is 5."); 
+
+                break; 
+
+            case 7: 
+
+                System.out.println("num value is 7."); 
+
+                break; 
+
+        } 
+
+    } 
+
+} 
