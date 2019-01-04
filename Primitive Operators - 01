@@ -1,0 +1,87 @@
+https://code.sololearn.com/c43l5UCSIWEA/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+        int value = 23; 
+
+        int res = value % 6; 
+
+         
+
+        int a = 6; 
+
+        int b = 34; 
+
+        int c = 7; 
+
+        int d = 55; 
+
+        int e = 3; 
+
+         
+
+        // Multiplication 
+
+        int mult = a * b; 
+
+         
+
+        // Division 
+
+        int div = b / c; 
+
+         
+
+        // Modulo / Remainder 
+
+        int mod = c % d; 
+
+         
+
+        // Addition 
+
+        int add = d + e; 
+
+         
+
+        // Subtraction 
+
+        int sub = e - a; 
+
+         
+
+        System.out.println(res); 
+
+        System.out.println(mult); 
+
+        System.out.println(div); 
+
+        System.out.println(mod); 
+
+        System.out.println(add); 
+
+        System.out.println(sub); 
+
+        System.out.println(mult * div); 
+
+        System.out.println(div / mod); 
+
+        System.out.println(mod % add); 
+
+        System.out.println(add + sub); 
+
+        System.out.println(sub - mult); 
+
+    } 
+
+} 
