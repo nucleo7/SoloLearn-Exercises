@@ -1,0 +1,35 @@
+https://code.sololearn.com/cnWmT8fxwXkd/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+         
+
+        int numTwo = 27; 
+
+        for (int numOne = 3; numOne <= numTwo; numOne +=3) { 
+
+           if (numOne % 2 == 0) { 
+
+              continue;  
+
+           } 
+
+           System.out.println("numOne value is: " + numOne); 
+
+        } 
+
+        System.out.println("Only odd numbers will be printed."); 
+
+    } 
+
+} 
