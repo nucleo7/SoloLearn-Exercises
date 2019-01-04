@@ -1,0 +1,21 @@
+https://code.sololearn.com/cz3lN3j64n9r/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+class MyClass { 
+
+    public static void main(String[ ] args) { 
+
+        System.out.println("I am learning Java"); 
+
+        System.out.println("I am learning more than just Java"); 
+
+    } 
+
+} 
