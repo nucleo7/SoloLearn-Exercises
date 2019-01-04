@@ -1,0 +1,47 @@
+https://code.sololearn.com/c9EovvQtarKg/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+        // EDIT: change age or year to affect the if statements' results. 
+
+        int age = 30; 
+
+        int year = 1980; 
+
+         
+
+        if (age < 16) { 
+
+            System.out.println("Too Young."); 
+
+        } else { 
+
+            System.out.println("Welcome!"); 
+
+        } 
+
+         
+
+        if (year >= 1980) { 
+
+           System.out.println("Too old."); 
+
+        } else { 
+
+           System.out.println("Just right!"); 
+
+        } 
+
+    } 
+
+} 
