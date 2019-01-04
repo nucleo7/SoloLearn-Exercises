@@ -1,0 +1,133 @@
+https://code.sololearn.com/c9wlrBzfD4nS/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+public class Vehicle { 
+
+    int maxSpeed; 
+
+    int wheels; 
+
+    int acceleration; 
+
+    String color; 
+
+    double fuelCapacity;   
+
+     
+
+    void horn() { 
+
+        System.out.println("Beep!"); 
+
+    } 
+
+    void engine() { 
+
+        System.out.println("Vroom!"); 
+
+    } 
+
+} 
+
+  
+
+public class Plane { 
+
+    int countWheels; 
+
+    int countSeats; 
+
+    int countWings; 
+
+    double lengthWingspan; 
+
+    double lengthPlane; 
+
+     
+
+    void soundEngine() { 
+
+        System.out.println("Boom!"); 
+
+    } 
+
+     
+
+    void takeOff() { 
+
+        System.out.println("Taking off..."); 
+
+    } 
+
+     
+
+    void landing() { 
+
+        System.out.println("Landing..."); 
+
+    } 
+
+} 
+
+  
+
+class MyClass { 
+
+    public static void main(String[ ] args) { 
+
+        Vehicle v1 = new Vehicle(); 
+
+        Vehicle v2 = new Vehicle(); 
+
+        Vehicle v3 = new Vehicle(); 
+
+        Vehicle v4 = new Vehicle(); 
+
+         
+
+        v1.color = "red"; 
+
+        v2.horn(); 
+
+        v3.acceleration = 7; 
+
+        v4.engine(); 
+
+         
+
+        Plane p1 = new Plane(); 
+
+        Plane p2 = new Plane(); 
+
+        Plane p3 = new Plane(); 
+
+        Plane p4 = new Plane(); 
+
+         
+
+        p1.countWheels = 18; 
+
+        System.out.println("The plane has " + p1.countWheels + " wheels."); 
+
+         
+
+        p2.countWings = 4; 
+
+        System.out.println("The plane has " + p2.countWings + " wings."); 
+
+         
+
+        p3.takeOff(); 
+
+        p4.landing(); 
+
+    } 
+
+} 
