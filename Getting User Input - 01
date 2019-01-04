@@ -1,0 +1,33 @@
+https://code.sololearn.com/c0Nx12C5pyUE/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+import java.util.Scanner; 
+
+  
+
+class MyClass { 
+
+    public static void main(String[ ] args) { 
+
+        Scanner wordOne = new Scanner(System.in); 
+
+        Scanner sentenceOne = new Scanner(System.in); 
+
+         
+
+        System.out.println(wordOne.nextLine()); 
+
+         
+
+        // I don't know why this isn't working: System.out.println(sentenceOne.nextLine()); 
+
+    } 
+
+} 
