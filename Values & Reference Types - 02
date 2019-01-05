@@ -1,0 +1,123 @@
+https://code.sololearn.com/cNpUMx5e95J7/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+  
+
+public class MyClass { 
+
+    public static void main(String[ ] args) { 
+
+        Person j; 
+
+        j = new Person("John"); 
+
+        j.setAge(20); 
+
+        celebrateBirthday(j); 
+
+        System.out.println(j.getAge()); 
+
+         
+
+        Animal z; 
+
+        z = new Animal("Fluffbox"); 
+
+        z.setAnimalAge(1); 
+
+        animalBirthday(z); 
+
+        System.out.println(z.getAnimalAge()); 
+
+  } 
+
+     
+
+    static void celebrateBirthday(Person p) { 
+
+        p.setAge(p.getAge() + 1); 
+
+    } 
+
+     
+
+    static void animalBirthday(Animal x) { 
+
+        x.setAnimalAge(x.getAnimalAge() + 1); 
+
+    } 
+
+} 
+
+  
+
+public class Person { 
+
+    private String name; 
+
+    private int age; 
+
+     
+
+    Person (String n) { 
+
+        this.name = n; 
+
+    } 
+
+     
+
+    public int getAge() { 
+
+        return age; 
+
+    } 
+
+     
+
+    public void setAge(int a) { 
+
+        this.age = a; 
+
+    } 
+
+} 
+
+public class Animal { 
+
+    private String animalName; 
+
+    private int animalAge; 
+
+     
+
+    Animal (String an) { 
+
+        this.animalName = an; 
+
+    } 
+
+     
+
+    public int getAnimalAge() { 
+
+        return animalAge; 
+
+    } 
+
+     
+
+    public void setAnimalAge(int aa) { 
+
+        this.animalAge = aa; 
+
+    } 
+
+} 
