@@ -1,0 +1,51 @@
+https://code.sololearn.com/cY0HaTGz7Dlv/#java
+
+
+
+// Exercises from Course Material
+// I realise most of this exercise is repetition of the Course example, but I really needed to practice this.
+
+public class Program {
+
+    // div1
+    static int div1(int a, int b) throws ArithmeticException {
+        if(b == 0) {
+            throw new ArithmeticException("div1: Division by Zero");
+        } else {
+            return a / b;
+        }
+    }
+    // div2
+    static int div2(int c, int d) throws ArithmeticException {
+        if(d == 0) {
+            throw new ArithmeticException("div2: Division by Zero");
+        } else {
+            return c / d;
+        }
+    }
+    // div3
+    static int div3(int e, int f) throws ArithmeticException {
+        if(f == 0) {
+            throw new ArithmeticException("div3: Division by Zero");
+        } else {
+            return e / f;
+        }
+    }
+    public static void main(String[] args) {
+        // div1 calculations
+        System.out.println("div1(42, 7): " + div1(42, 7));
+        System.out.println("div1(42, 0): " + div1(42, 0));    // Error here
+        System.out.println("div1(42, 3): " + div1(42, 3));    // This won't print because of error
+        
+        // div2 calculations
+        System.out.println("div2(29, 5): " + div2(29, 5));
+        System.out.println("div2(29, 7): " + div2(29, 7));
+        System.out.println("div2(29, 0): " + div2(29, 0));    // Error here
+        
+        // div3 calculations
+        System.out.println("div3(13, 10): " + div3(13, 10));
+        System.out.println("div3(100, 0): " + div3(100, 0));    // Error here
+        System.out.println("div3(67, 45): " + div3(67, 45));    // This won't print because of error
+    }
+
+}
