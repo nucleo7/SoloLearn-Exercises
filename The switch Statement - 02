@@ -1,0 +1,49 @@
+https://code.sololearn.com/cjarHLKybHGM/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+         
+
+        String color = "Red"; 
+
+        switch(color) { 
+
+           case "Red": 
+
+               System.out.println("Yup, color value is red."); 
+
+               break; 
+
+            case "Green": 
+
+                System.out.println("Correct, color value is green."); 
+
+                break; 
+
+            case "Blue": 
+
+                System.out.println("Yeah, color value is blue."); 
+
+                break; 
+
+            default: 
+
+                System.out.println("No! That color value is not available."); 
+
+                break; 
+
+        } 
+
+    } 
+
+} 
