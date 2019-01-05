@@ -1,0 +1,57 @@
+https://code.sololearn.com/cAr5X882dQMi/#java
+
+
+
+// Exercises from Course Material
+
+import java.util.LinkedList;
+
+public class MyClass {
+    public static void main(String[ ] args) {
+        // LinkedList a
+        LinkedList<String> a = new LinkedList<String>();
+        a.add("Red");
+        a.add("Blue");
+        a.add("Green");
+        a.add("Orange");
+        a.remove("Green");
+        a.remove("Blue");
+        a.add("Yellow");
+        a.add("Green");
+        a.add("Blue");
+        a.add("Indigo");
+        a.add("Violet");
+        System.out.println(a);
+        
+        for(String x: a) {
+            System.out.println(x);
+        }
+        
+        // LinkedList b
+        System.out.println();
+        LinkedList<String> b = new LinkedList<String>();
+        b.add("One");
+        b.add("Two");
+        b.add("Three");
+        System.out.println(b);
+        
+        for(String y: b) {
+            System.out.println(y);
+        }
+        
+        b.add("Four");
+        b.add("Five");
+        b.add("Six");
+        System.out.println(b);
+        
+        for(String z: b) {
+            System.out.println(z);
+        }
+        
+        // Summary
+        System.out.println();
+        System.out.println("SUMMARY FROM EXERCISE:");
+        System.out.println("    - Use an ArrayList when you need rapid access to your data.");
+        System.out.println("    - Use a LinkedList when you need to make a large number of inserts and/or deletes.");
+    }
+}
