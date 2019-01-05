@@ -1,0 +1,95 @@
+https://code.sololearn.com/c9E8v2f0ecrE/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+  
+
+class A { 
+
+    public A() { 
+
+        System.out.println("New A"); 
+
+    } 
+
+} 
+
+class B extends A { 
+
+    public B() { 
+
+        System.out.println("New B"); 
+
+    } 
+
+} 
+
+  
+
+  
+
+// Colours superclass 
+
+class Colours { 
+
+    public Colours() { 
+
+        System.out.println("Numerous colours."); 
+
+    } 
+
+} 
+
+  
+
+// Colours subclasses 
+
+class RGB extends Colours { 
+
+    public RGB() { 
+
+        System.out.println("RGB - Red, Green, Blue."); 
+
+    } 
+
+} 
+
+  
+
+class CMYK extends Colours { 
+
+    public CMYK() { 
+
+        System.out.println("CMYK - Cyan, Magenta, Yellow, blacK."); 
+
+    } 
+
+} 
+
+  
+
+class Program { 
+
+    public static void main(String[ ] args) { 
+
+        B obj1 = new B(); 
+
+        A obj2 = new A(); 
+
+         
+
+        Colours c1 = new Colours(); 
+
+        RGB rgb1 = new RGB(); 
+
+        CMYK cmyk1 = new CMYK(); 
+
+    } 
+
+} 
