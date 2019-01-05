@@ -1,0 +1,66 @@
+https://code.sololearn.com/cDk6Tcb6uET6/#java
+
+
+
+// Exercises from Course Material
+
+// Loader1 class implementing Runnable
+class Loader1 implements Runnable {
+    public void run() {
+        System.out.println("Loader1 Thread");
+    }
+}
+
+// Loader2 class implementing Runnable
+class Loader2 implements Runnable {
+    public void run() {
+        System.out.println("Loader2 Thread");
+    }
+}
+
+// Loader3 class implementing Runnable
+class Loader3 implements Runnable {
+    public void run() {
+        System.out.println("Loader3 Thread");
+    }
+}
+
+class MyClass {
+    public static void main(String[ ] args) {
+        // Loader1 threads
+        Thread t1 = new Thread(new Loader1());
+        Thread t2 = new Thread(new Loader1());
+        
+        t1.setPriority(6);
+        t2.setPriority(5);
+        
+        t1.start();
+        t2.start();
+        
+        System.out.println();
+        
+        // Loader2 Threads
+        Thread t3 = new Thread(new Loader2());
+        Thread t4 = new Thread(new Loader2());
+        
+        t3.setPriority(4);
+        t4.setPriority(3);
+        
+        t3.start();
+        t4.start();
+        
+        System.out.println();
+        
+        // Loader3 Threads
+        Thread t5 = new Thread(new Loader3());
+        Thread t6 = new Thread(new Loader3());
+        
+        t5.setPriority(2);
+        t6.setPriority(1);
+        
+        t5.start();
+        t6.start();
+        
+        System.out.println();
+    }
+}
