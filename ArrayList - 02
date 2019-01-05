@@ -1,0 +1,84 @@
+https://code.sololearn.com/cIHiOBbd1xte/#java
+
+
+
+// Exercises from Course Material
+
+// ArrayList needs to be imported for strings
+// List needs to be imported for integers
+import java.util.ArrayList;
+import java.util.List;
+
+public class MyClass {
+    public static void main(String[ ] args) {
+        // colorsRGB ArrayList
+        ArrayList<String> colorsRGB = new ArrayList<String>();
+        colorsRGB.add("Red");
+        colorsRGB.add("Green");
+        colorsRGB.add("Cyan");
+        colorsRGB.add("Blue");
+        
+        System.out.println("colorsRGB = " + colorsRGB);
+        colorsRGB.remove("Cyan");
+        System.out.println("colorsRGB = " + colorsRGB);
+        System.out.println();
+        
+        // colorsCMYK ArrayList
+        ArrayList<String> colorsCMYK = new ArrayList<String>();
+        colorsCMYK.add("Cyan");
+        colorsCMYK.add("Magenta");
+        colorsCMYK.add("Yellow");
+        colorsCMYK.add("blacK");
+        
+        System.out.println("colorsCMYK = " + colorsCMYK);
+        boolean  a = colorsCMYK.contains("Magenta");
+        boolean  b = colorsCMYK.contains("Blue");
+        System.out.println("colorsCMYK.contains('Magenta'): " + a);
+        System.out.println("colorsCMYK.contains('Blue'): " + b);
+        System.out.println();
+        
+        // shapes ArrayList
+        ArrayList<String> shapes = new ArrayList<String>();
+        shapes.add("circle");
+        shapes.add("line");
+        shapes.add("polygon");
+        shapes.add("rectangle");
+        shapes.add("square");
+        shapes.add("triangle");
+        
+        System.out.println("shapes = " + shapes);
+        
+        String c = shapes.get(1);
+        String d = shapes.get(3);
+        System.out.println("shapes.get(1): " + c);
+        System.out.println("shapes.get(3): " + d);
+        System.out.println();
+        
+        // numbers ArrayList, not integers!
+        ArrayList<String> numbersOne = new ArrayList<String>();
+        numbersOne.add("1");
+        numbersOne.add("2");
+        numbersOne.add("3");
+        
+        System.out.println("numbersOne = " + numbersOne);
+        int e = numbersOne.size();
+        System.out.println("numbersOne.size(): " + e);
+        System.out.println();
+        
+        // numbers ArrayList/List, with integers!
+        List<Integer> numbersTwo = new ArrayList<>();
+        numbersTwo.add(1);
+        numbersTwo.add(2);
+        numbersTwo.add(3);
+        
+        System.out.println("numbersTwo = " + numbersTwo);
+        numbersTwo.clear();
+        System.out.println("numbersTwo.clear()");
+        System.out.println("numbersTwo = " + numbersTwo);
+        System.out.println();
+    }
+}
+/*
+- clear(): Removes all of the elements from the list
+*/
+
