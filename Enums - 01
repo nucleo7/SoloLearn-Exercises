@@ -1,0 +1,68 @@
+https://code.sololearn.com/c56POwnPDP63/#java
+
+
+
+// Exercises from Course Material
+
+public class Program {
+    // Rank enum
+    enum Rank {
+        SOLDIER,
+        SERGEANT,
+        CAPTAIN
+    }
+    // Days of the Week enum
+    enum WeekDays {
+        MONDAY,
+        TUESDAY,
+        WEDNESDAY,
+        THURSDAY,
+        FRIDAY,
+        SATURDAY,
+        SUNDAY
+    }
+    // main
+    public static void main(String[] args) {
+        // Soldier
+        Rank a = Rank.SOLDIER;
+                
+        switch(a) {
+            case SOLDIER:
+                System.out.println("Soldier says hi!");
+                break;
+            case SERGEANT:
+                System.out.println("Sergeant says Hello!");
+                break;
+            case CAPTAIN:
+                System.out.println("Captain says Welcome!");
+                break;
+        }
+        // Weekdays
+        WeekDays w1 = WeekDays.MONDAY;
+        switch(w1) {
+            case MONDAY:
+                System.out.println("It's a Monday.");
+                break;
+            case TUESDAY:
+                System.out.println("It's a Tuesday.");
+                break;
+            case WEDNESDAY:
+                System.out.println("It's a Wednesday.");
+                break;
+            case THURSDAY:
+                System.out.println("It's a Thursday.");
+                break;
+            case FRIDAY:
+                System.out.println("It's a Friday.");
+                break;
+            case SATURDAY:
+                System.out.println("It's a Saturday.");
+                break;
+            case SUNDAY:
+                System.out.println("It's a Sunday.");
+                break;
+            default:
+                System.out.println("That's not a proper day of the week.");
+        }
+    }
+}
