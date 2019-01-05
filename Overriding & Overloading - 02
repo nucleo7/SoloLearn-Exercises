@@ -1,0 +1,123 @@
+https://code.sololearn.com/ceXUXA5W3J6Q/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+  
+
+class Program { 
+
+    // double maximum 
+
+    static double max(double a, double b) { 
+
+        if(a > b) { 
+
+            return a; 
+
+        } 
+
+        else { 
+
+            return b; 
+
+        } 
+
+    } 
+
+     
+
+    // int maximum 
+
+    static int max(int a, int b) { 
+
+        if(a > b) { 
+
+            return a; 
+
+        } 
+
+        else { 
+
+            return b; 
+
+        } 
+
+    } 
+
+     
+
+    // double minimum 
+
+    static double min(double c, double d) { 
+
+        if(c < d) { 
+
+            return c; 
+
+        } 
+
+        else { 
+
+            return d; 
+
+        } 
+
+    } 
+
+     
+
+    // int minimum 
+
+    static int min(int c, int d) { 
+
+        if(c < d) { 
+
+            return c; 
+
+        } 
+
+        else { 
+
+            return d; 
+
+        } 
+
+    } 
+
+  
+
+    public static void main(String[] args) {         
+
+        // Maximum 
+
+        System.out.println("The maximum of 8 & 17 is: " + max(8, 17)); 
+
+        System.out.println("The maximum of 3.14 & 7.68 is: " + max(3.14, 7.68)); 
+
+        System.out.println("The maximum of 5 & 13 is: " + max(5, 13)); 
+
+        System.out.println("The maximum of 1.234 & 7.654 is: " + max(1.234, 7.654)); 
+
+         
+
+        // Minimum 
+
+        System.out.println("The minimum of 8 & 17 is: " + min(8, 17)); 
+
+        System.out.println("The minimum of 3.14 & 7.68 is: " + min(3.14, 7.68)); 
+
+        System.out.println("The minimum of 5 & 13 is: " + min(5, 13)); 
+
+        System.out.println("The minimum of 1.234 & 7.654 is: " + min(1.234, 7.654)); 
+
+    } 
+
+  
+
+} 
