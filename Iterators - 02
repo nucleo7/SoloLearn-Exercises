@@ -1,0 +1,63 @@
+https://code.sololearn.com/cKROB6e4dd30/#java
+
+
+
+// Exercises from Course Material
+
+import java.util.Iterator;
+import java.util.LinkedList;
+
+public class MyClass {
+    public static void main(String[ ] args) {
+        // animals LinkedList
+        LinkedList<String> animals = new LinkedList<String>();
+        animals.add("fox");
+        animals.add("cat");
+        animals.add("dog");
+        animals.add("rabbit");
+        System.out.println("animals: " + animals);
+        
+        // animals Iterator
+        Iterator<String> it1 = animals.iterator();
+        while(it1.hasNext()) {
+            String value1 = it1.next();
+            System.out.println(value1);   
+        }
+        System.out.println();
+        
+        // colors LinkedList
+        LinkedList<String> colors = new LinkedList<String>();
+        colors.add("Red");
+        colors.add("Green");
+        colors.add("Blue");
+        colors.add("Cyan");
+        colors.add("Magenta");
+        colors.add("Yellow");
+        colors.add("blacK");
+        System.out.println("colors: " + colors);
+        
+        // colors Iterator
+        Iterator<String> it2 = colors.iterator();
+        while(it2.hasNext()) {
+            String next1 = it2.next();
+            System.out.println(next1);
+        }
+        System.out.println();
+        
+        // cars LinkedList
+        LinkedList<String> cars = new LinkedList<String>();
+        cars.add("Bugatti");
+        cars.add("Ferrari");
+        cars.add("Lamborghini");
+        cars.add("Porsche");
+        System.out.println("cars: " + cars);
+        
+        // cars Iterator
+        Iterator<String> it3 = cars.iterator();
+        while(it3.hasNext()) {
+            String next2 = it3.next();
+            System.out.println(next2);
+        }
+        System.out.println();
+    }
+}
