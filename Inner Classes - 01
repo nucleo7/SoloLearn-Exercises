@@ -1,0 +1,105 @@
+https://code.sololearn.com/cDpA00OlD7Pf/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+  
+
+// Robot class 
+
+class Robot { 
+
+    String id; 
+
+    int comp; 
+
+    Robot(String i, int a) { 
+
+        id = i; 
+
+        comp = a; 
+
+        Brain b = new Brain(); 
+
+        Move m = new Move(); 
+
+        Arms ar = new Arms(); 
+
+        b.think(); 
+
+        b.calculate(); 
+
+        m.move(); 
+
+        ar.arms(); 
+
+    } 
+
+     
+
+    // Brain < Robot 
+
+    private class Brain { 
+
+        public void think() { 
+
+            System.out.println(id + " is thinking"); 
+
+        } 
+
+        public void calculate() { 
+
+            System.out.println(id + " is calculating"); 
+
+        } 
+
+    } 
+
+     
+
+    // Move < Robot 
+
+    private class Move { 
+
+        public void move() { 
+
+            System.out.println(id + " is moving"); 
+
+        } 
+
+    } 
+
+     
+
+    // Arms < Robot 
+
+    private class Arms { 
+
+        public void arms() { 
+
+            System.out.println(id + " swings his " + comp + " arms."); 
+
+        } 
+
+    } 
+
+} 
+
+  
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+        Robot r1 = new Robot("Johnny5", 2); 
+
+        Robot r2 = new Robot("Bert", 3); 
+
+    } 
+
+} 
