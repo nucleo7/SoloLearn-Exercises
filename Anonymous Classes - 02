@@ -1,0 +1,77 @@
+https://code.sololearn.com/chmYe632F9fJ/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+  
+
+// Machine class 
+
+class Machine { 
+
+    public void start() { 
+
+        System.out.println("Starting..."); 
+
+    } 
+
+    public void sound() { 
+
+        System.out.println("Silence, until engine starts."); 
+
+    } 
+
+} 
+
+  
+
+class Program { 
+
+    public static void main(String[ ] args) { 
+
+        // Machine 
+
+        Machine m1 = new Machine(); 
+
+        Machine m2 = new Machine(); 
+
+        Machine m3 = new Machine() { 
+
+            @Override public void start() { 
+
+                System.out.println("Wooooo"); 
+
+            } 
+
+        }; 
+
+  
+
+        Machine m4 = new Machine() { 
+
+            @Override public void sound() { 
+
+                System.out.println("Vroom-Vroom!"); 
+
+            } 
+
+        }; 
+
+         
+
+        m1.start(); 
+
+        m2.sound(); 
+
+        m3.start(); 
+
+        m4.sound(); 
+
+    } 
+
+} 
