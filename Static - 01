@@ -1,0 +1,77 @@
+https://code.sololearn.com/cPceQWiajJPZ/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+  
+
+public class Counter { 
+
+    public static int COUNT=0; 
+
+    Counter() { 
+
+        COUNT++; 
+
+    } 
+
+} 
+
+  
+
+public class NoCount { 
+
+    public static int NOCOUNT = 0; 
+
+    NoCount() { 
+
+        NOCOUNT -= 3; 
+
+    } 
+
+} 
+
+  
+
+public class MyClass { 
+
+    public static void main(String[ ] args) { 
+
+        System.out.println("<===============>"); 
+
+        System.out.println(Counter.COUNT); 
+
+        Counter c1 = new Counter(); 
+
+        System.out.println(Counter.COUNT); 
+
+        Counter c2 = new Counter(); 
+
+        System.out.println(Counter.COUNT); 
+
+        Counter c3 = new Counter(); 
+
+        System.out.println(Counter.COUNT); 
+
+         
+
+        System.out.println("<===============>"); 
+
+        System.out.println(NoCount.NOCOUNT); 
+
+        NoCount nc1 = new NoCount(); 
+
+        System.out.println(NoCount.NOCOUNT); 
+
+        NoCount nc2 = new NoCount(); 
+
+        System.out.println(NoCount.NOCOUNT); 
+
+    } 
+
+} 
