@@ -1,0 +1,53 @@
+https://code.sololearn.com/cg1BPvK14UQ4/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+  
+
+public class MyClass { 
+
+    public static void main(String[ ] args) { 
+
+        int x = 5; 
+
+        System.out.println(x); 
+
+        addOneTo(x); 
+
+        System.out.println(x); 
+
+         
+
+        int y = 7; 
+
+        System.out.println(y); 
+
+        addTwoTo(y);    // Operating on the variables value, and not the variable itself, so will not change y 
+
+        System.out.println(y); 
+
+    } 
+
+  
+
+    static void addOneTo(int numOne) { 
+
+        numOne = numOne + 1; 
+
+    } 
+
+     
+
+    static void addTwoTo(int numTwo) { 
+
+        numTwo += 2; 
+
+    } 
+
+} 
