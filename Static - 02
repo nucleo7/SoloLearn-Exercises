@@ -1,0 +1,65 @@
+https://code.sololearn.com/cfGa0ulScRJK/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+  
+
+public class Vehicle { 
+
+    public static void horn() { 
+
+        System.out.println("Beep"); 
+
+    } 
+
+} 
+
+  
+
+public class Person { 
+
+    public static void noise() { 
+
+        System.out.println("Boop"); 
+
+    } 
+
+} 
+
+  
+
+public class Thing { 
+
+    public static void sound() { 
+
+        System.out.println("Bop"); 
+
+    } 
+
+} 
+
+  
+
+public class MyClass { 
+
+    public static void main(String[ ] args) { 
+
+        Vehicle.horn(); 
+
+        Person.noise(); 
+
+        Person.noise(); 
+
+        Vehicle.horn(); 
+
+        Thing.sound(); 
+
+    } 
+
+} 
