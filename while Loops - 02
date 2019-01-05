@@ -1,0 +1,45 @@
+https://code.sololearn.com/cVnfME9usT8X/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+         
+
+        int numOne = 3; 
+
+        int numTwo = 13; 
+
+         
+
+        while(numOne < numTwo) { 
+
+           System.out.println("numOne is still less than numTwo: " + numOne); 
+
+           numOne++; 
+
+        } 
+
+         
+
+        while(numOne <= numTwo) { 
+
+           System.out.println("numOne is still less than or equal to numTwo: " + numOne); 
+
+           numOne++; 
+
+        } 
+
+        System.out.println("numOne is now equal to numTwo."); 
+
+    } 
+
+} 
