@@ -1,0 +1,47 @@
+https://code.sololearn.com/cM6QjsBzFNLG/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+  
+
+class MyClass { 
+
+    public static final double PI = 3.14; 
+
+     
+
+    public static double a = 7.53; 
+
+    public static final double b = 7.53; 
+
+     
+
+    public static void main(String[ ] args) { 
+
+        System.out.println("PI: " + PI); 
+
+         
+
+        System.out.println("a: " + a); 
+
+        a = 11.35; 
+
+        System.out.println("a: " + a); 
+
+         
+
+        System.out.println("b: " + b); 
+
+        // b = 11.35; This is not allowed, an error is returned. 
+
+        System.out.println("b: " + b); 
+
+    } 
+
+} 
