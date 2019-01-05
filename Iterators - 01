@@ -1,0 +1,73 @@
+https://code.sololearn.com/c19sYfvUQXL8/#java
+
+
+
+// Exercises From Course Material
+
+import java.util.Iterator;
+import java.util.LinkedList;
+
+public class MyClass {
+    public static void main(String[ ] args) {
+        // animals LinkedList
+        LinkedList<String> animals = new LinkedList<String>();
+        animals.add("fox");
+        animals.add("cat");
+        animals.add("dog");
+        animals.add("rabbit");
+        animals.add("stone");
+        animals.add("bird");
+        animals.remove("stone");
+        System.out.println("animals: " + animals);
+        
+        // animals Iterators
+        Iterator<String> it1 = animals.iterator();
+        
+        String value1 = it1.next();
+        System.out.println("value1: " + value1);
+        String value2 = it1.next();
+        System.out.println("value2: " + value2);
+        String value3 = it1.next();
+        System.out.println("value3: " + value3);
+        
+        boolean value4 = it1.hasNext();
+        System.out.println("hasNext() value4: " + value4);
+        String value5 = it1.next();
+        boolean value6 = it1.hasNext();
+        System.out.println("value5: " + value5);
+        System.out.println("hasNext() value6: " + value6);
+        System.out.println();
+        
+        // colors LinkedList
+        LinkedList<String> colors = new LinkedList<String>();
+        colors.add("Red");
+        colors.add("Green");
+        colors.add("Blue");
+        colors.add("Cyan");
+        colors.add("Magenta");
+        colors.add("Yellow");
+        colors.add("blacK");
+        System.out.println("colors: " + colors);
+        
+        // colors Iterators
+        Iterator<String> it2 = colors.iterator();
+        
+        String first = it2.next();
+        System.out.println("first: " + first);
+        
+        String second = it2.next();
+        String third = it2.next();
+        String fourth = it2.next();
+        String fifth = it2.next();
+        
+        System.out.println("fifth: " + fifth);
+        boolean check1 = it2.hasNext();
+        System.out.println("hasNext() check1: " + check1);
+        
+        String sixth = it2.next();
+        String seventh = it2.next();
+        System.out.println("seventh: " + seventh);
+        boolean check2 = it2.hasNext();
+        System.out.println("hasNext() check2: " + check2);
+    }
+}
