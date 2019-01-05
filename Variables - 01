@@ -1,0 +1,33 @@
+https://code.sololearn.com/ceITLKtn9zb5/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+class MyClass { 
+
+    public static void main(String[ ] args) { 
+
+        String firstName ="David"; 
+
+        String lastName = "Smith"; 
+
+        int age = 42; 
+
+        int year = 1980; 
+
+        double score = 15.9; 
+
+        double height = 188.9; 
+
+        char group = 'Z'; 
+
+        char state = 'a'; 
+
+    } 
+
+} 
