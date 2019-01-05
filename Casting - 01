@@ -1,0 +1,43 @@
+https://code.sololearn.com/cRIUUNk65KiO/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+  
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+        int a = (int) 3.14; 
+
+        System.out.println("a: " + a); 
+
+         
+
+        int b = (int) 1.35; 
+
+        int c = (int) 7.1113; 
+
+        int d = (int) 13.7531; 
+
+        int e = (int) 3.57 + 11 + 13 + (int) 5.73; 
+
+         
+
+        System.out.println("b: " + b); 
+
+        System.out.println("c: " + c); 
+
+        System.out.println("d: " + d); 
+
+        System.out.println("e: " + e); 
+
+    } 
+
+} 
