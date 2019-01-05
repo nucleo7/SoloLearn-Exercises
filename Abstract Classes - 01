@@ -1,0 +1,153 @@
+https://code.sololearn.com/cPjbgMtm9U24/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+  
+
+// Animal superclass - abstract 
+
+abstract class Animal { 
+
+    int legs = 0; 
+
+    abstract void makeSound(); 
+
+} 
+
+  
+
+// Cat subclass of animal 
+
+class Cat extends Animal { 
+
+    public void makeSound() { 
+
+        System.out.println("Meow"); 
+
+    } 
+
+} 
+
+  
+
+// Dog subclass of Animal 
+
+class Dog extends Animal { 
+
+    public void makeSound() { 
+
+        System.out.println("Woof!"); 
+
+    } 
+
+} 
+
+  
+
+  
+
+// Vehicles superclass - abstract 
+
+abstract class Vehicles { 
+
+    int wheels = 0; 
+
+    abstract void engineSound(); 
+
+} 
+
+  
+
+// Car subclass of Vehicles 
+
+class Car extends Vehicles { 
+
+    public void engineSound() { 
+
+        System.out.println("Vroom-Vroom!"); 
+
+    } 
+
+} 
+
+  
+
+// Bike subclass of Vehicles 
+
+class Bike extends Vehicles { 
+
+    public void engineSound() { 
+
+        System.out.println("The most annoying noise in the world - No Exception!"); 
+
+    } 
+
+} 
+
+  
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+        // Animals 
+
+        Cat c1 = new Cat(); 
+
+        c1.makeSound(); 
+
+        Cat c2 = new Cat(); 
+
+        c2.makeSound(); 
+
+         
+
+        Dog d1 = new Dog(); 
+
+        Dog d2 = new Dog(); 
+
+         
+
+        d1.makeSound(); 
+
+        d2.makeSound(); 
+
+         
+
+        // Vehicles 
+
+        Car car1 = new Car(); 
+
+        Car car2 = new Car(); 
+
+         
+
+        Bike b1 = new Bike(); 
+
+        Bike b2 = new Bike(); 
+
+         
+
+        car1.engineSound(); 
+
+        car2.engineSound(); 
+
+         
+
+        b1.engineSound(); 
+
+        b2.engineSound(); 
+
+    } 
+
+} 
+
+  
+
+ 
