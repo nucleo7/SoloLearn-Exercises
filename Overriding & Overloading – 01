@@ -1,0 +1,85 @@
+https://code.sololearn.com/cLfRYe214dVp/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+  
+
+// Animal superclass 
+
+class Animal { 
+
+    public void makeSound() { 
+
+        System.out.println("Grr..."); 
+
+    } 
+
+} 
+
+// Cat sublass inheriting from Animal class 
+
+class Cat extends Animal { 
+
+    public void makeSound() { 
+
+        System.out.println("Meow"); 
+
+    } 
+
+} 
+
+// Dog subclass inheriting from Animal class 
+
+class Dog extends Animal { 
+
+    public void makeSound() { 
+
+        System.out.println("Woof!"); 
+
+    } 
+
+} 
+
+  
+
+class Program { 
+
+    public static void main(String[] args) { 
+
+        Cat c1 = new Cat(); 
+
+        c1.makeSound(); 
+
+         
+
+        Cat c2 = new Cat(); 
+
+        c2.makeSound(); 
+
+         
+
+        Dog d1 = new Dog(); 
+
+        Dog d2 = new Dog(); 
+
+         
+
+        d1.makeSound(); 
+
+        d2.makeSound(); 
+
+         
+
+        c1.makeSound(); 
+
+        d2.makeSound(); 
+
+    } 
+
+} 
