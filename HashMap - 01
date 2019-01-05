@@ -1,0 +1,66 @@
+https://code.sololearn.com/c14ObkEW1IUH/#java
+
+
+
+// Exercises from Course Material
+
+// Some extra info from Stack Overflow...
+// HashMap is actually - 'HashMap<Object, Object>'
+// https://stackoverflow.com/questions/13216314/hashmap-does-not-work-with-int-char
+import java.util.HashMap;
+
+public class MyClass {
+    public static void main(String[ ] args) {
+        // points HashMap
+        HashMap<String, Integer> points = new HashMap<String, Integer>();
+        
+        points.put("Amy", 154);
+        points.put("Dave", 42);
+        points.put("Mary", 79);
+        points.put("Rob", 733);
+        
+        System.out.println(points);
+        System.out.println("Dave: " + points.get("Dave")); 
+        System.out.println("Mary: " + points.get("Mary"));
+        System.out.println();
+        
+        // numOne HashMap
+        HashMap<String, Integer> numOne = new HashMap<String, Integer>();
+        
+        numOne.put("One", 1);
+        numOne.put("Two", 2);
+        numOne.put("Three", 3);
+        numOne.put("Four", 4);
+        
+        System.out.println(numOne);
+        System.out.println("One: " + numOne.get("One"));
+        System.out.println("Three: " + numOne.get("Three"));
+        System.out.println();
+        
+        // numTwo HashMap
+        HashMap<Integer, String> numTwo = new HashMap<Integer, String>();
+        
+        numTwo.put(1, "One");
+        numTwo.put(2, "Two");
+        numTwo.put(3, "Three");
+        numTwo.put(4, "Four");
+        
+        System.out.println(numTwo);
+        System.out.println("2: " + numTwo.get(2));
+        System.out.println("4: " + numTwo.get(4));
+        System.out.println();
+        
+        // colorsRGB
+        HashMap<Character, String> colorsRGB = new HashMap<Character, String>();
+        
+        colorsRGB.put('R', "Red");
+        colorsRGB.put('G', "Green");
+        colorsRGB.put('B', "Blue");
+        
+        System.out.println(colorsRGB);
+        System.out.println("R: " + colorsRGB.get('R'));
+        System.out.println("G: " + colorsRGB.get('G'));
+        System.out.println("B: " + colorsRGB.get('B'));
+        System.out.println();
+    }
+}
