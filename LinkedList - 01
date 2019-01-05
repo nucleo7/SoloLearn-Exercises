@@ -1,0 +1,50 @@
+https://code.sololearn.com/clP3C0F5y3nV/#java
+
+
+
+// Exercises from Course Material
+
+import java.util.LinkedList;
+
+public class MyClass {
+    public static void main(String[ ] args) {
+        // LinkedList a
+        LinkedList<String> a = new LinkedList<String>();
+        a.add("Red");
+        a.add("Blue");
+        a.add("Green");
+        a.add("Orange");
+        a.remove("Green");
+        a.remove("Orange");
+        a.remove("Blue");
+        a.add("Green");
+        a.add("Blue");
+        System.out.println(a);
+        System.out.println();
+        
+        // LinkedList b
+        LinkedList<String> b = new LinkedList<String>();
+        b.add("Blue");
+        b.add("Green");
+        b.add("Cyan");
+        b.remove("Blue");
+        b.add("Magenta");
+        b.remove("Green");
+        b.add("Yellow");
+        b.add("blacK");
+        System.out.println(b);
+        System.out.println();
+        
+        // LinkedList c
+        LinkedList<String> c = new LinkedList<String>();
+        c.add("Hue");
+        c.add("Saturation");
+        c.add("Lightness");
+        
+        System.out.println(c);
+        String d = "Alpha";
+        c.add(d);
+        System.out.println(c);
+        System.out.println();
+    }
+}
