@@ -1,0 +1,85 @@
+https://code.sololearn.com/ctp6mSRRV0kX/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+  
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+        double a = 42.571; 
+
+        int b = (int) a; 
+
+        System.out.println("a: " + a); 
+
+        System.out.println("b(a): " + b); 
+
+         
+
+        // Converting to integers 
+
+        double c = 33.76; 
+
+        double d = 12.87; 
+
+        float e = 5.165f; 
+
+        float f = 4.777f; 
+
+         
+
+        int g = (int) c; 
+
+        int h = (int) d; 
+
+        int i = (int) e; 
+
+        int j = (int) f; 
+
+         
+
+        System.out.println("c: " + c); 
+
+        System.out.println("d: " + d); 
+
+        System.out.println("e: " + e); 
+
+        System.out.println("f: " + f); 
+
+        System.out.println("g(c): " + g); 
+
+        System.out.println("h(d): " + h); 
+
+        System.out.println("i(e): " + i); 
+
+        System.out.println("j(f): " + j); 
+
+         
+
+        // Converting to doubles 
+
+        double k = (double) 7; 
+
+        int l = 5; 
+
+        double m = (double) l; 
+
+         
+
+        System.out.println("k: " + k); 
+
+        System.out.println("l: " + l); 
+
+        System.out.println("m(l): " + m); 
+
+    } 
+
+} 
