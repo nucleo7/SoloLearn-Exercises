@@ -1,0 +1,63 @@
+https://code.sololearn.com/cZR5uIK5ZVu9/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+  
+
+        int numOne = 7; 
+
+        int numTwo = 3; 
+
+        int numThree = 11; 
+
+        while(numOne > numTwo) { 
+
+           System.out.println(numOne); 
+
+           numOne--; 
+
+        } 
+
+        // ==================== 
+
+        // EDIT: Left the following section in for historical purposes (I have found the reason). 
+
+        // It's only executing one loop and I'm not sure why 
+
+        while(numOne >= numTwo) { 
+
+           System.out.println(numOne); 
+
+           numOne--; 
+
+        } 
+
+        // ==================== 
+
+        // This is where I have the proper solution from the previous section. 
+
+        int numFour = 7; 
+
+        int numFive = 3; 
+
+        while(numFour >= numFive) { 
+
+           System.out.println(numFour); 
+
+           numFour--; 
+
+        } 
+
+    } 
+
+} 
