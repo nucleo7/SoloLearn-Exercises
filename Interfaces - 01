@@ -1,0 +1,137 @@
+https://code.sololearn.com/ceOh70FG58B0/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+  
+
+// Animal interface 
+
+interface Animal { 
+
+    public void eat(); 
+
+    public void makeSound(); 
+
+    public void legs(); 
+
+} 
+
+  
+
+// Cat from Animal 
+
+class Cat implements Animal { 
+
+    public void makeSound() { 
+
+        System.out.println("Meow"); 
+
+    } 
+
+    public void eat() { 
+
+        System.out.println("omnomnom"); 
+
+    } 
+
+    public void legs() { 
+
+        System.out.println(4); 
+
+    } 
+
+} 
+
+  
+
+// Dog from Animal 
+
+class Dog implements Animal { 
+
+    public void makeSound() { 
+
+        System.out.println("Woof!"); 
+
+    } 
+
+    public void angrySound() { 
+
+        System.out.println("Grrr!"); 
+
+    } 
+
+    public void eat() { 
+
+        System.out.println("chomp-chomp"); 
+
+    } 
+
+    public void legs() { 
+
+        System.out.println(4); 
+
+    } 
+
+} 
+
+  
+
+public class Program { 
+
+    public static void main(String[] args) { 
+
+        // Creating some cats 
+
+        Cat c1 = new Cat(); 
+
+        c1.eat(); 
+
+        Cat c2 = new Cat(); 
+
+        c2.eat(); 
+
+         
+
+        c1.makeSound(); 
+
+        c2.makeSound(); 
+
+         
+
+        c1.legs(); 
+
+         
+
+        // Creating some dogs 
+
+        Dog d1 = new Dog(); 
+
+        Dog d2 = new Dog(); 
+
+         
+
+        d1.makeSound(); 
+
+        d1.angrySound(); 
+
+        d1.eat(); 
+
+         
+
+        d2.makeSound(); 
+
+        d2.angrySound(); 
+
+        d2.eat(); 
+
+        d2.legs(); 
+
+    } 
+
+} 
