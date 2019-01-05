@@ -1,0 +1,117 @@
+https://code.sololearn.com/crNEXQs6k41U/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+  
+
+// Machine class 
+
+class Machine { 
+
+    public void start() { 
+
+        System.out.println("Starting..."); 
+
+    } 
+
+} 
+
+  
+
+// Animal class 
+
+class Animal { 
+
+    public void sound() { 
+
+        System.out.println("Only silence, there is no animal yet."); 
+
+    } 
+
+} 
+
+  
+
+class Program { 
+
+    public static void main(String[ ] args) { 
+
+        // Machine 
+
+        Machine m = new Machine(); 
+
+        Machine m1 = new Machine() { 
+
+            @Override public void start() { 
+
+                System.out.println("Wooooo"); 
+
+            } 
+
+        }; 
+
+        Machine m2 = new Machine() { 
+
+            @Override public void start() { 
+
+                System.out.println("Vroom-Vroom!"); 
+
+            } 
+
+        }; 
+
+         
+
+        m.start(); 
+
+        m1.start(); 
+
+        m1.start(); 
+
+        m2.start(); 
+
+        m2.start(); 
+
+         
+
+        // Animal 
+
+        Animal a = new Animal(); 
+
+        Animal cat1 = new Animal() { 
+
+            @Override public void sound() { 
+
+                System.out.println("Meow!"); 
+
+            } 
+
+        }; 
+
+        Animal dog1 = new Animal() { 
+
+            @Override public void sound() { 
+
+                System.out.println("Woof!"); 
+
+            } 
+
+        }; 
+
+         
+
+        a.sound(); 
+
+        cat1.sound(); 
+
+        dog1.sound(); 
+
+    } 
+
+} 
