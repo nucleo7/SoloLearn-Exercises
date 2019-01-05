@@ -1,0 +1,67 @@
+https://code.sololearn.com/cyhtFw2FAiYC/#java
+
+
+
+// Exercises from Course Material
+
+// Note: for some reason spaces in my text causes each word to go on its own line, I don't know why!
+import java.io.File;
+import java.util.Scanner;
+import java.util.Formatter;
+
+public class MyClass {
+    public static void main(String[ ] args) {
+        // test1.txt
+        try {
+            Formatter fo1 = new Formatter("test1.txt");
+            fo1.format("%d %s %s", 1, "John",  "Smith \n");
+            fo1.format("%d %s %s", 2, "Amy",  "Brown \r\n");
+            fo1.format("%d %s %s", 3, "Bob", "Jones \n");
+            fo1.close();
+
+            File fi1 = new File("test1.txt");
+            Scanner sc1 = new Scanner(fi1);
+            while(sc1.hasNext()) {
+                System.out.println(sc1.next());
+            }
+            sc1.close();
+        } catch (Exception e1) {
+            System.out.println("Error");
+        }
+        
+        // test2.txt
+        try {
+            Formatter fo2 = new Formatter("test2.txt");
+            fo2.format("%d\n", 1);
+            fo2.format("%d\n", 2);
+            fo2.close();
+            
+            File fi2 = new File("test2.txt");
+            Scanner sc2 = new Scanner(fi2);
+            while(sc2.hasNext()) {
+                System.out.println(sc2.next());
+            }
+            sc2.close();
+        } catch (Exception e2) {
+            System.out.println("Error");
+        }
+        
+        // test3.txt
+        try {
+            Formatter fo3 = new Formatter("test3.txt");
+            fo3.format("%s\n", "test3.txt - line 1");
+            fo3.format("%s\n", "test3.txt - line 2");
+            fo3.format("%s\n", "test3.txt - line 3");
+            fo3.close();
+            
+            File fi3 = new File("test3.txt");
+            Scanner sc3 = new Scanner(fi3);
+            while(sc3.hasNext()) {
+                System.out.println(sc3.next());
+            }
+            sc3.close();
+        } catch (Exception e3) {
+            System.out.println("Error");
+        }
+    }
+}
