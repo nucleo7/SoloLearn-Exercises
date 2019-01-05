@@ -1,0 +1,181 @@
+https://code.sololearn.com/c9yI086cFIoE/#java 
+
+ 
+
+ 
+
+ 
+
+// Exercises from Course Material 
+
+  
+
+// Animal class 
+
+class Animal { 
+
+    String name; 
+
+    Animal(String n) { 
+
+        name = n; 
+
+    } 
+
+    @Override 
+
+    public int hashCode() { 
+
+        final int prime1 = 31; 
+
+        int result1 = 1; 
+
+        result1 = prime1 * result1 + ((name == null) ? 0 : name.hashCode()); 
+
+        return result1; 
+
+    } 
+
+    @Override 
+
+    public boolean equals(Object obj1) { 
+
+        if (this == obj1) 
+
+            return true; 
+
+        if (obj1 == null) 
+
+            return false; 
+
+        if (getClass() != obj1.getClass()) 
+
+            return false; 
+
+        Animal other1 = (Animal) obj1; 
+
+        if (name == null) { 
+
+            if (other1.name != null) 
+
+                return false; 
+
+        } else if (!name.equals(other1.name)) 
+
+            return false; 
+
+        return true; 
+
+    } 
+
+} 
+
+  
+
+// Car class 
+
+class Car { 
+
+    String brand; 
+
+    Car(String b) { 
+
+        brand = b; 
+
+    } 
+
+    @Override 
+
+    public int hashCode() { 
+
+        final int prime2 = 31; 
+
+        int result2 = 1; 
+
+        result2 = prime2 * result2 + ((brand == null) ? 0 : brand.hashCode()); 
+
+        return result2; 
+
+    } 
+
+    @Override 
+
+    public boolean equals(Object obj2) { 
+
+        if (this == obj2) 
+
+            return true; 
+
+        if (obj2 == null) 
+
+            return false; 
+
+        if (getClass() != obj2.getClass()) 
+
+            return false; 
+
+        Car other2 = (Car) obj2; 
+
+        if (brand == null){ 
+
+            if (other2.brand != null) 
+
+                return false; 
+
+        } else if (!brand.equals(other2.brand)) 
+
+            return false; 
+
+        return false; 
+
+    } 
+
+} 
+
+  
+
+// Somehow the results aren't quite what I expect, maybe I misunderstood the exercise... 
+
+class Program { 
+
+    public static void main(String[ ] args) { 
+
+        // Creating and comparing Animals 
+
+        Animal a1 = new Animal("Robby"); 
+
+        Animal a2 = new Animal("Robby"); 
+
+        Animal a3 = new Animal("Toddy"); 
+
+        System.out.println("a1.equals(a2): " + a1.equals(a2));    // I expect true 
+
+        System.out.println("a1.equals(a3): " + a1.equals(a3));    // I expect false 
+
+        System.out.println("a2.equals(a3): " + a2.equals(a3));    // I expect false 
+
+        System.out.println("a1.equals(a1): " + a1.equals(a1));    // I expect true 
+
+        System.out.println(); 
+
+         
+
+        // Creating and comparing Cars 
+
+        Car c1 = new Car("Ferrari"); 
+
+        Car c2 = new Car("Lamborghini"); 
+
+        Car c3 = new Car("Ferrari"); 
+
+        System.out.println("c1.equals(c2): " + c1.equals(c2));    // I expect false 
+
+        System.out.println("c1.equals(c3): " + c1.equals(c3));    // I expect true 
+
+        System.out.println("c2.equals(c3): " + c2.equals(c3));    // I expect false 
+
+        System.out.println("c1.equals(c1): " + c1.equals(c1));    // I expect true 
+
+    } 
+
+} 
