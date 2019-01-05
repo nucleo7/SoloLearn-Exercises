@@ -1,0 +1,67 @@
+https://code.sololearn.com/cWNvZUzAAtJ9/#java
+
+
+
+// Exercises from Course Material
+
+// Loader1 class extending Thread
+class Loader1 extends Thread {
+    public void run() {
+        System.out.println("Loader1 Thread");
+    }    // The run() method must be used! It's overriding run() from the Thread class
+}
+
+// Loader2 class extending Thread
+class Loader2 extends Thread {
+    public void run() {
+        System.out.println("Loader2 Thread");
+    }    // The run() method must be used! It's overriding run() from the Thread class
+}
+
+// Loader3 class extending Thread
+class Loader3 extends Thread {
+    public void run() {
+        System.out.println("Loader3 Thread");
+    }    // The run() method must be used! It's overriding run() from the Thread class
+}
+class MyClass {
+    public static void main(String[ ] args) {
+        // Loader1 threads
+        Loader1 obj1 = new Loader1();
+        Loader1 obj2 = new Loader1();
+        
+        obj1.setPriority(1);
+        obj2.setPriority(2);
+        
+        obj1.start();
+        obj2.start();
+        
+        System.out.println();
+        
+        // Loader2 threads
+        Loader2 obj3 = new Loader2();
+        Loader2 obj4 = new Loader2();
+        
+        obj3.setPriority(3);
+        obj4.setPriority(4);
+        
+        obj3.start();
+        obj4.start();
+        
+        System.out.println();
+        
+        // Loader3 threads
+        Loader3 obj5 = new Loader3();
+        Loader3 obj6 = new Loader3();
+        
+        obj5.setPriority(5);
+        obj6.setPriority(6);
+        
+        obj5.start();
+        obj6.start();
+        
+        System.out.println();
+    }
+}
+
+// setPriority() can be used to specify in which priority order threads will run.
