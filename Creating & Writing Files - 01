@@ -28,14 +28,14 @@ public class MyClass {
         } catch (Exception e1) {
             System.out.println("Error");
         }
-        
+
         // test2.txt
         try {
             Formatter fo2 = new Formatter("test2.txt");
             fo2.format("%d\n", 1);
             fo2.format("%d\n", 2);
             fo2.close();
-            
+
             File fi2 = new File("test2.txt");
             Scanner sc2 = new Scanner(fi2);
             while(sc2.hasNext()) {
@@ -45,7 +45,7 @@ public class MyClass {
         } catch (Exception e2) {
             System.out.println("Error");
         }
-        
+
         // test3.txt
         try {
             Formatter fo3 = new Formatter("test3.txt");
@@ -53,7 +53,7 @@ public class MyClass {
             fo3.format("%s\n", "test3.txt - line 2");
             fo3.format("%s\n", "test3.txt - line 3");
             fo3.close();
-            
+
             File fi3 = new File("test3.txt");
             Scanner sc3 = new Scanner(fi3);
             while(sc3.hasNext()) {
