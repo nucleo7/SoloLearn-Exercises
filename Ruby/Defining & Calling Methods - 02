@@ -1,0 +1,30 @@
+https://code.sololearn.com/cnMTIRXjo4EP/#rb
+
+
+
+# Exercises from Course Material
+def say
+    puts "Hi"
+end
+
+say
+say
+say
+
+def some
+    print "Some "
+end
+
+def thing
+    print "thing "
+end
+
+def other
+    puts "else."
+end
+
+some
+other
+some
+thing
+other
