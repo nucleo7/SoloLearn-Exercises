@@ -1,0 +1,29 @@
+https://code.sololearn.com/cwpFmGa38v5O/#rb
+
+
+
+# Exercises from Course Material
+
+f1 = File.new("file1.txt", "w+")
+f1.puts("file1 - line 1.")
+puts "f1.size: #{f1.size}"
+f1.close
+
+puts "File.zero?(\"file1.txt\"): #{File.zero?('file1.txt')}"
+puts
+
+f2 = File.new("file2.txt", "w+")
+f2.puts("file2 - line 1.")
+f2.puts("file2 - line 2.")
+puts "f2.size: #{f2.size}"
+f2.close
+
+puts "File.zero?(\"file2.txt\"): #{File.zero?('file2.txt')}"
+puts
+
+f3 = File.new("file3.txt", "w+")
+puts "f3.size: #{f3.size}"
+f3.close
+
+puts "File.zero?(\"file3.txt\"): #{File.zero?('file3.txt')}"
+puts
