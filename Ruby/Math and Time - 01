@@ -1,0 +1,44 @@
+https://code.sololearn.com/cKjmCADBK6H8/#rb
+
+
+
+# Exercises from Course Material
+
+# square root
+puts "Math.sqrt(9): #{Math.sqrt(9)}"
+puts "Math.sqrt(49): #{Math.sqrt(49)}"
+puts
+
+# PI constant
+puts "Math::PI: #{Math::PI}"
+puts "Math::PI * 3: #{Math::PI * 3}"
+puts
+
+# trigonometry (sin, cos, tan)
+puts "Math::sin(0): #{Math::sin(0)}"
+puts "Math::sin(1): #{Math::sin(1)}"
+puts "Math::sin(2): #{Math::sin(2)}"
+puts
+
+puts "Math::cos(0): #{Math::cos(0)}"
+puts "Math::cos(1): #{Math::cos(1)}"
+puts "Math::cos(2): #{Math::cos(2)}"
+puts
+
+puts "Math::tan(0): #{Math::tan(0)}"
+puts "Math::tan(1): #{Math::tan(1)}"
+puts "Math::tan(2): #{Math::tan(2)}"
+puts
+
+# exp (exponent?)
+puts "Math.exp(0): #{Math.exp(0)}"
+puts "Math.exp(1): #{Math.exp(1)}"
+puts "Math.exp(2): #{Math.exp(2)}"
+puts
+
+# Time
+puts "Time.new(1980, 01, 01): #{Time.new(1980, 01, 01)}"
+puts "Time.now: #{Time.now}"
+puts "Time.now.year: #{Time.now.year}"
+puts "Time.now.monday?: #{Time.now.monday?}"
+puts
