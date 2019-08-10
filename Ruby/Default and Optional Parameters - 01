@@ -1,0 +1,33 @@
+https://code.sololearn.com/coSudCuR9Y38/#rb
+
+
+
+# Exercises from Course Material
+
+def numOne(a, b)
+    print "The output of numOne is: "
+    puts a + b
+end
+
+def numTwo(c = 1, d)
+    print "The output of numTwo is: "
+    puts c + d
+end
+
+def numThree(e, f = 3)
+    print "The output of numThree is: "
+    puts e + f
+end
+
+def numFour(g = 5, h = 7)
+    print "The output of numFour is: "
+    puts g + h
+end
+
+numOne(11, 13)
+numTwo(17, 19)
+numTwo(23)
+numThree(29, 31)
+numThree(37)
+numFour()
+numFour(41, 43)
