@@ -1,0 +1,11 @@
+https://code.sololearn.com/cJn5R2oIZLVz/#rb
+
+
+
+# Exercises from Course Material
+x = 8
+puts x
+y = 9
+z = "else"
+puts y
+puts z
