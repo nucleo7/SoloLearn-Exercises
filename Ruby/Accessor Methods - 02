@@ -1,0 +1,62 @@
+https://code.sololearn.com/c9q02HucuYm6/#rb
+
+
+
+# Exercises from Course Material
+
+class Person
+    attr_accessor :name, :age
+    def initialize(name, age)
+        @name = name
+        @age = age
+    end
+    def change(n, a)
+        self.name = n
+        self.age = a
+    end
+    def show_info
+        puts "#{self.name} is #{self.age}"
+    end
+end
+
+class Vehicle
+    attr_accessor :brand, :model, :year
+    def initialize(brand, model, year)
+        @brand = brand
+        @model = model
+        @year = year
+    end
+    def change(b, m, y)
+        self.brand = b
+        self.model = m
+        self.year = y
+    end
+    def show_details
+        puts "The #{self.brand} #{self.model} from #{self.year} is awesome."
+    end
+end
+
+
+p1 = Person.new("David", 28)
+p1.change("Bob", 42)
+p1.show_info
+
+p2 = Person.new("Jenny", 23)
+p2.change("Jane", 26)
+p2.show_info
+
+v1 = Vehicle.new("Aston Martin", "DB9", 2011)
+v2 = Vehicle.new("Maserati", "Quatroporte", 2014)
+v3 = Vehicle.new("Lotus", "Exige", 2008)
+
+v1.show_details
+v2.show_details
+v3.show_details
+
+v1.change("Bugatti", "Cheron", 2018)
+v2.change("Lamborghini", "Aventador", 2018)
+v3.change("Porsche", "918", 2018)
+
+v1.show_details
+v2.show_details
+v3.show_details
