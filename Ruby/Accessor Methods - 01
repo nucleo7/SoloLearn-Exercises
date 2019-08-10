@@ -1,0 +1,43 @@
+https://code.sololearn.com/chNm9a4y1W9W/#rb
+
+
+
+# Exercises from Course Material
+
+class Person
+    attr_accessor :name
+    def initialize(name)
+        @name = name
+    end
+end
+
+class Animal
+    attr_accessor :type
+    def initialize(type)
+        @type = type
+    end
+end
+
+p1 = Person.new("David")
+p1.name = "Bob"
+puts p1.name
+
+p2 = Person.new("James")
+p2.name = "John"
+puts p2.name
+
+a1 = Animal.new("Cat")
+a2 = Animal.new("Dog")
+a3 = Animal.new("Dove")
+
+puts a1.type
+puts a2.type
+puts a3.type
+
+a1.type = "Tiger"
+a2.type = "Wolf"
+a3.type = "Cassowary"
+
+puts a1.type
+puts a2.type
+puts a3.type
