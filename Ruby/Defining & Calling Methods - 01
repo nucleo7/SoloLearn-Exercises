@@ -1,0 +1,19 @@
+https://code.sololearn.com/cf6a4xxZ8g3H/#rb
+
+
+
+# Exercises from Course Material
+def say
+    puts "Hi"
+end
+
+say
+
+def something
+    puts "Something..."
+end
+
+something
+something
+say
+something
