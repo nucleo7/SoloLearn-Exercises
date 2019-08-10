@@ -1,0 +1,25 @@
+https://code.sololearn.com/cJDKEMHxgW5c/#rb
+
+
+
+# Exercises from Course Material
+def sum(a, b)
+    res = a+b
+    return res
+end
+
+x = sum(5, 23)
+puts x
+
+def mult(c, d)
+    return c * d
+end
+
+puts mult(3, 7)
+
+def whatThe(e, f, g)
+    returning = e * f % g
+    return "Fooled!"
+end
+
+puts whatThe(3, 5, 7)
