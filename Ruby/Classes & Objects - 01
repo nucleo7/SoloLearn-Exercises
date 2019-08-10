@@ -1,0 +1,31 @@
+https://code.sololearn.com/cJ2oZed7cn73/#rb
+
+
+
+# Exercises from Course Material
+
+class Person
+    def initialize
+        puts "Hi there"
+    end
+end
+
+p1 = Person.new
+p2 = Person.new
+
+class Dog
+    def initialize
+        puts "Woof!"
+    end
+end
+
+class Cat
+    def initialize
+        puts "Meow!"
+    end
+end
+
+d1 = Dog.new
+c1 = Cat.new
+d1 = Dog.new
+p3 = Person.new
