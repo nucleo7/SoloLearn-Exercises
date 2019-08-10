@@ -1,0 +1,18 @@
+https://code.sololearn.com/cmLY24t19WZb/#rb
+
+
+
+# Exercises from Course Material
+
+talk_proc = Proc.new { |x| puts "Hello #{x}" }
+talk = lambda { |x| puts "Hello #{x}" }
+
+# calling with arguments
+talk_proc.call "World"
+talk.call "World"
+
+# calling proc without argument - succeeds
+talk_proc.call
+# calling lambda without argument - fails
+# ArgumentError: wrong number of arguments given
+talk.call
