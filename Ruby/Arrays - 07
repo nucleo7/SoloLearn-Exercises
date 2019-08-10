@@ -1,0 +1,19 @@
+https://code.sololearn.com/cdS8zTZ4v2tV/#rb
+
+
+
+# Exercises from Course Material
+arr = [1, 2, 3]
+arr.pop
+print arr
+puts
+
+arrayPop = [1, 3, 5, 7, 12]
+arrayPop.pop
+print arrayPop
+puts
+arrayPop << 11
+print arrayPop
+puts
+arrayPop.push(13)
+print arrayPop
