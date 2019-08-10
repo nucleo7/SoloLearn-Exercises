@@ -1,0 +1,9 @@
+https://code.sololearn.com/ctxRqQCOg8P5/#rb
+
+
+
+# Exercises from Course Material
+text = 'Ruby\'s syntax is fun'
+puts text
+words = 'Words\'es\'s!'
+puts words
