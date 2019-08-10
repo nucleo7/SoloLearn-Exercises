@@ -1,0 +1,42 @@
+https://code.sololearn.com/c1z35PQ9tybi/#rb
+
+
+
+# Exercises from Course Material
+
+class Person
+    @@count = 0
+    def initialize
+        @@count += 1
+    end
+    def self.get_count
+        @@count
+    end
+end
+
+p1 = Person.new
+p2 = Person.new
+
+puts Person.get_count
+
+p3 = Person.new
+p4 = Person.new
+
+puts Person.get_count
+
+
+class Color
+    @@count = 0
+    def initialize
+        @@count += 1
+    end
+    def self.get_count
+        @@count
+    end
+end
+
+c1 = Color.new
+c2 = Color.new
+c3 = Color.new
+
+puts Color.get_count
