@@ -1,0 +1,12 @@
+https://code.sololearn.com/csBzYOUodLGK/#rb
+
+
+
+# Exercises from Course Material
+x = 9
+y = 5
+puts x % y    # Outputs 4
+
+a = 10
+b = 5
+puts a % b    # Outputs 0
