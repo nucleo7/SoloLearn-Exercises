@@ -1,0 +1,13 @@
+https://code.sololearn.com/c46a1q6auDzD/#rb
+
+
+
+# Exercises from Course Material
+x = (3 + 2) * 4
+puts x # Outputs 20
+
+y = 3 + 2 * 4
+puts y # Outputs 11
+
+z = 3 + (2 * 4)
+puts z # Outputs 11
