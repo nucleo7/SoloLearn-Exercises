@@ -1,0 +1,15 @@
+https://code.sololearn.com/c4uiWaMMCZ4a/#rb
+
+
+
+# Exercises from Course Material
+x = 5
+y = 7
+z = 11
+
+puts !(x > y)
+puts !(x < y)
+puts !(x > z)
+puts !(x < z)
+puts !(y > z)
+puts !(y < z)
