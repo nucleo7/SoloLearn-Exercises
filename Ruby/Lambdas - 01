@@ -1,0 +1,33 @@
+https://code.sololearn.com/c2Iha1Baexz9/#rb
+
+
+
+# Exercises from Course Material
+
+talk1 = lambda {puts "talk1"}
+talk2 = ->() {puts "talk2"}
+
+talk1.call
+talk2.call
+
+word1 = lambda {puts "word1"}
+word2 = ->() {puts "word2"}
+
+word1.call
+word2.call
+
+phrase1 = lambda {puts "a sentence one"}
+phrase2 = ->() {puts "a sentence two"}
+
+phrase1.call
+phrase2.call
+
+calc1 = lambda {puts "1 * 2 = #{1 * 2}"}
+calc2 = lambda {puts "3 / 5 = #{3 / 5}"}
+calc3 = ->() {puts "7 + 1 = #{7 + 11}"}
+calc4 = ->() {puts "13 - 17 = #{13 - 17}"}
+
+calc1.call
+calc2.call
+calc3.call
+calc4.call
