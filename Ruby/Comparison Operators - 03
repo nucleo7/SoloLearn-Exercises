@@ -1,0 +1,18 @@
+https://code.sololearn.com/cJbTIJGgub3i/#rb
+
+
+
+# Exercises from Course Material
+puts 12 > 8    # Output is true
+
+puts 5 < 2    # Output is false
+
+puts 5 >= 5.0    # Output is true
+
+puts 3 <= 6    # Output is true
+
+puts 13 > 7    # Output is true
+puts 13 < 7    # Output is false
+
+puts 3 >= 3    # Output is true
+puts 5 <= 5    # Output is true
