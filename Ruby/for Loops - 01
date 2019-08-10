@@ -1,0 +1,15 @@
+https://code.sololearn.com/cSsVki96cbOK/#rb
+
+
+
+# Exercises from Course Materia
+
+for x in (1..13)
+    print "The value of x is: "
+    puts x
+end
+
+for y in (1...13)
+    print "The value of y is: "
+    puts y
+end
