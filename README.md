@@ -1,4 +1,6 @@
 # SoloLearn-Exercises
-These are for exercises from the SoloLearn Courses (https://www.sololearn.com/)
+These are my exercises created from the SoloLearn Courses (https://www.sololearn.com/)
 
-Only Java so far, still need to organize and add other exercises
+Done:
+Java
+Ruby
