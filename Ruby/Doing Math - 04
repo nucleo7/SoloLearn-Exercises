@@ -1,0 +1,20 @@
+https://code.sololearn.com/ctWEySqDmHrm/#rb
+
+
+
+# Exercises from Course Material
+# Shorthand Assignment
+x = 3
+y = 4
+
+puts x += y  # x=x+y
+= 7
+puts x -= y  # x=x-y
+= 3
+puts x *= y  # x=x*y
+= 12
+puts x /= y  # x=x/y
+= 3
+puts x %= y  # x=x%y
+= 3
+puts x **= y  # x=x**y = 81
