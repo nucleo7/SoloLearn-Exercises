@@ -1,0 +1,15 @@
+https://code.sololearn.com/cxqSTMA65vor/#rb
+
+
+
+# Exercis from Course Material
+arr = [2, 4, 6, 8]
+arr.delete_at(2)
+print arr
+puts
+
+newArray = [1, 2, 3, 4, 5, 6, 7]
+newArray.delete_at(1)
+newArray.delete_at(2)
+newArray.delete_at(3)
+print newArray
