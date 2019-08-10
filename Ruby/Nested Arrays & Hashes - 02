@@ -1,0 +1,21 @@
+https://code.sololearn.com/cMi22dq5TLAG/#rb
+
+
+
+# Exercises from Course Material
+cars = {
+    bmw: { year:2016, color:"red"},
+    mercedes: { year:2012, color:"black"},
+    porsche: { year:2014, color:"white"}
+}
+
+puts cars[:bmw][:color]
+
+colors = {
+    RGB: {one: "Red", two: "Green", three: "Blue"},
+    CMYK: {one: "Cyan", two: "Magenta", three: "Yellow", four: "Black"}
+}
+print colors
+puts
+puts colors[:RGB][:two]
+puts colors[:CMYK][:three]
