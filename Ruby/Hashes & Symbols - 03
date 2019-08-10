@@ -1,0 +1,12 @@
+https://code.sololearn.com/cpL3915dWEn3/#rb
+
+
+
+# Exercises from Course Material
+h = {name:"Dave", age:28, gender:"male"}
+puts h[:age]
+
+hashColors = {one:"Red", two:"Green", three: "Blue"}
+print hashColors
+puts
+puts hashColors[:two]
