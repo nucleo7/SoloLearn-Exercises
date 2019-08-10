@@ -1,0 +1,12 @@
+https://code.sololearn.com/c9TZKg7e41n8/#rb
+
+
+
+# Exercises from Course Material
+
+def calc(x)
+    y = 2
+    puts x*y
+end
+
+puts y    # Variable is not in scope, so an error is returned - undefined local variable or method (NameError)
