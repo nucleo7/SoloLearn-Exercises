@@ -1,0 +1,55 @@
+https://code.sololearn.com/cDK6c6DmDPfv/#rb
+
+
+
+# Exercises from Course Material
+
+# Animal superclass
+class Animal
+    def initialize(name, color)
+        @name = name
+        @color = color
+    end
+    def speak
+        puts "Hi"
+    end
+end
+
+# Dog class inheriting from Animal class
+class Dog < Animal
+    attr_accessor :age
+    def speak
+        puts "Woof!"
+    end
+    def anger
+        puts "Growl!"
+    end
+end
+
+d1 = Dog.new("Jack", "Black")
+puts Dog
+d1.age = 3
+d1.speak
+d1.anger
+
+
+# Cat class inheriting from Animal class
+class Cat < Animal
+    attr_accessor :age
+    def speak
+        puts "Meow"
+    end
+    def kitten
+        puts "Mieuw"
+    end
+end
+
+c1 = Cat.new("Lucy", "white")
+puts Cat
+c1.age = 2
+c1.speak
+
+c2 = Cat.new("Fuzzy", "cloud")
+c2.age = 0.5
+c2.kitten
+puts c2.age
