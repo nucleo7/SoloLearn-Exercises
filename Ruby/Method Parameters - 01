@@ -1,0 +1,41 @@
+https://code.sololearn.com/c0aZDL0aeaP0/#rb
+
+
+
+# Exercises from Course Material
+def sqr(x)
+    puts x*x
+end
+
+sqr(8)
+
+def thingOne(a)
+    print "The output of a multiplied by a is: "
+    puts a * a
+end
+
+def thingTwo(b)
+    print "The output of b divided by b is: "
+    puts b / b
+end
+
+def thingThree(c)
+    print "The output of c added to c is: "
+    puts c + c
+end
+
+def thingFour(d)
+    print "The output of d subtracted from d is: "
+    puts d - d
+end
+
+def thingFive(e)
+    print "The remainder of e divided by 3 is: "
+    puts e % 3
+end
+
+thingOne(1)
+thingTwo(3)
+thingThree(5)
+thingFour(7)
+thingFive(11)
