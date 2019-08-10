@@ -1,0 +1,14 @@
+https://code.sololearn.com/cibH83gjstMr/#rb
+
+
+
+# Exercises from Course Material
+
+for x in 1..11
+    print "The value of x before next is: "
+    puts x
+    next if x % 3 == 0
+    print "The value of x after next is: "
+    puts x
+    break if x == 9
+end
