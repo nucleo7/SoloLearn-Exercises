@@ -1,0 +1,28 @@
+https://code.sololearn.com/c7gm8U9tc7Mu/#rb
+
+
+
+# Exercises from Course Material
+def demo(a, b)
+    a = b-2
+    b = a-3
+end
+
+puts demo(5, 6)
+
+def noReturn(c, d)
+    e = c + d
+    f = c - d
+    g = c % d    # Only this line is returned
+end
+
+puts noReturn(3, 5)
+
+def returnReturn(h, i)
+    j = h * i
+    k = h / i
+    return j + k    # This is returned
+    l = h + i    # This is ignored/skipped
+end
+
+puts returnReturn(5, 7)
