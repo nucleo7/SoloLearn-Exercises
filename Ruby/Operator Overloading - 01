@@ -1,0 +1,57 @@
+https://code.sololearn.com/cVtNFR0N4QS4/#rb
+
+
+
+# Exercises from Course Material
+
+# Shape class
+class Shape
+    attr_accessor :h, :w, :d
+    def initialize(h, w, d)
+        self.h = h
+        self.w = w
+        self.d = d
+    end
+    def +(other)    # Overloading Shape
+        Shape.new(self.h+other.h, self.w+other.w, self.d+other.d)
+    end
+end
+
+
+# Orders class
+class Orders
+    attr_accessor :c, :v
+    def initialize(c, v)
+        self.c = c
+        self.v = v
+    end
+    def +(other)    # Overloading Orders
+        Orders.new(self.c+other.c, self.v+other.v)
+    end
+end
+
+
+# Shape ouput
+a = Shape.new(7, 4, 3)
+b = Shape.new(9, 18, 11)
+c = Shape.new(3, 7, 5)
+d = a + b + c
+
+print "Total height: "
+puts d.h
+print "Total width: "
+puts d.w
+print "Total depth: "
+puts d.d
+
+
+# Orders output
+# I almost had something with this, but it's not really a correct calculation
+x = Orders.new(10, 7.99)
+y = Orders.new(25, 5.99)
+z =  x + y
+
+print "Total number of orders: "
+puts z.c
+print "Total value of orders: "
+puts z.v
