@@ -1,0 +1,121 @@
+https://code.sololearn.com/cL0nijzrvbsQ/#rb
+
+
+
+# Exercises from Course Material
+
+# Flyable module
+module Flyable
+    def fly
+        puts "I'm flying!"
+    end
+end
+
+# Floatable module
+module Floatable
+    def float
+        puts "I'm in/on water!"
+    end
+end
+
+# Drivable module
+module Drivable
+    def drive
+        puts "I'm on the road."
+    end
+end
+
+class Vehicle
+end
+
+# Drivable Vehicles
+class Car < Vehicle
+    include Drivable
+end
+
+class Bike < Vehicle
+    include Drivable
+end
+
+# Flyable Vehicles
+class Jet < Vehicle
+    include Flyable
+end
+class Plane < Vehicle
+    include Flyable
+end
+class Helicopter < Vehicle
+    include Flyable
+end
+
+# Floatable Vehicles
+class Ship < Vehicle
+    include Floatable
+end
+class Boat < Vehicle
+    include Floatable
+end
+class Sub < Vehicle
+    include Floatable
+end
+
+# Mixed
+class Seaplane < Vehicle
+    include Flyable
+    include Floatable
+end
+
+class Amphi < Vehicle
+    include Floatable
+    include Drivable
+end
+
+# Printing out results
+# fly
+fly1 = Jet.new
+puts "Jet:"
+fly1.fly
+
+fly2 = Plane.new
+puts "Plane:"
+fly2.fly
+
+fly3 = Helicopter.new
+puts "Helicopter:"
+fly3.fly
+puts
+
+# float
+float1 = Ship.new
+puts "Ship:"
+float1.float
+
+float2 = Boat.new
+puts "Boat:"
+float2.float
+
+float3 = Sub.new
+puts "Sub:"
+float3.float
+puts
+
+# drive
+drive1 = Car.new
+puts "Car:"
+drive1.drive
+
+drive2 = Bike.new
+puts "Bike:"
+drive2.drive
+puts
+
+# mix
+mix1 = Seaplane.new
+puts "Seaplane:"
+mix1.fly
+mix1.float
+
+mix2 = Amphi.new
+puts "Amphibious:"
+mix2.float
+mix2.drive
