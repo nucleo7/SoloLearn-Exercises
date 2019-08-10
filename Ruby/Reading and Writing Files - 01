@@ -1,0 +1,85 @@
+https://code.sololearn.com/c8pnDQ38H6rz/#rb
+
+
+
+# Exercises from Course Material
+
+# file1.txt
+f1 = File.new("file1.txt", "w+")
+f1.puts("file1.txt - puts string 1. ")
+f1.puts("file1.txt - puts string 2. ")
+f1.puts("file1.txt - puts string 3. ")
+f1.close
+
+puts File.read("file1.txt")
+puts
+
+# file2.txt
+f2 = File.new("file2.txt", "w+")
+f2.print("file2.txt - print str1ng 1. ")
+f2.print("file2.txt - print string 2. ")
+f2.print("file2.txt - print string 3. ")
+f2.close
+
+puts File.read("file2.txt")
+puts
+
+# file3.txt
+f3 = File.new("file3.txt", "w+")
+f3.puts("file3.txt - puts string 1. ")
+f3.puts("file3.txt - puts string 2. ")
+f3.print("file3.txt - print string 3. ")
+f3.close
+
+puts File.read("file3.txt")
+puts
+
+# file4
+f4 = File.new("file4.txt", "w+")
+f4.puts("file4.txt - puts string 1. ")
+f4.print("file4.txt - print string 2. ")
+f4.print("file4.txt - print string 3. ")
+f4.close
+
+puts File.read("file4.txt")
+puts
+
+# file 5
+f5 = File.new("file5.txt", "w+")
+f5.puts("file5.txt - puts string 1. ")
+f5.print("file5.txt - print string 2. ")
+f5.puts("file5.txt - puts string 3. ")
+f5.close
+
+puts File.read("file5.txt")
+puts
+
+# file 6
+f6 = File.new("file6.txt", "w+")
+f6.print("file6.txt - print string 1. ")
+f6.print("file6.txt - print string 2. ")
+f6.puts("file6.txt - puts string 3. ")
+f6.close
+
+puts File.read("file6.txt")
+puts
+
+# file 7
+f7 = File.new("file7.txt", "w+")
+f7.print("file7.txt - print string 1. ")
+f7.puts("file7.txt - puts string 2. ")
+f7.puts("file7.txt - puts string 3. ")
+f7.close
+
+puts File.read("file7.txt")
+puts
+
+# file 8
+f8 = File.new("file8.txt", "w+")
+f8.print("file8.txt - print string 1. ")
+f8.puts("file8.txt - puts string 2. ")
+f8.print("file8.txt - print string 3. ")
+f8.close
+
+puts File.read("file8.txt")
+puts
