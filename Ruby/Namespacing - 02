@@ -1,0 +1,67 @@
+https://code.sololearn.com/cgWW2000gImZ/#rb
+
+
+
+# Exercises from Course Material
+
+module MyMath
+    PI = 3.14
+    def self.square(x)
+        x*x
+    end
+    def self.div(x)
+        x/x
+    end
+    def self.sum(x)
+        x+x
+    end
+    def self.sub(x)
+        x-x
+    end
+    def self.negate(x)
+        -x
+    end
+    def self.factorial(x)
+         (1..x).inject(:*) || 1
+    end
+    def self.thingOne(x)
+        x*x/x+x-x+x/x*x
+    end
+    def self.thingTwo(x)
+        x-x+x/x*x/x+x-x
+    end
+end
+
+puts "factorial(7): #{MyMath.factorial(7)}"
+puts "factorial(5): #{MyMath.factorial(5)}"
+puts "factorial(3): #{MyMath.factorial(3)}"
+
+# puts "MyMath.PI: #{PI}"
+
+puts "square(7): #{MyMath.square(7)}"
+puts "square(5): #{MyMath.square(5)}"
+puts "square(3): #{MyMath.square(3)}"
+
+puts "div(7): #{MyMath.div(7)}"
+puts "div(5): #{MyMath.div(5)}"
+puts "div(3): #{MyMath.div(3)}"
+
+puts "sum(7): #{MyMath.sum(7)}"
+puts "sum(5): #{MyMath.sum(5)}"
+puts "sum(3): #{MyMath.sum(3)}"
+
+puts "sub(7): #{MyMath.sub(7)}"
+puts "sub(5): #{MyMath.sub(5)}"
+puts "sub(3): #{MyMath.sub(3)}"
+
+puts "negate(7): #{MyMath.negate(7)}"
+puts "negate(5): #{MyMath.negate(5)}"
+puts "negate(3): #{MyMath.negate(3)}"
+
+puts "thingOne(7): #{MyMath.thingOne(7)}"
+puts "thingOne(5): #{MyMath.thingOne(5)}"
+puts "thingOne(3): #{MyMath.thingOne(3)}"
+
+puts "thingTwo(7): #{MyMath.thingTwo(7)}"
+puts "thingTwo(5): #{MyMath.thingTwo(5)}"
+puts "thingTwo(3): #{MyMath.thingTwo(3)}"
