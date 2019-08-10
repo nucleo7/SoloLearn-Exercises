@@ -1,0 +1,38 @@
+https://code.sololearn.com/cl83GPBaDk7n/#rb
+
+
+
+# Exercises from Course Material
+
+class Person
+    def self.info
+        puts "A Person"
+    end
+    def self.type
+        puts "Homo Sapien"
+    end
+end
+
+Person.info
+Person.type
+
+class Vehicle
+    def self.fourWheel
+        puts "A vehicle with 4 wheels"
+    end
+    def self.twoWheel
+        puts "A vehicle with 2 wheels."
+        puts "A motorcycle!"
+    end
+    def self.leftHandDrive
+        puts "Steering wheel is on the left."
+    end
+    def self.rightHandDrive
+        puts "Steering wheel is on the right."
+    end
+end
+
+Vehicle.fourWheel
+Vehicle.twoWheel
+Vehicle.leftHandDrive
+Vehicle.rightHandDrive
