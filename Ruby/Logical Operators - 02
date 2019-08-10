@@ -1,0 +1,27 @@
+https://code.sololearn.com/cKjn7LU4dfWV/#rb
+
+
+
+# Exercises from Course Material
+# EDIT: Made some small edits in line with the comment from cathy. Thanks cathy.
+a = 3
+b = 5
+if a ==3 || b > 10
+    puts "Welcome"
+end
+
+x = 17
+y = 3
+z = 11
+
+if x == y || y > z
+    puts "x equals y, OR y is greater than z, OR both."
+end
+
+if x > y || y < z
+    puts "x is greater than y, OR y is less than z, OR both."
+end
+
+if x < z || y >= 0
+    puts " x is less than z, OR y is greater than or equal to 0, OR both."
+end
