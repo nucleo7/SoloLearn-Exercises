@@ -1,0 +1,27 @@
+https://code.sololearn.com/c7KK6J4DGxZv/#rb
+
+
+
+# Exercises from Course Material
+
+require "ostruct"
+
+# person
+person = OpenStruct.new(name:"John", age:42, salary:250)
+
+puts "#{person.name}, aged #{person.age}. Salary: #{person.salary}"
+
+# vehicle
+vehicle = OpenStruct.new(brand:"Bugatti", model:"Veyron", year:2017)
+
+puts "#{vehicle.brand} #{vehicle.model} from #{vehicle.year}"
+
+# colorsRGB
+colorsRGB = OpenStruct.new(r:"Red", g:"Green", b:"Blue")
+
+puts "colorsRGB: #{colorsRGB.r}, #{colorsRGB.g}, #{colorsRGB.b}"
+
+# colorsCMYK
+colorsCMYK = OpenStruct.new(c:"Cyan", m:"Magenta", y:"Yellow", b:"Black")
+
+puts "colorsCMYK: #{colorsCMYK.c}, #{colorsCMYK.m}, #{colorsCMYK.y}, #{colorsCMYK.k}"
