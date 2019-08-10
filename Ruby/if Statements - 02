@@ -1,0 +1,21 @@
+https://code.sololearn.com/c7K3wqaek8Nn/#rb
+
+
+
+# Exercises from Course Material
+num = 16
+if num > 7
+    puts "Greater than 7."
+    if num < 42
+        puts "Between 7 and 42."
+    end
+end
+
+x = 5
+y = 11
+if x > 4
+    puts "x is greater than 4."
+    if y > 10
+        puts "y is greater than 10."
+    end
+end
