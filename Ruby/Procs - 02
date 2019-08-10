@@ -1,0 +1,90 @@
+https://code.sololearn.com/c7X4B9ZqCSx4/#rb
+
+
+
+# Exercises from Course Material
+
+# greet proc
+greet = Proc.new do |x|
+    print "Welcome #{x}, "
+end
+
+# goodbye proc
+goodbye = Proc.new do |x|
+    print "Goodbye #{x}, "
+end
+
+# say function
+def say(arr1, proc1)
+    arr1.each { |x| proc1.call x}
+end
+
+# output people1
+people1 = ["David", "Amy", "John"]
+say(people1, greet)
+puts
+say(people1, goodbye)
+puts
+
+# output people2
+people2 = ["Jack", "Jim", "Bob"]
+say(people2, greet)
+puts
+say(people2, goodbye)
+puts
+
+# hello proc
+hello = Proc.new do |a|
+    print "Hello #{a}, "
+end
+
+# thanks proc
+thanks = Proc.new do |a|
+    print "Thank you #{a}, "
+end
+
+# hello and thanks function
+def hi(arr2, proc2)
+    arr2.each {|a| proc2.call a}
+end
+
+# more people output
+people3 = ["Adam", "Bill", "Charlie"]
+people4 = ["Dina", "Ekaterina", "Florence"]
+
+hi(people3, hello)
+puts
+hi(people4, hello)
+puts
+hi(people3, thanks)
+puts
+hi(people4, thanks)
+puts
+
+# word1 proc
+word1 = Proc.new do |b|
+    print "Word1: #{b}, "
+end
+
+# word2 proc
+word2 = Proc.new do |b|
+    print "Word2: #{b}, "
+end
+
+# phrase function
+def phrase1(arr3, proc3)
+    arr3.each {|b| proc3.call b}
+end
+
+# words output
+words1 = ["one", "two", "three"]
+words2 = ["four", "five", "six"]
+
+phrase1(words1, word1)
+puts
+phrase1(words1, word2)
+puts
+phrase1(words2, word1)
+puts
+phrase1(words2, word2)
+puts
