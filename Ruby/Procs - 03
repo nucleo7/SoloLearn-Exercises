@@ -1,0 +1,68 @@
+https://code.sololearn.com/cC20zl3bivEj/#rb
+
+
+
+# Exercises from Course Material
+
+# calc1
+def calc1(proc1)
+    start1 = Time.now
+    proc1.call
+    dur1 = Time.now - start1
+end
+
+# someProc1
+someProc1 = Proc.new do
+    num1 = 0
+    1000000.times do
+      num1 = num1 + 1
+    end
+end
+
+puts "calc1 = #{calc1(someProc1)}"
+
+# calc2
+def calc2(proc2)
+    start2 = Time.now
+    proc2.call
+    dur2 = Time.now - start2
+end
+
+# someProc2
+someProc2 = Proc.new do
+    num2 = 0
+    1000000.times do
+        num2 = num2 + 1
+    end
+end
+
+puts "calc2 = #{calc2(someProc2)}"
+
+# calc3
+def calc3(proc3)
+    start3 = Time.now
+    proc3.call
+    dur3 = Time.now - start3
+end
+
+# someProc3
+someProc3 = Proc.new do
+    num3 = 0
+    1000000.times do
+        num3 = num3 + 1
+    end
+end
+
+puts "calc3 = #{calc3(someProc3)}"
+
+# calc1 + calc2
+puts "calc1 + calc2 = #{calc1(someProc1) + calc2(someProc2)}"
+
+# calc1 + calc3
+puts "calc1 + calc3 = #{calc1(someProc1) + calc3(someProc3)}"
+
+# calc2 + calc3
+puts "calc2 + calc3 = #{calc2(someProc2) + calc3(someProc3)}"
+
+# calc1 + calc2 + calc3
+puts "calc1 + calc2 + calc3 = #{calc1(someProc1) + calc2(someProc2) + calc3(someProc3)}"
