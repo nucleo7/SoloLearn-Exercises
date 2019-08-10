@@ -1,0 +1,75 @@
+https://code.sololearn.com/cqHcosavcmND/#rb
+
+
+
+# Exercises from Course Material
+
+# Animal superclass
+class Animal
+    def initialize(name, color)
+        @name = name
+        @color = color
+    end
+    def speak
+        puts "Hi"
+    end
+    def anger
+        puts "Grrr..."
+    end
+    def greeting
+        puts "How's it going?"
+    end
+end
+
+
+# Vehicle superclass
+class Vehicle
+    def initialize(type, brand)
+        @type = type
+        @brand = brand
+    end
+    def flight
+        puts "Woosh!"
+    end
+    def drive
+        puts "Vrooom!"
+    end
+end
+
+
+# Dog class inheriting from Animal class
+class Dog < Animal
+end
+
+d1 = Dog.new("Bob", "brown")
+d1.speak
+d1.anger
+
+d2 = Dog.new("Bruce", "Black")
+d1.speak
+d1.anger
+
+
+# Person class inheriting from Animal class
+class Person < Animal
+end
+
+p1 = Person.new("John", "Human color")
+p1.speak
+p1.greeting
+
+
+# Plane class inheriting from Vehicle class
+class Plane < Vehicle
+end
+
+pl1 = Plane.new("Jet", "Lear")
+pl1.flight
+
+
+# Car class inheriting from Vehicle class
+class Car < Vehicle
+end
+
+c1 = Car.new("Car", "Lamborghini")
+c1.drive
