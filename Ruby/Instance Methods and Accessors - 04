@@ -1,0 +1,51 @@
+https://code.sololearn.com/cxN5n12Tml1e/#rb
+
+
+
+# Exercises from Course Material
+
+class Person
+    def initialize(name)
+        @name = name
+    end
+    def name
+        @name
+    end
+    def name=(name)
+        @name = name
+    end
+end
+
+class Animal
+    def initialize(type)
+        @type = type
+    end
+    def type
+        @type
+    end
+    def type=(type) # Apparantly spacing is important here. I tried: type = (type), and it didn't work
+        @type = type
+    end
+end
+
+p1 = Person.new("David")
+puts p1.name
+p1.name = "Bob"
+puts p1.name
+
+p2 = Person.new("John")
+puts p2.name
+p2.name = "Jane"
+puts p2.name
+
+a1 = Animal.new("Cat")
+a2 = Animal.new("Dog")
+
+puts a1.type
+puts a2.type
+
+a1.type = "Lion"
+a2.type = "Hyena"
+
+puts a1.type
+puts a2.type
