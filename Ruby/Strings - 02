@@ -1,0 +1,9 @@
+https://code.sololearn.com/c57fx7wZfMfq/#rb
+
+
+
+# Exercises from Course Material
+text = "Hello \n World"
+puts text
+lines = "Multiple \nnew \nlines."
+puts lines
