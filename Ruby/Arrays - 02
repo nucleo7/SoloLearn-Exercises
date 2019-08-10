@@ -1,0 +1,15 @@
+https://code.sololearn.com/c3cR2cit4Rky/#rb
+
+
+
+# Exercises from Course Material
+items = ["Apple", "Orange", "Banana"]
+items[1] = "Kiwi"
+puts items
+
+colors = ["Red", "Blue", "Magenta"]
+puts colors
+colors[1] = "Green"
+puts colors
+colors[2] = "Blue"
+puts colors
