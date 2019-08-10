@@ -1,0 +1,66 @@
+https://code.sololearn.com/cN5z6sKm5Lv7/#rb
+
+
+
+# Exercises from Course Material
+# reading one line at a time
+
+# file1.txt
+File.open("file1.txt", "a+") { |file1|
+    file1.puts("file1.txt - string 1. ")
+    file1.puts("file1.txt - string 2. ")
+    file1.puts("file1.txt - string 3. ")
+}
+
+File.readlines("file1.txt").each { |line|
+    puts " --- #{line}"
+}
+puts
+
+# file2.txt
+File.open("file2.txt", "a+") { |file2|
+    file2.puts("file2.txt - string 1. ")
+    file2.puts("file2.txt - string 2. ")
+    file2.puts("file2.txt - strong 3. ")
+}
+
+File.readlines("file2.txt").each { |line|
+    puts " <-- #{line}"
+}
+puts
+
+# file3.txt
+File.open("file3.txt", "a+") { |file3|
+    file3.puts("file3.txt - string 1. ")
+    file3.puts("file3.txt - string 2. ")
+    file3.puts("file3.txt - string 3. ")
+}
+
+File.readlines("file3.txt").each { |line|
+    puts " -<>- #{line}"
+}
+puts
+
+# file4.txt
+File.open("file4.txt", "a+") { |file4|
+    file4.write("file4.txt - string 1. ")
+    file4.write("file4.txt - string 2. ")
+    file4.write("file4.txt - string 3. ")
+}
+
+File.readlines("file4.txt").each { |line|
+    puts "line: #{line}"
+}
+puts
+
+# file5.txt
+File.open("file5.txt", "a+") { |file5|
+    file5.puts("file5.txt - string 1. ")
+    file5.puts("file5.txt - string 2. ")
+    file5.puts("file5.txt - string 3.")
+}
+
+File.readlines("file5.txt").each { |line|
+    print "line: #{line}"
+}
+puts
