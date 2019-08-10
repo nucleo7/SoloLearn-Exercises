@@ -1,0 +1,27 @@
+https://code.sololearn.com/cOGtl02LX3sO/#rb
+
+
+
+# Exercises from Course Material
+ages = { "David" => 28, "Amy"=> 19, "Rob" => 42 }
+
+print ages
+puts
+puts ages["Amy"]
+puts
+
+colorsOne = {"One" => "Red", "Two" => "Green", "Three" => "Blue"}
+colorsTwo = {1 => "Red", 2 => "Green", 3 => "Blue"}
+colorsThree = {"Red" => 1, "Green" => 2, "Blue" => 3}
+
+print colorsOne
+puts
+puts colorsOne["Two"]
+
+print colorsTwo
+puts
+puts colorsTwo[1]
+
+print colorsThree
+puts
+puts colorsThree["Blue"]
