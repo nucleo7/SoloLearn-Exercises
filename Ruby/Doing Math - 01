@@ -1,0 +1,26 @@
+https://code.sololearn.com/cIC7QGjAsPU2/#rb
+
+
+
+# Exercises from Course Material
+x = 5
+y = 2
+
+a = 3.0
+b = 4.0
+
+#ADDITION
+puts x+y # outputs 7
+puts a+b # outputs 7.0
+
+#SUBTRACTION
+puts x-y # outputs 3
+puts a-b # outputs -1.0
+
+#MULTIPLICATION
+puts x*y # outputs 10
+puts a*b # outputs 12.0
+
+#DIVISION
+puts x/y # outputs 2
+puts a/b # outputs 0.75
