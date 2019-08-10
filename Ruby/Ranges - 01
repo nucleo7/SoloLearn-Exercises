@@ -1,0 +1,15 @@
+https://code.sololearn.com/cESIGtXAW5g0/#rb
+
+
+
+# Exercises from Course Material
+
+rangeOne = (1..7).to_a    # Inclusive ..
+rangeTwo = (1...7).to_a     # Exclusive ...
+puts rangeOne
+puts rangeTwo
+
+rangeThree = ("a".."e").to_a    # Inclusive ..
+rangeFour = ("a"..."e").to_a    # Exclusive ...
+puts rangeThree
+puts rangeFour
