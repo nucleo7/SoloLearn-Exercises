@@ -1,0 +1,12 @@
+https://code.sololearn.com/c78XBl7FvKz0/#rb
+
+
+
+# Exercises from Course Material
+h = {:name=>"Dave", :age=>28, :gender=>"male"}
+puts h[:age]
+
+hashSymbol = {:one => "First", :two => "Second", :three => "Third"}
+print hashSymbol
+puts
+puts hashSymbol[:two]
