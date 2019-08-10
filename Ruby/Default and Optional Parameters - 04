@@ -1,0 +1,16 @@
+https://code.sololearn.com/c0GsXjK2wCNk/#rb
+
+
+
+# Exercises from Course Material
+def someMethod(*p)
+    puts p
+end
+
+someMethod(25, "hello", true)
+
+def anotherMethod(*x)
+    puts x
+end
+
+anotherMethod(1, 3, 1.5, 3.5, true, false, "Words", "More words")
