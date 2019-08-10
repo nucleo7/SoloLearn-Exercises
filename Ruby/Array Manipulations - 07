@@ -1,0 +1,16 @@
+https://code.sololearn.com/cFes169v3bQ4/#rb
+
+
+
+# Exercises from Course Material
+arr = ["a", "b", "c"]
+for x in arr
+    puts "Value: #{x}"
+end
+
+arrayOne = [1, 3, 5, "Red", "Green", "Blue"]
+print arrayOne
+puts
+for y in arrayOne
+    puts "Array value: #{y}."
+end
