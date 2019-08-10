@@ -1,0 +1,13 @@
+https://code.sololearn.com/cj4LO78O6m1Z/#rb
+
+
+
+# Exercises from Course Material
+
+# SystemStackError: Stack level too deep
+# Because there's no base case
+def fact(n)
+    n * fact( n - 1 )
+end
+
+puts fact(5)
