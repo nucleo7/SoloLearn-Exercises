@@ -1,0 +1,11 @@
+https://code.sololearn.com/c63fasq7zci8/#rb
+
+
+
+# Exercises from Course Material
+age = 42
+puts "He is #{age} years old"
+varInteger = 7
+varFloat = 3.0
+varString = "String"
+puts "A string with #{varInteger} and #{varFloat} numbers, and #{varString} strings."
