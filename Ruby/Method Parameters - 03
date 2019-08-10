@@ -1,0 +1,26 @@
+https://code.sololearn.com/cf36dSfqXgiR/#rb
+
+
+
+# Exercises from Course Material
+def sum(a, b, c)
+    puts a+b+c
+end
+
+x = 2
+y = 42
+z = 6
+sum(x, y, z)
+
+
+def someThing(one, two, three, four, five)
+    puts one * two / three + four - five
+end
+
+thingOne = 11
+thingTwo = 13
+thingThree = 17
+thingFour = 19
+thingFive = 23
+
+someThing(thingOne, thingTwo, thingThree, thingFour, thingFive)
