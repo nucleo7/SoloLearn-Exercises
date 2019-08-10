@@ -1,0 +1,14 @@
+https://code.sololearn.com/cHeB2Y66WbKP/#rb
+
+
+
+# Exercises from Course Material
+a = "Hi "
+b = 'there'
+puts a+b
+
+x = "One "
+y = '2 '
+z = 'three.'
+together = x + y + z
+puts together
