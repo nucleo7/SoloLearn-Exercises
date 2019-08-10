@@ -1,0 +1,15 @@
+https://code.sololearn.com/cwbVekQ2JNFP/#rb
+
+
+
+# Exercises from Course Material
+num = 11
+if num > 7
+    puts "num is greater than 7."
+elsif num > 13
+    puts "num is greater than 13."
+elsif num < 3
+    puts "num is less than 3."
+else
+    puts "num is between 7 and 13."
+end
