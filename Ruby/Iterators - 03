@@ -1,0 +1,18 @@
+https://code.sololearn.com/c0LDm8z4aK8i/#rb
+
+
+
+# Exercises from Course Material
+sizes = {svga:800, hd:1366, uhd:3840}
+
+sizes.each do |key, value|
+    puts "#{key}=>#{value}"
+end
+
+arrayColor = {one:"Red", two:"Green", three:"Blue"}
+print arrayColor
+puts
+
+arrayColor.each do |number, color|
+    puts "The key: #{number}, the value: #{color}."
+end
