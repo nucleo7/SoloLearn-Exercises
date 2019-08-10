@@ -1,0 +1,15 @@
+https://code.sololearn.com/c3fmQdQi7x1j/#rb
+
+
+
+# Exercises from Course Material
+arr = [5, "Dave", 15.88, false]
+arr.push(8)
+puts arr
+
+newArray = ["Red", "Green", "Blue"]
+newArray.push("Cyan")
+newArray.push("Magenta")
+newArray.push("Yellow")
+newArray << "Black"
+puts newArray
