@@ -1,0 +1,11 @@
+https://code.sololearn.com/cBlx241r3FoD/#rb
+
+
+
+# Exercises from Course Material
+a = 5
+b = 2
+puts "The sum is #{a+b}"
+x = 7
+y = 6
+puts "More sums: \nx + \y = \n#{x + y}"
