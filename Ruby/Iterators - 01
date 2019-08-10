@@ -1,0 +1,21 @@
+https://code.sololearn.com/c7QnLxc0EK62/#rb
+
+
+
+# Exercises from Course Material
+arr = [2, 4, 6]
+
+arr.each do |x|
+    puts x
+end
+
+arrayOne = [1, 3, 5, 7]
+arrayTwo = ["Red", "Green", "Blue"]
+
+arrayOne.each do |a|
+    puts "The arrayOne value is: #{a}."
+end
+
+arrayTwo.each do |b|
+    puts "The arrayTwo value is: #{b}."
+end
