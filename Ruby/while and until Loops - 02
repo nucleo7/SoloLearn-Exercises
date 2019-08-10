@@ -1,0 +1,26 @@
+https://code.sololearn.com/ct09pqyBMnuj/#rb
+
+
+
+# Exercises from Course Material
+numOne = 5
+numTwo = 11
+until numOne > numTwo
+    puts "numOne value is: #{numOne}"
+    numOne += 1
+end
+
+# EDIT: I think I might know why...
+# Don't know why this second one isn't running.
+until numTwo < numOne
+    puts "numTwo value is: #{numTwo}"
+    numTwo -= 1
+end
+
+# EDIT: Yup, I was dumb, and this is the correct one...
+numThree = 5
+numFour = 11
+until numFour < numThree
+    puts "numFour value is: #{numFour}"
+    numFour -= 1
+end
