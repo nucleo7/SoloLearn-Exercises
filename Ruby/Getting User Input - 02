@@ -1,0 +1,11 @@
+https://code.sololearn.com/cqFTs57QXzGA/#rb
+
+
+
+# Exercises from Course Material
+puts "Enter your name: "
+puts "Enter your lastname: "
+name = gets.chomp
+lastname = gets.chomp
+puts "Welcome, #{name}"
+puts "#{lastname}"
