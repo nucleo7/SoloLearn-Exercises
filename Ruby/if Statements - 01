@@ -1,0 +1,20 @@
+https://code.sololearn.com/cDGVNomnzfeP/#rb
+
+
+
+# Exercises from Course Material
+a = 42
+
+if a > 7
+    puts "Yes, a is greater than 7."
+end
+
+x = 13
+y = 3
+
+if x < y
+    puts "Yes, x is less than y."
+end
+if x > y
+    puts "Yes, x is greater than y."
+end
