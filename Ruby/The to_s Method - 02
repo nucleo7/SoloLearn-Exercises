@@ -1,0 +1,59 @@
+https://code.sololearn.com/cS2nbW3pk5y0/#rb
+
+
+
+# Exercises from Course Material
+
+# Person class
+class Person
+    def initialize(n, a)
+      @name = n
+      @age = a
+    end
+    def to_s
+        "#{@name} is #{@age} years old."
+    end
+end
+
+p1 = Person.new("David", 28)
+puts p1
+
+p2 = Person.new("John", 23)
+puts p2
+
+
+# Animal class
+class Animal
+    def initialize(t, a)
+        @type = t
+        @age = a
+    end
+    def to_s
+        "The #{@type} is #{@age} years old."
+    end
+end
+
+a1 = Animal.new("Cat", 1)
+a2 = Animal.new("Panther", 3)
+
+puts a1
+puts a2
+
+
+# Vehicle class
+class Vehicle
+    def initialize(b, m, y)
+        @brand = b
+        @model = m
+        @year = y
+    end
+    def to_s
+        "The #{@year} #{@brand} #{@model} is awesome!"
+    end
+end
+
+v1 = Vehicle.new("Porsche", "911", 2017)
+v2 = Vehicle.new("Lamborghini", "Aventador", 2017)
+
+puts v1
+puts v2
