@@ -1,0 +1,32 @@
+https://code.sololearn.com/ccjaXJPv6pmT/#rb
+
+
+
+# Exercises from Course Material
+car = {brand:"BMW", year:2016, color: "red", length:205}
+car.delete(:length)
+puts car.values
+
+colors = {one:"Red", two:"Green", three:"Blue", four:"Cyan", five:"Magenta", six:"Yellow", seven:"Black", eight:"pInk"}
+print colors
+puts
+
+colors.delete(:eight)
+print colors
+puts
+
+# colors.index("Black") - Deprecated
+puts colors.key("Black")
+print colors.keys
+puts
+
+print colors.values
+puts
+
+print colors.invert
+puts
+
+print colors
+puts
+
+puts colors.length
