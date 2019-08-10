@@ -1,0 +1,14 @@
+https://code.sololearn.com/coIfuyQp38O5/#rb
+
+
+
+# Exercises from Course Material
+arr = [5, "Dave", 15.88, false]
+arr << 8
+puts arr
+
+someArray = [1, 3, 5, 7]
+someArray << 11
+someArray << 13
+someArray << 17
+puts someArray
