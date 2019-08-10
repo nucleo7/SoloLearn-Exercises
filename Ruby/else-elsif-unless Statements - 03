@@ -1,0 +1,11 @@
+https://code.sololearn.com/cBZyU8jE1nQN/#rb
+
+
+
+# Exercises from Course Material
+num = 13
+unless num > 10
+    puts "num is not greater than 10."
+else
+    puts "num is greater than 10."
+end
