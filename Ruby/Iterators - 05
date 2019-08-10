@@ -1,0 +1,12 @@
+https://code.sololearn.com/cJQs1IozlaNb/#rb
+
+
+
+# Exercises from Course Material
+5.times do
+    puts "Hi"
+end
+
+7.times do
+    puts "Looping..."
+end
