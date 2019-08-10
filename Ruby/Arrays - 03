@@ -1,0 +1,17 @@
+https://code.sololearn.com/crCHZOhPijY1/#rb
+
+
+
+# Exercises from Course Material
+arr = [5, "Dave", 15.88, false]
+
+puts arr[0] #5
+puts arr[1] #"Dave"
+puts arr[-1] #false
+
+mixedArray = [1, 3, 5.13, 7.35, "Red", "Green", true, false]
+
+puts mixedArray[1]
+puts mixedArray[3]
+puts mixedArray[5]
+puts mixedArray[7]
