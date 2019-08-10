@@ -1,0 +1,20 @@
+https://code.sololearn.com/crMqeDqnqnZX/#rb
+
+
+
+# Exercises from Course Material
+x = 13
+y = 7
+z = 3
+
+if x > y && y > z
+    puts "x is greater than y, and y is greater than z."
+end
+
+if x < y && y < z
+    puts "x is less than y, and y is less than z."
+end
+
+if x > y && y < 17
+    puts "x is greater than y, and y is less than 17."
+end
