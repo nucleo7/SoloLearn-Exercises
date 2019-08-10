@@ -1,0 +1,76 @@
+https://code.sololearn.com/ceoNYXw0sjlR/#rb
+
+
+
+# Exercises from Course Material
+
+# Animal superclass
+class Animal
+    def initialize(name)
+        @name = name
+    end
+end
+
+# Cat subclass of Animal
+class Cat  < Animal
+    def initialize(name, age)
+        super(name)
+        @age = age
+    end
+    def to_s
+        "#{@name} is #{@age} years old."
+    end
+end
+
+# Dog subclass of Animal
+class Dog < Animal
+    def initialize(name, age)
+        super(name)
+        @age = age
+    end
+    def to_s
+        "#{@name} is #{@age} years old."
+    end
+end
+
+
+# Vehicle superclass
+class Vehicle
+    def initialize(type)
+        @type = type
+    end
+end
+
+# Passenger vehicle subclass of Vehicle
+class Passenger < Vehicle
+    def initialize(type, brand, model)
+        super(type)
+        @brand = brand
+        @model = model
+    end
+    def to_s
+        "The #{@brand} #{@model} #{@type} Vehicle is awesome!"
+    end
+end
+
+# Console output below this line
+c1 = Cat.new("Bob", 3)
+puts c1
+
+c2 = Cat.new("Fluffster", 13)
+puts c2
+
+d1 = Dog.new("Doggster", 5)
+d2 = Dog.new("Dogbert", 17)
+
+puts d1
+puts d2
+
+
+p1 = Passenger.new("Passenger", "Bugatti", "Veyron")
+p2 = Passenger.new("Passenger", "Lamborghini", "Aventador")
+p3 = Passenger.new("Passenger", "Porsche", "918")
+
+puts p1
+puts p2
+puts p3
