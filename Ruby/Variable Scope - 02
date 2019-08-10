@@ -1,0 +1,33 @@
+https://code.sololearn.com/cFfgsvVEhgFl/#rb
+
+
+
+# Exercises from Course Material
+
+$x = 42
+
+def changeOne
+    $x = 8
+end
+
+print "Before changeOne is called: "
+puts $x
+changeOne
+print "After changeOne is called: "
+puts $x
+
+$a = 3
+$b = 7
+
+def changeTwo
+    $a = 11
+    $b = 13
+end
+
+puts "Before changeTwo is called: "
+puts $a
+puts $b
+changeTwo
+puts "After changeTwo is called: "
+puts $a
+puts $b
