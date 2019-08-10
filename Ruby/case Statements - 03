@@ -1,0 +1,14 @@
+https://code.sololearn.com/cHqBxsVfEpSO/#rb
+
+
+
+# Exercises from Course Material
+numOne = 7
+case numOne
+when 1, 2, 3
+    puts "numOne value is 1, 2, or 3."
+when 4, 5, 6
+    puts "numOne value is 4, 5, or 6."
+else
+    puts "numOne value is none of the above."
+end
