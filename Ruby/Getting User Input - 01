@@ -1,0 +1,9 @@
+https://code.sololearn.com/cw35Ou4ybRKO/#rb
+
+
+
+# Exercises from Course Material
+x = gets
+puts x
+y = gets
+puts y
