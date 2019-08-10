@@ -1,0 +1,12 @@
+https://code.sololearn.com/c52T8knFNXfo/#rb
+
+
+
+# Exercises from Course Material
+puts 3 == 3.0    # Output is true
+
+puts 3.eql?(3.0)    # Output is false
+
+puts 11 == 11    # Output is true
+puts 11.eql?(11)    # Output is true
+puts 11.eql?(11.0)    # Output is false
