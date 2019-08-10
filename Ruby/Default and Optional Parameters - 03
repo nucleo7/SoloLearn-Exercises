@@ -1,0 +1,15 @@
+https://code.sololearn.com/coE0KM9iM20y/#rb
+
+
+
+# Exercises from Course Material
+
+def favoriteColor(color = "none")
+    if color == "none"
+        puts "Not having a favorite color is weird!"
+    else
+        puts "You're favorite color is: #{color}."
+    end
+end
+
+favoriteColor(gets.chomp)
