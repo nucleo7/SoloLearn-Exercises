@@ -1,0 +1,78 @@
+https://code.sololearn.com/cOj9evpM6etH/#rb
+
+
+
+# Exercises from Course Material
+
+# Mammal module
+module Mammal
+    # Dog class
+    class Dog
+        def speak
+            puts "Woof!"
+        end
+    end
+    # Cat class
+    class Cat
+        def speak
+            puts "Meow"
+        end
+    end
+    # Bird class
+    class Bird
+        def speak
+            puts "Chirp!"
+        end
+    end
+end
+
+# Color module
+module Color
+    # RGB class
+    class RGB
+        def colors
+            puts "Red, Green, Blue"
+        end
+    end
+    # CMYK class
+    class CMYK
+        def colors
+            puts "Cyan, Magenta, Yellow, blacK"
+        end
+    end
+    # class HSL
+    class HSL
+        def colors
+            puts "Hue, Saturation, Lightness"
+        end
+    end
+end
+
+# Creating some mammal noises
+d1 = Mammal::Dog.new
+c1 = Mammal::Cat.new
+
+d1.speak
+c1.speak
+
+d2 = Mammal::Dog.new
+c2 = Mammal::Cat.new
+
+d2.speak
+c2.speak
+
+b1 = Mammal::Bird.new
+b2 = Mammal::Bird.new
+
+b1.speak
+b2.speak
+
+
+# Creating some colors
+w1 = Color::RGB.new
+x1 = Color::CMYK.new
+z1 = Color::HSL.new
+
+w1.colors
+x1.colors
+z1.colors
