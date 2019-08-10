@@ -1,0 +1,46 @@
+https://code.sololearn.com/cX9vFhAQQlRD/#rb
+
+
+
+# Exercises from Course Material
+
+# greet proc
+greet = Proc.new do |x|
+    puts "Welcome #{x}"
+end
+
+greet.call "David"
+greet.call "Amy"
+greet.call "John"
+
+# cars proc
+cars = Proc.new do |a|
+    puts "A new #{a}"
+end
+
+cars.call "Bugatti"
+cars.call "Ferrari"
+cars.call "Lamborghini"
+cars.call "Porsche"
+
+# colors proc
+colors = Proc.new do |b|
+    puts "A color: #{b}"
+end
+
+colors.call "Red"
+colors.call "Green"
+colors.call "Blue"
+
+# Simon says proc
+simon = Proc.new do |c|
+    puts "Simon says: #{c}"
+end
+
+simon.call "Clap your hands!"
+simon.call "Stamp your feet!"
+simon.call "Turn around!"
+simon.call "Swing your arms"
+
+puts "Sing out loud!"
+puts "A-Ah! Simon didn't say!"
