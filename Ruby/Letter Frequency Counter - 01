@@ -1,0 +1,23 @@
+https://code.sololearn.com/c8mr5TU1JjQR/#rb
+
+
+
+# Exercises from Course Material
+text = "I am learning Ruby and it is fun!"
+text.downcase!
+freqs = {}
+freqs.default = 0
+
+text.each_char { |char| freqs[char] += 1}
+
+("a".."z").each {|x| puts "#{x} : #{freqs[x]}" }
+
+
+someString = "Here's another string to check."
+someString.downcase!
+howOften = {}
+howOften.default = 0
+
+someString.each_char { |char| howOften[char] += 1}
+
+("a".."z").each {|y| puts "#{y} occurs: #{howOften[y]} times in someString" }
