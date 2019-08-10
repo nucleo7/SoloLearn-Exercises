@@ -1,0 +1,31 @@
+https://code.sololearn.com/c9PW5E5nei1A/#rb
+
+
+
+# Exercises from Course Material
+
+# current time
+t = Time.now
+puts "t = Time.now: #{t}"
+puts "t.inspect: #{t.inspect}"
+puts
+
+# year, month, day
+puts "t.year: #{t.year}"
+puts "t.month: #{t.month}"
+puts "t.day: #{t.day}"
+puts
+
+# custom date
+t = Time.new(1988, 6, 10)
+puts "t = Time.new(1980, 1, 1): #{Time.new(1980, 1, 1)}"
+
+# day of week: 0 is Sunday
+puts "t.wday: #{t.wday}"
+puts "t.monday?: #{t.monday?}"
+
+# day of year
+puts "t.yday: #{t.yday}"    # Unexpected result!
+puts "t.day: #{t.day}"
+puts "t.month: #{t.month}"
+puts "t.year: #{t.year}"
