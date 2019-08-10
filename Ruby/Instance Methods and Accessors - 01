@@ -1,0 +1,38 @@
+https://code.sololearn.com/c0Etva469wdr/#rb
+
+
+
+# Exercises from Course Material
+
+class Dog
+    def bark
+        puts "Woof!"
+    end
+    def growl
+        puts "Grrr!"
+    end
+end
+
+d1 = Dog.new
+d1.bark
+d1.growl
+
+class Cat
+    def meow
+        puts "Meow"
+    end
+    def purr
+        puts "purr.."
+    end
+end
+
+c1 = Cat.new
+c2 = Cat.new
+
+c1.meow
+c2.meow
+c1.purr
+c2.meow
+c1.purr
+c2.purr
+d1.growl
