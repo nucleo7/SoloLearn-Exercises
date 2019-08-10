@@ -1,0 +1,63 @@
+https://code.sololearn.com/c6QKhfIDG3lR/#rb
+
+
+
+# Exercises from Course Material
+
+# Cat class
+class Cat
+    attr_accessor :name, :age
+    include Comparable
+    def initialize(n, a)
+        self.name = n
+        self.age = a
+    end
+    def <=>(other)
+        self.age <=> other.age
+    end
+end
+
+# Dog class
+class Dog
+    attr_accessor :name, :age, :aggression
+    include Comparable
+    def initialize(n, a, ag)
+        self.name = n
+        self.age = a
+        self.aggression = ag
+    end
+    def <=>(other)
+        self.age <=> other.age
+        self.aggression <=> other.aggression
+    end
+end
+
+# Creating cats
+c1 = Cat.new("Bob", 3)
+c2 = Cat.new("Lucy", 7)
+c3 = Cat.new("Furbol", 2)
+
+# Comparing cats
+puts "#{c1.name} age (#{c1.age}) < #{c2.name} age (#{c2.age}): #{c1.age < c2.age}"
+puts "#{c1.name} age (#{c1.age}) < #{c3.name} age (#{c3.age}): #{c1.age < c3.age}"
+puts "#{c2.name} age (#{c2.age}) < #{c3.name} age (#{c3.age}): #{c2.age < c3.age}"
+
+puts "#{c1.name} age (#{c1.age}) > #{c2.name} age (#{c2.age}): #{c1.age > c2.age}"
+puts "#{c1.name} age (#{c1.age}) > #{c3.name} age (#{c3.age}): #{c1.age > c3.age}"
+puts "#{c2.name} age (#{c2.age}) > #{c3.name} age (#{c3.age}): #{c2.age > c3.age}"
+
+puts "#{c1.name} age (#{c1.age}) == #{c2.name} age (#{c2.age}): #{c1.age == c2.age}"
+puts "#{c1.name} age (#{c1.age}) == #{c3.name} age (#{c3.age}): #{c1.age == c3.age}"
+puts "#{c2.name} age (#{c2.age}) == #{c3.name} age (#{c3.age}): #{c2.age == c3.age}"
+
+# Creating dogs
+d1 = Dog.new("Woofer", 3, 2)
+d2 = Dog.new("Bruce", 2, 3)
+
+puts "#{d1.name} age (#{d1.age}) < #{d2.name} age (#{d2.age}): #{d1.age < d2.age}"
+puts "#{d1.name} age (#{d1.age}) > #{d2.name} age (#{d2.age}): #{d1.age > d2.age}"
+
+puts "#{d1.name} aggression (#{d1.aggression}) < #{d2.name} aggression (#{d2.aggression}): #{d1.aggression < d2.aggression}"
+puts "#{d1.name} aggression (#{d1.aggression}) > #{d2.name} aggression (#{d2.aggression}): #{d1.aggression > d2.aggression}"
+
+# They're good dogs Bront!
