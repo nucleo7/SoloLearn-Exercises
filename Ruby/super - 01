@@ -1,0 +1,58 @@
+https://code.sololearn.com/cakN1m6q86O2/#rb
+
+
+
+# Exercises from Course Material
+
+# Animal superclass
+class Animal
+    def speak
+        puts "Hi"
+    end
+    def shout
+        puts "HEY!"
+    end
+end
+
+# Cat subclass of Animal
+class Cat < Animal
+    def speak
+        super
+        puts "Meow"
+    end
+end
+
+# Dog subclass of animal
+class Dog < Animal
+    def speak
+        super
+        puts "Woof!"
+    end
+    def shout
+        super
+        puts "WOOF!"
+    end
+end
+
+puts "First cat:"
+c1 = Cat.new
+c1.speak
+c1.shout
+
+puts "Second cat: "
+c2 = Cat.new
+c2.speak
+c2.shout
+
+d1 = Dog.new
+d2 = Dog.new
+
+puts "First dog - speak:"
+d1.speak
+puts "Second dog - speak: "
+d2.speak
+
+puts "First dog - shout: "
+d1.shout
+puts "Second dog - shout: "
+d2.shout
