@@ -1,0 +1,35 @@
+https://code.sololearn.com/cb6wsRzH82Bi/#rb
+
+
+
+# Exercises from Course Material
+
+class Person
+    def initialize(name)
+        @name = name
+    end
+    def get_name
+        @name
+    end
+end
+
+p1 = Person.new("David")
+puts p1.get_name
+
+p2 = Person.new("John")
+puts p2.get_name
+
+class Vehicle
+    def initialize(brand)
+        @brand = brand
+    end
+    def get_brand
+        @brand
+    end
+end
+
+v1 = Vehicle.new("Lamborghini")
+v2 = Vehicle.new("Porsche")
+
+puts v1.get_brand
+puts v2.get_brand
