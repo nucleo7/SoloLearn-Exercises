@@ -1,0 +1,18 @@
+https://code.sololearn.com/c252BMH5B96V/#rb
+
+
+
+# Exercises from Course Material
+age = 15
+if age > 18 
+    puts "Welcome"
+else
+    puts "Too young"
+end
+
+num = 3
+if num > 11
+    puts "num is greater than 11."
+else
+    puts "num is less than or equal to 11."
+end
