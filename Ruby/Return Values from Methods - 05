@@ -1,0 +1,31 @@
+https://code.sololearn.com/cNKemvwTqXqH/#rb
+
+
+
+# Exercises from Course Material
+
+def add(a, b)
+    a + b
+end
+
+def mult(a, b)
+    a * b
+end
+
+def div(a, b)
+    a / b
+end
+
+def subt(a, b)
+    a - b
+end
+
+def rem(a, b)
+    a % b
+end
+
+x = mult(add(2, 3), add(4, 7))
+puts x
+
+y = add(mult(div(3, 5), 7), subt(11, rem(13, 17)))
+puts y
