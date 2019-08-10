@@ -1,0 +1,9 @@
+https://code.sololearn.com/chZpps7pOnwC/#rb
+
+
+
+# Exercises from Course Material
+x, y, z = 10, 20, 30
+puts x, y, z
+a, b, c = 1, 2, 3
+puts a, b, c
