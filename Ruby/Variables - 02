@@ -1,0 +1,16 @@
+https://code.sololearn.com/c63dYb1Z14Jh/#rb
+
+
+
+# Exercises from Course Material
+MyNum = 42
+Something = 7
+thing = 7
+
+# Trying to change the value produces a warning due to constant declaration
+MyNum = 8
+Something = 10
+thing = 3
+puts MyNum
+puts Something
+puts thing
