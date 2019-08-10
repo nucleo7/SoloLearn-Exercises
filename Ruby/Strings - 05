@@ -1,0 +1,14 @@
+https://code.sololearn.com/cXZxy1v5umt9/#rb
+
+
+
+# Exercises from Course Material
+a = "abc"
+puts a*3
+
+puts '5'*4
+
+x = "xyz"
+puts x*4
+
+puts '7'*3
