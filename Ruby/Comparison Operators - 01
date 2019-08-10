@@ -1,0 +1,21 @@
+https://code.sololearn.com/cuv5iO0RU3f4/#rb
+
+
+
+# Exercises from Course Material
+a = 5
+b = 8
+
+x = 7
+y = 3
+z = 66
+
+puts a == b    # Output is false
+puts a == x    # Output is false
+puts y == z    # Output is false
+puts z != b    # Output is true
+
+puts a == 5    # Output is true
+puts x == 78    # Output is false
+puts y == z    # Output is false
+puts z == 66    # Output is true
