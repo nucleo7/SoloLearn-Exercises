@@ -1,0 +1,18 @@
+https://code.sololearn.com/cmO543sD7dBq/#rb
+
+
+
+# Exercises from Course Material
+
+arrayOne = [1, 3, 5, 7]
+arrayTwo = [11, 13, 17, 23]
+arrayThree = [17, 23, 31, 37]
+arrayFour = ["Red", "Green", "Blue"]
+mixOne = arrayOne + arrayTwo
+print mixOne
+puts
+mixTwo = mixOne + arrayThree
+print mixTwo
+puts
+print mixTwo + arrayFour
+puts
