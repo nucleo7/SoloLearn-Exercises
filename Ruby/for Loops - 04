@@ -1,0 +1,23 @@
+https://code.sololearn.com/c3jc8S85a5j4/#rb
+
+
+
+# Exercises from Course Material
+
+numOne = 3
+numTwo = 13
+loop do
+    print "The value of numOne is: "
+    puts numOne
+    numOne += 2
+    break if numOne >= numTwo
+end
+
+numThree = 3
+numFour = 13
+loop do
+    print "The value of numThree is: "
+    puts numThree
+    numThree += 2
+    break if numFour >= numThree
+end
