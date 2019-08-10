@@ -1,0 +1,18 @@
+https://code.sololearn.com/c6NFju031DK0/#rb
+
+
+
+# Exercises from Course Material
+# syntax error, unexpected keyword_end
+# I don't know why this is happening!
+numOne = 3
+numTwo = 11
+while numOne < 7
+    puts numOne
+    numOne++
+end
+
+while numOne < numTwo
+    puts numOne
+    numOne += 2
+end
