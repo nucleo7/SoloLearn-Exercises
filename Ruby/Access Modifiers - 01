@@ -1,0 +1,75 @@
+https://code.sololearn.com/cGMMJCGws7E0/#rb
+
+
+
+# Exercises from Course Material
+
+# Person class
+class Person
+    def initialize(age, name)
+        @age = age
+        @name = name
+    end
+    def show
+        puts "#{@age} years = #{days_lived} days"
+    end
+    def hours
+        puts "#{@age} years => #{days_lived} days => #{hours_lived} hours"
+    end
+    def pName
+        puts "Your name is #{@name}"
+    end
+    
+    # Everything below this 'private' will be considered private
+    private
+    def days_lived
+        @age * 365
+    end
+    def hours_lived
+        days_lived * 24
+    end
+end
+
+#Vehicle class
+class Vehicle
+    def initialize(year, brand)
+        @year = year
+        @brand = brand
+    end
+    def displayYear
+        puts "This #{@brand} was manufactured in #{@year}"
+    end
+    def displayLicense
+        puts "This #{@brand} was licensed in #{licensed}."
+    end
+    
+    private
+    def licensed
+        @year + 1
+    end
+end
+
+# Creating Person and calling the methods
+p1 = Person.new(42, "Bob")
+p1.show
+p1.hours
+p1.pName
+# p1.days_lived    # NoMethodError - Because it's private
+# p1.hours_lived    # NoMethodError - Because it's private
+
+p2 = Person.new(18, "John")
+p2.show
+p2.hours
+p2.pName
+# p2.days_lived    # NoMethodError - Because it's private
+# p2.hours_lived    # NoMethodError - Because it's private
+
+
+# Creating Vehicle and calling the methods
+v1 = Vehicle.new(2015, "Bugatti")
+v1.displayYear
+v1.displayLicense
+
+v2 = Vehicle.new(2016, "Lamborghini")
+v2.displayYear
+v2.displayLicense
