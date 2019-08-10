@@ -1,0 +1,56 @@
+https://code.sololearn.com/cytLQnkoBw8U/#rb
+
+
+
+# Exercises from Course Material
+
+# Product Class
+class Product
+    attr_accessor :name, :num
+    def initialize(name, num)
+        @name = name
+        @num = num
+    end
+    def == (other)
+        self.id == other.id
+    end
+    private
+    def id
+        name.length * num
+    end
+end
+
+# Cat class
+class Cat
+    attr_accessor :age, :name
+    def initialize(age, name)
+        @age = age
+        @name = name
+    end
+    def == (something)
+        self.thing == something.thing
+    end
+    private
+    def thing
+        name.length * age
+    end
+end
+
+# Call and print for Product class
+p1 = Product.new("PC", 5)
+p2 = Product.new("Laptop", 3)
+# puts (p1 == p2)    # NoMethodError - 'id' is private
+
+puts "There are #{p1.num} #{p1.name}'s."
+puts "There are #{p2.num} #{p2.name}'s."
+
+p3 = Product.new("Phone", 17)
+puts "There are #{p3.num} #{p3.name}s."
+
+# Call and print for Product class
+c1 = Cat.new(3, "Fuzzball")
+c2 = Cat.new(1, "Professor Snuggles")
+# puts (c1 == c2)    # NoMethodError - 'thing' is private
+
+puts "#{c1.name} is #{c1.age} years old."
+puts "#{c2.name} is #{c2.age} year old."
