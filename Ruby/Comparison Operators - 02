@@ -1,0 +1,13 @@
+https://code.sololearn.com/c0lhUVwt3Cn1/#rb
+
+
+
+# Exercises from Course Material
+a = 8
+b = 7
+
+x = 31
+y = 13
+
+puts a != b    # Output is true
+puts x != y    # Output is true
