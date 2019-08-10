@@ -1,0 +1,14 @@
+https://code.sololearn.com/cb059cTyHCsM/#rb
+
+
+
+# Exercises from Course Material
+sizes = {svga:800, hd:1366, uhd:3840}
+
+sizes.each { |key, value| puts "#{key}=>#{value}" }
+
+arrayNumbers = {one:1, three:3, five:5, seven:7}
+print arrayNumbers
+puts
+
+arrayNumbers.each {|number, digit| puts "The key; #{number}, the value: #{digit}"}
