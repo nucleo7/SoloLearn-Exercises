@@ -1,0 +1,18 @@
+https://code.sololearn.com/c7U2EKkWwkHz/#rb
+
+
+
+# Exercises from Course Material
+
+def numOne a, b
+    print "The output of numOne is: "
+    puts a + b
+end
+
+def numTwo (c, d)
+    print "The output of numTwo is: "
+    puts c + d
+end
+
+numOne 1, 2
+numTwo(1, 2)
