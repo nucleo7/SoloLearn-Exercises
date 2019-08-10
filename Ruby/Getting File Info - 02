@@ -1,0 +1,34 @@
+https://code.sololearn.com/cP5rf3Wi8I4L/#rb
+
+
+
+# Exercises from Course Material
+
+# file1.txt
+f1 = File.new("file1.txt", "w+")
+f1.puts("file1.txt - line 1.")
+f1.close
+
+puts "File.readable?('file1.txt'): #{File.readable?('file1.txt')}"
+puts "File.writable?('file1.txt'): #{File.writable?('file1.txt')}"    # Note: spelling of writeable is writable
+puts "File.executable?('file1.txt'): #{File.executable?('file1.txt')}"
+puts
+
+# file2.txt
+f2 = File.new("file2.txt", "w+")
+f2.puts("file2.txt - line 1.")
+f2.puts("file2.txt - line 2.")
+f2.close
+
+puts "File.readable?('file2.txt'): #{File.readable?('file2.txt')}"
+puts "File.writable?('file2.txt'): #{File.writable?('file2.txt')}"
+puts "File.executable?('file2.txt'): #{File.executable?('file2.txt')}"
+puts
+
+# file3.txt
+f3 = File.new("file3.txt", "a+")
+f3.close
+
+puts "File.readable?('file3.txt'): #{File.readable?('file3.txt')}"
+puts "File.writable?('file3.txt'): #{File.writable?('file3.txt')}"
+puts "File.executable?('file3.txt'): #{File.executable?('file3.txt')}"
