@@ -1,0 +1,17 @@
+https://code.sololearn.com/cdH1ae2YcccU/#rb
+
+
+
+# Exercises from Course Material
+
+for x in 1..7
+    break if x >= 5
+    print "The value of x is: "
+    puts x
+end
+
+for y in 1...7
+    break if y >= 5
+    print "The value of y is: "
+    puts y
+end
