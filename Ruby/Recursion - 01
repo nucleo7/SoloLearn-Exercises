@@ -1,0 +1,25 @@
+https://code.sololearn.com/chs00ky5d1H5/#rb
+
+
+
+# Exercises from Course Material
+
+def fact(n)
+    if n<= 1
+        1
+    else
+        n * fact( n - 1 )
+    end
+end
+
+puts fact(5)
+
+def factorialOne(f)
+    if f <= 1
+        1
+    else
+        f * factorialOne(f - 1)
+    end
+end
+
+puts factorialOne(7)
