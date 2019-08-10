@@ -1,0 +1,33 @@
+https://code.sololearn.com/cPLnTo96ZK6d/#rb
+
+
+
+# Exercises from Course Material
+
+# lambda
+lOne = lambda { |a| puts "lambda: #{a}" }
+lTwo = lambda { |a| puts "lambda: #{a}" }
+lThree = lambda { |a| puts "lambda: #{a}" }
+
+# proc
+pOne = Proc.new { |a| puts "Proc: #{a}" }
+pTwo = Proc.new { |a| puts "Proc: #{a}" }
+pThree = Proc.new { |a| puts "Proc: #{a}" }
+
+# calling lambda
+lOne.call "lOne.call - 01"
+lOne.call "lOne.call - 02"
+lOne.call "lOne.call - 03"
+
+lTwo.call "lTwo.call - 01"
+lThree.call "lThree.call - 01"
+puts
+
+# calling proc
+pOne.call "pOne.call - 01"
+pOne.call "pOne.call - 02"
+pOne.call "pOne call - 03"
+
+pTwo.call "pTwo.call - 01"
+pThree.call "pThree.call - 01"
+puts
