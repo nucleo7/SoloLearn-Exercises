@@ -1,0 +1,26 @@
+https://code.sololearn.com/cNMfa9bn6VM9/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            int numOne = 13;
+            int numTwo = 3;
+            if (numOne > 0 || numOne > 10 || numOne >= numTwo) {
+               Console.WriteLine("The numOne value is greater than 0, OR greater than 10, OR greater than the numTwo value, OR some combination of the above, OR all.");
+            }
+        }
+    }
+}
