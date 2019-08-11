@@ -1,0 +1,39 @@
+https://code.sololearn.com/cvpQbyqW8Vq3/#cs
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void GetValues(out int x, out int y)
+        {
+            x = 5;
+            y = 42;
+        }
+        static void ValuesOut(out int m, out int n)
+        {
+            m = 13;
+            n = 7;
+        }
+        
+        static void Main(string[] args)
+        {
+            int a, b;
+            int r = 2, s = 4;
+            
+            GetValues(out a, out b);
+            ValuesOut(out r, out s);
+            
+            Console.WriteLine(a+" "+b);
+            Console.WriteLine("The out-value of ValuesOut for r is: " + r);
+            Console.WriteLine("The out-value of ValuesOut for s is: " + s);
+        }
+    }
+}
