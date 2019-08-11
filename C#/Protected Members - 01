@@ -1,0 +1,76 @@
+https://code.sololearn.com/cF2kSrCMpG1T/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        class Person {
+            protected int Age {get; set;}
+            protected string Name {get; set;}
+        }
+        class Student : Person {
+            public Student(string nm, int ag) {
+                Name = nm;
+                Age = ag;
+            }
+            public void Speak() {
+                Console.WriteLine("Student Name: " + Name);
+            }
+            public void Ages() {
+                Console.WriteLine("Student Age: " + Age);
+            }
+        }
+        class Adult : Person {
+            public Adult(string nm, int ag) {
+                Name = nm;
+                Age = ag;
+            }
+            public void Speak() {
+                Console.WriteLine("Adult Name: " + Name);
+            }
+            public void Ages() {
+                Console.WriteLine("Adult Age: " + Age);
+            }
+        }
+        static void Main(string[] args)
+        {
+            // Creating Students
+            Student s1 = new Student("David", 32);
+            Student s2 = new Student("John", 17);
+            Student s3 = new Student("Liam", 27);
+            
+            s1.Speak();
+            s2.Speak();
+            s3.Speak();
+            
+            s1.Ages();
+            s2.Ages();
+            s3.Ages();
+            Console.WriteLine();
+            
+            // Creating Adults
+            Adult a1 = new Adult("Amy", 25);
+            Adult a2 = new Adult("Bob", 19);
+            Adult a3 = new Adult("Chris", 28);
+            
+            a1.Speak();
+            a1.Ages();
+            
+            a2.Speak();
+            a2.Ages();
+            
+            a3.Speak();
+            a3.Ages();
+        }
+    }
+}
