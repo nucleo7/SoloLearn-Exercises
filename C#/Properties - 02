@@ -1,0 +1,47 @@
+https://code.sololearn.com/ctaWQT3V80tF/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        class Person
+        {
+            public string Name { get; set; }
+        }
+        
+        class Animal
+        {
+            public string Type { get; set; }
+        }
+        
+        class Vehicle
+        {
+            public string Brand { get; set; }
+        }
+        
+        static void Main(string[] args)
+        {
+            Person p = new Person();
+            p.Name = "Bob";
+            Console.WriteLine(p.Name);
+            
+            Animal a1 = new Animal();
+            a1.Type = "Cat";
+            Console.WriteLine(a1.Type);
+            
+            Vehicle v1 = new Vehicle();
+            v1.Brand = "Porsche";
+            Console.WriteLine(v1.Brand);
+        }
+    }
+}
