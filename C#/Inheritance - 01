@@ -1,0 +1,98 @@
+https://code.sololearn.com/c2twfKp79tzQ/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        // Animal base class
+        class Animal {
+            public int Legs {get; set;}
+            public int Age {get; set;}
+            public bool Scary {get; set;}
+        }
+        // Dog class inheriting from Animal class
+        class Dog : Animal {
+            public Dog() {
+                Legs = 4;
+                Scary = false;
+            }
+            public void Bark() {
+                Console.WriteLine("Woof");
+            }
+        }
+        // Cat class inheriting from Animal class
+        class Cat : Animal {
+            public Cat() {
+                Legs = 4;
+                Scary = false;
+            }
+            public void Meow() {
+                Console.WriteLine("Meow");
+            }
+        }
+        // Spider class inheriting from Animal class
+        class Spider : Animal {
+            public Spider() {
+                Legs = 8;
+                Scary = true;
+            }
+            public void Sneak() {
+                Console.WriteLine("Spiders don't make noise, they only creep and scare!");
+            }
+        }
+        static void Main(string[] args)
+        {
+            // Creating dogs
+            Console.WriteLine("Dogs...");
+            Dog d1 = new Dog();
+            Console.WriteLine("d1.Legs: " + d1.Legs);
+            Console.WriteLine("d1.Scary: " + d1.Scary);
+            d1.Bark();
+            
+            Dog d2 = new Dog();
+            Console.WriteLine("d2.Legs: " + d2.Legs);
+            Console.WriteLine("d2.Scary: " + d2.Scary);
+            d2.Bark();
+            Console.WriteLine();
+            
+            // Creating cats
+            Console.WriteLine("Cats...");
+            Cat c1 = new Cat();
+            Cat c2 = new Cat();
+            
+            Console.WriteLine("c1.Legs: " + c1.Legs);
+            Console.WriteLine("c2.Legs: " + c2.Legs);
+            
+            Console.WriteLine("c1.Scary: " + c1.Scary);
+            Console.WriteLine("c2.Scary: " + c2.Scary);
+            
+            c1.Meow();
+            c2.Meow();
+            Console.WriteLine();
+            
+            // Creating spiders
+            Console.WriteLine("Spiders...");
+            Spider s1 = new Spider();
+            Spider s2 = new Spider();
+            
+            Console.WriteLine("s1.Legs: " + s1.Legs);
+            Console.WriteLine("s2.Legs: " + s2.Legs);
+            
+            Console.WriteLine("s1.Scary: " + s1.Scary);
+            Console.WriteLine("s2.Scary: " + s2.Scary);
+            
+            s1.Sneak();
+            s2.Sneak();
+        }
+    }
+}
