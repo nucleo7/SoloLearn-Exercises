@@ -1,0 +1,100 @@
+https://code.sololearn.com/cpQB61ojIcF4/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        // here be enums...
+        enum TrafficLights { Green, Red, Yellow };
+        enum Colors { Red, Green, Blue, Cyan, Magenta, Yellow, Black };
+        enum Numbers { One, Two, Three, Four };
+        
+        static void Main(string[] args)
+        {
+            // here be switch - TrafficLights
+            TrafficLights a = TrafficLights.Red;    // Change this value to test the switch
+            switch (a) {
+                case TrafficLights.Green:
+                    Console.WriteLine("Green: Go!");
+                    break;
+                case TrafficLights.Red:
+                    Console.WriteLine("Red: Stop!");
+                    break;
+                case TrafficLights.Yellow:
+                    Console.WriteLine("Yellow: Caution!");
+                    break;
+            }
+            Console.WriteLine();
+            
+            // here be switch - Colors
+            string b;
+            b = "c";    // Change this character to test the switch
+            
+            switch (b) {
+                case "r":
+                    Console.WriteLine("r: " + Colors.Red);
+                    break;
+                case "g":
+                    Console.WriteLine("g: " + Colors.Green);
+                    break;
+                case "b":
+                    Console.WriteLine("b: " + Colors.Blue);
+                    break;
+                case "c":
+                    Console.WriteLine("c: " + Colors.Cyan);
+                    break;
+                case "m":
+                    Console.WriteLine("m: " + Colors.Magenta);
+                    break;
+                case "y":
+                    Console.WriteLine("y: " + Colors.Yellow);
+                    break;
+                case "k":
+                    Console.WriteLine("k: " + Colors.Black);
+                    break;
+                default:
+                    Console.WriteLine("That color can't be found.");
+                    break;
+            }
+            Console.WriteLine();
+            
+            // here be switch - Numbers
+            int c;
+            c = 3;    // Change this number to test the switch
+            
+            switch (c) {
+                case 1:
+                    Console.WriteLine("1: " + Numbers.One);
+                    break;
+                case 2:
+                    Console.WriteLine("2: " + Numbers.Two);
+                    break;
+                case 3:
+                    Console.WriteLine("3: " + Numbers.Three);
+                    break;
+                default:
+                    Console.WriteLine("That number can't be found.");
+                    break;
+            }
+            Console.WriteLine();
+        }
+    }
+}
+
+
+
+
+
+
+
+// here not be dragons...
