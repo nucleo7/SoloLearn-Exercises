@@ -1,0 +1,62 @@
+https://code.sololearn.com/cR4q1cacS8Xs/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        class Person
+        {
+            private string name;
+            public string Name
+            {
+                get { return name; }
+                set { name = value; }
+            }
+        }
+        
+        class Animal
+        {
+            private string type;
+            public string Type
+            {
+                get { return type; }
+                set { type = value; }
+            }
+        }
+        
+        static void Main(string[] args)
+        {
+            Person p1 = new Person();
+            p1.Name = "Bob";
+            Console.WriteLine(p1.Name);
+            
+            Person p2 = new Person();
+            Person p3 = new Person();
+            
+            p2.Name = "David";
+            p3.Name = "John";
+            
+            Console.WriteLine(p2.Name);
+            Console.WriteLine(p3.Name);
+            
+            Animal a1 = new Animal();
+            Animal a2 = new Animal();
+            
+            a1.Type = "Cat";
+            a2.Type = "Dog";
+            
+            Console.WriteLine(a1.Type);
+            Console.WriteLine(a2.Type);
+        }
+    }
+}
