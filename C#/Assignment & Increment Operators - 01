@@ -1,0 +1,32 @@
+https://code.sololearn.com/cUWLvJ7cMvQY/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 42;
+            int y = 6;
+            int z = 52;
+            x += 2; // equivalent to x = x + 2
+            y += z; // equivalent to y = y + z
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+
+            x -= 6; // equivalent to x = x - 6
+            y -= z; // equivalent to y = y - z
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+        }
+    }
+}
