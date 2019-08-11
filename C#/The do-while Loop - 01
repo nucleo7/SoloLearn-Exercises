@@ -1,0 +1,44 @@
+https://code.sololearn.com/cZ2E7UuL2Z0W/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            int numOne = 7;
+            int numTwo = 11;
+            
+            do {
+               Console.WriteLine("less than: numOne value is: " + numOne);
+               numOne++;
+            } while (numOne < numTwo);
+            
+            // ====================
+            // EDIT: The following section is not what I intended, but I'm leaving it in for historic purposes. At least I found out what the problem wad.
+            do {
+               Console.WriteLine("less than or equal to: numOne value is: " + numOne);
+               numOne++;
+            } while (numOne <= numTwo);
+            // ====================
+            
+            // This is what I really wanted to achieve
+            int numThree = 7;
+            int numFour = 11;
+            do {
+               Console.WriteLine("less than or equal to: numThree value is: " + numThree);
+               numThree++;
+            } while (numThree <= numFour);
+        }
+    }
+}
