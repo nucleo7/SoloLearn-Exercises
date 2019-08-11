@@ -1,0 +1,29 @@
+https://code.sololearn.com/cwFTertWJ13L/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a=7, b=7;
+            if (a == b) {
+                Console.WriteLine("Equal");
+            }
+            
+            int x = 3, y = 11;
+            if (x != y) {
+               Console.WriteLine("x: 3 does not equal y: 11");
+            }
+        }
+    }
+}
