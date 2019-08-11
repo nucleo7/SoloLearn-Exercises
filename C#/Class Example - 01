@@ -1,0 +1,48 @@
+https://code.sololearn.com/cwbrQEmQhym9/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        class Person {
+            int age;
+            string name;
+            public void SayHi() {
+                Console.WriteLine("Hi");
+            }
+        }
+        
+        class Vehicle {
+            int year;
+            string make;
+            string model;
+            public void makeSound() {
+                Console.WriteLine("Vroom-Vroom");    // Not zoom-zoom ;-)
+            }
+        }
+        
+        static void Main(string[] args)
+        {
+            Person p1 = new Person();
+            p1.SayHi();
+            Person p2 = new Person();
+            p2.SayHi();
+            
+            Vehicle porsche = new Vehicle();
+            Vehicle lamborghini = new Vehicle();
+            
+            porsche.makeSound();
+            lamborghini.makeSound();
+        }
+    }
+}
