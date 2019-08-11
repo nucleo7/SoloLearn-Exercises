@@ -1,0 +1,108 @@
+https://code.sololearn.com/c0aSI9ih7WPe/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+       // abstract Shape base class
+        abstract class Shape {
+            public abstract void Draw();
+        }
+        // Circle class derived from Shape
+        class Circle : Shape {
+            public override void Draw() {
+                Console.WriteLine("Draw: Circle");
+            }
+        }
+        // Rectangle class derived from Shape
+        class Rectangle : Shape {
+            public override void Draw() {
+                Console.WriteLine("Draw: Rectangle");
+            }
+        }
+        // Square class derived from Rectangle
+        class Square : Rectangle {
+            public override void Draw() {
+                Console.WriteLine("Draw: Square");
+            }
+        }
+        // Triangle class derived from Shape
+        class Triangle : Shape {
+            public override void Draw() {
+                Console.WriteLine("Draw: Triangle");
+            }
+        }
+        // abstract Polygon class derived from Shape
+        abstract class Polygon {
+            public abstract void Draw();
+        }
+        // 4-side class derived from Polygon
+        class FourSided : Polygon {
+            public override void Draw() {
+                Console.WriteLine("Draw: 4-sided polygon");
+            }
+        }
+        // 5-sided class derived from Polygon
+        class FiveSided : Polygon {
+            public override void Draw() {
+                Console.WriteLine("Draw: 5-sided polygon");
+            }
+        }
+        // Main
+        static void Main(string[] args)
+        {
+            // circles
+            Shape a1 = new Circle();
+            Shape a2 = new Circle();
+            
+            a1.Draw();
+            a2.Draw();
+            
+            // rectangles
+            Shape b1 = new Rectangle();
+            Shape b2 = new Rectangle();
+            
+            b1.Draw();
+            b2.Draw();
+            
+            // squares
+            Rectangle c1 = new Square();
+            Rectangle c2 = new Square();
+            
+            c1.Draw();
+            c2.Draw();
+            
+            // triangles
+            Shape d1 = new Triangle();
+            Shape d2 = new Triangle();
+            
+            d1.Draw();
+            d2.Draw();
+            
+            // 4-sided
+            Polygon e1 = new FourSided();
+            Polygon e2 = new FourSided();
+            
+            e1.Draw();
+            e2.Draw();
+            
+            // 5-sided
+            Polygon f1 = new FiveSided();
+            Polygon f2 = new FiveSided();
+            
+            f1.Draw();
+            f2.Draw();
+            
+        }
+    }
+}
