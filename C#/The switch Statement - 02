@@ -1,0 +1,35 @@
+https://code.sololearn.com/cghX3dOEZT6X/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int num = 88;
+            switch (num) {
+                case 3:
+                    Console.WriteLine("The num value is '3'.");
+                    break;
+                case 7:
+                    Console.WriteLine("The num value is '7'.");
+                    break;
+                case 13:
+                    Console.WriteLine("The num value is '13'");
+                    break;
+                default:
+                    Console.WriteLine("The num value was not found!");
+                    break;
+            }
+        }
+    }
+}
