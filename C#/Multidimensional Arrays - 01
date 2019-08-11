@@ -1,0 +1,61 @@
+https://code.sololearn.com/cm0iO65GwaMF/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[ , ] someNums = { {2, 3}, {5, 6}, {4, 6} }; 
+            for (int k = 0; k < 3; k++) {
+                for (int j = 0; j < 2; j++) {
+                    Console.Write(someNums[k, j] + " ");
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine("==========");
+            
+            
+            // One dimensional
+            int[] arrayOne = {1, 2, 3};
+            for (int a = 0; a < 3; a++) {
+                Console.Write(arrayOne[a] + " ");
+            }
+            Console.WriteLine();
+            Console.WriteLine("==========");
+            
+            
+            // Two dimensional
+            int[,] arrayTwo = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+            for (int b = 0; b < 3; b++) {
+                for (int c = 0; c < 3; c++) {
+                    Console.Write(arrayTwo[b, c] + " ");
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine("==========");
+            
+            
+            // Three dimensional
+            int[,,] arrayThree = {{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}, {{10, 11, 12}, {13, 14, 15}, {16, 17, 18}}, {{19, 20, 21}, {22, 23, 24}, {25, 26, 27}}};
+            for (int d = 0; d < 3; d++) {
+                for (int e = 0; e < 3; e++) {
+                    for (int f = 0; f < 3; f++) {
+                        Console.Write(arrayThree[d, e, f] + " ");
+                    }
+                    Console.WriteLine();
+                }
+            }
+        }
+    }
+}
