@@ -1,0 +1,35 @@
+https://code.sololearn.com/cujraz3Nv6Uk/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /* Some long 
+                comment text     
+            */
+            int x = 42;
+            string y = "Text";
+            
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            
+            /*    Another
+                block
+                of
+                comment
+                text
+            */
+        }
+    }
+}
