@@ -1,0 +1,55 @@
+https://code.sololearn.com/c0EVuy9N57HM/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int age = 18;
+            if (age > 14) {
+                if(age > 18) {
+                    Console.WriteLine("Adult");
+                }
+                else {
+                    Console.WriteLine("Teenager");
+                }
+            }
+            else {
+                if (age > 0) {
+                    Console.WriteLine("Child");
+                }
+                else {
+                    Console.WriteLine("Something's wrong");
+                }
+            }
+            
+            int money = 200;
+            if (money > 1000) {
+               if (money > 5000) {
+                   Console.WriteLine("Ooh! That's pretty sweet");
+               }
+               else {
+                  Console.WriteLine("That's quite nice, you can do something with that.");
+               }
+            }
+            else {
+               if (money > 500) {
+                  Console.WriteLine("Not too bad, it's at least something.");
+               }
+               else {
+                  Console.WriteLine("That's ok, better luck next time.");
+               }
+            }
+        }
+    }
+}
