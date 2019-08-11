@@ -1,0 +1,38 @@
+https://code.sololearn.com/csAm7oQfdGfJ/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[ ] a = {11, 45, 62, 70, 88};
+
+            Console.WriteLine(a[2]);
+            Console.WriteLine(a[3]);
+            
+            
+            int[] b = {1, 3, 5, 7, 11, 13};
+            
+            Console.WriteLine("Array b, Index 1: " + b[1]);
+            Console.WriteLine("Array b, Index 3: " + b[3]);
+            Console.WriteLine("Array b, Index 5: " + b[5]);
+            
+            
+            string[] c = {"Red", "Green", "Blue"};
+            
+            Console.WriteLine("Array c, Index 0: " + c[0]);
+            Console.WriteLine("Array c, Index 2: " + c[2]);
+        }
+    }
+}
