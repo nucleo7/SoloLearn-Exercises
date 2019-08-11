@@ -1,0 +1,124 @@
+https://code.sololearn.com/cWia9BADKlDo/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        // Animal base class
+        class Animal {
+            public void Speak() {
+                Console.WriteLine("I'm Animal");
+            }
+        }
+        // Person class inheriting from Animal
+        class Person : Animal {
+            public void Speak() {
+                Console.WriteLine("I'm Person");
+            }
+        }
+        // Cat class inheriting from Animal
+        class Cat : Animal {
+            public void Speak() {
+                Console.WriteLine("I'm Cat");
+            }
+        }
+        // Dog class inheriting from Animal
+        class Dog : Animal {
+            public void Speak() {
+                Console.WriteLine("I'm Dog");
+            }
+        }
+        // Student class inheriting from Person
+        class Student : Person {
+            public void Speak() {
+                Console.WriteLine("I'm Student");
+            }
+        }
+        // Worker class inheriting from Person
+        class Worker : Person {
+            public void Speak() {
+                Console.WriteLine("I'm Worker");
+            }
+        }
+        // Parent class inheriting from Person
+        class Parent : Person {
+            public void Speak() {
+                Console.WriteLine("I'm Parent");
+            }
+        }
+        // Child class inheriting from Parent
+        class Child : Parent {
+            public void Speak() {
+                Console.WriteLine("I'm Child");
+            }
+        }
+        static void Main(string[] args)
+        {
+            // Creating Animals
+            Animal an1 = new Animal();
+            Animal an2 = new Animal();
+            
+            an1.Speak();
+            an2.Speak();
+            
+            // Creating Persons
+            Person pe1 = new Person();
+            Person pe2 = new Person();
+            
+            pe1.Speak();
+            pe2.Speak();
+            
+            // Creating Students
+            Student st1 = new Student();
+            Student st2 = new Student();
+            
+            st1.Speak();
+            st2.Speak();
+            
+            // Creating Workers
+            Worker wo1 = new Worker();
+            Worker wo2 = new Worker();
+            
+            wo1.Speak();
+            wo2.Speak();
+            
+            // Creating Parents
+            Parent pa1 = new Parent();
+            Parent pa2 = new Parent();
+            
+            pa1.Speak();
+            pa2.Speak();
+            
+            // Creating Childs
+            Child ch1 = new Child();
+            Child ch2 = new Child();
+            
+            ch1.Speak();
+            ch2.Speak();
+            
+            // Creating Cats
+            Cat ca1 = new Cat();
+            Cat ca2 = new Cat();
+            
+            ca1.Speak();
+            ca2.Speak();
+            
+            // Creating Dogs
+            Dog do1 = new Dog();
+            Dog do2 = new Dog();
+            
+            do1.Speak();
+            do2.Speak();
+        }
+    }
+}
