@@ -1,0 +1,42 @@
+https://code.sololearn.com/cr0YZQbq00BX/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int num = 5;
+            switch (num)
+            {
+                case 0:
+                    Console.WriteLine("The num value is '0'.");
+                    break;
+                case 1:
+                    Console.WriteLine("The num value is '1'.");
+                    break;
+                case 2:
+                    Console.WriteLine("The num value is '2'.");
+                    break;
+                case 3:
+                    Console.WriteLine("The num value is '3'.");
+                    break;
+                case 4:
+                    Console.WriteLine("The num value is '4'.");
+                    break;
+                case 5:
+                    Console.WriteLine("The num value is '5'.");
+                    break;
+            }
+        }
+    }
+}
