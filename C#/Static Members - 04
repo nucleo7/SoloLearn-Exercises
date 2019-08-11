@@ -1,0 +1,59 @@
+https://code.sololearn.com/c7dzMp493aey/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        // SomeClass class
+        class SomeClass {
+            public static int X { get; set; }
+            public static int Y { get; set; }
+            public static int Z { get; set; }
+            
+            static SomeClass() {
+                X = 11;
+                Y = 22;
+                Z = 33;
+            }
+        }
+        // NewClass class
+        class NewClass {
+            public static int A { get; set; }
+            public static int B { get; set; }
+            
+            public static string AB { get; set; }
+            public static string BC { get; set; }
+            
+            static NewClass() {
+                A = 1;
+                B = 7;
+                
+                AB = "String one";
+                BC = "string two";
+            }
+        }
+        static void Main(string[] args)
+        {
+            // SomeClass
+            Console.WriteLine("X: " + SomeClass.X);
+            Console.WriteLine("Y: " + SomeClass.Y);
+            Console.WriteLine("Z: " + SomeClass.Z);
+            
+            // NewClass
+            Console.WriteLine("A: " + NewClass.A);
+            Console.WriteLine("B: " + NewClass.B);
+            Console.WriteLine("AB: " + NewClass.AB);
+            Console.WriteLine("BC: " + NewClass.BC);
+        }
+    }
+}
