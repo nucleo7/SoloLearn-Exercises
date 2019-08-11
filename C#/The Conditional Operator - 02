@@ -1,0 +1,28 @@
+https://code.sololearn.com/cAnT5qssi20W/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            int numOne = 13;
+            int numTwo = 3;
+            string message;
+            
+            message = (numOne > numTwo) ? "The numOne value is greater than the numTwo value." : "The numTwo value is greater than the numOne value.";
+            
+            Console.WriteLine(message);
+        }
+    }
+}
