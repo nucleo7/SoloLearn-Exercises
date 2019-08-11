@@ -1,0 +1,40 @@
+https://code.sololearn.com/cHHF9FdXjEfn/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            int numOne = 7;
+            int numTwo = 3;
+            while (numOne > numTwo)
+            {
+               if (numOne == 4)
+                   break;
+               Console.WriteLine("The value of numOne is: " + numOne);
+               numOne--;
+            }
+            
+            int numThree = 7;
+            int numFour = 3;
+            while (numThree >= numFour)
+            {
+               if (numThree == 4)
+                   break;
+                Console.WriteLine("The value of numThree is: " + numThree);
+                numThree--;
+            }
+        }
+    }
+}
