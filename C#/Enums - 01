@@ -1,0 +1,65 @@
+https://code.sololearn.com/cK4TVJ82pfXC/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        // enums
+        enum Days1 { Mon, Tue, Wed, Thu, Fri, Sat, Sun };
+        enum Days2 { Mon = 1, Tue, Wed, Thu, Fri, Sat, Sun };
+        
+        enum Colors { Red = 1, Green, Blue, Cyan = 11, Magenta, Yellow, Black};
+        
+        enum Numbers { One = 1, Two, Three, Four, Five, Six, Seven};
+        
+        static void Main(string[] args)
+        {
+            // Days indexes
+            int a = (int)Days1.Tue;
+            int b = (int)Days1.Thu;
+            
+            Console.WriteLine("a (Days1.Tue): " + a);
+            Console.WriteLine("b (Days1.Thu): " + b);
+            Console.WriteLine();
+            
+            int c = (int)Days2.Tue;
+            int d = (int)Days2.Thu;
+            
+            Console.WriteLine("c (Days2.Tue): " + c);
+            Console.WriteLine("d (Days2.Thu): " + d);
+            Console.WriteLine();
+            
+            // Colors indexes
+            int e = (int)Colors.Red;
+            int f = (int)Colors.Blue;
+            int g = (int)Colors.Cyan;
+            int h = (int)Colors.Magenta;
+            
+            Console.WriteLine("e (Colors.Red): " + e);
+            Console.WriteLine("f (Colors.Blue): " + f);
+            Console.WriteLine("g (Colors.Cyan): " + g);
+            Console.WriteLine("h (Colors.Magenta: " + h);
+            Console.WriteLine();
+            
+            // Numbers indexes
+            int i = (int)Numbers.One;
+            int j = (int)Numbers.Two;
+            int k = (int)Numbers.Three;
+            
+            Console.WriteLine("i (Numbers.One): " + i);
+            Console.WriteLine("j (Numbers.Two): " + j);
+            Console.WriteLine("k (Numbers.Three): " + k);
+            Console.WriteLine();
+        }
+    }
+}
