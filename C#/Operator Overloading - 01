@@ -1,0 +1,136 @@
+https://code.sololearn.com/ce4kUycZU1fz/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        // Box class
+        class Box {
+            public int Height { get; set; }
+            public int Width { get; set; }
+            public Box(int h, int w) {
+                Height = h;
+                Width = w;
+            }
+            // Box operator overloading
+            public static Box operator+(Box a, Box b) {
+                int h = a.Height + b.Height;
+                int w = a.Width + b.Width;
+                Box res = new Box(h, w);
+                return res;
+            }
+        }
+        
+        // Negative Box class
+        class NBox {
+            public int Height { get; set; }
+            public int Width { get; set; }
+            public NBox(int h, int w) {
+                Height = h;
+                Width = w;
+            }
+            // Negative Box operator overloading
+            public static NBox operator-(NBox x, NBox y) {
+                int h = 0 - x.Height - y.Height;
+                int w = 0 - x.Width - y.Width;
+                NBox result = new NBox(h, w);
+                return result;
+            }
+        }
+        
+        // Multiplied Box class
+        class MBox {
+            public int Height { get; set; }
+            public int Width { get; set; }
+            public MBox(int h, int w) {
+                Height = h;
+                Width = w;
+            }
+            // Multiplied Box operator
+            public static MBox operator*(MBox m, MBox n) {
+                int h = m.Height * n.Height;
+                int w = m.Width * n.Width;
+                MBox result = new MBox(h, w);
+                return result;
+            }
+        }
+        
+        // Divided Box class
+        class DBox {
+            public int Height { get; set; }
+            public int Width { get; set; }
+            public DBox(int h, int w) {
+                Height = h;
+                Width = w;
+            }
+            // Divided Box operator
+            public static DBox operator/(DBox j, DBox k) {
+                int h = j.Height / k.Height;
+                int w = j.Width / k.Width;
+                DBox result = new DBox(h, w);
+                return result;
+            }
+        }
+        
+        // Main
+        static void Main(string[] args)
+        {
+            // Box b1, b2, & b3
+            Console.WriteLine("Box:");
+            Box b1 = new Box(14, 3);
+            Box b2 = new Box(5, 7);
+            Console.WriteLine("Box b1 => b1.Height: " + b1.Height + " & " + "b1.Width: " + b1.Width);
+            Console.WriteLine("Box b2 => b2.Height: " + b2.Height + " & " + "b2.Width: " + b2.Width);
+            
+            Box b3 = b1 + b2;
+            Console.WriteLine("Box b1 + Box b2 = Box b3 => b3.Height: " + b3.Height + " & " + "b3.Width: " + b3.Width);
+            Console.WriteLine();
+            
+            // NBox nb1, nb2, & nb3
+            Console.WriteLine("Negative Box:");
+            NBox nb1 = new NBox(7, 5);
+            NBox nb2 = new NBox(3, 13);
+            
+            Console.WriteLine("NBox nb1 => nb1.Height: " + nb1.Height + " & " + "nb1.Width: " + nb1.Width);
+            Console.WriteLine("NBox nb2 => nb2.Height: " + nb2.Height + " & " + "nb2.Width: " + nb2.Width);
+            
+            NBox nb3 = nb1 - nb2;
+            Console.WriteLine("NBox nb1 - NBox nb2 = NBox nb3 => nb3.Height: " + nb3.Height + " & " + "nb3.Width: " + nb3.Width);
+            Console.WriteLine();
+            
+            // MBox mb1, mb2, & mb3
+            Console.WriteLine("Multiplied Box:");
+            MBox mb1 = new MBox(3, 11);
+            MBox mb2 = new MBox(5, 7);
+            
+            Console.WriteLine("MBox mb1 => mb1.Height: " + mb1.Height + " & " + "mb1.Width: " + mb1.Width);
+            Console.WriteLine("MBox mb2 => mb2.Height: " + mb2.Height + " & " + "mb2.Width: " + mb2.Width);
+            
+            MBox mb3 = mb1 * mb2;
+            Console.WriteLine("MBox mb1 * MBox mb2 = MBox mb3 => mb3.Height: " + mb3.Height + " & " + "mb3.Width: " + mb3.Width);
+            Console.WriteLine();
+            
+            // DBox db1, db2, & db3
+            Console.WriteLine("Divided Box:");
+            DBox db1 = new DBox(5, 13);
+            DBox db2 = new DBox(5, 3);
+            
+            Console.WriteLine("DBox db1 => db1.Height: " + db1.Height + " & " + "db1.Width: " + db1.Width);
+            Console.WriteLine("DBox db2.Height: " + db2.Height + " & " + "db2.Width: " + db2.Width);
+            
+            DBox db3 = db1 / db2;
+            Console.WriteLine("DBox db1 / DBox db2 = DBox db3 => db3.Height: " + db3.Height + " & " + "db3.Width: " + db3.Width);
+            Console.WriteLine();
+        }
+    }
+}
