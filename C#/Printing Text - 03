@@ -1,0 +1,27 @@
+https://code.sololearn.com/ciohTHg7W4R0/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 10;
+            double y = 20;
+            Console.WriteLine("x = {0}; y = {1}", x, y);
+            
+            int a = 1;
+            double b = 2;
+            Console.WriteLine("a({0}) + b({1}) = ?", a, b);
+        }
+    }
+}
