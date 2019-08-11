@@ -1,0 +1,63 @@
+https://code.sololearn.com/cVtKFEbFLC6N/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        // Dog class
+        class Dog
+        {
+            public Dog() {
+                Console.WriteLine("Dog Constructor");
+            }
+            ~Dog() {
+                Console.WriteLine("Dog Destructor");
+            }
+        }
+        
+        // Cat class
+        class Cat
+        {
+            public Cat() {
+                Console.WriteLine("Cat Constructor");
+            }
+            ~Cat() {
+                Console.WriteLine("Cat Destructor");
+            }
+        }
+        
+        // Mouse class
+        class Mouse
+        {
+            public Mouse() {
+                Console.WriteLine("Mouse Constructor");
+            }
+            ~Mouse() {
+                Console.WriteLine("Mouse Destructor");
+            }
+        }
+        
+        static void Main(string[] args)
+        {
+            // The order of the output in the console is interesting. Not what I expected
+            Dog d1 = new Dog();
+            Dog d2 = new Dog();
+            
+            Cat c1 = new Cat();
+            Cat c2 = new Cat();
+            
+            Mouse m1 = new Mouse();
+            Mouse m2 = new Mouse();
+        }
+    }
+}
