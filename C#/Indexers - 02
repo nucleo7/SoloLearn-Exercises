@@ -1,0 +1,109 @@
+https://code.sololearn.com/c2EO2Bkf1eL8/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        // Clients class
+        class Clients {
+            private string[] names = new string[10];
+            public string this[int index1] {
+                get {
+                    return names[index1];
+                }
+                set {
+                    names[index1] = value;
+                }
+            }
+        }
+        
+        // Vehicles class
+        class Vehicles {
+            private string[] brands = new string[10];
+            public string this[int index2] {
+                get {
+                    return brands[index2];
+                }
+                set {
+                    brands[index2] = value;
+                }
+            }
+        }
+        
+        // Colors class
+        class Colors {
+            private string[] colors = new string[10];
+            public string this[int index3] {
+                get {
+                    return colors[index3];
+                }
+                set{
+                    colors[index3] = value;
+                }
+            }
+        }
+        
+        // Main
+        static void Main(string[] args)
+        {
+            // Creating Clients
+            Clients c1 = new Clients();
+            c1[0] = "Dave";
+            c1[1] = "Bob";
+            
+            Console.WriteLine(c1[0] + " & " + c1[1]);
+            
+            Clients c2 = new Clients();
+            c2[0] = "Amy";
+            c2[1] = "Dee";
+            c2[2] = "Meg";
+            
+            Console.WriteLine(c2[0] + ", " + c2[1] + ", & " + c2[2]);
+            Console.WriteLine();
+            
+            // Creating Vehicles
+            // Super cars
+            Vehicles v1 = new Vehicles();
+            v1[0] = "Bugatti";
+            v1[1] = "Ferrari";
+            v1[2] = "Lamborghini";
+            v1[3] = "Pagani";
+            v1[4] = "Porsche";
+            
+            Console.WriteLine("Super cars: " + v1[0] + ", " + v1[1] + ", " + v1[2] + ", " + v1[3] + ", & " + v1[4]);
+            
+            // Japanese cars
+            Vehicles v2 = new Vehicles();
+            v2[0] = "Honda";
+            v2[1] = "Mitsubishi";
+            v2[2] = "Toyota";
+            
+            Console.WriteLine("Japanese cars: " + v2[0] + ", " + v2[1] + ", & " + v2[2]);
+            
+            // Creating colors
+            Colors colorsRGB = new Colors();
+            Colors colorsCMYK = new Colors();
+            
+            colorsRGB[0] = "Red";
+            colorsRGB[1] = "Green";
+            colorsRGB[2] = "Blue";
+            colorsCMYK[0] = "Cyan";
+            colorsCMYK[1] = "Magenta";
+            colorsCMYK[2] = "Yellow";
+            colorsCMYK[3] = "blacK";
+            
+            Console.WriteLine("RGB: " + colorsRGB[0] + ", " + colorsRGB[1] + ", & " + colorsRGB[2]);
+            Console.WriteLine("CMYK: " + colorsCMYK[0] + ", " + colorsCMYK[1] + ", " + colorsCMYK[2] + ", & " + colorsCMYK[3]);
+        }
+    }
+}
