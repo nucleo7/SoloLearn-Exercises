@@ -1,0 +1,135 @@
+https://code.sololearn.com/ciR5besB6yZL/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        // StackOne class
+        class StackOne<A> {
+            int index1 = 0;
+            A[] inArray1 = new A[100];
+            
+            public void Push(A item1) {
+                inArray1[index1++] = item1;
+            }
+            public A Pop() {
+                return inArray1[--index1];
+            }
+            public A Get(int a) {
+                return inArray1[a];
+            }
+        }
+        
+        // StackTwo class
+        class StackTwo<B> {
+            int index2 = 0;
+            B[] inArray2 = new B[100];
+            
+            public void Push(B item2) {
+                inArray2[index2++] = item2;
+            }
+            public B Pop() {
+                return inArray2[--index2];
+            }
+            public B Get(int b) {
+                return inArray2[b];
+            }
+        }
+        
+        // StackThree class - I'm doing this one weird on purpose
+        class StackThree<C> {
+            int index3 = 0;
+            C[] inArray3 = new C[100];
+            
+            public void Push(C item3) {
+                inArray3[++index3] = item3;
+            }
+            public C Pop() {
+                return inArray3[index3--];
+            }
+            public C Get(int c) {
+                return inArray3[c];
+            }
+        }
+        
+        static void Main(string[] args)
+        {
+            // StackOne - pushing values onto the stack array
+            StackOne<int> intStack1 = new StackOne<int>();
+            intStack1.Push(3);
+            intStack1.Push(6);
+            intStack1.Push(7);
+            intStack1.Push(2);
+            
+            Console.WriteLine("intStack1.Get(1): " + intStack1.Get(1));
+            Console.WriteLine("intStack1.Get(2): " + intStack1.Get(2));
+            Console.WriteLine("intStack1: " + intStack1.Get(0) + " - " + intStack1.Get(1) + " - " + intStack1.Get(2) + " - " + intStack1.Get(3));
+            Console.WriteLine();
+            
+            // StackTwo - pushing and popping values onto and off the array stack
+            StackTwo<int> intStack2 = new StackTwo<int>();
+            intStack2.Push(1);
+            intStack2.Push(3);
+            intStack2.Push(5);
+            intStack2.Push(6);
+            
+            Console.WriteLine("intStack2.Get(3): " + intStack2.Get(3));
+            intStack2.Pop();
+            intStack2.Push(7);
+            intStack2.Pop();
+            
+            Console.WriteLine("intStack2.Get(3): " + intStack2.Get(3));
+            intStack2.Push(7);
+            
+            Console.WriteLine("intStack2.Get(0): " + intStack2.Get(0));
+            Console.WriteLine("intStack2.Get(3): " + intStack2.Get(3));
+            Console.WriteLine("intStack2: " + intStack2.Get(0) + " - " + intStack2.Get(1) + " - " + intStack2.Get(2) + " - " + intStack2.Get(3));
+            Console.WriteLine();
+            
+            // StackThree - pushing and popping - note that results here are weird because it's fun
+            StackThree<int> intStack3 = new StackThree<int>();
+            intStack3.Push(0);
+            
+            Console.WriteLine("intStack3.Get(0): " + intStack3.Get(0));
+            
+            intStack3.Push(1);
+            intStack3.Push(2);
+            
+            Console.WriteLine("intStack3.Get(0): " + intStack3.Get(0));
+            Console.WriteLine("intStack3.Get(1): " + intStack3.Get(1));
+            Console.WriteLine("intStack3.Get(2): " + intStack3.Get(2));
+            
+            intStack3.Pop();
+            intStack3.Push(3);
+            intStack3.Push(4);
+            
+            Console.WriteLine("intStack3.Get(2): " + intStack3.Get(2));
+            Console.WriteLine("intStack3.Get(3): " + intStack3.Get(3));
+            
+            intStack3.Pop();
+            intStack3.Push(5);
+            intStack3.Push(6);
+            
+           Console.WriteLine("intStack3.Get(3): " + intStack3.Get(3));
+            Console.WriteLine("intStack3.Get(4): " + intStack3.Get(4));
+            Console.WriteLine("intStack3.Get(5): " + intStack3.Get(5));
+            
+            intStack3.Pop();
+            intStack3.Push(7);
+            
+            Console.WriteLine("intStack3.Get(5): " + intStack3.Get(5));
+            Console.WriteLine("intStack3: " + intStack3.Get(0) + " - " + intStack3.Get(1) + " - " + intStack3.Get(2) + " - " + intStack3.Get(3) + " - " + intStack3.Get(4) + " - " + intStack3.Get(5));
+            Console.WriteLine();
+        }
+    }
+}
