@@ -1,0 +1,27 @@
+https://code.sololearn.com/cmftOfY41Rob/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Something went wrong and I'm not sure what...
+            int num 3;
+            while(num < 27)
+            {
+               Console.WriteLine(num);
+               num += 4;
+            }
+        }
+    }
+}
