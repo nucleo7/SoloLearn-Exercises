@@ -1,0 +1,108 @@
+https://code.sololearn.com/cwL8vLgOw94F/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // colorsRGB List
+            // Add & Remove
+            Console.WriteLine("colorsRGB -> Add & Remove...");
+            List<string> colorsRGB = new List<string>();
+            colorsRGB.Add("Red");
+            colorsRGB.Add("Green");
+            colorsRGB.Add("Pink");
+            colorsRGB.Add("Blue");
+            colorsRGB.Remove("Pink");
+            
+            foreach (var c1 in colorsRGB) {
+                Console.WriteLine(c1);
+            }
+            Console.WriteLine();
+            
+            // colorsCMYK List
+            // Add, Count, & Remove
+            Console.WriteLine("colorsCMYK -> Add, Count, & Remove...");
+            List<string> colorsCMYK = new List<string>();
+            colorsCMYK.Add("Red");
+            colorsCMYK.Add("Cyan");
+            colorsCMYK.Add("Magenta");
+            colorsCMYK.Remove("Red");
+            colorsCMYK.Add("Yellow");
+            colorsCMYK.Add("Black");
+            
+            foreach (var c2 in colorsCMYK) {
+                Console.WriteLine(c2);
+            }
+            Console.WriteLine("colorsCMYK.Count(): " + colorsCMYK.Count());
+            Console.WriteLine();
+            
+            // Empty List
+            // Add, Clear, & Count
+            Console.WriteLine("empty -> Add, Clear, & Count...");
+            List<string> empty = new List<string>();
+            empty.Add("one");
+            empty.Add("two");
+            empty.Add("three");
+            
+            foreach (var e1 in empty) {
+                Console.WriteLine(e1);
+            }
+            Console.WriteLine("empty.Count(): " + empty.Count());
+            
+            empty.Clear();
+            Console.WriteLine("No, really! It's empty now");
+            
+            foreach (var e2 in empty) {
+                Console.WriteLine(e2);
+            }
+            Console.WriteLine("empty.Count(): " + empty.Count());
+            Console.WriteLine();
+            
+            // Thing exists in List
+            // Add, Contains, Insert, & Reverse
+            Console.WriteLine("existing -> Add, Contains, Insert, & Reverse...");
+            List<string> existing = new List<string>();
+            existing.Add("One");
+            existing.Add("Two");
+            existing.Add("Three");
+            
+            foreach (var e3 in existing) {
+                Console.WriteLine(e3);
+            }
+            Console.WriteLine();
+            
+            existing.Insert(1, "1.a");
+            existing.Insert(3, "2.a");
+            existing.Insert(5, "3.a");
+            foreach (var e4 in existing) {
+                Console.WriteLine(e4);
+            }
+            Console.WriteLine();
+            
+            bool e5 = existing.Contains("Two");
+            Console.WriteLine("existing.Contains(\"Two\") = " + e5);
+            bool e6 = existing.Contains("Four");
+            Console.WriteLine("existing.Contains(\"Four\") = " + e6);
+            Console.WriteLine();
+            
+            Console.WriteLine("existing.Reverse()...");
+            existing.Reverse();
+            foreach (var e7 in existing) {
+                Console.WriteLine(e7);
+            }
+            Console.WriteLine();
+        }
+    }
+}
