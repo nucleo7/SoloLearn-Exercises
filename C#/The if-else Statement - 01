@@ -1,0 +1,38 @@
+https://code.sololearn.com/c1NhRzqZRHAr/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 8;
+            int y = 3;
+            int z = 13;
+            
+            if (x > y)
+            { 
+                Console.WriteLine("x is greater than y");
+            }
+            
+            if (y == z)
+            {
+               Console.WriteLine("This is unlikely to return anything.");
+            }
+            
+            if (z > y)
+            {
+               Console.WriteLine("Apparently z is greater than y");
+            }
+        }
+    }
+}
