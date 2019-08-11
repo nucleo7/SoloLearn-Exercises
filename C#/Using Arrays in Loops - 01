@@ -1,0 +1,52 @@
+https://code.sololearn.com/c75gZn5Cu7yA/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[ ] a = new int[10];
+            for (int b = 0; b < 10; b++) {
+                a[b] = b*2;
+            }
+            for (int b = 0; b < 10; b++) {
+                Console.WriteLine("a: " + a[b]);
+            }
+            
+            int[] i = new int[3];
+            for (int j = 0; j < 3; j++) {
+                i[j] = j;
+            }
+            for (int j = 0; j < 3; j++) {
+                Console.WriteLine("i: " + i[j]);
+            }
+            
+            int[] k = new int[3];
+            for (int l = 0; l < 3; l++) {
+                k[l] = ++l;
+            }
+            for (int l = 0; l < 3; l++) {
+                Console.WriteLine("k: " + k[l]);
+            }
+            
+            int[] m = new int[3];
+            for (int n = 0; n < 3; n++) {
+                m[n] = n++;
+            }
+            for (int n = 0; n < 3; n++) {
+                Console.WriteLine("m: " + m[n]);
+            }
+        }
+    }
+}
