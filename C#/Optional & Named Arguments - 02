@@ -1,0 +1,38 @@
+https://code.sololearn.com/ctpyqdnpYzxJ/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static int Area(int h, int w)
+        {
+            return h * w;
+        }
+        
+        static int Perimeter(int h, int w, int l)
+        {
+            return 2 * (h + w + l);
+        }
+        
+        static void Main(string[] args)
+        {
+            int resArea = Area(w: 5, h: 8);
+            Console.WriteLine(resArea);
+            
+            int resPerimeterOne = Perimeter(h: 2, l: 2, w: 2);
+            Console.WriteLine("The result of resPerimeterOne is: " + resPerimeterOne);
+            
+            int resPerimeterTwo = Perimeter(w: 3, l: 3, h: 3);
+            Console.WriteLine("The result of resPerimeterTwo is: " + resPerimeterTwo);
+        }
+    }
+}
