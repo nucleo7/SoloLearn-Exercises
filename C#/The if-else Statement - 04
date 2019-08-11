@@ -1,0 +1,43 @@
+https://code.sololearn.com/cV3gP94q6jQS/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int mark = 100;
+            
+            if (mark >= 50) {
+                Console.WriteLine("You passed.");
+                if (mark == 100) {
+                    Console.WriteLine("Perfect!");
+                }
+            }
+            else {
+                Console.WriteLine("You failed.");
+            }
+            
+            int year = 1980;
+            
+            if (year <= 2000) {
+               Console.WriteLine("Great, only just made it");
+               if (year <= 1980) {
+                  Console.WriteLine("Definitely in, all good.");
+               }
+            }
+            else {
+               Console.WriteLine("Sorry, too young.");
+            }
+        }
+    }
+}
