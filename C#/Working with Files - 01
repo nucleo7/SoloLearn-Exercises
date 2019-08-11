@@ -1,0 +1,57 @@
+https://code.sololearn.com/cHYirEwM8xN8/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // creating file - test1.txt
+            string str1 = "str1 - text line";
+            File.WriteAllText("test1.txt", str1);
+            // reading file - test1.txt
+            string txt1 = File.ReadAllText("test1.txt");
+            Console.WriteLine(txt1);
+            
+            // creating files - test*.txt
+            string str2 = "str2 - text line";
+            string str3 = "str3 - text line";
+            
+            File.WriteAllText("test2.txt", str2);
+            File.WriteAllText("test3.txt", str3);
+            // reading files - test*.txt
+            string txt2 = File.ReadAllText("test2.txt");
+            string txt3 = File.ReadAllText("test3.txt");
+            
+            Console.WriteLine(txt2);
+            Console.WriteLine(txt3);
+            Console.WriteLine();
+            
+            // checking if files exists
+            bool chk1 = File.Exists("test2.txt");
+            bool chk2 = File.Exists("test4.txt");
+            
+            Console.WriteLine("test2.txt exists? " + chk1);
+            Console.WriteLine("test4.txt exists? " + chk2);
+            Console.WriteLine();
+            
+            // creating, writing, checking, & deleting file - temp1.txt
+            string tmp1 = "tmp1 - temp1.txt";
+            File.Create("temp1.txt");
+            bool chk3 = File.Exists("temp1.txt");
+            Console.WriteLine("temp1.txt exists? " + chk3);
+            Console.WriteLine();
+        }
+    }
+}
