@@ -1,0 +1,54 @@
+https://code.sololearn.com/cC455O8Nr6Ii/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static int Fact(int num) {
+            if (num == 1) {
+                return 1;
+            }
+            return num * Fact(num - 1);
+        }
+        
+        static int FactOne(int numOne) {
+            if (numOne == 1) {
+                return 1;
+            }
+            return numOne * FactOne(numOne - 1);
+        }
+        
+        static int FactTwo(int numTwo) {
+            if (numTwo <= 1) {
+                return 1;
+            }
+            return numTwo * FactTwo(numTwo - 2);
+        }
+        
+        static int FactThree(int numThree) {
+            if (numThree <= 1) {
+                return 1;
+            }
+            return numThree * FactThree(numThree - 3);
+        }
+        
+        static void Main(string[] args)
+        {
+            Console.WriteLine(Fact(6));
+            Console.WriteLine("The factorial of 5 is: " + FactOne(5));
+            
+            Console.WriteLine("This is not your usual factorial of 6: " + FactTwo(6));
+            Console.WriteLine("This is another unusual factorial of 17: " + FactThree(17));
+            
+        }
+    }
+}
