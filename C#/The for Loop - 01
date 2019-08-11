@@ -1,0 +1,35 @@
+https://code.sololearn.com/cWO4W3lSx8KH/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            for (int numOne = 7; numOne < 13; numOne++)
+            {
+               Console.WriteLine("numOne value is: {0}", numOne);
+            }
+            
+            for (int numTwo = 7; numTwo <= 13; numTwo++)
+            {
+               Console.WriteLine("numTwo value is: {0}", numTwo);
+            }
+            
+            for (int numThree = 7; numThree < 13; ++numThree)
+            {
+               Console.WriteLine("numThree value is: {0}", numThree);
+            }
+        }
+    }
+}
