@@ -1,0 +1,44 @@
+https://code.sololearn.com/cRInPu9YMepJ/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            int numOne = 7;
+            int numTwo = 11;
+            
+            do {
+               Console.WriteLine("This is the do-while Loop: " + numOne);
+               numOne++;
+            } while (numOne < numTwo);
+            
+            // ====================
+            // This obviously (now) wouldn't produce output. Again, keeping it for historic purposes.
+            while (numOne < numTwo) {
+               Console.WriteLine("This is the while Loop: " + numOne);
+               numOne++;
+            }
+            // ====================
+            
+            // This is what I really intended.
+            int numThree = 7;
+            int numFour = 11;
+            while (numThree < numFour) {
+               Console.WriteLine("This is the proper while Loop: " + numThree);
+               numThree++;
+            }
+        }
+    }
+}
