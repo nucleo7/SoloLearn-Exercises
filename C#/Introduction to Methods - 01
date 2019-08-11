@@ -1,0 +1,31 @@
+https://code.sololearn.com/cPdCs4CvZxut/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void sayHi()
+        {
+            Console.WriteLine("Hi Guy!");
+        }
+        static void sayMore()
+        {
+            Console.WriteLine("This is a method saying things.");
+            Console.WriteLine("And even more are said.");
+        }
+        static void Main(string[] args)
+        {
+            sayHi();
+            sayMore();
+        }
+    }
+}
