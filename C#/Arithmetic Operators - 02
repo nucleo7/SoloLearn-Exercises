@@ -1,0 +1,33 @@
+https://code.sololearn.com/cKNDQkhwfZ6V/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 10 / 4;
+            Console.WriteLine(x);
+            
+            int a = 10 / 5;
+            Console.WriteLine(a);
+            
+            /*    Will not compile
+            int b = 10.5 / 5;
+            Console.WriteLine(b);
+            
+            int c = 10 / 5.5;
+            Console.WriteLine(c);
+            */
+        }
+    }
+}
