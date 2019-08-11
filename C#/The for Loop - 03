@@ -1,0 +1,25 @@
+https://code.sololearn.com/c7fJkLDlK1jv/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            for (int numOne = 11; numOne > 1; numOne -= 3)
+            {
+               Console.WriteLine("numOne value is: {0}", numOne);
+            }
+        }
+    }
+}
