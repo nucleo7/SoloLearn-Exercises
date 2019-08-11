@@ -1,0 +1,56 @@
+https://code.sololearn.com/c9k2YpLplzzQ/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Array
+            int[] arr = {1, 2, 3, 4};
+            foreach(var item in arr) {
+                Console.Write(item + " | ");
+            }
+            Console.WriteLine();
+            
+            Array.Reverse(arr);
+            foreach(var item in arr) {
+                Console.Write(item + " | ");
+            }
+            Console.WriteLine();
+            
+            Array.Sort(arr);
+            foreach(var item in arr) {
+                Console.Write(item + " | ");
+            }
+            Console.WriteLine();
+            
+            // String
+            string s1 = "Some text.";
+            string s2 = "More words here.";
+            Console.WriteLine("s1: " + s1);
+            Console.WriteLine("s2: " + s2);
+            
+            string s3 = String.Concat(s1, s2);
+            Console.WriteLine("s3: " + s3);
+            
+            bool s4 = String.Equals(s1, s2);
+            Console.WriteLine("s4: " + s4);
+            
+            // DateTime
+            Console.WriteLine("DateTime.Now: " + DateTime.Now);
+            Console.WriteLine("DateTime.Today: " + DateTime.Today);
+            Console.WriteLine("DateTime.DaysInMonth(2016, 2): " + DateTime.DaysInMonth(2016, 2));
+        }
+    }
+}
