@@ -1,0 +1,40 @@
+https://code.sololearn.com/cw4cr1xVR9VF/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Sqr(ref int x)
+        {
+            x = x * x;
+        }
+        static void ThingOne(ref int y)
+        {
+            y += 7;
+        }
+        
+        static void Main(string[] args)
+        {
+            int a = 3;
+            int b = 11;
+            int c = 1;
+            
+            Sqr(ref a);
+            ThingOne(ref b);
+            ThingOne(ref c);
+            
+            Console.WriteLine("The pass-by-reference of Sqr with the value from a is: " + a);
+            Console.WriteLine("The pass-by-reference of ThingOne with the value of b is: " + b);
+            Console.WriteLine("The pass-by-reference of ThingOne with the value of c is: " + c);
+        }
+    }
+}
