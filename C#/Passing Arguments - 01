@@ -1,0 +1,47 @@
+https://code.sololearn.com/c20na4h38UPT/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Sqr(int x)
+        {
+            x = x * x;
+        }
+        static void SomeThing(int y)
+        {
+            y += 3;
+        }
+        
+        static void Main(string[] args)
+        {
+            int a = 3;
+            Console.WriteLine(a);
+            
+            int b = 7;
+            Console.WriteLine(b);
+            
+            int c = 11;
+            Console.WriteLine(c);
+            
+            Sqr(a);
+            Sqr(b);
+            SomeThing(c);
+            
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
+            // I don't have the foggiest clue at what's going on with this excercise!
+            
+        }
+    }
+}
