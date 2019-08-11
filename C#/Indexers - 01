@@ -1,0 +1,51 @@
+https://code.sololearn.com/c100bP2Yd7Hl/#cs
+
+
+
+// Exercises from Code Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // str string
+            string str = "Hello World";
+            
+            char w = str[3];
+            char x = str[5];
+            char y = str[7];
+            // IndexOutOfRangeException:
+            // char z = str[11];
+            
+            Console.WriteLine("w: " + w);
+            Console.WriteLine("x: " + x);
+            Console.WriteLine("y: " + y);
+            // Console.WriteLine("z: " + z);
+            
+            // someWords string
+            string someWords = "Some things are being said here. Mildly interesting!";
+            
+            char a = someWords[8];
+            char b = someWords[1];
+            char c = someWords[31];
+            char d = someWords[4];
+            char e = someWords[13];
+            char f = someWords[3];
+            char g = someWords[12];
+            char h = someWords[35];
+            char i = someWords[37];
+            char j = someWords[38];
+            char k = someWords[51];
+            
+            Console.WriteLine("" + a + b + c + d + e + f + g + h + i + j + k);
+        }
+    }
+}
