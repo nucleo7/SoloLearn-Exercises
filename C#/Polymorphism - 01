@@ -1,0 +1,164 @@
+https://code.sololearn.com/chMDvsUlfjhn/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        // Shape class
+        class Shape {
+            public virtual void Draw() {
+                Console.WriteLine("Base Draw");
+            }
+            public virtual void Animate() {
+                Console.WriteLine("Base Animate");
+            }
+        }
+        // Circle class derived from Shape
+        class Circle : Shape {
+            public override void Draw() {
+                // Drawing a circle...
+                Console.WriteLine("Circle Draw");
+            }
+        }
+        // Rectangle class derived from Shape
+        class Rectangle : Shape {
+            public override void Draw() {
+                // Draw a rectangle...
+                Console.WriteLine("Rectangle Draw");
+            }
+        }
+        // Cube class derived from Rectangle
+        class Cube : Rectangle {
+            public override void Draw() {
+                // Draw a cube...
+                Console.WriteLine("Cube Draw");
+            }
+        }
+        // Triangle class derived from Shape
+        class Triangle : Shape {
+            public override void Draw() {
+                // Draw a triangle...
+                Console.WriteLine("Triangle Draw");
+            }
+        }
+        // Polygon class derived from Shape
+        class Polygon : Shape {
+            public override void Draw() {
+                // Draw generic polygon...
+                Console.WriteLine("Polygon Draw");
+            }
+            public override void Animate() {
+                // Animate polygons...
+                Console.WriteLine("Polygon Animate");
+            }
+        }
+        // 4-sided derived from Polygon
+        class FourSided : Polygon {
+            public override void Draw() {
+                // Draw 4-sided polygon...
+                Console.WriteLine("4-Sided Polygon Draw");
+            }
+            public override void Animate() {
+                // Animate 4-sided...
+                Console.WriteLine("4-Sided Polygon Animate");
+            }
+        }
+        // 5-sided derived from Polygon
+        class FiveSided : Polygon {
+            public override void Draw() {
+                // Draw 5-sided polygon...
+                Console.WriteLine("5-Sided Polygon Draw");
+            }
+            public override void Animate() {
+                // Animate 5-sided Polygon
+                Console.WriteLine("5-Sided Polygon Animate");
+            }
+        }
+        // Main
+        static void Main(string[] args)
+        {
+            // Creating shapes
+            Console.WriteLine("Shapes...");
+            Shape a1 = new Shape();
+            Shape a2 = new Shape();
+            
+            a1.Draw();
+            a2.Draw();
+            
+            Console.WriteLine();
+            Console.WriteLine("Circles...");
+            Shape b1 = new Circle();
+            Shape b2 = new Circle();
+            
+            b1.Draw();
+            b2.Draw();
+            
+            Console.WriteLine();
+            Console.WriteLine("Rectangles...");
+            Shape c1 = new Rectangle();
+            Shape c2 = new Rectangle();
+            
+            c1.Draw();
+            c2.Draw();
+            
+            Console.WriteLine();
+            Console.WriteLine("Triangles...");
+            Shape d1 = new Triangle();
+            Shape d2 = new Triangle();
+            
+            d1.Draw();
+            d2.Draw();
+            
+            Console.WriteLine();
+            Console.WriteLine("Cubes...");
+            Rectangle e1 = new Cube();
+            Rectangle e2 = new Cube();
+            
+            e1.Draw();
+            e2.Draw();
+            
+            Console.WriteLine();
+            Console.WriteLine("Polygons...");
+            
+            Shape f1 = new Polygon();
+            Shape f2 = new Polygon();
+            
+            f1.Draw();
+            f2.Draw();
+            f1.Animate();
+            f2.Animate();
+            
+            Console.WriteLine();
+            Console.WriteLine("4-Sided...");
+            
+            Polygon g1 = new FourSided();
+            Polygon g2 = new FourSided();
+            
+            g1.Draw();
+            g2.Draw();
+            g1.Animate();
+            g2.Animate();
+            
+            Console.WriteLine();
+            Console.WriteLine("5-Sided...");
+            
+            Polygon h1 = new FiveSided();
+            Polygon h2 = new FiveSided();
+            
+            h1.Draw();
+            h2.Draw();
+            h1.Animate();
+            h2.Animate();
+        }
+    }
+}
