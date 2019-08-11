@@ -1,0 +1,29 @@
+https://code.sololearn.com/caa6UK74JoZA/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            int postFix = 3;
+            while(postFix++ < 7)
+                Console.WriteLine("postFix++ is: " + postFix);
+            
+            int preFix = 3;
+            while(++preFix < 7)
+                Console.WriteLine("++preFix is: " + preFix);
+            
+        }
+    }
+}
