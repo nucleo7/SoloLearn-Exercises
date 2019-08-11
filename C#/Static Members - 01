@@ -1,0 +1,52 @@
+https://code.sololearn.com/c9iJkBrPlW2g/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        // Cat class
+        class Cat {
+            public static int count = 0;
+            public Cat() {
+                count++;
+            }
+        }
+        // Dog class
+        class Dog {
+            public static int count = 0;
+            public Dog() {
+                count++;
+            }
+        }
+        static void Main(string[] args)
+        {
+            // Counting cats
+            Console.WriteLine("Cat count: " + Cat.count);
+            Cat c1 = new Cat();
+            Console.WriteLine("Cat count: " + Cat.count);
+            Cat c2 = new Cat();
+            Console.WriteLine("Cat count: " + Cat.count);
+            Cat c3 = new Cat();
+            Console.WriteLine("Cat count: " + Cat.count);
+            
+            // Counting dogs
+            Console.WriteLine("Dog count: " + Dog.count);
+            Dog d1 = new Dog();
+            Console.WriteLine("Dog count: " + Dog.count);
+            Dog d2 = new Dog();
+            Console.WriteLine("Dog count: " + Dog.count);
+            
+            // It's raining... Cats and Dogs
+        }
+    }
+}
