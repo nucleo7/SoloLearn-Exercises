@@ -1,0 +1,30 @@
+https://code.sololearn.com/cU7QlJtpRhn3/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void PrintNum(int x)
+        {
+            Console.WriteLine(x);
+        }
+        static void PrintString(String y)
+        {
+            Console.WriteLine(y);
+        }
+        static void Main(string[] args)
+        {
+            PrintNum(3);
+            PrintString("Printing a string.");
+        }
+    }
+}
