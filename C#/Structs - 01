@@ -1,0 +1,79 @@
+https://code.sololearn.com/cs45FjAuNGue/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        // structs...
+        struct Book {
+            public string title;  
+            public string author;
+            public double price;
+        }
+        struct Car {
+            public string make;
+            public string model;
+            public int year;
+        }
+        struct Dog {
+            public string name;
+            public int age;
+        }
+        static void Main(string[] args)
+        {
+            // Books...
+            Book b1;
+            b1.title = "Book 1";
+            b1.author = "Author 1";
+            b1.price = 5.99;
+            
+            Book b2;
+            b2.title = "Book 2";
+            b2.author = "Author 2";
+            b2.price = 4.99;
+            
+            Console.WriteLine("Book b1 - Title: " + b1.title + ", Author: " + b1.author + ", Price: " + b1.price);
+            Console.WriteLine("Book b2 - Title: " + b2.title + ", Author: " + b2.author + ", Price: " + b2.price);
+            Console.WriteLine();
+            
+            // Cars...
+            Car c1;
+            Car c2;
+            
+            c1.make = "Lamborghini";
+            c2.make = "McLaren";
+            
+            c1.model = "Aventador";
+            c2.model = "F1";
+            
+            c1.year = 2018;
+            c2.year = 1990;
+            
+            Console.WriteLine("Car c1 - Make: " + c1.make + ", Model: " + c1.model + ", Year: " + c1.year);
+            Console.WriteLine("Car c2 - Make: " + c2.make + ", Model: " + c2.model + ", Year: " + c2.year);
+            Console.WriteLine();
+            
+            // Dogs...
+            Dog d1;
+            d1.name = "Wolfie";
+            d1.age = 2;
+            Console.WriteLine("Dog d1 - Name: " + d1.name + ", Age: " + d1.age);
+            
+            Dog d2;
+            d2.name = "Hound";
+            d2.age = 7;
+            Console.WriteLine("Dog d2 - Name: " + d2.name + ", Age: " + d2.age);
+            Console.WriteLine();
+        }
+    }
+}
