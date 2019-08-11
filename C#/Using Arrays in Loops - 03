@@ -1,0 +1,95 @@
+https://code.sololearn.com/clkFBfH8xVQm/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Calculates the sum of all the elements in the array
+            int[ ] arr = {11, 35, 62, 555, 989};
+            int sum = 0; 
+            
+            foreach (int x in arr) {
+                sum += x;
+            }
+            Console.WriteLine(sum);
+            
+            int[] calcOne = {1, 3, 5, 7, 11};
+            int[] calcTwo = {11, 7, 5, 3, 1};
+            
+            int result1 = 0;
+            int result2 = 0;
+            
+            foreach (int a in calcOne) {
+                result1 += a;
+            }
+            Console.WriteLine("The sum of the elements in calcOne: " + result1);
+            
+            foreach (int b in calcTwo) {
+                result2 += b;
+            }
+            Console.WriteLine("The sum of the elements in calcTwo: " + result2);
+            
+            
+            // Calculates the elements subtracted from each other
+            int result3 = calcOne[0];
+            int result4 = calcTwo[0];
+            
+            foreach (int c in calcOne) {
+                result3 -= c;
+            }
+            
+            Console.WriteLine(calcOne[0] + " - " + calcOne[1] + " - " + calcOne[2] + " - " + calcOne[3] + " - " + calcOne[4] + " = " + result3);
+            foreach (int d in calcTwo) {
+                result4 -= d;
+            }
+            
+            Console.WriteLine(calcTwo[0] + " - " + calcTwo[1] + " - " + calcTwo[2] + " - " + calcTwo[3] + " - " + calcTwo[4] + " = " + result4);
+            
+            
+            // Multiply all elements together
+            int result5 = 1;
+            int result6 = 1;
+            
+            foreach (int e in calcOne) {
+                result5 *= e;
+            }
+            
+            foreach (int f in calcTwo) {
+                result6 *= f;
+            }
+            
+            Console.WriteLine("Multiplying all elements together for calcOne: " + result5);
+            
+            Console.WriteLine("Multiplying all elements together for calcTwo: " + result6);
+            
+            
+            // Dividing the elements from each other
+            float result7 = calcOne[0];
+            float result8 = calcTwo[0];
+            
+            foreach (int g in calcOne) {
+                result7 /= g;
+            }
+            
+            foreach (int h in calcTwo) {
+                result8 /= h;
+            }
+            
+            Console.WriteLine(calcOne[0] + " / " + calcOne[1] + " / " + calcOne[2] + " / " + calcOne[3] + " / " + calcOne[4] + " = " + result7);
+            
+            Console.WriteLine(calcTwo[0] + " / " + calcTwo[1] + " / " + calcTwo[2] + " / " + calcTwo[3] + " / " + calcTwo[4] + " = " + result8);
+        }
+    }
+}
