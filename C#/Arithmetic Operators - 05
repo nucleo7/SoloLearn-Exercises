@@ -1,0 +1,31 @@
+https://code.sololearn.com/cbvwOj43spF2/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = (4 + 3) *2;
+            Console.WriteLine(x);     // Output is 14
+            
+            int a = 5 * 4 / 3 + 2 - 1;
+            Console.WriteLine(a);    // Output is 7
+            
+            int y = (5 * 4) / (3 + 2) - 1;
+            Console.WriteLine(y);    // Output is 3
+            
+            int z = 5 * (4 / 3) + (2 - 1);
+            Console.WriteLine(z);    // Output is 6
+        }
+    }
+}
