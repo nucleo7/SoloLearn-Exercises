@@ -1,0 +1,70 @@
+https://code.sololearn.com/c0q8Ceq6CcL9/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // string a
+            string a = "some text";
+            Console.WriteLine("a: " + a);
+            
+            Console.WriteLine("a - Length: " + a.Length);
+            Console.WriteLine("a - Index of 't': " + a.IndexOf('t'));
+
+            a = a.Insert(0, "This is ");
+            Console.WriteLine("a: " + a);
+
+            a = a.Replace("This is", "I am");
+            Console.WriteLine("a: " + a);
+
+            if(a.Contains("some"))
+                Console.WriteLine("a contains 'some'");
+
+            a = a.Remove(4);
+            Console.WriteLine("a - Everything removed after index 4: " + a);
+
+            a = a.Substring(2);
+            Console.WriteLine("a: " + a);
+            
+            
+            // string b
+            string b = "This is most definitely a bit of string.";
+            Console.WriteLine("b: " + b);
+            
+            Console.WriteLine("b - Length: " + b.Length);
+            Console.WriteLine("b - Index of 'a': " + b.IndexOf('a'));
+            Console.WriteLine("b - Index of 'i': " + b.IndexOf('i'));
+            Console.WriteLine("b - Last Index of 'i': " + b.LastIndexOf('i'));
+            
+            b = b.Insert(0, "So? ");
+            Console.WriteLine("b: " + b);
+            
+            b = b.Insert(b.Length, " Huh?");
+            Console.WriteLine("b: " + b);
+            
+            b = b.Replace("i", "u");
+            Console.WriteLine("b: " + b);
+            
+            if(b.Contains("thing"))
+                Console.WriteLine("thing");
+            
+            b = b.Remove(44);
+            Console.WriteLine("b: " + b);
+            
+            b = b.Substring(12);
+            Console.WriteLine("b: " + b);
+        }
+    }
+}
