@@ -1,0 +1,101 @@
+https://code.sololearn.com/coCMnHKCTI2I/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        // Swap1 method
+        static void Swap1<T>(ref T t1, ref T t2) {
+            T temp1 = t1;
+            t1 = t2;
+            t2 = temp1;
+        }
+        // Swap2 method
+        static void Swap2<U>(ref U u1, ref U u2)
+        {
+            U temp2 = u1;
+            u1 = u2;
+            u2 = temp2;
+        }
+        // Rotate1 method
+        static void Rotate1<V>(ref V v1, ref V v2, ref V v3)
+        {
+            V temp3 = v1;
+            v1 = v2;
+            v2 = v3;
+            v3 = temp3;
+        }
+        static void Main(string[] args)
+        {
+            // Swap1 - swapping ints
+            int a = 3;
+            int b = 5;
+            Console.WriteLine("a: " + a + ", b: " + b + " ...swapping...");
+            Swap1<int>(ref a, ref b);
+            Console.WriteLine("a: " + a + ", b: " + b + "\n");
+            
+            int c = 7;
+            int d = 11;
+            Console.WriteLine("c: " + c + ", d: " + d + " ...swapping...");
+            Swap1<int>(ref c, ref d);
+            Console.WriteLine("c: " + c + ", d: " + d + "\n");
+            
+            // Swap1 - swapping strings
+            string v = "one";
+            string w = "two";
+            Console.WriteLine("v: " + v + ", w: " + w + " ...swapping...");
+            Swap1<string>(ref v, ref w);
+            Console.WriteLine("v: " + v + ", w: " + w + "\n");
+            
+            string x = "three";
+            string y = "four";
+            Console.WriteLine("x: " + x + ", y: " + y + " ...swapping...");
+            Swap1<string>(ref x, ref y);
+            Console.WriteLine("x: " + x + ", y: " + y + "\n");
+            
+            // Swap2 - swapping ints
+            int e = 13;
+            int f = 17;
+            Console.WriteLine("e: " + e + ", f: " + f + " ...swapping...");
+            Swap2<int>(ref e, ref f);
+            Console.WriteLine("e: " + e + ", f: " + f + "\n");
+            
+            // Swap2 - swapping strings
+            string k = "five";
+            string l = "six";
+            Console.WriteLine("k: " + k + ", l: " + l + " ...swapping...");
+            Swap2<string>(ref k, ref l);
+            Console.WriteLine("k: " + k + ", l: " + l + "\n");
+            
+            // Rotate1 - rotating numbers
+            int g = 1;
+            int h = 2;
+            int i = 3;
+            Console.WriteLine("g: " + g + ", h: " + h + ", i: " + i + " ...rotating...");
+            Rotate1<int>(ref g, ref h, ref i);
+            Console.WriteLine("g: " + g + ", h: " + h + ", i: " + i + " ...rotating...");
+            Rotate1<int>(ref g, ref h, ref i);
+            Console.WriteLine("g: " + g + ", h: " + h + ", i: " + i + "\n");
+            
+            // Rotate1 - rotating strings
+            string s1 = "one";
+            string s2 = "two";
+            string s3 = "three";
+            Console.WriteLine("s1: " + s1 + ", s2: " + s2 + ", s3: " + s3 + " ...rotating...");
+            Rotate1<string>(ref s1, ref s2, ref s3);
+            Console.WriteLine("s1: " + s1 + ", s2: " + s2 + ", s3: " + s3 + " ...rotating...");
+            Rotate1<string>(ref s1, ref s2, ref s3);
+            Console.WriteLine("s1: " + s1 + ", s2: " + s2 + ", s3: " + s3 + "\n");
+        }
+    }
+}
