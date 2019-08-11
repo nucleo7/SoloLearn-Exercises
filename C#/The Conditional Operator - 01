@@ -1,0 +1,30 @@
+https://code.sololearn.com/ckXWygIOyr42/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            int numOne = 7;
+            int numTwo = 3;
+            string info;
+            if (numOne > numTwo)
+                info = "The numOne value is greater than the numTwo value.";
+            else
+                info = "The numTwo value is greater than the numOne value.";
+            
+            Console.WriteLine(info);
+        }
+    }
+}
