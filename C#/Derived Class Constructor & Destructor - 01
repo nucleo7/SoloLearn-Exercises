@@ -1,0 +1,79 @@
+https://code.sololearn.com/c830f8t3D3v1/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        // Animal class
+        class Animal {
+            public Animal() {
+                Console.WriteLine("Animal created");
+            }
+            ~Animal() {
+                Console.WriteLine("Animal deleted");
+            }
+        }
+        // Dog class
+        class Dog: Animal {
+            public Dog() {
+                Console.WriteLine("Dog created");
+            }
+            ~Dog() {
+                Console.WriteLine("Dog deleted");
+            }
+        }
+        // Cat class from Animal class
+        class Cat: Animal {
+            public Cat() {
+                Console.WriteLine("Cat created");
+            }
+            ~Cat() {
+                Console.WriteLine("Cat deleted");
+            }
+        }
+        // Kitten class from Cat class
+        class Kitten: Cat {
+            public Kitten() {
+                Console.WriteLine("Kitten created");
+            }
+            ~Kitten() {
+                Console.WriteLine("Kitten deleted");
+            }
+        }
+        static void Main(string[] args)
+        {
+            // Dogs
+            Dog d1 = new Dog();
+            Dog d2 = new Dog();
+            Dog d3 = new Dog();
+            
+            Console.WriteLine();
+            
+            // Cats
+            Cat c1 = new Cat();
+            Cat c2 = new Cat();
+            Cat c3 = new Cat();
+            
+            Console.WriteLine();
+            
+            // Kittens
+            Kitten k1 = new Kitten();
+            Kitten k2 = new Kitten();
+            Kitten k3 = new Kitten();
+            
+            Console.WriteLine();
+            Console.WriteLine("Oh no! The animals are being deleted...");
+            Console.WriteLine();
+        }
+    }
+}
