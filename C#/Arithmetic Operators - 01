@@ -1,0 +1,27 @@
+https://code.sololearn.com/cLwQ1tRbL69X/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 10;
+            int y = 4;
+            Console.WriteLine(x - y);
+            
+            int a = 556;
+            int b = 35;
+            Console.WriteLine(a + b - b + 7);
+        }
+    }
+}
