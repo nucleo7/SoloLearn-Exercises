@@ -1,0 +1,49 @@
+https://code.sololearn.com/c4FWkGq0rXGm/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        class Dog
+        {
+            public string name;
+            public int age;
+        }
+        
+        class Cat
+        {
+            public string name;
+            public int age;
+        }
+        
+        static void Main(string[] args)
+        {
+            Dog bob = new Dog();
+            bob.name = "Bobby";
+            bob.age = 3;
+            
+            Dog floof = new Dog();
+            floof.name = "Floofmeister";
+            floof.age = 1;
+            
+            Console.WriteLine("Bob's age: " + bob.age);
+            Console.WriteLine(floof.name + " is the floofiest " + floof.age + " year old floof in existance");
+            
+            Cat devil = new Cat();
+            devil.name = "Fluffy";
+            devil.age = 1;
+            
+            Console.WriteLine(devil.name + " is a " + devil.age + " year old with extreme Disney-fied eyes.");
+        }
+    }
+}
