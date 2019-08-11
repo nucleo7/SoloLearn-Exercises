@@ -1,0 +1,29 @@
+https://code.sololearn.com/c4OO8o7TSH44/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static int Sum(int x, int y, int z = 7)
+        {
+            return x + y + z;
+        }
+        static void Main(string[] args)
+        {
+            int resOne = Sum(1, 3);
+            int resTwo = Sum(1, 3, 11);
+            
+            Console.WriteLine(resOne);
+            Console.WriteLine(resTwo);
+        }
+    }
+}
