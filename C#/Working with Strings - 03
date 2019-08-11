@@ -1,0 +1,44 @@
+https://code.sololearn.com/cKaG1FxVSVxy/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string textDog = "This is some text about a dog. The word dog appears in this text a number of times. This is the end.";
+            Console.WriteLine("1. textDog: " + textDog);
+            Console.WriteLine();
+            
+            
+            string textCat = textDog.Replace("dog", "cat");
+            Console.WriteLine("2. textDog: " + textDog);
+            Console.WriteLine("3. textCat: " + textCat);
+            Console.WriteLine();
+            
+            
+            string textOne = textDog.Substring(0, textDog.IndexOf(".") + 1);
+            Console.WriteLine("4. textDog: " + textDog);
+            Console.WriteLine("5. textCat: " + textCat);
+            Console.WriteLine("6. textOne: " + textOne);
+            Console.WriteLine();
+            
+            
+            string textTwo = textCat.Substring(0, textCat.IndexOf(".") + 1);
+            Console.WriteLine("7. textDog: " + textDog);
+            Console.WriteLine("8. textCat: " + textCat);
+            Console.WriteLine("9. textOne: " + textOne);
+            Console.WriteLine("10. textTwo: " + textTwo);
+        }
+    }
+}
