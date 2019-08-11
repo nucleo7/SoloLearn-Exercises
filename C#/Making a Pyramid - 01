@@ -1,0 +1,71 @@
+https://code.sololearn.com/cM5xa1bNmV50/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+  class Program
+  {
+    static void DrawPyramidOne(int n)
+    {
+      for (int i=1; i<=n; i++)
+      {
+        for (int j=i; j<=n; j++)
+        {
+          Console.Write("  ");
+        }
+        for (int k=1; k<=2*i-1; k++)
+        {
+          Console.Write("*" + " ");
+        }
+        Console.WriteLine();
+      }
+    }
+    
+    static void DrawPyramidTwo(int a)
+    {
+        for (int b = 1; b <= a; b++)
+        {
+            for (int c = b; c <= a; c++)
+            {
+                Console.Write("  ");
+            }
+            for (int d = 1; d <= 2 * b - 1; d++)
+            {
+                Console.Write("^" + " ");
+            }
+            Console.WriteLine();
+        }
+    }
+    
+    static void DrawPyramidThree(int u)
+    {
+        for (int v = 1; v <= 2 * u - 1; v++)
+        {
+            for (int w = v; w <= u; w++)
+            {
+                Console.Write("×" + " ");
+            }
+            for (int x = 1; x <= v; x++)
+            {
+                Console.Write(" ");
+            }
+            Console.WriteLine();
+        }
+    }
+    
+    static void Main(string[] args)
+    {
+      DrawPyramidOne(5);
+      DrawPyramidTwo(5);
+      DrawPyramidThree(5);
+    }
+  }
+}
