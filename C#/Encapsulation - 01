@@ -1,0 +1,65 @@
+https://code.sololearn.com/cfkb2cEG4U50/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class BankAccountJohn {
+        private double balance=0;
+        public void Deposit(double n) {
+            balance += n;
+        }
+        public void Withdraw(double n) {
+            balance -= n;
+        }
+        public double GetBalance() {
+            return balance;
+        }
+    }
+    
+    class BankAccountJane {
+        private double balance = 1357;
+        public void Deposit(double d) {
+            balance += d;
+        }
+        public void Withdraw(double w) {
+            balance -= w;
+        }
+        public double GetBalance() {
+            return balance;
+        }
+    }
+    
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            BankAccountJohn b = new BankAccountJohn();
+            Console.WriteLine("John's balance: " + b.GetBalance());
+            b.Deposit(199);
+            b.Withdraw(42);
+            Console.WriteLine("John's balance: " + b.GetBalance());
+            b.Deposit(199);
+            b.Withdraw(20);
+            Console.WriteLine("John's balance: " + b.GetBalance());
+            
+            Console.WriteLine("■====================■");
+            
+            BankAccountJane ja = new BankAccountJane();
+            Console.WriteLine("Jane's balance: " + ja.GetBalance());
+            ja.Withdraw(321);
+            Console.WriteLine("Jane's balance: " + ja.GetBalance());
+            ja.Withdraw(333);
+            ja.Deposit(123);
+            Console.WriteLine("Jane's balance: " + ja.GetBalance());
+        }
+    }
+}
