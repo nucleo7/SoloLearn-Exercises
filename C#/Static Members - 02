@@ -1,0 +1,48 @@
+https://code.sololearn.com/c7eVExg9SF2j/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        // Dog class
+        class Dog
+        {
+            public static void Bark() {
+                Console.WriteLine("Woof!");
+            }
+        }
+        // Cat class
+        class Cat
+        {
+            public static void Meow() {
+                Console.WriteLine("Meow!");
+            }
+        }
+        // Bird class
+        class Bird
+        {
+            public static void Chirp() {
+                Console.WriteLine("Chirp!");
+            }
+        }
+        static void Main(string[] args)
+        {
+            Dog.Bark();
+            Cat.Meow();
+            Cat.Meow();
+            Dog.Bark();
+            Bird.Chirp();
+            Bird.Chirp();
+        }
+    }
+}
