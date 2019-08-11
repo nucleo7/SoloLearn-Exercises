@@ -1,0 +1,53 @@
+https://code.sololearn.com/cei07XTO7rQf/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[ ] arr = { 2, 4, 7, 1};
+            Console.WriteLine(arr.Max());
+            Console.WriteLine(arr.Min());
+            Console.WriteLine(arr.Sum());
+            
+            
+            // arrays declared
+            int[] arrayOne = {1, 2, 3, 4};
+            int[] arrayTwo = {11, 12, 13};
+            int[][] arrayThree = {new int[] {21, 22}, new int[] {23, 24}, new int[] {25, 26}};
+            
+            
+            // arrays - max
+            Console.WriteLine("arrayOne max: " + arrayOne.Max());
+            Console.WriteLine("arrayTwo max: " + arrayTwo.Max());
+            // Multidimensional max
+            // I tried several methods for getting the max of a multidimendional array, but none of them work.
+            // int arrayThreeMax = arrayThree.Cast<int>().Max();
+            // Console.WriteLine("arrayThree max: " + arrayThreeMax());
+            // IEnumerable<int> flattenThree = arrayThree.Cast<int>();
+            // int arrayThreeMax = flattenThree.Max();
+            // Console.WriteLine("arrayThree max: " + arrayThreeMax);
+            
+            
+            // arrays - min
+            Console.WriteLine("arrayOne min: " + arrayOne.Min());
+            Console.WriteLine("arrayTwo min: " + arrayTwo.Min());
+            
+            
+            // arrays - sum
+            Console.WriteLine("arrayOne sum: " + arrayOne.Sum());
+            Console.WriteLine("arrayTwo sum: " + arrayTwo.Sum());
+        }
+    }
+}
