@@ -1,0 +1,36 @@
+https://code.sololearn.com/cYZQIxXqUZyi/#cs
+
+
+
+// Exercises from Course Material
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        class MathClass {
+            public const int ONE = 1;
+            public const int TWO = 2;
+            public const string THING = "Thing string.";
+        }
+        class OtherClass {
+            public const int ONE = 13;
+            public const string SOMETHING = "Something string.";
+        }
+        static void Main(string[] args)
+        {
+            Console.WriteLine(MathClass.ONE);
+            Console.WriteLine(MathClass.TWO);
+            Console.WriteLine(MathClass.THING);
+            
+            Console.WriteLine(OtherClass.ONE);
+            Console.WriteLine(OtherClass.SOMETHING);
+        }
+    }
+}
