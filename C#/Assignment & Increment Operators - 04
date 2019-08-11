@@ -1,0 +1,29 @@
+https://code.sololearn.com/c6ZjfGyhG02y/#cs
+
+
+
+// Exercises from Course Material
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 3;
+            Console.WriteLine("x: " + x);
+            
+            int y = x++;
+            Console.WriteLine("x: " + x + " | " + "y: " + y);
+            
+            int z = y++;
+            Console.WriteLine("x: " + x + " | " + "y: " + y + " | " + "z: " + z);
+            
+        }
+    }
+}
