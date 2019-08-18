@@ -1,0 +1,159 @@
+https://code.sololearn.com/cc9f96XehO2q/#cpp
+
+
+
+// Exercises from Course Material
+
+// To be perfectly honest, although I did all of this practising below, and as far as I know it works, I'm still unsure at just what it is I'm doing.  I'm sure it'll come to me eventually
+
+#include <iostream>
+using namespace std;
+
+// overloading operator*
+class ClassOne {
+    public:
+        int var1;
+        ClassOne() { }
+        ClassOne(int a)
+        : var1(a) { }
+        
+        ClassOne operator*(ClassOne &obj1) {
+            ClassOne res1;
+            res1.var1 = this->var1 * obj1.var1;
+            return res1;
+        }
+};
+
+// overloading operator/
+class ClassTwo {
+    public:
+        int var2;
+        ClassTwo() { }
+        ClassTwo(int b)
+        : var2(b) { }
+        
+        ClassTwo operator/(ClassTwo &obj2) {
+            ClassTwo res2;
+            res2.var2 = this->var2 / obj2.var2;
+            return res2;
+        }
+};
+
+// overloading operator+
+class ClassThree {
+    public:
+        int var3;
+        ClassThree() { }
+        ClassThree(int c)
+        : var3(c) { }
+        
+        ClassThree operator+(ClassThree &obj3) {
+            ClassThree res3;
+            res3.var3 = this->var3 + obj3.var3;
+            return res3;
+        }
+};
+
+// overloading operator-
+class ClassFour {
+    public:
+        int var4;
+        ClassFour() { }
+        ClassFour(int d)
+        : var4(d) { }
+        
+        ClassFour operator-(ClassFour &obj4) {
+            ClassFour res4;
+            res4.var4 = this->var4 - obj4.var4;
+            return res4;
+        }
+};
+
+// overloading operator%
+class ClassFive {
+    public:
+        int var5;
+        ClassFive() { }
+        ClassFive(int e)
+        : var5(e) { }
+        
+        ClassFive operator%(ClassFive &obj5) {
+            ClassFive res5;
+            res5.var5 = this->var5 % obj5.var5;
+            return res5;
+        }
+};
+
+int main() {
+    // operator* objects
+    ClassOne objA(3), objB(5);
+    ClassOne objC(7), objD(11);
+    
+    ClassOne resA = objA * objB;
+    ClassOne resB = objC * objD;
+    
+    cout << "operator* ..." << endl;
+    cout << "resA.var1: " << resA.var1 << endl;
+    cout << "resB.var1: " << resB.var1 << endl << endl;
+    
+    // operator/ objects
+    ClassTwo objE(13), objF(7);
+    ClassTwo objG(23), objH(9);
+    
+    ClassTwo resC = objE / objF;
+    ClassTwo resD = objG / objH;
+    
+    cout << "operator/ ..." << endl;
+    cout << "resC.var2: " << resC.var2 << endl;
+    cout << "resD.var2: " << resD.var2 << endl << endl;
+    
+    // operator+ objects
+    ClassThree objI(29), objJ(31);
+    ClassThree objK(37), objL(41);
+    
+    ClassThree resE = objI + objJ;
+    ClassThree resF = objK + objL;
+    
+    cout << "operator+ ..." << endl;
+    cout << "resE.var3: " << resE.var3 << endl;
+    cout << "resF.var3: " << resF.var3 << endl << endl;
+    
+    // operator- objects
+    ClassFour objM(43), objN(47);
+    ClassFour objO(13), objP(3);
+    
+    ClassFour resG = objM - objN;
+    ClassFour resH = objO - objP;
+    
+    cout << "operator- ..." << endl;
+    cout << "resG.var4: " << resG.var4 << endl;
+    cout << "resH.var4: " << resH.var4 << endl << endl;
+    
+    // operator% objects
+    ClassFive objQ(23), objR(3);
+    ClassFive objS(42), objT(13);
+    
+    ClassFive resI = objQ % objR;
+    ClassFive resJ = objS % objT;
+    
+    cout << "operator% ..." << endl;
+    cout << "resI.var5: " << resI.var5 << endl;
+    cout << "resJ.var5: " << resJ.var5 << endl << endl;
+    
+    // I tried printing this list out below, but the app kept timing out!  At least, this was the case in the Android app, it works fine in the browser.
+    
+    // OPERATORS CAN BE OVERLOADED:
+    cout << "OPERATORS CAN BE OVERLOADED: " << endl;
+    cout << "|  *  |  /  |  +  |  -  |  %  |  ^  |" << endl;
+    cout << "|  &  |  |  |  ~  |  !  |  ,  |  =  |" << endl;
+    cout << "|  <  |  >  |  <=  |  >=  |  ++  |  --  |" << endl;
+    cout << "|  <<  |  >>  |  ==  |  !=  |  &&  |  ||  |" << endl;
+    cout << "|  *=  |  /=  |  +=  |  -=  |  %=  |  ^=  |" << endl;
+    cout << "|  &=  |  |=  |  <<=  |  >>=  |  []  |  ()  |" << endl;
+    cout << "|  ->  |  ->*  |  new  |  new[]  |  delete  |  delete[]  |" << endl << endl;
+    
+    // OPERATORS CAN'T BE OVERLOADED:
+    cout << "OPERATORS CAN'T BE OVERLOADED: " << endl;
+    cout << "|  .*  |  .  |  ?:  |" << endl << endl;
+    
+}
