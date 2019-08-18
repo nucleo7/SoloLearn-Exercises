@@ -1,0 +1,44 @@
+https://code.sololearn.com/cfbKpUTEUO3O/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+// Reminder: This whole thing requires two inputs.
+    int numCountOne = 1;
+    int numCountTwo = 1;
+    int userInput;
+    int totalOne = 0;
+    int totalTwo = 0;
+    
+    while (numCountOne <= 5) {
+       cin >> userInput;
+       totalOne += userInput;
+       numCountOne++; 
+    }
+    cout << "totalOne is: " << totalOne << endl;
+    
+    while (numCountTwo < 5) {
+       totalTwo += userInput;
+       numCountTwo++;
+    }
+    cout << "totalTwo is: " << totalTwo << endl;
+    
+    // I don't know what I'm doing but it was fun anyway.
+
+    int numOne;
+    int numTwo = 0;
+    int numThree = 5;
+    
+    while (numThree >= numTwo) {
+       cin >> numOne;
+       numThree--; 
+    }
+    cout << "numThree: " << numThree << " | " << "numTwo: " << numTwo << " | " << "numOne: " << numOne << endl;
+
+    return 0;
+}
