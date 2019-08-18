@@ -1,0 +1,46 @@
+https://code.sololearn.com/wB7YGmNpuSns/#php
+
+
+
+<!-- Exercises from Course Material -->
+
+<?php
+    // open names.txt
+    $myfile = fopen("names.txt", "w");
+
+    // write in names.txt
+    $txt = "John\n";
+    fwrite($myfile, $txt);
+    $txt = "David\n";
+    fwrite($myfile, $txt);
+
+    // close names.txt
+    fclose($myfile);
+
+    // read names.txt
+    $read = file('names.txt');
+    foreach ($read as $line) {
+        echo $line .", ";
+    }
+    echo "<br />";
+    
+    // open file01.txt
+    $file01 = fopen("file01.txt", "w");
+    
+    // write file01.txt
+    $text = "First line\n";
+    fwrite($file01, $text);
+    $text = "Second line\n";
+    fwrite($file01, $text);
+    $text = "Third line\n";
+    fwrite($file01, $text);
+    
+    // close file01.txt
+    fclose($file01);
+    
+    // read file01.txt
+    $reading = file("file01.txt");
+    foreach($reading as $lines) {
+        echo $lines . " | ";
+    }
+?>
