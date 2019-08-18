@@ -1,0 +1,19 @@
+https://code.sololearn.com/w6A6Q6M40ibH/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php
+
+    $numOne = 3;
+    $numTwo = 11;
+    echo "The starting value of numOne before the loop is: $numOne <br />";
+    
+    while ($numOne < $numTwo) {
+        echo "The value of numOne is: $numOne <br />";
+        $numOne++;
+    }
+    
+    echo "The final value of numOne after the loop is: $numOne <br />";
+    
+?>
