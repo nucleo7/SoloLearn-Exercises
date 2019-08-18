@@ -1,0 +1,58 @@
+https://code.sololearn.com/cGYxlsfhZ6Jf/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+class Enemy {
+    public:
+        virtual void attack() { }
+        virtual void defend() { }
+};
+
+class Ninja: public Enemy {
+    public:
+        void attack() {
+            cout << "Ninja Attack!" << endl;
+        }
+        void defend() {
+            cout << "Ninja Defend!" << endl;
+        }
+};
+
+class Monster: public Enemy {
+    public:
+        void attack() {
+            cout << "Monster Attack!" << endl;
+        }
+        void defend() {
+            cout << "Monster Defend!" << endl;
+        }
+};
+
+int main() {
+    Ninja n1;
+    Monster m1;
+    Enemy *e1 = &n1;
+    Enemy *e2 = &m1;
+    Ninja n2;
+    Enemy *e3 = &n2;
+
+    e1->attack();
+    e2->defend();
+    e2->attack();
+    e1->defend();
+    e1->attack();
+    e2->defend();
+    e2->attack();
+    e1->defend();
+    cout << "Sneaky Ninja no. 2 jumps in..." << endl;
+    e3->attack();
+    e2->defend();
+    e1->attack();
+    e2->defend();
+    cout << "Poor monster, being attacked from two sides now, can't even fight back." << endl;
+}
