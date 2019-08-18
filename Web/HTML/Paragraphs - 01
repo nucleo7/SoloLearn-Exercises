@@ -1,0 +1,15 @@
+https://code.sololearn.com/W75LZW0hT3Jn/#html
+
+
+
+<!-- Exercises from Course Material -->
+<html>
+    <head>
+        <title>first page</title>
+    </head>
+    <body>
+        <p>This is a paragraph.</p>
+        <p>This is another paragraph.</p>
+        <p>Always with these paragraphs!</p>
+    </body>
+</html>
