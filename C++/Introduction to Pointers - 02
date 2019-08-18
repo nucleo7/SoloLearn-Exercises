@@ -1,0 +1,54 @@
+https://code.sololearn.com/caEIulM03Nyu/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int score = 5;
+    int *scorePtr;
+    scorePtr = &score;
+
+    cout << scorePtr << endl;
+    
+    char charOne = 'C';
+    double doubleOne = 3.14;
+    float floatOne = 3.14;
+    int intOne = 3;
+    string stringOne = "Words";
+    
+    cout << "The value of charOne: " << charOne << endl;
+    cout << "The value of doubleOne: " << doubleOne << endl;
+    cout << "The value of floatOne: " << floatOne << endl;
+    cout << "The value of intOne: " << intOne << endl;
+    cout << "The value of stringOne: " << stringOne << endl;
+    
+    char *charOnePtr;
+    double *doubleOnePtr;
+    float *floatOnePtr;
+    int *intOnePtr;
+    string *stringOnePtr;
+    
+    cout << "The address of charOnePtr: " << charOnePtr << endl;    // This one is weird - ö (
+    cout << "The address of doubleOnePtr: " << doubleOnePtr << endl;
+    cout << "The address of floatOnePtr: " << floatOnePtr << endl;
+    cout << "The address of intOnePtr: " << intOnePtr << endl;
+    cout << "The address of stringOnePtr: " << stringOnePtr << endl;
+    
+    charOnePtr = &charOne;
+    doubleOnePtr = &doubleOne;
+    floatOnePtr = &floatOne;
+    intOnePtr = &intOne;
+    stringOnePtr = &stringOne;
+    
+    cout << "charOnePtr pointing to the address of charOne: " << charOnePtr << endl;    // Very strange indeed - C
+    cout << "doubleOnePtr pointing to the address of doubleOne: " << doubleOnePtr << endl;
+    cout << "floatOnePtr pointing to the address of floatOne: " << floatOnePtr << endl;
+    cout << "intOnePtr pointing to the address of intOne: " << intOnePtr << endl;
+    cout << "stringOnePtr pointing to the address of stringOne: " << stringOnePtr << endl;
+
+    return 0;
+}
