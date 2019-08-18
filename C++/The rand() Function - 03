@@ -1,0 +1,19 @@
+https://code.sololearn.com/cfz8dlBMspE8/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main () {
+    for (int x = 1; x <= 7; x++) {
+        cout << "x: " << 1 + (rand() % 6) << endl;
+    }
+    
+    for (int y = 0; y < 7; y++) {
+        cout << "y: " << 1 * 3 / 9 + (rand() % 7) - 11 << endl;
+    }
+}
