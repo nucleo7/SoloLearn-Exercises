@@ -1,0 +1,29 @@
+https://code.sololearn.com/cItpXg4RIaAa/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int score = 5;
+    cout << &score << endl;
+    
+    int numOne = 5;
+    int numTwo = 7;
+    string stringOne = "One";
+    string stringTwo = "Two";
+    bool boolOne = true;
+    bool boolTwo = false;
+    
+    cout << "The address of numOne: " << &numOne << endl;
+    cout << "The address of numTwo: " << &numTwo << endl;
+    cout << "The address of stringOne: " << &stringOne << endl;
+    cout << "The address of stringTwo: " << &stringTwo << endl;
+    cout << "The address of boolOne: " << &boolOne << endl;
+    cout << "The address of boolTwo: " << &boolTwo << endl;
+
+    return 0;
+}
