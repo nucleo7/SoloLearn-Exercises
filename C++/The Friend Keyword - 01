@@ -1,0 +1,85 @@
+https://code.sololearn.com/c9wlcB3ADVoC/#cpp
+
+
+
+// Exercises From Course Material
+
+#include <iostream>
+using namespace std;
+
+// ClassOne Class
+class ClassOne {
+    public:
+        ClassOne() {
+            regVarA = 0;
+        }
+    private:
+        int regVarA;
+
+    friend void funcOne(ClassOne &objA);
+    friend void funcTwo(ClassOne &objB);
+};
+
+// ClassTwo Class
+class ClassTwo {
+    public:
+        ClassTwo() {
+            regVarB = 0;
+        }
+    private:
+        int regVarB;
+    
+    friend void funcThree(ClassTwo &objC);
+};
+
+// functions
+void funcOne(ClassOne &objA) {
+    objA.regVarA = 42;
+    cout << objA.regVarA << endl;
+}
+
+void funcTwo(ClassOne &objB) {
+    objB.regVarA = 13;
+    cout << objB.regVarA << endl;
+}
+
+void funcThree(ClassTwo &objC) {
+    objC.regVarB = 23;
+    cout << objC.regVarB << endl;
+}
+
+// main
+int main() {
+    // ClassOne Objects
+    ClassOne obj1;
+    cout << "funcOne(obj1): ";
+    funcOne(obj1);
+    
+    ClassOne obj2;
+    ClassOne obj3;
+    
+    cout << "funcOne(obj2): ";
+    funcOne(obj2);
+    
+    cout << "funcOne(obj3): ";
+    funcOne(obj3);
+    
+    ClassOne obj4;
+    ClassOne obj5;
+    
+    cout << "funcTwo(obj4): ";
+    funcTwo(obj4);
+    
+    cout << "funcTwo(obj5): ";
+    funcTwo(obj5);
+    
+    // ClassTwo Objects
+    ClassTwo obj6;
+    ClassTwo obj7;
+    
+    cout << "funcThree(obj6): ";
+    funcThree(obj6);
+    
+    cout << "funcThree(obj7): ";
+    funcThree(obj7);
+}
