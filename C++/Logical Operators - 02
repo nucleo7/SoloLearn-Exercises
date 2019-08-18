@@ -1,0 +1,22 @@
+https://code.sololearn.com/chwUUeJz4xkS/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    int numOne = 7;
+    int numTwo = 3;
+    int numThree = 11;
+    int numFour = 5;
+    
+    if (numOne > numTwo && numTwo < numThree && numThree > numFour && numFour < numOne) {
+       cout <<  "numOne: " << numOne << endl << "numTwo: " << numTwo << endl << "numThree: " << numThree << endl << "numFour: " << numFour << endl;
+    }
+    
+    return 0;
+}
