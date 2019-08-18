@@ -1,0 +1,16 @@
+https://code.sololearn.com/WRwgC6YQA2F7/#html
+
+
+
+<!-- Exercises from Course Material -->
+<html>
+    <head>
+        <title>first page</title>
+    </head>
+    <body>
+        <p>This is a paragraph.</p>
+        <p>This is another paragraph. </p>
+        <p>This is <br /> a line break </p>
+        <p>Confusing <br /> bloody <br /> line <br /> breaks.</p>
+    </body>
+</html>
