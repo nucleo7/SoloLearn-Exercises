@@ -1,0 +1,105 @@
+https://code.sololearn.com/c6m7Tx8jj7B9/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+// ClassOne class
+class ClassOne
+{
+    public:
+        ClassOne();
+        void printOne();
+        void printOneAlt();
+};
+
+// ClassTwo class
+class ClassTwo
+{
+    public:
+        ClassTwo();
+        void printTwo();
+        void printTwoAlt();
+};
+
+// Animal class
+class Animal
+{
+    public:
+        Animal();
+        void sound();
+        void newSound();
+};
+
+// ClassOne method
+ClassOne::ClassOne() {
+}
+void ClassOne::printOne() {
+    cout << "ClassOne - printOne" << endl;
+}
+void ClassOne::printOneAlt() {
+    cout << "ClassOne - printOneAlt" << endl;
+}
+
+// ClassTwo method
+ClassTwo::ClassTwo() {
+}
+void ClassTwo::printTwo() {
+    cout << "ClassTwo - printTwo" << endl;
+}
+void ClassTwo::printTwoAlt() {
+    cout << "ClassTwo - printTwoAlt" << endl;
+}
+
+// Animal method
+Animal::Animal() {
+}
+void Animal::sound() {
+    cout << "generic animal sound!" << endl;
+}
+void Animal::newSound() {
+    cout << "new animal sound" << endl;
+}
+
+// main
+int main() {
+    // ClassOne objects
+    cout << "ClassOne..." << endl;
+    ClassOne obj1;
+    ClassOne obj2;
+    
+    obj1.printOne();
+    obj2.printOne();
+    obj1.printOneAlt();
+    obj2.printOneAlt();
+    
+    cout << endl;
+    
+    // ClassTwo objects
+    cout << "ClassTwo..." << endl;
+    ClassTwo obj3;
+    ClassTwo obj4;
+    
+    obj3.printTwo();
+    obj4.printTwo();
+    obj3.printTwoAlt();
+    obj4.printTwoAlt();
+    
+    cout << endl;
+    
+    // Animal objects
+    cout << "Animals..." << endl;
+    Animal a1;
+    Animal a2;
+    
+    a1.sound();
+    a2.sound();
+    a1.newSound();
+    a2.newSound();
+    
+    cout << endl;
+    
+}
