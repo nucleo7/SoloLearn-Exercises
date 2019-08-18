@@ -1,0 +1,22 @@
+https://code.sololearn.com/wwNn4FscBmuC/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php
+    
+    $thingsArray = array("Item 1"=>"Value 1", "Item 2"=>"Value 2", "Item 3"=>"Value 3", "Item 4"=>4, 5=>5, "Item 6"=>true);
+    
+    echo $thingsArray['Item 1'];
+    echo "<br />";
+    echo $thingsArray["Item 2"];
+    echo "<br />";
+    echo $thingsArray["Item 3"];
+    echo "<br />";
+    echo $thingsArray['Item 4'];
+    echo "<br />";
+    echo $thingsArray["5"];
+    echo "<br />";
+    echo $thingsArray["Item 6"];
+    echo "<br />";
+?>
