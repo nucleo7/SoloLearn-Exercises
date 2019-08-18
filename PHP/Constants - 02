@@ -1,0 +1,12 @@
+https://code.sololearn.com/wC0TN5lx0ciP/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php
+    define("MSG", "Hi SoloLearners!", true);
+    define("WoRdS", "Multiples", true);
+    echo msg;
+    echo wOrDs;
+    // case-insensitive constants
+?>
