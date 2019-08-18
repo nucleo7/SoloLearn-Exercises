@@ -1,0 +1,43 @@
+https://code.sololearn.com/wAm9P2wTwkvt/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php
+    $day = 'Wed';
+
+    switch ($day) {
+        case 'Mon':
+            echo 'First day of the week';
+            break;
+        case 'Tue':
+        case 'Wed':
+        case 'Thu':
+            echo 'Working day';
+            break;
+        case 'Fri':
+            echo 'Friday!';
+            break;
+        default:
+            echo 'Weekend!';
+    }
+    echo "<br />";
+
+    
+    $aDay = "Wednesday";
+    switch ($aDay) {
+        case "Monday":
+        case "Tuesday":
+        case "Wednesday":
+        case "Thursday":
+        case "Friday":
+            echo "It's a weekday.";
+            break;
+        case "Saturday":
+        case "Sunday":
+            echo "It's the weekend!";
+            break;
+        default:
+            echo "That day doesn't exist!";
+    }
+?>
