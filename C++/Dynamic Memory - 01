@@ -1,0 +1,36 @@
+https://code.sololearn.com/csGbU8qlwZo6/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int *p = new int; // request memory
+    *p = 5; // store value
+
+    cout << *p << endl; // use value
+
+    delete p; // free up the memory
+    
+    int *a = new int;
+    int *b = new int;
+    
+    *a = 3;
+    *b = 7;
+    
+    cout << "Pointer: " << *a << endl;
+    cout << "Pointer: " << *b << endl;
+    
+    delete a;
+    delete b;
+    
+    cout << "After delete: " << *a << endl;
+    cout << "After delete: " << *b << endl;
+    
+
+    return 0;
+}
