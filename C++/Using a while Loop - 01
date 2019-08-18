@@ -1,0 +1,36 @@
+https://code.sololearn.com/cTcH0pdDlIuG/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    int numOne = 7;
+    int numTwo = 13;
+    while (numOne < numTwo) {
+       cout << "The value of numOne is: " << numOne << endl;
+       numOne++;
+    }
+    // ====================
+    // EDIT: I found out what was wrong below, I was an idiot. Leaving it in for historic purposes.
+    // Why the hell is only one loop executing??
+    while (numOne <= numTwo) {
+       cout << "The value of numOne is: " << numOne << endl;
+       numOne++;
+    }
+    // ====================
+    
+    // EDIT: Proper solution
+    int numThree = 7;
+    int numFour = 13;
+    while (numThree <= numFour) {
+       cout << "The value of numThree is: " << numThree << endl;;
+       numThree++;
+    }
+    
+    return 0;
+}
