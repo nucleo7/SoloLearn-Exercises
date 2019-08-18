@@ -1,0 +1,20 @@
+https://code.sololearn.com/cQ2CUYi5Un9F/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    int numOne = 17;
+    int numTwo = 3;
+    
+    if (numOne > 0 && numOne > numTwo) {
+       cout << "The numOne value is greater than 0, and greater than the numTwo value." << endl << "The numOne value is: " << numOne << endl << "The numTwo value is: " << numTwo << endl;
+    }
+    
+    return 0;
+}
