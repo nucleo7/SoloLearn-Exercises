@@ -1,0 +1,17 @@
+https://code.sololearn.com/wyNrgWtU6Anx/#php
+
+
+
+<!-- Exercises from Course Material -->
+
+<?php // Other super global Variables
+    echo $_SERVER['SCRIPT_NAME'];
+    // echo $GLOBALS;
+    // echo $_REQUEST;
+    // echo $_POST;
+    // echo $_GET;
+    // echo $_FILES;
+    // echo $_ENV;
+    // echo $_COOKIE;
+    // echo $_SESSION;
+?>
