@@ -1,0 +1,25 @@
+https://code.sololearn.com/cZrggfvUGL9F/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+class BankAccount {
+    public:
+        void accOut() {
+            cout << "Your account is so empty, it's ridiculous!" << endl;
+        }
+        void accOutReal() {
+            cout << "No really, it's empty. You can keep checking, it won't change." << endl;
+        }
+};
+
+int main() 
+{
+    BankAccount test1;
+    test1.accOut();
+    test1.accOutReal();
+}
