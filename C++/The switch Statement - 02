@@ -1,0 +1,35 @@
+https://code.sololearn.com/cb4aX1FWSDmj/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    int numOne = 1;
+    int numTwo = 17;
+    int numThree = 5;
+    int numFour = 11;
+    switch (numFour) {
+       case 1:
+           cout << "The numFour value is: " << numOne << endl;
+           break;
+        case 5:
+            cout << "The numFour value is: " << numThree << endl;
+            break;
+        case 11:
+            cout << "The numFour value is: " << numFour << endl;
+            break;
+        case 17:
+            cout << "The numFour value is: " << numTwo << endl;;
+            break;
+        case 0:
+            cout << "This number is not valid." << endl;
+            break;
+    }
+    
+    return 0;
+}
