@@ -1,0 +1,23 @@
+https://code.sololearn.com/cJc7s7o005B1/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    /* This is a comment */
+
+    /* C++ comments can
+    span multiple lines
+     */
+     
+     /* Nothing
+     will
+     be
+     printed */
+
+    return 0;
+}
