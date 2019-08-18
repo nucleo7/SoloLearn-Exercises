@@ -1,0 +1,59 @@
+https://code.sololearn.com/cZGM4JIBsx2e/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+class Mother {
+    public:
+        Mother()
+        {
+            cout << "Mother() constructor" << endl;
+        }
+        ~Mother()
+        {
+            cout << "Mother() destructor" << endl;
+        }
+};
+
+class Father {
+    public:
+        Father()
+        {
+            cout << "Father() constructor" << endl;
+        }
+        ~Father()
+        {
+            cout << "Father() destructor" << endl;
+        }
+};
+
+class Dog {
+    public:
+        Dog()
+        {
+            cout << "Dog() constructor" << endl;
+        }
+        ~Dog()
+        {
+            cout << "Dog() destructor" << endl;
+        }
+};
+
+int main() {
+    Mother m1;
+    Mother m2;
+    
+    Father f1;
+    Father f2;
+    
+    Dog d1;
+    Dog d2;
+    
+    Mother m3;
+    Father f3;
+    Dog d3;
+}
