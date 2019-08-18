@@ -1,0 +1,16 @@
+https://code.sololearn.com/cLfHInei1a7q/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // prints "Doesn't print this"
+    cout << "Hello world!";
+    cout << "Yes, this is also printed";
+    // No, this comment is not printed.
+    return 0;
+}
