@@ -1,0 +1,18 @@
+https://code.sololearn.com/wVyRV3JQ058Q/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php
+    
+    $someArray = array("stringOne", 7, 11.0, true, 'x', "<b>Can you say HTML tags</b>");
+    $someArray[6] = "extraString";
+    
+    echo $someArray[1];
+    echo "<br />";
+    echo "$someArray[2] <br />";
+    echo "Index 3 is: $someArray[3] <br />";
+    
+    echo "The first item is index 0, and is: $someArray[0]. The second item is index 1, and is: $someArray[1]. The third item is index 2, and is: $someArray[2]. The rest is: $someArray[3], $someArray[4], $someArray[5], and $someArray[6].";
+    
+?>
