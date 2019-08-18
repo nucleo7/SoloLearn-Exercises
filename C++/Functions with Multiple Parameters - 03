@@ -1,0 +1,30 @@
+https://code.sololearn.com/cBIHHp15yxFg/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+int addNumbers(int x, int y, int z, int a) {
+  int result = x + y + z + a;
+  return result;
+}
+
+int multipleNumbers(int g, int h, int i, int j, int k) {
+    int calculation = g * h / i + j - k % j - i + h / g;
+    return calculation;
+}
+
+int main()
+{
+    cout << addNumbers(1, 7, 8, 3) << endl;
+    
+    cout << multipleNumbers(1, 3, 5, 7, 11) << endl;
+    cout << multipleNumbers(11, 7, 5, 3, 1) << endl;
+    cout << multipleNumbers(13, 7, 11, 3, 5) << endl;
+    cout << multipleNumbers(5, 3, 11, 7, 13) << endl;
+
+    return 0;
+}
