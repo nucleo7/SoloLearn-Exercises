@@ -1,0 +1,23 @@
+https://code.sololearn.com/ca4b0izpyUZE/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    /* Comment out printing of Hello world!
+
+    cout << "Hello world!"; // prints Hello world!
+
+    */
+    
+    /* Commenting
+    cout << "Still no output"; // nothing
+    is
+    happening */
+
+    return 0;
+}
