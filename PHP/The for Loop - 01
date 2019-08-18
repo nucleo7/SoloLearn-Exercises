@@ -1,0 +1,28 @@
+https://code.sololearn.com/wWi8c5c9SMbo/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php
+    for ($a = 0; $a < 6; $a++) {
+        echo "Value of a : ". $a . "<br />";
+    }
+    echo "<br />";
+    
+    $numOne = 3;
+    $numTwo = 11;
+    
+    echo "The value of numOne before the loop is: " . $numOne . "<br />";
+    
+    for ($numOne; $numOne < $numTwo; $numOne++) {
+        echo "The value of numOne is: " . $numOne . "<br />";
+    }
+    
+    echo "The value of numOne after the loop is: " . $numOne . "<br />";
+    echo "<br />";
+    
+    
+    
+    echo "The numOne value is: $numOne.<br />";
+    echo "The numTwo value is: $numTwo.<br />";
+?>
