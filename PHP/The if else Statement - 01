@@ -1,0 +1,22 @@
+https://code.sololearn.com/wQlkiir9257A/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php
+    $x = 10;
+    $y = 20;
+    if ($x >= $y) {
+        echo $x;
+    } else {
+        echo $y;
+    }
+    echo "<br />";
+    $firstThing = 3;
+    $secondThing = 11;
+    if ($firstThing > $secondThing) {
+        echo $firstThing;
+    } else {
+        echo $secondThing;
+    }
+?>
