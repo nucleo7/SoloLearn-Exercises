@@ -1,0 +1,104 @@
+https://code.sololearn.com/cD18d1mw12z1/#cpp
+
+
+
+// Exercises from Course Material
+
+// TO DO:
+// - defend
+// - good guys
+#include <iostream>
+using namespace std;
+
+// Enemy base class and bad guys
+class Enemy {
+    public:
+        virtual void attack() = 0;
+        virtual void defend() = 0;
+};
+
+class Ninja: public Enemy {
+    public:
+        void attack() {
+            cout << "Ninja - Katana Attack!" << endl;
+        }
+        void defend() {
+            cout << "Ninja - Evade Defend!" << endl;
+        }
+};
+
+class Monster: public Enemy {
+    public:
+        void attack() {
+            cout << "Monster - Bite Attack!" << endl;
+        }
+        void defend() {
+            cout << "Monster - Paw Defend!" << endl;
+        }
+};
+
+// Good guy base class and good guys
+class Goody {
+    public:
+        virtual void attack() = 0;
+        virtual void defend() = 0;
+};
+
+class Fighter: public Goody {
+    public:
+        void attack() {
+            cout << "Fighter - Sword Attack!" << endl;
+        }
+        void defend() {
+            cout << "Fighter - Shield Defend!" << endl;
+        }
+};
+
+class Wizard: public Goody {
+    public:
+        void attack() {
+            cout << "Wizard - Fireball!" << endl;
+        }
+        void defend() {
+            cout << "Wizard - Magic Shield!" << endl;
+        }
+};
+
+int main()
+{
+    // Creating some bad guys
+    Ninja n1;
+    Ninja n2;
+    Monster m1;
+    Monster m2;
+    Enemy *e1 = &n1;
+    Enemy *e2 = &n2;
+    Enemy *e3 = &m1;
+    Enemy *e4 = &m2;
+    
+    // Creating some good guys
+    Fighter f1;
+    Wizard w1;
+    Goody *g1 = &f1;
+    Goody *g2 = &w1;
+    
+    // Let the battle commence...
+    e1->attack();
+    g1->defend();
+    e3->attack();
+    g1->defend();
+    g1->attack();
+    e1->defend();
+    g1->attack();
+    e3->defend();
+    e2->attack();
+    g2->defend();
+    e4->attack();
+    g2->defend();
+    g2->attack();
+    e2->defend();
+    g2->attack();
+    e4->defend();
+    
+    return 0;
+}
