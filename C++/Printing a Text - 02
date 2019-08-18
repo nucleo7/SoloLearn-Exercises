@@ -1,0 +1,15 @@
+https://code.sololearn.com/cvxQoy0ar5DP/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Hello world!" << endl;
+    cout << "I love programming!" << endl;
+    cout << "Sure, you say that now." << endl;
+    return 0;
+}
