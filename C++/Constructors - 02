@@ -1,0 +1,80 @@
+https://code.sololearn.com/cpoV3HJlncbp/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+// myClass
+class myClass {
+    public:
+        myClass(string nm) {
+            setName(nm);
+        }
+        void setName(string x) {
+            name = x;
+        }
+        string getName() {
+            return name;
+        }
+    private:
+        string name;
+};
+// classOne - strings
+class classOne {
+    public:
+        classOne(string c1) {
+            setWord1(c1);
+        }
+        void setWord1(string a) {
+            word1 = a;
+        }
+        string getWord1() {
+            return word1;
+        }
+    private:
+        string word1;
+};
+// classTwo - ints
+class classTwo {
+    public:
+        classTwo(int d1) {
+            setNumber1(d1);
+        }
+        void setNumber1(int b) {
+            number1 = b;
+        }
+        int getNumber1() {
+            return number1;
+        }
+    private:
+        int number1;
+};
+// main output
+int main() {
+    // myClass
+    myClass ob1("David");
+    myClass ob2("Amy");
+    
+    cout << "ob1.getName(): " << ob1.getName() << endl;
+    cout << "ob2.getName(): " << ob2.getName() << endl << endl;
+    
+    // classOne
+    classOne objectOne("Sentence One");
+    classOne objectTwo("Sentence Two");
+    classOne objectThree("Sentence Three");
+    
+    cout << "objectOne.getWord1(): " << objectOne.getWord1() << endl;
+    cout << "objectTwo.getWord1(): " << objectTwo.getWord1() << endl;
+    cout << "objectThree.getWord1(): " << objectThree.getWord1() << endl << endl;
+    
+    // classTwo
+    classTwo numOne(1);
+    classTwo numTwo(2);
+    classTwo numThree(3);
+    
+    cout << "numOne.getNumber1(): " << numOne.getNumber1() << endl;
+    cout << "numTwo.getNumber1(): " << numTwo.getNumber1() << endl;
+    cout << "mumThree.getNumber1(): " << numThree.getNumber1() << endl << endl;
+}
