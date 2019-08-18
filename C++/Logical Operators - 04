@@ -1,0 +1,20 @@
+https://code.sololearn.com/cMTrN1efWlYw/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    int numOne =11;
+    int numTwo = 5;
+    
+    if ( !(numOne < numTwo)) {
+        cout << "The numOne value: " << numOne << ", is not less than the numTwo value: " << numTwo << endl;
+    }
+    
+    return 0;
+}
