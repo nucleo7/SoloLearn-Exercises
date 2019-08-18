@@ -1,0 +1,146 @@
+https://code.sololearn.com/cbRAFt2gUU0M/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+// Birthday class
+class Birthday {
+    public:
+        Birthday(int m1, int d1, int y1)
+        : month1(m1), day1(d1), year1(y1)
+        { }
+        void printDate1() {
+            cout << month1 << "/" << day1 << "/" << year1 << endl;
+        }
+    private:
+        int month1;
+        int day1;
+        int year1;
+};
+
+// Person class
+class Person {
+    public:
+        Person(string n1, Birthday b1)
+        : name1(n1), bd1(b1)
+        { }
+        void printInfo1() {
+            cout << name1 << ": ";
+            bd1.printDate1();
+        }
+    private:
+        string name1;
+        Birthday bd1;
+};
+
+// Cat class
+class Cat {
+    public:
+        Cat(string n2, Birthday b2)
+        : name2(n2), bd2(b2)
+        { }
+        void printInfo2() {
+            cout << name2 << ": ";
+            bd2.printDate1();
+        }
+    private:
+        string name2;
+        Birthday bd2;
+};
+
+// Manufacture class - time
+class Manufacture {
+    public:
+        Manufacture(int y2, int m2, int d2)
+        : year2(y2), month2(m2), day2(d2)
+        { }
+        void printDate2() {
+            cout << year2 << "-" << month2 << "-" << day2 << endl;
+        }
+    private:
+        int year2;
+        int month2;
+        int day2;
+};
+
+// Car models
+class Model {
+    public:
+        Model(string mo1)
+        : model1(mo1)
+        { }
+        void printModel1() {
+            cout << model1 << ": ";
+        }
+    private:
+        string model1;
+};
+
+// Car class
+class Car {
+    public:
+        Car(string br1, Model md1, Manufacture mn1)
+        : brand1(br1), model2(md1), date1(mn1)
+        { }
+        void printInfo3() {
+            cout << brand1 << " ";
+            model2.printModel1();
+            date1.printDate2();
+        }
+    private:
+        string brand1;
+        Model model2;
+        Manufacture date1;
+};
+
+int main() {
+    // Person & Birthday objects
+    Birthday bd1(2, 21, 1985);
+    Birthday bd2(1, 1, 1980);
+    Birthday bd3(5, 3, 1994);
+    
+    Person p1("David", bd1);
+    Person p2("Jim", bd2);
+    Person p3("Mary", bd3);
+    
+    cout << "Persons..." << endl;
+    p1.printInfo1();
+    p2.printInfo1();
+    p3.printInfo1();
+    cout << endl;
+    
+    // Cat objects
+    Birthday bd4(9, 11, 2011);
+    Birthday bd5(3, 12, 2013);
+    
+    Cat c1("Fuzzy", bd3);
+    Cat c2("Scratchy", bd4);
+    
+    cout << "Cats..." << endl;
+    c1.printInfo2();
+    c2.printInfo2();
+    cout << endl;
+    
+    // Car & Manufacture date objects
+    Manufacture mnf1(2017, 12, 13);
+    Manufacture mnf2(2016, 5, 23);
+    Manufacture mnf3(2018, 1, 5);
+    
+    Model m1("Veyron");
+    Model m2("Aventador");
+    Model m3("Model S");
+    
+    Car cr1("Bugatti", m1, mnf1);
+    Car cr2("Lamborghini", m2, mnf2);
+    Car cr3("Tesla", m3, mnf3);
+    
+    cout << "Cars..." << endl;
+    cr1.printInfo3();
+    cr2.printInfo3();
+    cr3.printInfo3();
+    cout << endl;
+}
