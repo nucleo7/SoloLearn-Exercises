@@ -1,0 +1,19 @@
+https://code.sololearn.com/cHg5IGi849TN/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a = 42;
+    /*    Don't run this code, it causes an infinite loop.
+    do {
+        cout << a << endl;
+    } while (a > 0);
+    */
+
+    return 0;
+}
