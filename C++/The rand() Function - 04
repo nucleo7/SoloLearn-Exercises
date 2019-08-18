@@ -1,0 +1,20 @@
+https://code.sololearn.com/cz9G5BP42ixj/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main () {
+    
+    for (int x = 1; x <= 10; x++) {
+        cout << "x: " << 1 + (rand() % 6) << endl;
+    }
+    
+    for (int y = 1; y <= 5; y++) {
+        cout << "y: " << rand() % 7 << endl;
+    }
+}
