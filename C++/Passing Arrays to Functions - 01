@@ -1,0 +1,44 @@
+https://code.sololearn.com/c4a42JfVa1QG/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+// printArray
+void printArray(int arr[], int size) {
+    cout << "printArray: ";
+    for(int x = 0; x < size; x++) {
+        cout << arr[x] << " | ";
+    }
+    cout << endl;
+}
+
+// someArray
+void someArrayOne(int arrayOne[], int size) {
+    cout << "someArray: ";
+    for(int a = 0; a < size; a++) {
+        cout << arrayOne[a] << " | ";
+    }
+    cout << endl;
+}
+
+int main() {
+    // Printing printArray
+    int myArr[3] = {42, 33, 88};
+    printArray(myArr, 3);
+    
+    int myArrTwo[5] = {3, 5, 7, 11, 13};
+    printArray(myArrTwo, 5);
+    
+    // Printing someArrayOne
+    int arrayOneX[3] = {1, 3, 5};
+    int arrayOneY[5] = {7, 11, 13, 17, 19};
+    int arrayOneZ[7] = {17, 13, 11, 7, 5, 3, 1};
+    
+    someArrayOne(arrayOneX, 3);
+    someArrayOne(arrayOneY, 5);
+    someArrayOne(arrayOneZ, 7);
+}
