@@ -1,0 +1,100 @@
+https://code.sololearn.com/cFPA3z1raLcR/#cpp
+
+
+
+// Exercises from Course Material
+
+// HOW:
+//    - Just select Run
+
+#include <iostream>
+using namespace std;
+
+// Big class template
+template <class A>
+class Big {
+    private:
+        A one, two;
+    public:
+        Big (A a, A b):
+        one(a), two(b) {}
+        A bigger();
+};
+
+// Small class template
+template <class B>
+class Small {
+    private:
+        B three, four;
+    public:
+        Small (B c, B d):
+        three(c), four(d) {}
+        B smaller();
+};
+
+// bigger template:
+//    - if one is bigger than two
+//        - return one
+//    - else
+//        - return two
+template <class D>
+D Big<D>::bigger() {
+    return (one > two ? one : two);
+}
+
+template <class E>
+E Small<E>::smaller() {
+    return (three < four ? three : four);
+}
+
+// Add class template
+template <class F>
+class Add {
+    private:
+        F five, six;
+    public:
+        Add (F e, F f):
+        five(e), six(f) {}
+        F adding();
+};
+
+// adding template:
+//    - if five is bigger than six
+//        - return five plus six
+//    - else
+//        - return five
+template <class G>
+G Add<G>::adding() {
+    return (five > six ? five + six : five);
+}
+
+int main()
+{
+    // Big and Small objects
+    Big <double> a(3.5711, 13.117);
+    cout << "a.bigger(): " << a.bigger() << endl;
+    
+    Big <int> b(3, 13);
+    cout << "b.bigger(): " << b.bigger() << endl;
+    
+    Small <double> c(3.5711, 13.117);
+    cout << "c.smaller(): " << c.smaller() << endl;
+    
+    Small <int> d(3, 13);
+    cout << "d.smaller(): " << d.smaller() << endl << endl;
+    
+    // Add objects
+    Add <double> e(3.5711, 13.117);
+    cout << "e.adding(): " << e.adding() << endl;
+    
+    Add <double> f(13.117, 3.5711);
+    cout << "f.adding(): " << f.adding() << endl;
+    
+    Add <int> g(3, 13);
+    cout << "g.adding(): " << g.adding() << endl;
+    
+    Add <int> h(13, 3);
+    cout << "h.adding(): " << h.adding() << endl;
+    
+    return 0;
+}
