@@ -1,0 +1,38 @@
+https://code.sololearn.com/w5p3ZNMrvQmN/#php
+
+
+
+<!-- Exercises from Course Material -->
+
+<?php
+    function mult($num1, $num2) {
+        $res = $num1 * $num2;
+        return $res."<br />";
+    }
+
+    echo mult(8, 3);
+    
+    function returnCalculation() {
+        $calc = 7 * 5 / 3 + 11 - 1;
+        return $calc."<br />";
+    }
+    
+    echo returnCalculation();
+    
+    // Note: Leaving the comment below for historical purposes. I mistakenly used 'return' instead of 'function'. Michal Jakubec showed me my mistake.  Thanks a lot dude.
+    // I do not know what's wrong with this. I just can't find the mistake!
+    function sumSum($sum1, $sum2, $sum3) {
+        $sumTing = $sum1 * $sum2 / $sum3;
+        return $sumTing."<br />";
+    }
+    
+    echo sumSum(3, 7, 1);
+    echo sumSum(11, 13, 5);
+    echo sumSum(7, 7, 3);
+    
+    function returnString() {
+        return "Why? Because I can."."<br />";
+    }
+    
+    echo returnString();
+?>
