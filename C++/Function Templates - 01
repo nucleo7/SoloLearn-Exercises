@@ -1,0 +1,46 @@
+https://code.sololearn.com/cH37LWh7rRZi/#cpp
+
+
+
+// Exercises from Course Material
+// This is the first exercise for Function Templates, only the setup.
+
+#include <iostream>
+using namespace std;
+
+// functions
+int sum(int a, int b) {
+    return a + b;
+}
+
+int sub(int c, int d) {
+    return c - d;
+}
+
+float div(float e, float f) {
+    return e / f;
+}
+
+// calculations
+int main () {
+    // sums
+    int x = 7, y = 15;
+    cout << "x = " << x << ", " << "y = " << y << endl;
+    cout << "sum(x, y) = " << sum(x, y) << endl;
+    cout << "sum(y, x) = " << sum(y, x) << endl;
+    cout << endl;
+    
+    // subtractions
+    int m = 13, n = 3;
+    cout << "m = " << m << ", " << "n = " << n << endl;
+    cout << "sub(m, n) = " << sub(m, n) << endl;
+    cout << "sub(n, m) = " << sub(n, m) << endl;
+    cout << endl;
+    
+    // divisions
+    float o = 23, p = 5;
+    cout << "o = " << o << ", " << "p = " << p << endl;
+    cout << "div(o, p) = " << div(o, p) << endl;
+    cout << "div(p, o) = " << div(p, o) << endl;
+    cout << endl;
+}
