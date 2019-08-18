@@ -1,0 +1,35 @@
+https://code.sololearn.com/w3VtyNcD5CFX/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php
+    $num1 = 8;
+    $num2 = 6;
+    $one = 7;
+    $two = 11;
+
+    // Addition
+    echo $num1 + $num2; 
+    echo "<br />";
+    echo $one + $two;
+    echo "<br />";
+
+    // Subtraction
+    echo $num1 - $num2; 
+    echo "<br />";
+    echo $one - $two;
+    echo "<br />";
+
+    // Multiplication
+    echo $num1 * $num2; 
+    echo "<br />";
+    echo $one * $two;
+    echo "<br />";
+
+    // Division
+    echo $num1 / $num2; 
+    echo "<br />";
+    echo $one / $two;
+    echo "<br />";
+?>
