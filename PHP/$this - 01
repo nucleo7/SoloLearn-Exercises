@@ -1,0 +1,129 @@
+https://code.sololearn.com/w2f0bqL1Rgda/#php
+
+
+
+<!-- Exercises from Course Material -->
+<!--
+HOW?
+    - Click RUN
+
+WHAT?
+    - classes, objects, and $this
+
+WHY?
+    - Short exercise working with $this
+
+LEGEND:
+    - <b> </b> -> Bold text
+    - <br /> -> inserts a line break
+    - <u> </u> -> underline text
+    - \ -> Inside a string it escapes special characters
+
+-->
+
+<?php
+// CLASSES
+// Animals - Birds
+class Bird {
+    public $eyes = 2;
+    public $legs = 2;
+    public function numEyes() {
+        echo $this->eyes;
+    }
+    public function numLegs() {
+        echo $this->legs;
+    }
+}
+// Animals - Cats
+class Cat {
+    public $eyes = 2;
+    public $legs = 4;
+    public function numEyes() {
+        echo $this->eyes;
+    }
+    public function numLegs() {
+        echo $this->legs;
+    }
+}
+
+// Animals - Spiders
+class Spider {
+    public $eyes = "too many";
+    public $legs = 8;
+    public function numEyes() {
+        echo $this->eyes;
+    }
+    public function numLegs() {
+        echo $this->legs;
+    }
+}
+
+
+
+// OBJECTS
+// Animals - Birds
+$b1 = new Bird();
+$b2 = new Bird();
+
+// Animals - Cats
+$c1 = new Cat();
+$c2 = new Cat();
+
+// Animals - Spiders
+$s1 = new Spider();
+$s2 = new Spider();
+
+
+
+// OUTPUT
+// Animals - Birds
+echo "<u>BIRDS...</u><br />";
+echo "\$b1 legs: <b>";
+$b1->numLegs();
+echo "</b><br />";
+echo "\$b2 legs: <b>";
+$b2->numLegs();
+echo "</b><br /><br />";
+
+echo "\$b1 eyes: <b>";
+$b1->numEyes();
+echo "</b><br />";
+echo "\$b2 eyes: <b>";
+$b2->numEyes();
+echo "</b><br /><br />";
+
+// Animals - Cats
+echo "<u>CATS...</u><br />";
+echo "\$c1 legs: <b>";
+$c1->numLegs();
+echo "</b><br />";
+echo "\$c2 legs: <b>";
+$c2->numLegs();
+echo "</b><br /><br />";
+
+echo "\$c1 eyes: <b>";
+$c1->numEyes();
+echo "</b><br />";
+echo "\$c2 eyes: <b>";
+$c2->numEyes();
+echo "</b><br /><br />";
+
+// Animals - Spiders
+echo "<u>SPIDERS...</u><br />";
+echo "\$s1 legs: <b>";
+$s1->numLegs();
+echo "</b><br />";
+echo "\$s2 legs: <b>";
+$s2->numLegs();
+echo "</b><br /><br />";
+
+echo "\$s1 eyes: <b>";
+$s1->numEyes();
+echo "</b><br />";
+echo "\$s2 eyes: <b>";
+$s2->numEyes();
+echo "</b><br /><br />";
+
+
+
+?>
