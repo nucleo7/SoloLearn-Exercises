@@ -1,0 +1,10 @@
+https://code.sololearn.com/w6hYXWYb4kGD/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php
+    echo "I love PHP!";
+    echo "Some double quotations";
+    echo "Some single quotations";
+?>
