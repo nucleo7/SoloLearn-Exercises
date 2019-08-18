@@ -1,0 +1,25 @@
+https://code.sololearn.com/cGwBGn8CtYWU/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a = 10;
+    if (a > 4)
+        cout << "Yes" << endl;
+    else
+        cout << "No" << endl;
+    
+    int x = 3;
+    int y = 11;
+    int z = 7;
+    if (x <= y)
+        cout << "x is less than or equal to y." << endl;
+    else
+        cout << "x is not less than or equal to y." << endl;
+    return 0;
+}
