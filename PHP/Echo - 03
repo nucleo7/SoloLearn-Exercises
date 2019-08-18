@@ -1,0 +1,9 @@
+https://code.sololearn.com/w83o8Xx31oji/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php
+    echo "<strong>This is a bold text.</strong><br />";
+    echo "A <b>bold</b> claim!";
+?>
