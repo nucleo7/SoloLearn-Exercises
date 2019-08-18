@@ -1,0 +1,30 @@
+https://code.sololearn.com/w6JSavLdD6Ec/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php
+    $x=1;
+    switch ($x) {
+        case 1:
+            echo "One" . "<br />";
+        case 2:
+            echo "Two" . "<br />";
+        case 3:
+            echo "Three" . "<br />";
+        default:
+            echo "No match" . "<br />";
+    }
+    
+    $numValue = 1;
+    switch ($numValue) {
+        case 1:
+            echo "1" . "<br />";
+        case "1":
+            echo "one" . "<br />";
+        case "one":
+            echo 1 . "<br />";
+        default:
+            echo "Without the break, everything will be printed.";
+    }
+?>
