@@ -1,0 +1,24 @@
+https://code.sololearn.com/cL2exB154EHb/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int x = 11;
+    int y = 11;
+    int z = 7;
+    
+    if (x != y) {
+        cout <<  "Yes, x and y are not equal." << endl;
+    }
+    
+    if (y != z) {
+       cout << "Yes. y and z are not equal." << endl;
+    }
+    
+    return 0;
+}
