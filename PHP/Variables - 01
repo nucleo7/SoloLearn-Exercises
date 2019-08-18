@@ -1,0 +1,16 @@
+https://code.sololearn.com/w5Fx0a1P46f2/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php
+    $firstName = 'John';
+    $currentAge = 25;
+    echo $firstName;
+    echo $currentAge;
+    
+    $lastName = 'Smith';
+    $birthYear = 1900;
+    echo $lastName;
+    echo $birthYear;
+?>
