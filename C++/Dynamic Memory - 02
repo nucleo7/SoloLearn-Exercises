@@ -1,0 +1,60 @@
+https://code.sololearn.com/ceiY24bXvgcJ/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int *p = new int; // request memory
+    *p = 5; // store value
+
+    delete p; // free up the memory
+    // now p is a dangling pointer
+
+    p = new int; // reuse for a new address
+    
+    int *x = new int;
+    int *y = new int;
+    
+    cout << "New memory - *x: " << *x << endl;
+    cout << "New memory - *y: " << *y << endl;
+    
+    cout << "New memory - x: " << x << endl;
+    cout << "New memory - y: " << y << endl;
+    
+    *x = 7;
+    *y = 13;
+    
+    cout << "Stored value - *x: " << *x << endl;
+    cout << "Stored value - *y: " << *y << endl;
+    
+    cout << "Stored value - x: " << x << endl;
+    cout << "Stored value - y: " << y << endl;
+    
+    delete x;
+    delete y;
+    
+    cout << "Memory deleted - *x: " << *x << endl;
+    cout << "Memory deleted - *y: " << *y << endl;
+    
+    cout << "Memory deleted - x: " << x << endl;
+    cout << "Memory deleted - y: " << y << endl;
+    
+    x = new int;
+    y = new int;
+    
+    cout << "Reused - *x: " << *x << endl;
+    cout << "Reused - *y: " << *y << endl;
+    
+    cout << "Reused - x: " << x << endl;
+    cout << "Reused - y: " << y << endl;
+    
+    // int *ptr = NULL;
+    // cout << "Empty pointer: " << *ptr << endl;
+    
+    return 0;
+}
