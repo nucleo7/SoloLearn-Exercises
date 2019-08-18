@@ -1,0 +1,13 @@
+https://code.sololearn.com/wV7qeg7tbO8p/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php
+    echo "A";
+    echo "B";
+    echo "C";
+    echo "D";
+    echo "E";
+    echo "F";
+?>
