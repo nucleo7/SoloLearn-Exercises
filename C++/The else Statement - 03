@@ -1,0 +1,25 @@
+https://code.sololearn.com/cmfA6sMqa0T6/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num = 17;
+
+    if (num >= 11) {
+        cout << "The value of num is greater or equal to '11'." << endl;
+        if (num == 17) {
+            cout <<"That's very random num value to be equal to!  num is: " << num << endl;
+        }
+    }
+    else {
+        cout << "The value of num is not high enough, so the else branch was triggered.  num is: " << num << endl;
+    }
+    
+    cout << "The value of num is: " << num << endl;
+    return 0;
+}
