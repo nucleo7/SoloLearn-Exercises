@@ -1,0 +1,24 @@
+https://code.sololearn.com/w6j74WAJrJUt/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php    // I screwed this up and don't feel like fixing it now.
+    $x = 50;
+    $x += 100;
+    echo "x = " + $x;
+    
+    $a = 3;
+    $b = 7;
+    $c = 13;
+    echo $a + " | ";
+    echo $b + " | ";
+    echo $c + " | ";
+    
+    $a += $b;
+    echo $a + " | ";
+    $b -= $c;
+    echo $b + " | ";
+    $c *= $a;
+    echo $c + " | ";
+?> 
