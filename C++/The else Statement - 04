@@ -1,0 +1,31 @@
+https://code.sololearn.com/c4hEVE5iiBXX/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int age = 19;
+    if (age > 14) {
+        cout << "age is greater than 14." << endl;
+        if(age >= 18) {
+            cout << "age is greater than or equal to 18." << endl;
+        }
+        else {
+            cout << "age is between 14 and 18." << endl;
+        }
+    }
+    else {
+        if (age > 0) {
+            cout << "age is between 0 and 14" << endl;
+        }
+        else {
+            cout << "No age below 0" << endl;
+        }
+    }
+
+    return 0;
+}
