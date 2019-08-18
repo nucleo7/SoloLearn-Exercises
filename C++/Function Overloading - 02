@@ -1,0 +1,17 @@
+https://code.sololearn.com/c4lDnwfuH0fv/#cpp
+
+
+
+#include <iostream>
+using namespace std;
+
+// This is expected to fail
+int printName(int a) { }
+float printName(int b) { }
+double printName(int c) { }
+
+int main()
+{
+    
+    return 0;
+}
