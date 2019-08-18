@@ -1,0 +1,98 @@
+https://code.sololearn.com/cmBCk44resLE/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+// template classes
+template <class T1>
+T1 mul(T1 a1, T1 a2) {
+    return a1 * a2;
+}
+
+template <class T2>
+T2 div(T2 b1, T2 b2) {
+    return b1 / b2;
+}
+
+template <class T3>
+T3 sum(T3 c1, T3 c2) {
+    return c1 + c2;
+}
+
+template <class T4>
+T4 sub(T4 d1, T4 d2) {
+    return d1 - d2;
+}
+
+template <class T5>
+T5 mod(T5 e1, T5 e2) {
+    return e1 % e2;
+}
+
+int main () {
+    // Multiplication with different types
+    cout << "Multiplication ..." << endl;
+    int a = 3, b = 5;
+    double c = 3.57, d = 7.1113;
+    
+    cout << "int a = " << a << ", " << "int b = " << b << endl;
+    cout << "double c = " << c << ", " << "double d = " << d << endl << endl;
+    
+    cout << "mul(a, b) = " << mul(a, b) << endl;
+    cout << "mul(c, d) = " << mul(c, d) << endl << endl << endl;
+    
+    
+    // Division with different types
+    cout << "Division ..." << endl;
+    int e = 18, f = 3;
+    double g = 17.3, h = 13.775;
+    
+    cout << "int e = " << e << ", " << "int f = " << f << endl;
+    cout << "double g = " << g << ", " << "double h = " << h << endl << endl;
+    
+    // NOTE: Dividing integers gives an error: Compilation Error
+    // cout << "div(e, f) = " << div(e, f) << endl;
+    cout << "div(g, h) = " << div(g, h) << endl << endl << endl;
+    
+    
+    // Addition with multiple types
+    cout << "Addition ..." << endl;
+    int i = 7, j = 15;
+    double k = 13.531, l = 3.5731;
+    
+    cout << "int i = " << i << ", " << "int j = " << j << endl;
+    cout << "double k = " << k << ", " << "double l = " << l << endl << endl;
+    
+    cout << "sum(i, j) = " << sum(i, j) << endl;
+    cout << "sum(k, l) = " << sum(k, l) << endl << endl << endl;
+    
+    
+    // Subtraction with multiple types
+    cout << "Subtraction ..." << endl;
+    int m = 13, n = 7;
+    double o = 35.137, p = 1.35711;
+    
+    cout << "int m = " << m << ", " << "int n = " << n << endl;
+    cout << "double o = " << o << ", " << "double p = " << p << endl << endl;
+    
+    cout << "sub(m, n) = " << sub(m, n) << endl;
+    cout << "sub(o, p) = " << sub(o, p) << endl << endl << endl;
+    
+    
+    // Remainder with multiple types
+    cout << "Remainder ..." << endl;
+    int q = 5, r = 17;
+    // double s = 31.537, t = 5.3111;
+    
+    cout << "int q = " << q << ", " << "int r = " << r << endl;
+    // cout << "double s = " << s << ", " << "double t = " << t << endl << endl;
+    
+    cout << "mod(q, r) = " << mod(q, r) << endl;
+    // cout << "mod(s, t) = " << mod(s, t) << endl << endl << endl;
+    
+    // NOTE: When using remainder (%) with the type 'double', an error is thrown
+}
