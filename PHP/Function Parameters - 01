@@ -1,0 +1,29 @@
+https://code.sololearn.com/wCwipYTaOZse/#php
+
+
+
+<!-- Exercises from Course Material -->
+
+<?php
+    function multiplyByTwo($number) {
+        $answer = $number * 2;
+        echo $answer."<br />";
+    }
+    multiplyByTwo(3);
+    
+    function multiplyByItself($entry) {
+        $result = $entry * $entry;
+        echo "Multiply "."<b>".$entry."</b>"." by itself: "."<b>".$result."</b>"."<br />";
+    }
+    multiplyByItself(3);
+    multiplyByItself(4);
+    multiplyByItself(7);
+    
+    function increaseThing($thing) {
+        $increasing = $thing + 7;
+        echo "Adding 7 to "."<b>".$thing."</b>".": "."<b>".$increasing."</b>"."<br />";
+    }
+    increaseThing(3);
+    increaseThing(5);
+    increaseThing(7);
+?>
