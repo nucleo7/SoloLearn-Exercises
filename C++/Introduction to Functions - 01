@@ -1,0 +1,44 @@
+https://code.sololearn.com/chxfy2tt398R/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+void printSomething() 
+{
+    cout << "Hi there!" << endl;
+}
+
+void someThing()
+{
+    cout << "Some thing..." << endl;
+}
+
+int someCalculation()
+{
+    int calc = 7 * 3 / 2;
+    cout << calc << endl;
+}
+
+int newCalculation(int one, int two)
+{
+    int result = one * two / 3;
+    cout << result << endl;
+}
+
+int main() 
+{
+    printSomething();
+    someThing();
+    printSomething();
+    
+    someCalculation();
+    newCalculation(3, 7);
+    newCalculation(7, 3);
+    newCalculation(11, 5);
+   
+   return 0;
+}
