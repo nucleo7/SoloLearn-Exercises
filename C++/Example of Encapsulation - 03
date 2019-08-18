@@ -1,0 +1,80 @@
+https://code.sololearn.com/cWCE4tWfK4X1/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+// myClass class definition
+class myClass {
+    public:    // public set & get
+        void setName(string x) {
+            name = x;
+        }
+        void setAge(int y) {
+            age = y;
+        }
+        string getName() {
+            return name;
+        }
+        int getAge() {
+            return age;
+        }
+    private:    // private
+        string name;
+        int age;
+};
+
+// One1 class definition
+class One1 {
+    public:
+        void setLetters(string a) {
+            letters = a;
+        }
+        void setNumbers(int b) {
+            numbers = b;
+        }
+        string getLetters() {
+            return letters;
+        }
+        int getNumbers() {
+            return numbers;
+        }
+    private:
+        string letters;
+        int numbers;
+};
+
+// main
+int main() {
+    // myClass objects and output
+    myClass myObject1;
+    myClass myObject2;
+    
+    myObject1.setName("John");
+    myObject2.setName("Jack");
+    
+    myObject1.setAge(32);
+    myObject2.setAge(27);
+    
+    cout << "myObject1.getName(): " << myObject1.getName() << endl << "myObject1.getAge(): " << myObject1.getAge() << endl;
+    cout << "myObject2.getName(): " << myObject2.getName() << endl << "MyObject2.getAge(): " << myObject2.getAge() << endl << endl;
+    
+    // One1 objects and output
+    One1 first1;
+    One1 second2;
+    
+    first1.setLetters("abcdef");
+    second2.setLetters("vwxyz");
+    
+    first1.setNumbers(137);
+    second2.setNumbers(513);
+    
+    cout << "first1.getLetters(): " << first1.getLetters() << endl << "first1.getNumbers(): " << first1.getNumbers() << endl;
+    cout << "second2.getLetters(): " << second2.getLetters() << endl << "second2.getNumbers(): " << second2.getNumbers() << endl << endl;
+
+    return 0;
+}
