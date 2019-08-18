@@ -1,0 +1,14 @@
+https://code.sololearn.com/c1bOyj2exkhm/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << " Hello \n world! \n I \n love \n programming! \n";
+    cout << "Some \n more \n\n blank \n lines and \n new lines.";
+    return 0;
+}
