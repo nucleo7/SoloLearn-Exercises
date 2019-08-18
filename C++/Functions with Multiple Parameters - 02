@@ -1,0 +1,32 @@
+https://code.sololearn.com/c3u3ZWllas0u/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+int addNumbers(int x, int y) {
+    int result = x + y;
+    return result;
+}
+
+int multNumbers(int a, int b, int m) {
+    int multiply = m * a * b;
+    return multiply;
+}
+
+int main() {
+    int x = addNumbers(35, 7);
+    int y = addNumbers(9, 1);
+    
+    cout << "x: " << x << endl;
+    cout << "y: " << y << endl;
+    
+    int g = multNumbers(5, 33, 9);
+    int h = multNumbers(1, 72, 9);
+    
+    cout << "g: " << g << endl;
+    cout << "h: " << h << endl;
+}
