@@ -1,0 +1,20 @@
+https://code.sololearn.com/wc2va44A0R3c/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php
+    $name = 'John';
+    function getName() {
+        global $name;
+        echo $name;
+    }
+    getName();
+    
+    $lastName = 'Smith';
+    function getLastName() {
+       global $lastName;
+       echo $lastName; 
+    }
+    getLastName();
+?>
