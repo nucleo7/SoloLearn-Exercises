@@ -1,0 +1,25 @@
+https://code.sololearn.com/czfZOgrLNLFr/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    int numOne = 7;
+    int numTwo = 3;
+    if (numOne == 1) {
+       cout << "The value of numOne is 1." << endl;
+    }
+    if (numOne == 7) {
+       cout << "The numOne value is 7." << endl;
+    }
+    if (numOne > numTwo) {
+       cout << "The numOne value " << numOne << ", is greater than the numTwo value: " << numTwo << "." << endl;
+    }
+    
+    return 0;
+}
