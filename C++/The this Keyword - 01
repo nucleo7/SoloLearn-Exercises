@@ -1,0 +1,76 @@
+https://code.sololearn.com/c2NtNWQPW4Be/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+// ClassOne class
+class ClassOne {
+    public:
+        ClassOne(int a) : var1(a)
+        { }
+        void printInfo1() {
+            cout << "  var1: " << var1 << endl;
+            cout << "  this->var1: " << this->var1 << endl;
+            cout << "  (*this).var1: " << (*this).var1 << endl << endl;
+        }
+    private:
+        int var1;
+};
+
+// ClassTwo class
+class ClassTwo {
+    public:
+        ClassTwo(int b) : var2(b)
+        { }
+        void printInfo2() {
+            cout << "  var2: " << var2 << endl;
+            cout << "  this->var2: " << this->var2 << endl;
+            cout << "  (*this).var2: " << (*this).var2 << endl << endl;
+        }
+    private:
+        int var2;
+};
+
+// ClassThree class
+class ClassThree {
+    public:
+        ClassThree(int c) : var3(c)
+        { }
+        void printInfo3() {
+            cout << "  var3: " << var3 << endl;
+            cout << "  this->var3: " << this->var3 << endl;
+            cout << "  (*this).var3: " << (*this).var3 << endl << endl;
+        }
+    private:
+        int var3;
+};
+
+int main() {
+    // ClassOne objects
+    cout << "ClassOne objects..." << endl;
+    ClassOne obj1(42);
+    ClassOne obj2(13);
+    
+    obj1.printInfo1();
+    obj2.printInfo1();
+    
+    // ClassTwo objects
+    cout << "ClassTwo objects..." << endl;
+    ClassTwo obj3(7);
+    ClassTwo obj4(17);
+    
+    obj3.printInfo2();
+    obj4.printInfo2();
+    
+    // ClassThree objects
+    cout << "ClassThree objects..." << endl;
+    ClassThree obj5(71);
+    ClassThree obj6(99);
+    
+    obj5.printInfo3();
+    obj6.printInfo3();
+}
