@@ -1,0 +1,90 @@
+https://code.sololearn.com/w1ZTXOIw9vCZ/#php
+
+
+
+<!-- Exercises from Course Material -->
+
+<?php
+    // names01.txt
+    $names01 = fopen("names01.txt", "w");
+
+    $txt01 = "John\n";
+    fwrite($names01, $txt01);
+    $txt01 = "David\n";
+    fwrite($names01, $txt01);
+    $txt01 = "Bob\n";
+    fwrite($names01, $txt01);
+
+    fclose($names01);
+
+    $read01 = file('names01.txt');
+    $count01 = count($read01);
+    $i = 1;
+    foreach ($read01 as $line01) {
+        echo $line01;
+        if($i < $count01) {
+            echo ', ';
+        }
+        $i++;
+    }
+    echo "<br />";
+    
+    
+    // cars01.txt
+    $cars01 = fopen("cars01.txt", "w");
+    
+    $txt02 = "Bugatti\n";
+    fwrite($cars01, $txt02);
+    $txt02 = "Ferrari\n";
+    fwrite($cars01, $txt02);
+    $txt02 = "Lamborghini\n";
+    fwrite($cars01, $txt02);
+    $txt02 = "Porsche\n";
+    fwrite($cars01, $txt02);
+    
+    fclose($cars01);
+    
+    $read02 = file("cars01.txt");
+    $count02 = count($read02);
+    $x = 1;
+    foreach($read02 as $line02) {
+        echo $line02;
+        if($x < $count02) {
+            echo " | ";
+        }
+        $x++;
+    }
+    echo "<br />";
+    
+    
+    // Colors
+    $colors01 = fopen("colors01.txt", "w");
+    
+    $txt03 = "<b style='color:red'>Red</b>\n";
+    fwrite($colors01, $txt03);
+    $txt03 = "<b style='color:green'>Green</b>\n";
+    fwrite($colors01, $txt03);
+    $txt03 = "<b style='color:blue'>Blue</b>\n";
+    fwrite($colors01, $txt03);
+    $txt03 = "<b style='color:cyan'>Cyan</b>\n";
+    fwrite($colors01, $txt03);
+    $txt03 = "<b style='color:magenta'>Magenta</b>\n";
+    fwrite($colors01, $txt03);
+    $txt03 = "<b style='color:yellow'>Yellow</b>\n";
+    fwrite($colors01, $txt03);
+    $txt03 = "<b style='color:black'>Black</b>\n";
+    fwrite($colors01, $txt03);
+    
+    fclose($colors01);
+    
+    $read03 = file("colors01.txt");
+    $count03 = count($read03);
+    $y = 1;
+    foreach($read03 as $line03) {
+        echo $line03;
+        if($line03 < $count03) {
+            echo " | ";
+        }
+        $y++;
+    }
+?>
