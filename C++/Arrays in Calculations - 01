@@ -1,0 +1,45 @@
+https://code.sololearn.com/c3rlR1sUyY92/#cpp
+
+
+
+// Exercises from Course Materials
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int arr[] = {11, 35, 62, 555, 989};
+    int sum = 0; 
+    
+    int arrayOne[] = {1, 3, 5, 7};
+    int arrayTwo[] = {11, 13, 17, 19};
+    int arrayThree[] = {23, 29, 31, 37};
+    
+    int numOne = 0;
+    int numTwo = 0;
+    int numThree = 1;
+    
+    for (int x = 0; x < 5; x++) {
+        sum += arr[x];
+    }
+    
+    for (int a = 0; a < 4 ; a++) {
+        numOne += arrayOne[a];
+    }
+    
+    for (int b = 0; b < 4; b++) {
+        numTwo += arrayTwo[b];
+    }
+    
+    for (int c = 0; c < 4; c++) {
+        numThree *= arrayThree[c];
+    }
+
+    cout << sum << endl;
+    
+    cout << "The sum of the elements in arrayOne is: " << numOne << endl;
+    cout << "The sum of the elements in arrayTwo is: " << numTwo << endl;
+    cout << "The product of the elements in arrayThree is: " << numThree << endl;
+
+    return 0;
+}
