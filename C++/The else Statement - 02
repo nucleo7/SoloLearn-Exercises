@@ -1,0 +1,23 @@
+https://code.sololearn.com/cKTd3sGD59QT/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int itemCount = 7;
+
+    if (itemCount < 10) {
+        cout << "Your item count is: " << itemCount << endl;
+        cout << "That's not too many." << endl;
+    }
+    else {
+        cout << "Your itemCount is: " << itemCount << endl;
+        cout << "That's quite a lot. Are you sure about this?" << endl;
+    }
+
+    return 0;
+}
