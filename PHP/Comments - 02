@@ -1,0 +1,17 @@
+https://code.sololearn.com/wCoJ4wGW6sS4/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php   
+   echo "<p>Hello World!</p>";
+    /*
+    This is a multi-line comment block
+    that spans over
+    multiple lines
+    */
+    /* I commented all of this out for no good reason
+    echo "<p>I am learning PHP!</p>";
+    echo "<p>This is my first program, for the nth time!</p>";
+    */
+?>
