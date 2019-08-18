@@ -1,0 +1,50 @@
+https://code.sololearn.com/c9GrJbT0vaPX/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Displaying the size of data types..." << endl << endl;
+    
+    cout << "bool: " << sizeof(bool) << " byte" << endl;
+    cout << "char: " << sizeof(char) << " byte" << endl << endl;
+    
+    cout << "short: " << sizeof(short) << " bytes" << endl;
+    cout << "int: " << sizeof(int) << " bytes" << endl;
+    cout << "long: " << sizeof(long) << " bytes" << endl;
+    cout << "long long: " << sizeof(long long) << " bytes" << endl << endl;
+    
+    cout << "float: " << sizeof(float) << " bytes" << endl;
+    cout << "double: " << sizeof(double) << " bytes" << endl;
+    cout << "long double: " << sizeof(long double) << " bytes" << endl << endl << endl;
+    
+    bool bOne = true;
+    char cOne = 'C';
+    
+    short sOne = 1;
+    int iOne = 8;
+    long lOne = 64;
+    long long llOne = 128;
+    
+    float fOne = 3.145;
+    double dOne = 23.57;
+    long double ldOne = 79.65;
+    
+    cout << "bool with value: " << sizeof(bOne) << " byte" << endl;
+    cout << "char with value: " << sizeof(cOne) << " byte" << endl << endl;
+    
+    cout << "short with value: " << sizeof(sOne) << " bytes" << endl;
+    cout << "int with value: " << sizeof(iOne) << " bytes" << endl;
+    cout << "long with value: " << sizeof(lOne) << " bytes" << endl << endl;
+    
+    cout << "float with value: " << sizeof(fOne) << " bytes" << endl;
+    cout << "double with value: " << sizeof(dOne) << " bytes" << endl;
+    cout << "long double with value: " << sizeof(ldOne) << " bytes" << endl << endl;
+    
+    return 0;
+}
