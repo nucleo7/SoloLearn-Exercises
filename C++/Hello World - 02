@@ -1,0 +1,13 @@
+https://code.sololearn.com/c7lR5yGPq73L/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Some more Hello world!";
+    return 0;
+}
