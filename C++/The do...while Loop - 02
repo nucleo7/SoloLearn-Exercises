@@ -1,0 +1,21 @@
+https://code.sololearn.com/c98Cu4cch3Bb/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    int numOne = 3;
+    int numTwo = 5;
+    do {
+       cout << "The numOne value is: " << numOne << ". " << endl;
+       cout << "It still prints once, even though the while condition will fail." << endl;
+       numOne++;
+    } while (numOne > numTwo);
+    
+    return 0;
+}
