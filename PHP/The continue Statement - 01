@@ -1,0 +1,38 @@
+https://code.sololearn.com/wpn558SyiJ6L/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php
+    // The loop for variable $i
+    for ($i = 0; $i < 10; $i++) {
+        if ($i % 2 == 0) {
+            continue;
+        }
+        echo "The output of i is: " . "<b>" . $i . "</b>" . "<br />";
+    }
+    
+    // The loop for variable x
+    for ($x = 0; $x <= 10; $x++) {
+        if ($x % 2 == 0) {
+            continue;
+        }
+        echo "The output of x is: " . "<b>" . $x . "</b>" . "<br />";
+    }
+    
+    // The loop for variable y
+    for ($y = 0; $y < 10; $y += 2) {
+        if ($y % 2 == 0) {
+            continue;
+        }
+        echo "The output of y is: " . "<b>" . $y . "</b>" . "<br />";
+    }
+    
+    // The loop for variable z
+    for ($z = 0; $z < 10; $z++) {
+        if ($z % 3 == 0) {
+            continue;
+        }
+        echo "The output of z is: " . "<b>" . $z . "</b>" . "<br />";
+    }
+?>
