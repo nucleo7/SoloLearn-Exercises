@@ -1,0 +1,28 @@
+https://code.sololearn.com/c535x4kvN4J9/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+int addNumbers(int x, int y) {
+    int addition = x + y;
+    return addition;
+}
+
+int subNumbers(int a, int b) {
+    int subtract = a - b;
+    return subtract;
+}
+
+int main() {
+    cout << addNumbers(50, 25) << endl;
+    cout << addNumbers(135, 71113) << endl;
+    cout << addNumbers(321, 753) << endl;
+    
+    cout << subNumbers(7654, 4321) << endl;
+    cout << subNumbers(7, 3) << endl;
+    cout << subNumbers(7765, 359) << endl;
+}
