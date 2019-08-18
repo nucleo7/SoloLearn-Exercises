@@ -1,0 +1,40 @@
+https://code.sololearn.com/clOYS2bt8cK1/#cpp
+
+
+
+// Exercises from Course Material
+
+// Pass by Value examples
+#include <iostream>
+using namespace std;
+
+void myFunc(int x) {
+    x = 100;
+}
+
+void funcOne(int y) {
+    y = 77;
+}
+
+void funcTwo(int z) {
+    z = 13;
+}
+
+int main() {
+    int var = 20;
+    myFunc(var);
+    cout << var << endl;
+    
+    int a = 5;
+    int b = 11;
+    int c = 7;
+    
+    funcOne(a);
+    funcOne(b);
+    funcTwo(c);
+    funcTwo(a);
+    
+    cout << "a: " << a << endl;
+    cout << "b: " << b << endl;
+    cout << "c: " << c << endl;
+}
