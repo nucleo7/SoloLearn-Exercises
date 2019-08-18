@@ -1,0 +1,23 @@
+https://code.sololearn.com/wsa4Udl8LoO3/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php
+    $names = array("John", "David", "Amy");
+    foreach ($names as $name) {
+        echo $name.'<br />';
+    }
+    
+    $colorsRGB = array("Red", "Green", "Blue");
+    $colorsCMYK = array("one" => "Cyan", "two" => "Magenta", "three" => "Yellow", "four" => "Black");
+
+    foreach ($colorsRGB as $colorRGB) {
+        echo "The RGB color is: " . $colorRGB . "<br />";
+    }
+    
+    foreach ($colorsCMYK as $colorCMYKKey => $colorCMYKValue) {
+        echo "The CMYK color for " . "<b>" . $colorCMYKKey . "</b>" . " is: " . "<b>" .  $colorCMYKValue . "</b>" . "<br />";
+    }
+    
+?>
