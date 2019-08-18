@@ -1,0 +1,222 @@
+https://code.sololearn.com/cLBj975cYq8j/#cpp
+
+
+
+// Exercises from Course Material
+
+// HOW:
+//    - select: RUN
+//    - Change variable values for a different result: a, b
+
+// EXPECTATION:
+//    - Either an error is printed, or
+//    - Inverse result is printed
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    int a = 7;
+    int b = 13;
+    
+    cout << "a: " << a << endl << "b: " << b << endl << endl << endl;
+    
+    
+    // throw an error (e1) if 'a' is greater than 'b'
+    try {
+        if (a > b) {
+            throw 1;
+        } else {
+            cout << "'a' is not greater than 'b'" << endl;
+        }
+    }
+    catch (int e1) {
+        cout << "Error " << e1 << ": (a > b)" << endl;
+    }
+    
+    
+    // throw an error (e2) if 'a' is less than 'b'
+    try {
+        if (a < b) {
+            throw 2;
+        } else {
+            cout << "'a' is not less than 'b'" << endl;
+        }
+    }
+    catch (int e2) {
+        cout << "Error " << e2 << ": (a < b)" << endl;
+    }
+    cout << endl << endl;
+    
+    
+    // AND
+    // throw an error (e3) if 'a' is greater than 'b' AND 'a' is greater than '0'
+    try {
+        if (a > b && a > 0) {
+            throw 3;
+        } else {
+            cout << "'a' is not greater than 'b' AND 'a' is not greater than '0'" << endl;
+        }
+    }
+    catch (int e3) {
+        cout << "Error " << e3 << ": (a > b && a > 0)" << endl;
+    }
+    
+    
+    // throw an error (e4) if 'a' is greater than 'b' AND 'a' is less than '0'
+    try {
+        if (a > b && a < 0) {
+            throw 4;
+        } else {
+            cout << "'a' is not greater than 'b' AND 'a' is not less than '0'" << endl;
+        }
+    }
+    catch (int e4) {
+        cout << "Error " << e4 << ": (a > b && a < 0)" << endl;
+    }
+    cout << endl;
+    
+    
+    // throw an error (e5) if 'a' is less than 'b' AND 'a' is greater than '0'
+    try {
+        if (a < b && a > 0) {
+            throw 5;
+        } else {
+            cout << "'a' is not less than 'b' AND 'a' is not greater than '0'" << endl;
+        }
+    }
+    catch (int e5) {
+        cout << "Error " << e5 << ": (a < b && a > 0)" << endl;
+    }
+    
+    
+    // throw an error (e6) if 'a' is less than 'b' AND 'a' is less than '0'
+    try {
+        if (a < b && a < 0) {
+            throw 6;
+        } else {
+            cout << "'a' is not less than 'b' AND 'a' is not less than '0'" << endl;
+        }
+    }
+    catch (int e6) {
+        cout << "Error " << e6 << ": (a < b && a < 0)" << endl;
+    }
+    cout << endl << endl;
+    
+    
+    // throw an error (e7) if 'b' is greater than 'a' AND 'b' is greater than '0'
+    try {
+        if (b > a && b > 0) {
+            throw 7;
+        } else {
+            cout << "'b' is not greater than 'a' AND 'b' is not greater than '0'" << endl;
+        }
+    }
+    catch (int e7) {
+        cout << "Error " << e7 << ": (b > a && b > 0)" << endl;
+    }
+    cout << endl;
+    
+    
+    // throw an error (e8) if 'b' is greater than 'a' AND 'b' is less than '0'
+    try {
+        if (b > a && b < 0) {
+            throw 8;
+        } else {
+            cout << "'b' is not greater than 'a' AND 'b' is not less than '0'" << endl;
+        }
+    }
+    catch (int e8) {
+        cout << "Error " << e8 << ": (b > a && b < 0)" << endl;
+    }
+    cout << endl;
+    
+    
+    // throw an error (e9) if 'b' is less than 'a' AND 'b' is greater than '0'
+    try {
+        if (b < a && b > 0) {
+            throw 9;
+        } else {
+            cout << "'b' is not less than 'a' AND 'b' is not greater than '0'" << endl;
+        }
+    }
+    catch (int e9) {
+        cout << "Error " << e9 << ": (b < 0 && b > 0)" << endl;
+    }
+    cout << endl;
+    
+    
+    // throw an error (e10) if 'b' is less than 'a' AND 'b' is less than '0'
+    try {
+        if (b < a && b < 0) {
+            throw 10;
+        } else {
+            cout << "'b' is not less than 'a' AND 'b' is not less than '0'" << endl;
+        }
+    }
+    catch (int e10) {
+        cout << "Error " << e10 << ": (b < a && b < 0)" << endl;
+    }
+    cout << endl << endl;;
+    
+    
+    // OR
+    // throw an error (e11) if 'a' is greater than 'b' OR 'a' is greater than '0'
+    try {
+        if (a > b || a > 0) {
+            throw 11;
+        } else {
+            cout << "'a' is not greater than 'b' OR 'a' is not greater than '0'" << endl;
+        }
+    }
+    catch (int e11) {
+        cout << "Error " << e11 << ": (a > b || a > 0)" << endl;
+    }
+    cout << endl;
+    
+    
+    // throw an error (e12) if 'a' is greater than 'b' OR 'a' is less than '0'
+    try {
+        if (a > b || a < 0) {
+            throw 12;
+        } else {
+            cout << "'a' is not greater than 'b' OR 'a' is not less than '0'" << endl;
+        }
+    }
+    catch (int e12) {
+        cout << "Error " << e12 << ": (a > b || a < 0)" << endl;
+    }
+    cout << endl;
+    
+    
+    // throw an error (e13) if 'a' is less than 'b' OR 'a' is greater than '0'
+    try {
+        if (a < b || a > 0) {
+            throw 13;
+        } else {
+            cout << "'a' is not less than 'b' OR 'a' is not greater than '0'" << endl;
+        }
+    }
+    catch (int e13) {
+        cout << "Error " << e13 << ": (a < b || a > 0)" << endl;
+    }
+    cout << endl;
+    
+    
+    // throw an error (e14) if 'a' is less than 'b' OR 'a' is less than '0'
+    try {
+        if (a < b || a < 0) {
+            throw 14;
+        } else {
+            cout << "'a' is not less than 'b' OR 'a' is not less than '0'" << endl;
+        }
+    }
+    catch (int e14) {
+        cout << "Error " << e14 << ": (a < b || a < 0)" << endl;
+    }
+    cout << endl;
+    
+    return 0;
+}
