@@ -1,0 +1,142 @@
+https://code.sololearn.com/w26D47RtzUBw/#php
+
+
+
+<!-- Exercises from Course Material -->
+
+<!--
+HOW?
+    - Click RUN
+
+WHAT?
+    - Objects
+
+WHY?
+    - The concept of Object-Oriented Programming is applied
+
+LEGEND:
+    - <b> </b> -> Bold text
+    - <br /> -> Inserts line-break
+    - <u> </u> -> Underline text
+-->
+
+
+
+<?php
+// CLASSES
+// People
+class Person {
+    public $age;
+    function sayHello() {
+        echo "<b>Hi!</b>";
+        echo "<br />";
+    }
+}
+
+// Animals - Cats
+class Cat {
+    public $age;
+    function speak() {
+        echo "<b>Miaow!</b>";
+        echo "<br />";
+    }
+}
+
+// Animals - Dogs
+class Dog {
+    public $age;
+    function speak() {
+        echo "<b>Woof!</b>";
+        echo "<br />";
+    }
+}
+
+
+
+// OBJECTS
+// Persons
+$pJane = new Person();
+$pJohn = new Person();
+
+// Animals - Cats
+$cBoots = new Cat();
+$cMittens = new Cat();
+
+// Animals - Dogs
+$dRex = new Dog();
+$dRover = new Dog();
+
+
+
+// OBJECTS - AGES
+// Persons
+$pJane->age = 29;
+$pJohn->age = 23;
+
+// Cats
+$cBoots->age = 1;
+$cMittens->age = 11;
+
+// Dogs
+$dRex->age = 3;
+$dRover->age = 7;
+
+
+
+// OUTPUT - AGES
+echo "<u>AGES</u>...<br />";
+// Persons
+echo "Jane age: <b>";
+echo $pJane->age;
+echo "</b><br />";
+
+echo "John age: <b>";
+echo $pJohn->age;
+echo "</b><br />";
+
+// Cats
+echo "Boots age: <b>";
+echo $cBoots->age;
+echo "</b><br />";
+
+echo "Mittens age: <b>";
+echo $cMittens->age;
+echo "</b><br />";
+
+// Dogs
+echo "Rex age: <b>";
+echo $dRex->age;
+echo "</b><br />";
+
+echo "Rover age: <b>";
+echo $dRover->age;
+echo "</b><br />"; 
+echo "<br />";
+
+
+
+// OUTPUT - SPEAKING
+echo "<u>SPEAKING</u>...<br />";
+// Persons
+echo "Jane says: ";
+$pJane->sayHello();
+
+echo "John says: ";
+$pJohn->sayHello();
+
+// Cats
+echo "Boots says: ";
+$cBoots->speak();
+
+echo "Mittens says: ";
+$cMittens->speak();
+
+// Dogs
+echo "Rex says: ";
+$dRex->speak();
+
+echo "Rover says: ";
+$dRover->speak();
+echo "<br />";
+
+?>
