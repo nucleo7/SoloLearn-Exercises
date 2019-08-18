@@ -1,0 +1,16 @@
+https://code.sololearn.com/cbJ9iBsF6cge/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int x = 100 - 60;
+    int y = 7777777 - 6666666;
+    cout << x << endl;
+    cout << y << endl;
+    return 0;
+}
