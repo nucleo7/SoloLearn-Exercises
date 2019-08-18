@@ -1,0 +1,41 @@
+https://code.sololearn.com/wJ6aPP28Z7Ol/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php
+    $x=5;
+    switch ($x) {
+        case 1:
+            echo "One";
+            break;
+        case 2:
+            echo "Two";
+            break;
+        default:
+            echo "No match";
+    echo "</br >";
+    
+    
+    $numOne = 5;
+    switch ($numOne) {
+        case 1:
+        case 2:
+        case 3:
+            echo "The numOne value is between 1 and 3, including.";
+            break;
+        case 4:
+        case 5:
+        case 6:
+            echo "The numOne value is between 4 and 6, including.";
+            break;
+        case 7:
+        case 8:
+        case 9:
+            echo "The numOne value is between 7 and 9, including.";
+            break;
+        default:
+            echo "The numOne value not found!";
+    }
+    }
+?>
