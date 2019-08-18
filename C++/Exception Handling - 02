@@ -1,0 +1,47 @@
+https://code.sololearn.com/cn3vms71bI9e/#cpp
+
+
+
+// Exercises from Course Material
+
+// HOW:
+//    - click RUN
+//    - default values for 'a' and 'b' have been provided, but you can change them to change the result
+
+// EXPECTATION:
+//    - If 'a' or 'b' is '0', then an error is returned
+//    - If both 'a' and 'b' are anything other than '0', the calculations are performed
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int a = 27;
+    int b = 0;
+    
+    cout << "Enter the first number - a: ";
+    cin >> a;
+    cout << a << endl;
+    
+    cout << "Enter the second number - b: ";
+    cin >> b;
+    cout << b << endl;
+    cout << endl;
+    
+    if (a == 0 || b == 0) {
+        cout << "Divisor can't be 0" << endl;
+        throw 0;
+    }
+    
+    cout << "a / b = " << a / b << endl;
+    cout << "b / a = " << b / a << endl;
+    cout << "a - b = " << a - b << endl;
+    cout << "b - a = " << b - a << endl;
+    cout << "a * b = " << a * b << endl;
+    cout << "a + b = " << a + b << endl;
+    cout << "a % b = " << a % b << endl;
+    cout << "b % a = " << b % a << endl;
+    cout << endl;
+    
+}
