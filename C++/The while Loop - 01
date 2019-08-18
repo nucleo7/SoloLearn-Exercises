@@ -1,0 +1,30 @@
+https://code.sololearn.com/cWk1Eu6RE1N0/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num = 1;
+    while (num < 6) {
+        cout << "Number: " << num << endl;
+        num = num + 1;
+    }
+    
+    int postFix = 3;
+    while (postFix < 13) {
+       cout << "postfix value is: " << postFix << endl;
+       postFix++;
+    }
+    
+    int preFix = 3;
+    while (preFix < 13) {
+       cout << "prefix value is: " << preFix << endl;
+        ++preFix;
+    }
+
+    return 0;
+}
