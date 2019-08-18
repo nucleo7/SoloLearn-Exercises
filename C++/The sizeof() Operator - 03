@@ -1,0 +1,25 @@
+https://code.sololearn.com/cuBCbsW6xoUo/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int numbers[100];
+    cout << sizeof(numbers) / sizeof(numbers[0]) << endl;
+    
+    double doubleArray[7];
+    float floatArray[7];
+    string stringArray[7];
+    
+    cout << sizeof(doubleArray) << " => " << sizeof(doubleArray) / sizeof(doubleArray[0]) << endl;
+    cout << sizeof(floatArray) << " => " << sizeof(floatArray) / sizeof(floatArray[0]) << endl;
+    cout << sizeof(stringArray) << " => " << sizeof(stringArray) / sizeof(stringArray[0]) << endl;
+    
+
+    return 0;
+}
