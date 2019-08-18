@@ -1,5 +1,5 @@
 # SoloLearn-Exercises
-These are my exercises created from the SoloLearn Courses (https://www.sololearn.com/)
+These are backups of my exercises & practice sessions created from the SoloLearn Courses (https://www.sololearn.com/)
 
 Done:
 Java,
