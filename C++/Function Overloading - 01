@@ -1,0 +1,47 @@
+https://code.sololearn.com/c1lGgb6UGGne/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+// printNumber
+void printNumber(int x) {
+    cout << "Prints an integer: " << x << endl;
+}
+void printNumber(float x) {
+    cout << "Prints a float: " << x << endl;
+}
+
+
+// someNumber
+void someNumber(int y) {
+    cout << "someNumber is an int: " << y << endl;
+}
+
+void someNumber(float y) {
+    cout << "someNumber is a float: " << y << endl;
+}
+
+int main() {
+    int a = 16;
+    float b = 54.541;
+    int c = 7;
+    
+    printNumber(a);
+    printNumber(b);
+    printNumber(c);
+    
+    
+    int d = 5;
+    float e = 3.14;
+    int f = 11;
+    float g = 5.356;
+    
+    someNumber(d);
+    someNumber(e);
+    someNumber(f);
+    someNumber(g);
+}
