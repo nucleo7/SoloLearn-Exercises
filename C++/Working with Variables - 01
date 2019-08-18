@@ -1,0 +1,24 @@
+https://code.sololearn.com/cQa11j5DgzSU/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a;
+    cout << "Please enter a number: \n";
+    cin >> a;
+
+    cout << a << endl;
+    
+    int b;
+    cout << "Please enter another number: \n";
+    cin >> b;
+    
+    cout << b << endl;
+
+    return 0;
+}
