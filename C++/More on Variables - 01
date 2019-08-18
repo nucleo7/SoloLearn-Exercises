@@ -1,0 +1,19 @@
+https://code.sololearn.com/cDGjXp5o8rQ2/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a = 100;
+    int b = 7;
+    a = 50;
+    b = 45;
+    b = 23;
+    cout << a << endl; // Output is 50
+    cout << b << endl; // Output is 23
+    return 0;
+}
