@@ -1,0 +1,25 @@
+https://code.sololearn.com/c7ahZElOzMhb/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    int numOne = 3;
+    while (numOne < 17) {
+       cout << "numOne value is: " << numOne << endl;
+       numOne += 2;
+    }
+    
+    int numTwo = 3;
+    while (numTwo < 17) {
+       cout << "numTwo value is: " << numTwo << endl;
+       numTwo += 3;
+    }
+
+    return 0;
+}
