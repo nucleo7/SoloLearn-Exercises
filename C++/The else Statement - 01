@@ -1,0 +1,21 @@
+https://code.sololearn.com/cGyEpXYbkjSI/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num = 59;
+
+    if (num < 50) {
+        cout << "The num value is less than 50." << endl;
+    }
+    else {
+        cout << "The num value is 50 or greater." << endl;
+    }
+
+    return 0;
+}
