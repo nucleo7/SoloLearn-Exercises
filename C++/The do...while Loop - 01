@@ -1,0 +1,27 @@
+https://code.sololearn.com/cGr1VfAUGnEc/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    int numOne = 0;
+    int numTwo = 7;
+    do {
+        cout << "The numOne value is: " << numOne << endl;
+        numOne++;
+    } while (numOne < numTwo);
+    
+    int numThree = 7;
+    int numFour = 7;
+    do {
+       cout << "The numThree value is: " << numThree << endl;
+       numThree++;
+    } while (numThree < numFour);
+
+    return 0;
+}
