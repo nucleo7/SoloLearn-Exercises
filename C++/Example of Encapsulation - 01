@@ -1,0 +1,70 @@
+https://code.sololearn.com/cUTgEryk18a8/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+// myClass
+class myClass {
+    public:
+        string name;
+        int number;
+};
+
+// aVehicle
+class aVehicle {
+    public:
+        string brand;
+        string model;
+        int year;
+};
+
+// main
+int main() {
+    // myClass
+    myClass myObj;
+    myObj.name = "SoloLearn";
+    myObj.number = 13;
+    cout << "myObj.name: " << myObj.name << endl;
+    cout << "myObj.number: " << myObj.number << endl;
+    
+    myClass object1;
+    myClass object2;
+    
+    object1.name = "Object one";
+    object2.name = "Object two";
+    object1.number = 3;
+    object2.number = 7;
+    
+    cout << "object1.name: " << object1.name << endl;
+    cout << "object2.name: " << object2.name << endl;
+    cout << "object1.number: " << object1.number << endl;
+    cout << "object2.number: " << object2.number << endl << endl;
+    
+    // aVehicle
+    aVehicle ferrari;
+    aVehicle lamborghini;
+    aVehicle porsche;
+    
+    ferrari.brand = "Ferrari";
+    lamborghini.brand = "Lamborghini";
+    porsche.brand = "Porsche";
+    
+    ferrari.model = "612";
+    lamborghini.model = "Aventador";
+    porsche.model = "911";
+    
+    ferrari.year = 2017;
+    lamborghini.year = 2017;
+    porsche.year = 2018;
+    
+    cout << "ferrari.brand: " << ferrari.brand << endl << "ferrari.model: " << ferrari.model << endl << "ferrari.year: " << ferrari.year << endl;
+    cout << "lamborghini.brand: " << lamborghini.brand << endl << "lamborghini.model: " << lamborghini.model << endl << "lamborghini.year: " << lamborghini.year << endl;
+    cout << "porsche.brand: " << porsche.brand << endl << "porsche.model: " << porsche.model << endl << "porsche.year: " << porsche.year << endl << endl;
+
+    return 0;
+}
