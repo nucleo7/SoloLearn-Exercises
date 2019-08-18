@@ -1,0 +1,77 @@
+https://code.sololearn.com/cnX93P2p7L9f/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+// ClassOne class
+class ClassOne {
+    public:
+        ClassOne(int a, int b);
+    private:
+        int regVar1;
+        const int constVar1;
+};
+
+// ClassTwo class
+class ClassTwo {
+    public:
+        ClassTwo(int c, int d);
+    private:
+        int regVar2;
+        const int constVar2;
+};
+
+// ClassThree class
+class ClassThree {
+    public:
+        ClassThree(int e, int f);
+    private:
+        int regVar3;
+        const int constVar3;
+};
+
+// ClassOne method
+ClassOne::ClassOne(int a, int b)
+    : regVar1(a), constVar1(b) {
+    cout << "regVar1: " << regVar1 << endl;
+    cout << "constVar1: " << constVar1 << endl;
+}
+
+// ClassTwo method
+ClassTwo::ClassTwo(int c, int d)
+    : regVar2(c), constVar2(d) {
+        cout << "regVar2: " << regVar2 << endl;
+        cout << "constVar2: " << constVar2 << endl;
+}
+
+// ClassThree methods
+ClassThree::ClassThree(int e, int f)
+    : regVar3(e), constVar3(f) {
+        cout << "regVar3: " << regVar3 << endl;
+        cout << "constVar3: " << constVar3 << endl;
+}
+
+// main
+int main() {
+    cout << "obj1..." << endl;
+    ClassOne obj1(42, 33);
+    cout << "obj2..." << endl;
+    ClassOne obj2(13, 55);
+    cout << endl;
+    
+    cout << "obj3..." << endl;
+    ClassTwo obj3(13, 7);
+    cout << "obj4..." << endl;
+    ClassTwo obj4(3, 67);
+    cout << endl;
+    
+    cout << "obj5..." << endl;
+    ClassThree obj5(5, 79);
+    cout << "obj6..." << endl;
+    ClassThree obj6(51, 17);
+    cout << endl;
+}
