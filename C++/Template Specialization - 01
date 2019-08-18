@@ -1,0 +1,109 @@
+https://code.sololearn.com/cz4WhjZXGrNX/#cpp
+
+
+
+// Exercises from Course Material
+
+// HOW:
+//    - Just click Run
+
+// EXPECTED:
+//    - objects for each data type (char, double, float, int) checked and printed to screen, and confirm the type
+
+#include <iostream>
+using namespace std;
+
+// template and class to check 'char'
+template <class A>
+class CharCheck {
+    public:
+        CharCheck (A a) {
+            cout << a << " -  NOT a 'char'!" << endl;
+        }
+};
+
+template < >
+class CharCheck<char> {
+    public:
+        CharCheck (char a) {
+            cout << a << " - is a char" << endl;
+        }
+};
+
+// template and class to check 'double'
+template <class B>
+class DoubleCheck {
+    public:
+        DoubleCheck (B b) {
+            cout << b << " - NOT a 'double'!" << endl;
+        }
+};
+
+template < >
+class DoubleCheck<double> {
+    public:
+        DoubleCheck (double b) {
+            cout << b << " - is a 'double'" << endl;
+        }
+};
+
+// template and class to check 'float'
+template <class C>
+class FloatCheck {
+    public:
+        FloatCheck (C c) {
+            cout << c << " - NOT a 'float'!" << endl;
+        }
+};
+
+template < >
+class FloatCheck<float> {
+    public:
+        FloatCheck (float c) {
+            cout << c << " - is a 'float'" << endl;
+        }
+};
+
+// template and class to check 'int'
+template <class D>
+class IntCheck {
+    public:
+        IntCheck (D d) {
+            cout << d << " - NOT an 'int'!" << endl;
+        }
+};
+
+template < >
+class IntCheck<int> {
+    public:
+        IntCheck (int d) {
+            cout << d << " - is an 'int'" << endl;
+        }
+};
+
+int main () {
+    CharCheck<char> a1('A');
+    CharCheck<double> a2(1.357);
+    CharCheck<float> a3(11.1317);
+    CharCheck<int> a4(7);
+    cout << endl;
+    
+    DoubleCheck<char> b1('A');
+    DoubleCheck<double> b2(1.357);
+    DoubleCheck<float> b3(11.1317);
+    DoubleCheck<int> b4(7);
+    cout << endl;
+    
+    FloatCheck<char> c1('A');
+    FloatCheck<double> c2(1.357);
+    FloatCheck<float> c3(11.1317);
+    FloatCheck<int> c4(7);
+    cout << endl;
+    
+    IntCheck<char> d1('A');
+    IntCheck<double> d2(1.357);
+    IntCheck<float> d3(11.1317);
+    IntCheck<int> d4(7);
+    cout << endl;
+    
+}
