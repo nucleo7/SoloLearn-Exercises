@@ -1,0 +1,26 @@
+https://code.sololearn.com/wVPUYXvvk1FX/#php
+
+
+
+<?php
+    function setCounter($num=10) {
+        echo "Counter is ".$num."<br />";
+    }
+    setCounter(42);  //Counter is 42
+    setCounter();  //Counter is 10
+    
+    function incrementing1($item1, $item2 = 7) {
+        echo "Increment with default on second parameter: ".($item1 + $item2)."<br />";
+    }
+    incrementing1(3);
+    incrementing1(5);
+    incrementing1(1);
+    
+    function incrementing2($itemOne = 7, $itemTwo) {
+        echo "Incrementing with default on first parameter: ".($itemOne + $itemTwo)."<br />";
+    }
+    incrementing2(5, 11);    // This only works if two parameters are given
+    incrementing2(3, 7);
+    // The following does not work, because of position of default parameter
+    // incrementing2(5);
+?>
