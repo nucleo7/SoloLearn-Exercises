@@ -1,0 +1,33 @@
+https://code.sololearn.com/wHMQEp8bS8pN/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php
+    
+    $numOne = 3;
+    $numTwo = 11;
+    
+    echo "The numOne value before the do-while loop is: " . $numOne . "<br />";
+    
+    do {
+        echo "The numOne value is: " . $numOne . "<br />";
+        $numOne += 2;
+    } while($numOne <= $numTwo);
+    
+    echo "The numOne value after the do-while loop is: " . $numOne . "<br />";
+    
+    echo "<br />";
+    
+    $numThree = 11;
+    $numFour = 3;
+    
+    echo "The numThree value before the do-while loop is: " . $numThree . "<br />";
+    
+    do {
+        echo "The numThree value is: ". $numThree . "<br />";
+        $numThree += 2;
+    } while ($numThree <= $numFour);
+    
+    echo "The numThree value after the do-while loop is: " . $numThree . "<br />";
+?>
