@@ -1,0 +1,27 @@
+https://code.sololearn.com/cZAE25AF1ei7/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+int timesTwo(int x) {
+    return x*2;
+}
+
+int someCalc(int y) {
+    
+    return y * y / 2 + y;
+}
+
+int main() {
+    cout << timesTwo(8) << endl;
+    cout << timesTwo(5) << endl;
+    cout << timesTwo(42) << endl;
+    
+    cout << someCalc(3) << endl;
+    cout << someCalc(7) << endl;
+    cout << someCalc(13) << endl;
+}
