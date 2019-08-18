@@ -1,0 +1,188 @@
+https://code.sololearn.com/cBPVF98PmICy/#cpp
+(Was called C++ - Function Templates - 01)
+
+
+
+// Exercises from Course Material
+
+/*
+HOW TO RUN:
+ - Just select Run
+*/
+
+/*
+    - The template before the function name will be the return type
+    - example: See template - 'T smaller'. When you declare the first variable as an int, and the second as a double, then int will be the return type.  'T' in front of the function name, is the property that takes the type given for that function.
+*/
+
+
+#include <iostream>
+using namespace std;
+
+// classes - templates with some ternary operations
+template <class T, class U>
+T smaller(T t, U u) {
+    return (t < u ? t : u);
+}
+
+template <class V, class W>
+V bigger(V v, W w) {
+    return (v > w ? v : w);
+}
+
+// classes - templates for some math
+template <class A, class B>
+A multiply(A a, B b) {
+    return a * b;
+}
+
+template <class C, class D>
+C divide(C c, D d) {
+    return c / d;
+}
+
+template <class E, class F>
+E add(E e, F f) {
+    return e + f;
+}
+
+template <class G, class H>
+G subtract(G g, H h) {
+    return g - h;
+}
+
+template <class I, class J, class K, class L, class M>
+I someMath(I i, J j, K k, L l, M m) {
+    return i * j / k + l - m;
+}
+
+
+int main () {
+    cout << "SMALLER & BIGGER:" << endl;
+    cout << "return (t < u ? t : u) ..." << endl << endl;
+    
+    // int - double
+    int x1 = 72;
+    double y1 = 15.34;
+    cout << "smaller(x1, y1) = " << smaller(x1, y1) << endl;
+    cout << "bigger(x1, y1) = " << bigger(x1, y1) << endl << endl;
+    
+    // double - int
+    double x2 = 3.14;
+    int y2 = 7;
+    cout << "smaller(x2, y2) = " << smaller(x2, y2) << endl;
+    cout << "bigger(x2, y2) = " << bigger(x2, y2) << endl << endl;
+    
+    // int - int
+    int x3 = 13;
+    int y3 = 3;
+    cout << "smaller(x3, y3) = " << smaller(x3, y3) << endl;
+    cout << "bigger(x3, y3) = " << bigger(x3, y3) << endl << endl;
+    
+    // double - double
+    double x4 = 1.12358;
+    double y4 = 13.2134;
+    cout << "smaller(x4, y4) = " << smaller(x4, y4) << endl;
+    cout << "bigger(x4, y4) = " << bigger(x4, y4) << endl << endl << endl;
+    
+    
+    
+    cout << "MATH FUN:" << endl;
+    // math - multiply
+    cout << "return a * b ..." << endl;
+    int a1 = 7;
+    double b1 = 3.14;
+    cout << "multiply(a1, b1) = " << multiply(a1, b1) << endl;
+    
+    double a2 = 3.14;
+    int b2 = 7;
+    cout << "multiply(a2, b2) = " << multiply(a2, b2) << endl << endl;
+    
+    // math - divide
+    cout << "return c / d ..." << endl;
+    int c1 = 7;
+    double d1 = 3.14;
+    cout << "divide(c1, d1) = " << divide(c1, d1) << endl;
+    
+    double c2 = 3.14;
+    int d2 = 7;
+    cout << "divide(c2, d2) = " << divide(c2, d2) << endl << endl;
+    
+    // math - add
+    cout << "return e + f ..." << endl;
+    int e1 = 7;
+    double f1 = 3.14;
+    cout << "add(e1, f1) = " << add(e1, f1) << endl;
+    
+    double e2 = 3.14;
+    int f2 = 7;
+    cout << "add(e2, f2) = " << add(e2, f2) << endl << endl;
+    
+    // math - subtract
+    cout << "return g - h ..." << endl;
+    int g1 = 7;
+    double h1 = 3.14;
+    cout << "subtract(g1, h1) = " << subtract(g1, h1) << endl;
+    
+    double g2 = 3.14;
+    int h2 = 7;
+    cout << "subtract(g2, h2) = " << subtract(g2, h2) << endl << endl;
+    
+    // math - someMath
+    cout << "return i * j / k + l - m ..." << endl;
+    int i1 = 7;
+    int j1 = 7;
+    int k1 = 7;
+    int l1 = 7;
+    double m1 = 3.14;
+    cout << "someMath(i1, j1, k1, l1, m1) = " << someMath(i1, j1, k1, l1, m1) << endl;
+    
+    int i2 = 7;
+    int j2 = 7;
+    int k2 = 7;
+    double l2 = 3.14;
+    double m2 = 3.14;
+    cout << "someMath(i2, j2, k2, l2, m2) = " << someMath(i2, j2, k2, l2, m2) << endl;
+    
+    int i3 = 7;
+    int j3 = 7;
+    double k3 = 3.14;
+    double l3 = 3.14;
+    double m3 = 3.14;
+    cout << "someMath(i3, j3, k3, l3, m3) = " << someMath(i3, j3, k3, l3, m3) << endl;
+    
+    int i4 = 7;
+    double j4 = 3.14;
+    double k4 = 3.14;
+    double l4 = 3.14;
+    double m4 = 3.14;
+    cout << "someMath(i4, j4, k4, l4, m4) = " << someMath(i4, j4, k4, l4, m4) << endl;
+    
+    double i5 = 3.14;
+    double j5 = 3.14;
+    double k5 = 3.14;
+    double l5 = 3.14;
+    int m5 = 7;
+    cout << "someMath(i5, j5, k5, l5, m5) = " << someMath(i5, j5, k5, l5, m5) << endl;
+    
+    double i6 = 3.14;
+    double j6 = 3.14;
+    double k6 = 3.14;
+    int l6 = 7;
+    int m6 = 7;
+    cout << "someMath(i6, j6, k6, l6, m6) = " << someMath(i6, j6, k6, l6, m6) << endl;
+    
+    double i7 = 3.14;
+    double j7 = 3.14;
+    int k7 = 7;
+    int l7 = 7;
+    int m7 = 7;
+    cout << "someMath(i7, j7, k7, l7, m7) = " << someMath(i7, j7, k7, l7, m7) << endl;
+    
+    double i8 = 3.14;
+    int j8 = 7;
+    int k8 = 7;
+    int l8 = 7;
+    int m8 = 7;
+    cout << "someMath(i8, j8, k8, l8, m8) = " << someMath(i8, j8, k8, l8, m8) << endl << endl;
+}
