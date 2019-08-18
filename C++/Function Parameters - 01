@@ -1,0 +1,31 @@
+https://code.sololearn.com/ccYNObrcV7rg/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+void printSomething(int x) {
+    cout << x << endl;
+}
+
+void paramOne(int a, int b) {
+    cout << a << b << endl;
+}
+
+void paramTwo(int c, int d) {
+    cout << c + d << endl;
+}
+
+int main() {
+    printSomething(42);
+    printSomething(13);
+    
+    paramOne(5, 7);
+    paramOne(13, 3);
+    
+    paramTwo(5, 7);
+    paramTwo(13, 3);
+}
