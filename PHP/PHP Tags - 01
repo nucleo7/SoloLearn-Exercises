@@ -1,0 +1,16 @@
+https://code.sololearn.com/wS1OyCi7are8/#php
+
+
+
+<!-- Exercises from Course Material -->
+<html>
+    <head>
+        <title>My First PHP Page</title>
+    </head>
+    <body>
+    <?php   
+        echo "Hello World!";
+        echo "Something else for a change!"
+    ?>
+    </body>
+</html>
