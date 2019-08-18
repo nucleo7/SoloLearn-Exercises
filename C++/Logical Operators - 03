@@ -1,0 +1,22 @@
+https://code.sololearn.com/cSUBEJXENRx3/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    string colorOne = "Red";
+    string colorTwo = "Green";
+    string colorThree = "Blue";
+    
+    if (colorOne == "Red" || colorTwo == "Green" || colorThree == "Blue") {
+       cout << "This is not CMYK, this is RGB." << endl;
+    }
+    
+    return 0;
+
+}
