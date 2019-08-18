@@ -1,0 +1,16 @@
+https://code.sololearn.com/c4PUlAzzgKMZ/#cpp
+
+
+
+// Exercises from Course Material
+#include <string>    // Include this for strings
+// However, this also includes strings:
+// #include <iostream>
+using namespace std;
+
+int main() {
+    string a = "I am learning C++";
+    string x = "Another string.";
+    // Without iostream, there's no print function.
+    return 0;
+}
