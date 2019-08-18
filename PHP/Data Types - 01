@@ -1,0 +1,15 @@
+https://code.sololearn.com/wOJE3wgAmsE0/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php
+    $str = "10";
+    $int = 20;
+    $sum = $str + $int;
+    echo ($sum);
+    $ab = "45";
+    $bc = 22;
+    $cd = $ab + $bc;
+    echo ($cd);
+?>
