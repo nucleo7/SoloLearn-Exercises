@@ -1,0 +1,24 @@
+https://code.sololearn.com/cgMCF40GawVV/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double myArr[10];
+    cout << sizeof(myArr) << endl;
+    
+    int intArray[7];
+    string stringArray[7];
+    float floatArray[7];
+    
+    cout << sizeof(intArray) << endl;
+    cout << sizeof(stringArray) << endl;
+    cout << sizeof(floatArray) << endl;
+    
+    return 0;
+}
