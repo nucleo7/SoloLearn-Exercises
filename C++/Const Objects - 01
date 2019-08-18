@@ -1,0 +1,102 @@
+https://code.sololearn.com/c0Eb39KYCjlg/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+// ClassOne class
+class ClassOne {
+    public:
+        void printOne() const;
+        void printTwo() const;
+};
+
+// ClassTwo class
+class ClassTwo {
+    public:
+        void printThree() const;
+        void printFour() const;
+};
+
+// ClassTwoA derived from ClassTwo
+class ClassTwoA:ClassTwo {
+    public:
+        void printThree() const;
+        void printFour() const;
+        void printFive() const;
+};
+
+// ClassOne prints
+void ClassOne::printOne() const {
+    cout << "ClassOne - printOne()" << endl;
+}
+
+void ClassOne::printTwo() const {
+    cout << "ClassOne - printTwo()" << endl;
+}
+
+// ClassTwo prints
+void ClassTwo::printThree() const {
+    cout << "ClassTwo - printThree()" << endl;
+}
+
+void ClassTwo::printFour() const {
+    cout << "ClassTwo - printFour()" << endl;
+}
+
+// ClassTwoA prints
+void ClassTwoA::printThree() const {
+    cout << "ClassTwoA - printThree()" << endl;
+}
+
+void ClassTwoA::printFour() const {
+    cout << "ClassTwoA - printFour()" << endl;
+}
+
+void ClassTwoA::printFive() const {
+    cout << "ClassTwoA - printFive()" << endl;
+}
+
+int main() {
+    // Creating ClassOne objects
+    const ClassOne obj1;
+    const ClassOne obj2;
+    
+    obj1.printOne();
+    obj2.printOne();
+    
+    obj1.printTwo();
+    obj2.printTwo();
+    
+    cout << endl;
+    
+    // Creating ClassTwo objects
+    const ClassTwo obj3;
+    const ClassTwo obj4;
+    
+    obj3.printThree();
+    obj3.printFour();
+    
+    obj4.printThree();
+    obj4.printFour();
+    
+    cout << endl;
+    
+    // Creating ClassTwoA objects
+    const ClassTwoA obj5;
+    const ClassTwoA obj6;
+    
+    obj5.printThree();
+    obj6.printThree();
+    
+    obj5.printFour();
+    obj6.printFour();
+    
+    obj5.printFive();
+    obj6.printFive();
+    
+    cout << endl;
+}
