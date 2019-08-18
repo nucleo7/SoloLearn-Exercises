@@ -1,0 +1,16 @@
+https://code.sololearn.com/wf4A5j8BT9jF/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php
+    $first = 'One';
+    echo $first;
+    echo $$first;
+    
+    $one = "Two";
+    echo $one;
+    
+    // Not sure I understand what's supposed to happen
+    echo $$first;
+?>
