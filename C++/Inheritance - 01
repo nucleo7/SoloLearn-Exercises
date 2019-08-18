@@ -1,0 +1,129 @@
+https://code.sololearn.com/cwScEWZBkClz/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+// family - base classes
+class Father
+{
+    public:
+        Father() {};
+        void sayHello() {
+            cout << "Hello" << endl;
+        }
+};
+
+class Mother
+{
+    public:
+        Mother() {};
+        void sayHi() {
+            cout << "Hi" << endl;;
+        }
+};
+
+// family - derived classes
+class Daughter: public Father, public Mother
+{
+    public:
+        Daughter() {};
+        void goodEvening() {
+            cout << "Good Evening" << endl;
+        }
+};
+
+class Son: public Father, public Mother
+{
+    public:
+        Son() {};
+        void goodMorning() {
+            cout << "Good Morning" << endl;
+        }
+};
+
+// colors - base class
+class Colors
+{
+    public:
+        Colors() {};
+        void colors() {
+            cout << "Colors - base class, the rainbow" << endl;
+        }
+};
+
+// colors - derived classes
+class ColorsRGB: public Colors
+{
+    public:
+        ColorsRGB() {};
+        void printRGB() {
+            cout << "Red, Green, Blue" << endl;
+        }
+};
+
+class ColorsCMYK: public Colors
+{
+    public:
+        ColorsCMYK() {};
+        void printCMYK() {
+            cout << "Cyan, Magenta, Yellow, Black" << endl;
+        }
+};
+
+int main() {
+    // family - base objects
+    cout << "family..." << endl;
+    Father f1;
+    cout << "Father f1.sayHello(): ";
+    f1.sayHello();
+    
+    Mother m1;
+    cout << "Mother m1.sayHi(): ";
+    m1.sayHi();
+    cout << endl;
+    
+    // family - derived objects
+    Daughter d1;
+    cout << "Daughter d1.sayHello(): ";
+    d1.sayHello();
+    cout << "Daughter d1.sayHi(): ";
+    d1.sayHi();
+    cout << "Daughter d1.GoodEvening(): ";
+    d1.goodEvening();
+    cout << endl;
+    
+    Son s1;
+    cout << "Son s1.sayHello(): ";
+    s1.sayHello();
+    cout << "Son s1.sayHi(): ";
+    s1.sayHi();
+    cout << "Son s1.goodMorning(): ";
+    s1.goodMorning();
+    cout << endl << endl;
+    
+    // colors - base objects
+    cout << "colors..." << endl;
+    Colors c1;
+    cout << "Colors c1.colors(): ";
+    c1.colors();
+    cout << endl;
+    
+    // colors - derived objects
+    ColorsRGB rgb1;
+    cout << "ColorsRGB rgb1.colors(): ";
+    rgb1.colors();
+    cout << "ColorsRGB rgb1.printRGB(): ";
+    rgb1.printRGB();
+    cout << endl;
+    
+    ColorsCMYK cmyk1;
+    cout << "ColorsCMYK cmyk1.colors(): ";
+    cmyk1.colors();
+    cout << "ColorsCMYK cmyk1.printCMYK(): ";
+    cmyk1.printCMYK();
+    cout << endl << endl;
+}
