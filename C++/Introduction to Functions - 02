@@ -1,0 +1,18 @@
+https://code.sololearn.com/cRh912TnFd1K/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+// IMPORTANT: This will not work, because the function should be declared before it's used!
+
+int main() {
+    printSomething();
+}
+
+void printSomething() {
+    cout << "Hi there!";
+}
