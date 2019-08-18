@@ -1,0 +1,28 @@
+https://code.sololearn.com/c0QGDOr6D8Vq/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int myArr[5];
+
+    for(int x=0; x<5; x++) {
+        myArr[x] = 42;
+ 
+        cout << x << ": " << myArr[x] << endl;
+    }
+    
+    int numArray[5];
+    
+    for (int a = 0; a <= 4; a++) {
+        numArray[a] = a + 3;
+        
+        cout << a << ": " << numArray[a] << endl;
+    }
+    
+    return 0;
+}
