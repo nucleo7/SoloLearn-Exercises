@@ -1,0 +1,61 @@
+https://code.sololearn.com/cBRe2Pea29Lv/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+class Mother {
+    public:
+        Mother()
+        {
+            cout << "Mother() constructor" << endl;
+        }
+        ~Mother()
+        {
+            cout << "Mother() destructor" << endl;
+        }
+};
+
+class Daughter: public Mother {
+    public:
+        Daughter()
+        {
+            cout << "Daughter() constructor" << endl;
+        }
+        ~Daughter()
+        {
+            cout << "Daughter() destructor" << endl;
+        }
+};
+
+class Son: public Mother {
+    public:
+        Son()
+        {
+            cout << "Son() constructor" << endl;
+        }
+        ~Son()
+        {
+            cout << "Son() destructor" << endl;
+        }
+};
+
+int main() {
+    Mother m1;
+    Daughter d1;
+    Son s1;
+    
+    Mother m2;
+    Mother m3;
+    Daughter d2;
+    Daughter d3;
+    Son s2;
+    Son s3;
+}
+
+
+
+// this quickly grows out of control...
