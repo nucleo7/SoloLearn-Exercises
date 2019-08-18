@@ -1,0 +1,29 @@
+https://code.sololearn.com/cNvWPuG8Q35R/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    int numOne = 13;
+    switch (numOne) {
+        case 1:
+        case 2:
+        case 3:
+            cout << "The numOne value is 1 to 3." << endl;
+            break;
+        case 4:
+        case 5:
+        case 6:
+            cout << "The numOne value is 4 to 6." << endl;
+            break;
+        default:
+            cout << "The numOne value does not match a case, so the default case is used." <<  endl << "The numOne value is: " << numOne << endl;
+    }
+    
+    return 0;
+}
