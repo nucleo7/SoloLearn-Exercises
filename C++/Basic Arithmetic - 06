@@ -1,0 +1,20 @@
+https://code.sololearn.com/cgO9aU281A22/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int x = 5 + 2 * 2;    // Output is 9
+    int xx = 5 + (2 * 2);    // Output is 9
+    int y = 5 * 2 + 2;    // Output is 12
+    int yy = (5 * 2) + 2;    // Output is 12
+    cout << x << endl;
+    cout << xx << endl;
+    cout << y << endl;
+    cout << yy << endl;
+    return 0;
+}
