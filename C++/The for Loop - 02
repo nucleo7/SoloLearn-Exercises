@@ -1,0 +1,17 @@
+https://code.sololearn.com/c086ke51rg3y/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    for (int x = 1; x < 17; x += 3) {
+       cout << "The value of x is: " << x << endl;
+    }
+
+    return 0;
+}
