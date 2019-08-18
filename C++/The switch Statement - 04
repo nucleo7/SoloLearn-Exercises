@@ -1,0 +1,29 @@
+https://code.sololearn.com/cgEUx0CI9y6T/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    int firstNumber = 7;
+    switch(firstNumber) {
+       case 1:
+       case 2:
+       case 3:
+           cout << "Numbers 1 to three use this statement." << endl << "The firstNumber value is: " << firstNumber << endl;
+        case 4:
+            cout << "This is the case for 4." << endl;
+        case 5:
+            cout << "This is the case for 5." << endl;
+        case 6:
+            cout << "This is the case for 6." << endl;
+        default:
+            cout << "This is the default case for all other values." << endl << "The firstNumber value is: " << firstNumber << endl;
+    }
+    
+    return 0;
+}
