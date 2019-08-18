@@ -1,0 +1,64 @@
+https://code.sololearn.com/czBGX3PCFk98/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+// Constructor & Destructor classes
+class ConstOne {
+    public:
+        ConstOne();
+        ~ConstOne();
+};
+
+class ConstTwo {
+    public:
+        ConstTwo();
+        ~ConstTwo();
+};
+
+class ConstThree {
+    public:
+        ConstThree();
+        ~ConstThree();
+};
+
+// Instantiating the Constructors & Destructors
+ConstOne::ConstOne() {
+    cout << "Constructor One" << endl;
+}
+
+ConstOne::~ConstOne() {
+    cout << "Destructor One" << endl;
+}
+
+ConstTwo::ConstTwo() {
+    cout << "Constructor Two" << endl;
+}
+
+ConstTwo::~ConstTwo() {
+    cout << "Destructor Two" << endl;
+}
+
+ConstThree::ConstThree() {
+    cout << "Constructor Three" << endl;
+}
+
+ConstThree::~ConstThree() {
+    cout << "Destructor Three" << endl;
+}
+
+// main - ;)
+int main() {
+    ConstOne conFirst;
+    ConstOne conSecond;
+    
+    ConstTwo ctwFirst;
+    ConstTwo ctwSecond;
+    
+    ConstThree cthFirst;
+    ConstThree cthSecond;
+}
