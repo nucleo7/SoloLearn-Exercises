@@ -1,0 +1,19 @@
+https://code.sololearn.com/w2H4nKHEc57A/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php
+    // All of this is supposed to fail, because the variables are GLOBAL, therefore not in scope
+    $name = 'John';
+    function getName() {
+        echo $name;
+    }
+    getName();
+    
+    $lastName = 'Smith';
+    function getLastName() {
+       echo $lastName; 
+    }
+    getLastName;
+?>
