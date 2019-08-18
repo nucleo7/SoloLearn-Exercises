@@ -1,0 +1,18 @@
+https://code.sololearn.com/c5I6L8M8c8dq/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int x = 10 / 3;
+    int y = 54 / 29;
+    int z = 34.5 / 1.8;
+    cout << x << endl;
+    cout << y << endl;
+    cout << z << endl;
+    return 0;
+}
