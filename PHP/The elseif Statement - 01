@@ -1,0 +1,32 @@
+https://code.sololearn.com/w1y3w885lLfp/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php
+    $age = 21;
+
+    if ($age<=13) {
+        echo "Child.";
+        echo "<br />";
+    } elseif ($age>13 && $age<19) {
+        echo "Teenager";
+        echo "<br />";
+    } else {
+        echo "Adult";
+        echo "<br />";
+    
+    $numOne = 3;
+    $numTwo = 7;
+    if ($numOne > $numTwo) {
+        echo "The <b>numOne</b> value is greater than the <b>numTwo</b> value.";
+        echo "<br />";
+    } elseif ($numOne < $numTwo) {
+        echo "The <b>numOne</b> value is less than the <b>numTwo</b> value.";
+        echo "<br />";
+    } else {
+        echo "The <b>numOne</b> value and the <b>numTwo</b> value is equal, or not a number.";
+        echo "<br />";
+    }
+}
+?>
