@@ -1,0 +1,127 @@
+https://code.sololearn.com/c6z14auq4M40/#cpp
+
+
+
+// Exercises from Course Material
+// Repetition, repetition, repetition, ...
+
+#include <iostream>
+using namespace std;
+
+// ClassOne class
+class ClassOne
+{
+    public:
+        ClassOne();
+        void print1();
+        void print2();
+        void print3();
+};
+
+// ClassTwo class
+class ClassTwo
+{
+    public:
+        ClassTwo();
+        void print4();
+        void print5();
+        void print6();
+        void print7();
+};
+
+// ClassOne method
+ClassOne::ClassOne() {
+}
+void ClassOne::print1() {
+    cout << "ClassOne - print1" << endl;
+}
+void ClassOne::print2() {
+    cout << "ClassOne - print2" << endl;
+}
+void ClassOne::print3() {
+    cout << "ClassOne - print3" << endl;
+}
+
+// ClassTwo method
+ClassTwo::ClassTwo() {
+}
+void ClassTwo::print4() {
+    cout << "ClassTwo - print4" << endl;
+}
+void ClassTwo::print5() {
+    cout << "ClassTwo - print5" << endl;
+}
+void ClassTwo::print6() {
+    cout << "ClassTwo - print6" << endl;
+}
+
+int main() {
+    // ClassOne objects
+    cout << "ClassOne objects..." << endl;
+    ClassOne obj1;
+    ClassOne obj2;
+    ClassOne obj3;
+    
+    ClassOne *ptr1 = &obj1;
+    ClassOne *ptr2 = &obj2;
+    ClassOne *ptr3 = &obj3;
+    
+    cout << "&obj1: " << &obj1 << endl;
+    cout << "&obj2: " << &obj2 << endl;
+    cout << "&obj3: " << &obj3 << endl << endl;
+    
+    cout << "ptr1: " << ptr1 << endl;
+    cout << "ptr2: " << ptr2 << endl;
+    cout << "ptr3: " << ptr3 << endl << endl;
+    
+    ptr1->print1();
+    ptr2->print1();
+    ptr3->print1();
+    cout << endl;
+    
+    ptr1->print2();
+    ptr2->print2();
+    ptr3->print2();
+    cout << endl;
+    
+    ptr1->print3();
+    ptr2->print3();
+    ptr3->print3();
+    cout << endl;
+    
+    // ClassTwo objects
+    cout << "ClassTwo objects..." << endl;
+    ClassTwo obj4;
+    ClassTwo obj5;
+    ClassTwo obj6;
+    
+    ClassTwo *ptr4 = &obj4;
+    ClassTwo *ptr5 = &obj5;
+    ClassTwo *ptr6 = &obj6;
+    
+    cout << "&obj4: " << &obj4 << endl;
+    cout << "&obj5: " << &obj5 << endl;
+    cout << "&obj6: " << &obj6 << endl << endl;
+    
+    cout << "ptr4: " << ptr4 << endl;
+    cout << "ptr5: " << ptr5 << endl;
+    cout << "ptr6: " << ptr6 << endl << endl;
+    
+    ptr4->print4();
+    ptr5->print4();
+    ptr6->print4();
+    cout << endl;
+    
+    ptr4->print5();
+    ptr5->print5();
+    ptr6->print5();
+    cout << endl;
+    
+    ptr4->print6();
+    ptr5->print6();
+    ptr6->print6();
+    cout << endl;
+    // all this just to show how a pointer and -> can print :)
+    
+    // ...repetition, repetition, repetition...
+}
