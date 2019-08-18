@@ -1,0 +1,17 @@
+https://code.sololearn.com/wj50L02SetIO/#php
+
+
+
+<!-- Exercises from Course Material -->
+<?php
+    $someArray = array("NameOne", "NameTwo", "NameThree", "NameFour", "NameFive");
+    echo $someArray[0];
+    echo "<br />";
+    echo $someArray[1];
+    echo "<br />";
+    echo $someArray[2];
+    echo "<br />";
+    echo $someArray[3];
+    echo "<br />";
+    echo $someArray[4];
+?>
