@@ -1,0 +1,30 @@
+https://code.sololearn.com/wMgytXH1dQhr/#php
+
+
+
+<!-- Exercises from Course Material -->
+
+<?php
+    function sayHello() {
+        echo "Hello!" . "<br />";
+    }
+
+    sayHello(); //call the function
+    
+    function saySomething() {
+        echo "Something!" . "<br />";
+    }
+    
+    function doSomething() {
+        echo 3 + 7 . "<br />";
+    }
+    
+    function thinkSomething() {
+        echo "<i>" . "thinking... " . "</i>" . "<br />";
+    }
+    saySomething();
+    doSomething();
+    thinkSomething();
+    thinkSomething();
+    sayHello();
+?>
