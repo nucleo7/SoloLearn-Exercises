@@ -1,0 +1,23 @@
+https://code.sololearn.com/caDsw6FQiH0Q/#cpp
+
+
+
+// Exercises from Course Material
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    if (10 == 10) {
+        cout <<  "Yes, 10 equals 10." << endl;;
+    }
+    
+    int x = 7;
+    int y = 7;
+    
+    if (x == y) {
+       cout << "Yes, x equals y." << endl;
+    }
+    
+    return 0;
+}
