@@ -1,0 +1,69 @@
+https://code.sololearn.com/cWBIW5mkTQVL/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+int factorial(int n) {
+    if (n==1) {
+        return 1;
+    }
+    else {
+        return n * factorial(n-1);
+    }
+}
+
+
+// I know this is basically an exact copy of the exercise example, but I'm still learning this dirty recursion business
+int factOne(int a) {
+    if (a == 1) {
+        return 1;
+    }
+    else {
+        return a * factOne(a - 1);
+    }
+}
+
+int factTwo(int b) {
+    if (b == 0) {
+        return 1;
+    }
+    else {
+        return b * factTwo(b - 1);
+    }
+}
+
+int factThree(int c) {
+    if (c == 1) {
+        return 1;
+    }
+    else {
+        return c * factThree(c - 3);
+    }
+}
+
+int main() {
+    cout << "factorial of 1: " << factorial(1) << endl;
+    cout << "factorial of 2: " << factorial(2) << endl;
+    cout << "factorial of 3: " << factorial(3) << endl;
+    cout << "factorial of 4: " << factorial(4) << endl;
+    cout << "factorial of 5: " << factorial(5) << endl;
+    
+    cout << "factorial of 6: " << factOne(6) << endl;
+    cout << "factorial of 7: " << factOne(7) << endl;
+    cout << "factorial of 8: " << factOne(8) << endl;
+    cout << "factorial of 9: " << factOne(9) << endl;
+    cout << "factorial of 10: " << factOne(10) << endl;
+    
+    cout << "Who knows what this will do? - 3: " << factTwo(3) << endl;
+    cout << "Who knows what this will do? - 4: " << factTwo(4) << endl;
+    cout << "Who knows what this will do? - 5: " << factTwo(5) << endl;
+    
+    cout << "This should be interesting - 10: " << factThree(10) << endl;
+    // Definitely strange! It stops printing at this point
+    cout << "This should be interesting - 11: " << factThree(11) << endl;
+    cout << "This should be interestinf - 12: " << factThree(12) << endl;
+}
