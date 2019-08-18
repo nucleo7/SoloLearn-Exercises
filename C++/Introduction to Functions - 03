@@ -1,0 +1,28 @@
+https://code.sololearn.com/cVSVOcmY71Hs/#cpp
+
+
+
+// Exercises from Course Material
+
+#include <iostream>
+using namespace std;
+
+// IMPORTANT: You can define a function after it's called, but it must be declared before it's called!
+
+//Function declaration
+void printSomething();
+void someThing();
+
+int main() {
+    printSomething();
+    someThing();
+}
+
+//Function definition
+void printSomething() {
+    cout << "Hi there!" << endl;
+}
+
+void someThing() {
+    cout << "Printing some thing" << endl;
+}
