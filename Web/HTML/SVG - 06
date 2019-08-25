@@ -1,0 +1,14 @@
+https://code.sololearn.com/WZPFsa1tRcmm/#html
+
+
+
+<!-- Exercises from Course Material -->
+
+<svg width="2000" height="2000">
+    <polygon points="100 100, 200 200, 300 0" style="fill:red; stroke:cyan;" />
+    <polygon points="300 0, 300 300, 200 200" style="fill:green; stroke:magenta;" />
+    <polygon points="300 300, 250 300, 200 200" style="fill:blue; stroke:yellow;" />
+    <polygon points="250 300, 150 250, 200 200" style="fill:cyan; stroke:black;" />
+    <polygon points="150 250, 20 125, 200 200" style="fill:magenta; stroke:white;" />
+    <polygon points="20 125, 100 100, 200 200" style="fill:yellow; stroke: red;" />
+</svg>
