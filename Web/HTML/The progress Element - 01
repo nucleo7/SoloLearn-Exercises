@@ -1,0 +1,17 @@
+https://code.sololearn.com/WqX976BCy0Oz/#html
+
+
+
+<!-- Exercises from Course Material -->
+
+Status: <progress class="one" min="0" max="100" value="35"> 
+</progress><br /><br />
+
+This is what good progress looks like: <br />
+<progress class="two" min="0" max="100" value="75"></progress><br /><br />
+
+This is what bad progress looks like: <br />
+<progress class="three" min="0" max="100" value="25"></progress><br /><br />
+
+This is what progress in my life looks like: <br />
+<progress class="four" min="0" max="1000" value="3"></progress><br /><br />
