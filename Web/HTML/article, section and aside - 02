@@ -1,0 +1,16 @@
+https://code.sololearn.com/W6gpKu5q4Tyw/#html
+
+
+
+<!-- Exercises from Course Material -->
+<article>
+    <h1>Welcome</h1>
+    <section class="one">
+        <h3>Heading One</h1>
+        <p>Content or image</p>
+    </section>
+    <section class="two">
+        <h3>Heading Two</h3>
+        <p>More content here</p>
+    </section>
+</article>
