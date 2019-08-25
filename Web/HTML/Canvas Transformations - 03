@@ -1,0 +1,38 @@
+https://code.sololearn.com/WFMMELMlu6A6/#html
+
+
+
+<!-- Exercises from Course Material -->
+
+<html>
+    <head></head>
+    <body>
+        <canvas id="canvas1" width="400" height="300">
+        </canvas>
+        <canvas id="canvas2" width="400" height="300">
+        </canvas>
+    <script>
+        // Initial
+        var c1 = document.getElementById("canvas1");
+        var ctx1 = c1.getContext("2d");
+        c1.style.backgroundColor = "cyan";
+        ctx1.fillStyle = "#FF0000";
+        ctx1.fillRect(10,10, 100, 100);
+        // Rotation
+        ctx1.rotate( (Math.PI / 180) * 25);    // Rotate 25 degrees.
+        ctx1.fillStyle = "#00FF00";
+        ctx1.fillRect(10,10, 100, 100);
+        
+        // Initial
+        var c2 = document.getElementById("canvas2");
+        var ctx2 = c2.getContext("2d");
+        c2.style.backgroundColor = "magenta";
+        ctx2.fillStyle = "#0000FF";
+        ctx2.fillRect(100, 100, 150, 200);
+        // Rotate
+        ctx2.rotate((Math.PI / 90) * 35);
+        ctx2.fillStyle = "#FFFFFF";
+        ctx2.fillRect(50, -100, 100, 100);
+    </script>
+    </body>
+</html>
