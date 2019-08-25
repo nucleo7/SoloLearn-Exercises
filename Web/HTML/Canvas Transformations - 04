@@ -1,0 +1,50 @@
+https://code.sololearn.com/Wk6QLl0xBW7m/#html
+
+
+
+<!-- Exercises from Course Material -->
+
+<html>
+    <head></head>
+    <body>
+        <canvas id="canvas1" width="400" height="400"></canvas>
+        <canvas id="canvas2" width="400" height="400"></canvas>
+    <script>
+        // canvas1
+        var canvas1 = document.getElementById('canvas1');
+        canvas1.style.backgroundColor = "#FF0000";
+        ctx1 = canvas1.getContext('2d');
+        ctx1.fillStyle = "#00FF00";
+        ctx1.font = "bold 22px Tahoma";
+        ctx1.textAlign = "start";    // Start
+        ctx1.fillText("start", 10, 30);
+        ctx1.translate(100, 150);    // Translate
+        ctx1.fillStyle = "#0000FF";
+        ctx1.fillText("after translate", 0, 0);
+        ctx1.rotate(1);    // Rotate
+        ctx1.fillStyle = "#FFFF00";
+        ctx1.fillText("after rotate", 0, 0);
+        ctx1.scale(1.5, 4);    // Scale
+        ctx1.fillStyle = "#00FFFF";
+        ctx1.fillText("after scale", 0,20);
+        
+        // canvas2
+        var canvas2 = document.getElementById("canvas2");
+        canvas2.style.backgroundColor = "#FF00FF";
+        ctx2 = canvas2.getContext("2d");
+        ctx2.fillStyle = "#000000";
+        ctx2.font = "italic 22px Courier";
+        ctx2.textAlign = "Different Start";    // Different Start
+        ctx2.fillText("Different Start", 100, 25);
+        ctx2.translate(-30, 0);    // Different Translate
+        ctx2.fillStyle = "#FFFFFF";
+        ctx2.fillText("Different Translate", 0, 50);
+        ctx2.rotate(75);    // Different Rotate
+        ctx2.fillStyle = "#F0F0F0";
+        ctx2.fillText("Different Rotate", 150, 200);
+        ctx2.scale(0.7, 3.1);    // Different Scale
+        ctx2.fillStyle = "#0F0F0F";
+        ctx2.fillText("Different Scale", 100, 150);
+    </script>
+    </body>
+</html>
