@@ -1,0 +1,22 @@
+https://code.sololearn.com/WAvK7N0SKoJ6/#html
+
+
+
+<!-- Exercises from Course Material -->
+<html>
+    <head>
+        <title>first page</title>
+    </head>
+    <body>
+        <ol>
+            <li>Red</li>
+            <li>Green</li>
+            <li>Blue</li>
+        </ol>
+        <ol>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+        </ol>
+    </body>
+</html>
