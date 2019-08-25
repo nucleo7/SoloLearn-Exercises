@@ -1,0 +1,28 @@
+https://code.sololearn.com/W70b8DuAg5Ku/#html
+
+
+
+<!-- Exercises from Course Material -->
+
+<label>Car search</label>
+<input id="car" type="text" list="brand" placeholder="type brand here..." />
+<datalist id="brand">
+    <option value="Bugatti">
+    <option value="Ferrari">
+    <option value="Lamborghini">
+    <option value="Porsche">
+</datalist>
+<input type="submit" value="Find!" />
+
+<label>Color search</label>
+<input id="color1" type="text" list="color" placeholder="type color here..." />
+<datalist id="color">
+    <option value="Red">
+    <option value="Green">
+    <option value="Blue">
+    <option value="Cyan">
+    <option value="Magenta">
+    <option value="Yellow">
+    <option value="Black">
+</datalist>
+<input type="submit" value="Find!" />
