@@ -1,0 +1,20 @@
+https://code.sololearn.com/W0x5V5cnlK21/#html
+
+
+
+<!-- Exercises from Course Material -->
+<table border="1">
+    <tr>
+        <td bgcolor="red">Red</td>
+        <td bgcolor="green">Green</td>
+        <td bgcolor="blue">Blue</td>
+    </tr>
+    <tr>
+        <td bgcolor="cyan">One</td>
+        <td bgcolor="magenta">Three</td>
+        <td bgcolor="yellow">Five</td>
+    </tr>
+    <tr>
+        <td bgcolor="black" colspan="3">Empty Cell</td>
+     </tr>
+</table>
