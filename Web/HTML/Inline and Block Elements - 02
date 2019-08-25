@@ -1,0 +1,13 @@
+https://code.sololearn.com/W9yIwFhDnFc9/#html
+
+
+
+<!-- Exercises from Course Material -->
+<html>
+    <body>
+        <h2>Some 
+            <span style="color:red">Important</span>
+             Message</h2>
+        <p>First paragraph of <span style="color:green">note</span>.</p>
+    </body>
+</html>
