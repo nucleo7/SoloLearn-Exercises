@@ -1,0 +1,25 @@
+https://code.sololearn.com/WsImgMuI97qm/#html
+
+
+
+<!-- Exercises from Course Material -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Some Blog</title>
+        <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Form section start -->
+       <div class="section">
+            <h1><span>Don't Contact Me</span></h1>
+            <form>
+                <input name="name" type="text" value="Some Name"/><br/>
+                <input name="email" type="email" value="Some eMail"/><br/>
+                <textarea name="message"></textarea>
+                <input type="submit" value="SEND" class="submit" />
+            </form>
+        </div>
+        <!-- Form section end -->
+    </body>
+</html>
