@@ -1,0 +1,27 @@
+https://code.sololearn.com/WZ04PP90G4HL/#html
+
+
+
+<!-- Exercises from Course Material -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>It's a Blog!</title>
+        <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    </head>
+    <body>
+        <!-- About Me section start -->
+        <div class="section">
+            <h1><span>This May or May Not be About Me</span></h1>
+            <p>
+               Hey! I'm <strong>John</strong>.
+               I'm trying to learn programming, but it's very difficult. <br />
+I'm learning as much as I can, and as many different languages and frameworks as possible. Ideally, I would like to focus on JavaScript and web development, but I enjoy <i>C++</i>, <i>Python</i>, and other languages too. <br />
+My favourite platform by far is <strong>SoloLearn</strong>. I use, and have used a dozen of others, and nothing else comes close. <br />
+Even though I'm struggling, I haven't given up yet.
+            </p>
+            <p class="quote">"The Universe is a (c)old, dark place - Shit Happens!"</p>
+        </div>
+        <!-- About Me section end -->
+    </body>
+</html>
