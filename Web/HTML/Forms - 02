@@ -1,0 +1,9 @@
+https://code.sololearn.com/WaS9hyUrCpRB/#html
+
+
+
+<!-- Exercises from Course Material -->
+<input type="radio" name="gender" value="male" />Male</input><br />
+<input type="radio" name="gender" value="female" />Female</input><br />
+<input type="radio" name="gender" value"special" />Special Flower</input><br />
+<input type="radio" name="gender" value="other" />Other</input><br />
