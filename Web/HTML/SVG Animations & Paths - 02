@@ -1,0 +1,14 @@
+https://code.sololearn.com/WzxZBv25VqaG/#html
+
+
+
+<!-- Exercises from Course Material -->
+
+<svg width="500" height="500">
+    <path d="M 0 0 L200 200 L200 0 Z" style="stroke:#FF0000; stroke-width:1px; fill:none;" />
+    <path d="M 50 50 L150 50 L50 250 Z" style="stroke:#00FF00; stroke-width:3px; fill:none;" />
+    <path d="M 100 100 L0 250 L150 300 Z" style="stroke:#0000FF; stroke-width:5px; fill:none;" />
+    <path d="M 400 0 L300 250 L50 50 Z" style="stroke:#00FFFF; stroke-width:7px; fill:none;" />
+    <path d="M 100 400 L300 400 L200 150 Z" style="stroke:#FF00FF; stroke-width:5px; fill:none;" />
+    <path d="M 250 100 L350 300 L50 400 Z" style="stroke:#FFFF00; stroke-width:3px; fill:none;" />
+</svg>
