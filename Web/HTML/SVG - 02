@@ -1,0 +1,15 @@
+https://code.sololearn.com/W0grt6PD8m7d/#html
+
+
+
+<!-- Exercises from Course Material -->
+
+<svg id="one" width="2000" height="250">
+    <rect width="300" height="100" 
+     x="20" y="20" fill="red" />
+    <rect width="50" height="300" x="50" y="50" fill="green" />
+</svg>
+<svg id="two" width="2000" height="250">
+    <rect width="300" height="100" x="20" y="20" fill="cyan" />
+    <rect width="50" height="300" x="250" y="50" fill="magenta" />
+</svg>
