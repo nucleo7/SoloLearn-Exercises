@@ -1,0 +1,14 @@
+https://code.sololearn.com/WQ3euy2XIb4m/#html
+
+
+
+<!-- Exercises from Course Material -->
+
+<svg width="2000" height="2000">
+    <polyline style="stroke-linejoin:miter; stroke:red; stroke-width:13; fill:none;" points="50 50, 150 150, 250 50" />
+    <polyline style="stroke-linejoin:miter; stroke:green; stroke-width:7; fill:none;" points="115 50, 150 150, 250 115" />
+    <polyline style="stroke-linejoin:miter; stroke:blue; stroke-width:5; fill:none" points="185 50, 150 150, 250 185" />
+    <polyline style="stroke-linejoin:miter; stroke:cyan; stroke-width:15; fill:none" points="250 250, 150 150, 50 250" />
+    <polyline style="stroke-linejoin:miter; stroke:magenta; stroke-width:1; fill:none" points="185 250, 150 150, 50 185" />
+    <polyline style="stroke-linejoin:miter; stroke:yellow; stroke-width:7; fill:none" points="115 250, 150 150, 50 115" />
+</svg>
