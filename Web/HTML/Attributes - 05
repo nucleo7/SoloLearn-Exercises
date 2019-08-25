@@ -1,0 +1,13 @@
+https://code.sololearn.com/WUrDHyGWB250/#html
+
+
+
+<!-- Exercises from Course Material -->
+<p align="center">
+    This is a text.
+    <hr width="50%" align="left" />
+</p>
+<p align="right">
+    Second paragraph
+    <hr width="75%" align="center" />
+</p>
