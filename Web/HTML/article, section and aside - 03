@@ -1,0 +1,15 @@
+https://code.sololearn.com/WZ7UR0HeT7HT/#html
+
+
+
+<!-- Exercises from Course Material -->
+<article>
+    <h1> Gifts for everyone</h1>
+    <p>This website will be the best place for choosing gifts</p>
+    <aside class="one">
+        <p>Gifts will be delivered to you within 24 hours</p>
+    </aside>
+    <aside class="two">
+        <p>But don't expect it cheap, or not stomped on!</p>
+    </aside>
+</article>
