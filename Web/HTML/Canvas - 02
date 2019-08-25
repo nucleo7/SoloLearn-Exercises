@@ -1,0 +1,32 @@
+https://code.sololearn.com/W4pw3Ey9asti/#html
+
+
+
+<!-- Exercises from Course Material -->
+
+<html>
+    <head></head>
+    <body>
+        <canvas id="canvas1" width="400" height="500">
+        </canvas> 
+        <script>
+            var canvas = document.getElementById("canvas1");
+            var ctx = canvas.getContext("2d");
+            // Red rectangle
+            ctx.fillStyle = "rgba(255, 0, 0, 1)";
+            ctx.fillRect(36, 10, 22, 22);
+            
+            // Green rectangle
+            ctx.fillStyle = "rgba(0, 255, 0, 1)";
+            ctx.fillRect(250, 250, 10, 450);
+            
+            // Blue rectangle
+            ctx.fillStyle = "rgba(0, 0, 255, 1)";
+            ctx.fillRect(50, 50, 350, 150);
+            
+            // Cyan rectangle
+            ctx.fillStyle = "cyan";
+            ctx.fillRect(50, 350, 350, 70);
+        </script>
+    </body>
+</html>
