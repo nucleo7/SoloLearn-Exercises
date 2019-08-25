@@ -1,0 +1,24 @@
+https://code.sololearn.com/WrnTLhSuvDMk/#html
+
+
+
+<!-- Exercises from Course Material -->
+<table border="3">
+    <tr align="center">
+        <td>Red</td>
+        <td>Green</td>
+        <td>Blue</td>
+    </tr>
+    <tr>
+        <td><br /></td>
+        <td colspan="2"><br /></td>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+     </tr>
+     <tr>
+         <td colspan="3"><br /></td>
+     </tr>
+</table>
