@@ -1,0 +1,18 @@
+https://code.sololearn.com/WN1CtGgEPAT8/#html
+
+
+
+<!-- Exercises from Course Material -->
+<html>
+    <head>
+        <title>first page</title>
+    </head>
+    <body> 
+        <img src="http://www.sololearn.com/images/tree.jpg" 
+        height="150px" width="150px" alt="" />
+        <br />
+        <img src="http://www.sololearn.com/images/tree.jpg" 
+        height="50%" width="50%" alt="" />
+        <img src="http://www.google.com/" height="25%" width="25%" alt="Nothing to display" />
+    </body>
+</html>
