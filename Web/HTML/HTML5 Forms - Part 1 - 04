@@ -1,0 +1,13 @@
+https://code.sololearn.com/Wj31s5WGgS3i/#html
+
+
+
+<!-- Exercises from Course Material -->
+
+<form autocomplete="off">
+    <label>Name: </label>
+    <input name="name" type="text" placeholder="John Smith"><br />
+    <label for="e-mail">Your e-mail address: </label>
+    <input name="Email" type="text" placeholder="john.smith@johnsmith.com" required autofocus />
+    <input type="submit" value="Submit"/>
+</form>
