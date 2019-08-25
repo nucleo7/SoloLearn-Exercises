@@ -1,0 +1,12 @@
+https://code.sololearn.com/WX3I6N5iuYEU/#html
+
+
+
+<!-- Exercises from Course Material -->
+
+<svg width="2000" height="200" style="background-color:yellow">
+    <line x1="10" y1="10" x2="200" y2="100" style="stroke:#FF0000; stroke-linecap:round; stroke-width:23" />
+    <line x1="200" y1="10" x2="10" y2="100" style="stroke:#00FF00; stroke-linecap:round; stroke-width:5" />
+    <line x1="250" y1="50" x2="50" y2="250" style="stroke:#0000FF; stroke-linecap:round; stroke-width:11" />
+    <line x1="100" y1="100" x2="250" y2="350" style="stroke:#00FFFF; stroke-linecap:none; stroke-width:17" />
+</svg>
