@@ -1,0 +1,33 @@
+https://code.sololearn.com/WRbdjBdwTiE6/#html
+
+
+
+<!-- Exercises from Course Material -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Blog</title>
+        <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    </head>
+    <body>
+        <!-- My Skills section start -->
+        <div class="section">
+            <h1><span>My Lack of Skills</span></h1>
+            <ol>
+                <li>C++</li>
+                <li>C#</li>
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>PHP</li>
+                <li>Python</li>
+                <li>Ruby</li>
+                <li>Swift</li>
+                <li>...and lots more!</li>
+            <ol>
+        </div>
+        <!-- My Skills section end -->
+    </body>
+</html>
