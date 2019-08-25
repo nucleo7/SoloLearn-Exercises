@@ -1,0 +1,20 @@
+https://code.sololearn.com/W0m2A3Va0y76/#html
+
+
+
+<!-- Exercises from Course Material -->
+<html>
+    <head>
+        <title>Attributes</title>
+    </head>
+    <body>
+        <p align="center">This is a text <br />
+            <hr width="10%" align="right" /> This is also a text.
+        </p>
+        <p align="right">Second paragraph
+            <br />
+            <hr width="45%" align="left" />
+            More text
+        </p>
+    </body>
+</html>
