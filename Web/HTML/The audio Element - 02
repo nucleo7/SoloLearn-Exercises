@@ -1,0 +1,19 @@
+https://code.sololearn.com/W6rCiNjo4b7K/#html
+
+
+
+<!-- Exercises from Course Material -->
+<div class="one">
+<audio controls>
+    <source src="http://www.sololearn.com/uploads/audio.mp3" type="audio/mpeg">
+    <source src="http://www.sololearn.com/uploads/audio.ogg" type="audio/ogg">
+</audio>
+</div>
+<br /><br />
+<div class="two">
+<audio controls>
+    <source src="http://www.sololearn.com/uploads/audio.mp3" type="audio.mpeg">
+    <source src="http://www.sololearn.com/uploads/audio.ogg" type="audio/ogg" >
+    You're using the wrong browser!
+</audio>
+</div>
