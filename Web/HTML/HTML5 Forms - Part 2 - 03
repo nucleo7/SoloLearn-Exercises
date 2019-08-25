@@ -1,0 +1,27 @@
+https://code.sololearn.com/WVo7V4F6Ns0a/#html
+
+
+
+<!-- Exercises from Course Material -->
+
+<form><legend>PERSONAL DETAILS</legend>
+    <label>Personal email:</label><br />
+    <input id="pemail" name="pemail" type="email" placeholder="personal@personal.com" />
+    <br />
+    <label>Personal website:</label><br />
+    <input id="purl" name="purl" type="url" placeholder="personal.com" />
+    <br />
+    <label>Personal phone:</label><br />
+    <input id="ptel" name="ptel" type="tel" placeholder="012 345 6789" />
+</form>
+<form><legend>BUSINESS DETAILS</legend>
+    <label>Business email:</label><br />
+    <input id="bemail" name="bemail" type="email" placeholder="business@business.com"/>
+    <br />
+    <label>Business website:</label><br />
+    <input id="burl" name="burl" type="url" placeholder="business.com" />
+    <br />
+    <label>Business phone:</label><br />
+    <input id="bphone" name="bphone" type="tel" placeholder="987 654 3210" />
+</form>
+<input type="submit" value="Enter" />
