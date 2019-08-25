@@ -1,0 +1,19 @@
+https://code.sololearn.com/WZMFGKQe1ia3/#html
+
+
+
+<!-- Exercises from Course Material -->
+<html>
+    <body>
+        <h1>H1 Heading</h1>
+        <div style="background-color:red; color:green; padding:20px;">
+            <p>Frst paragraph.</p>
+            <p>Second paragraph.</p>
+        </div>
+        <h3>H3 Heading</h3>
+        <div style="background-color:green; color:blue; padding:10px;">
+            <p>Third paragraph.</p>
+            <p>Fourth paragraph.</p>
+        </div>
+    </body>
+</html>
