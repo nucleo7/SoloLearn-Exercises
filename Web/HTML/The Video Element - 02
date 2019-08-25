@@ -1,0 +1,17 @@
+https://code.sololearn.com/WBWd4Knfq5wV/#html
+
+
+
+<!-- Exercises from Course Material -->
+
+<video controls autoplay loop>
+   <source src="http://www.sololearn.com/uploads/video.mp4" type="video/mp4">
+   <source src="http://www.sololearn.com/uploads/video.ogg" type="video/ogg">
+   Video is not supported by your browser
+</video>
+<br />
+<video controls autoplay loop>    <!-- Interesting that this one doesn't load properly. -->
+    <source src="http://www.sololearn.com/uploads/video.ogg" type="video/ogg">
+    <source src="http://www.sololearn.com/uploads/video.mp4" type="video.mp4">
+    Where's the video gone to?
+</video>
