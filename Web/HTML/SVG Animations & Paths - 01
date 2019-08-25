@@ -1,0 +1,20 @@
+https://code.sololearn.com/Wxpjoyxnu43h/#html
+
+
+
+<!-- Exercises from Course Material -->
+
+<svg width="500" height="500">
+    <rect width="50" height="50" fill="red">
+        <animate attributeName="x" from="0" to="300" dur="3s" fill="freeze" repeatCount="2"/> 
+    </rect>
+    <rect width="50" height="50" x="300" y="0" fill="green">
+        <animate attributeName="y" from="0" to="300" dur="3s" fill="freeze" repeatCount="2" />
+    </rect>
+    <rect width="50" height="50" x="250" y="300" fill="blue">
+        <animate attributeName="x" from="250" to="0" dur="3s" fill="freeze" repeatCount="2" />
+    </rect>
+    <rect width="50" height="50" x="0" y="300" fill="cyan">
+        <animate attributeName="y" from="300" to="0" dur="3s" fill="freeze" repeatCount="2" />
+    </rect>
+</svg>
