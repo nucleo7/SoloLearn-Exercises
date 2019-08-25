@@ -1,0 +1,11 @@
+https://code.sololearn.com/W1N7ELjNI2JK/#html
+
+
+
+<!-- Exercises from Course Material -->
+
+<svg height="1000" width="500">
+    <ellipse cx="200" cy="100" rx="150" ry="70" style="fill:red" />
+    <ellipse cx="100" cy="250" rx="50" ry="150" style="fill:green" />
+    <ellipse cx="300" cy="250" rx="50" ry="150" style="fill:blue" />
+</svg>
