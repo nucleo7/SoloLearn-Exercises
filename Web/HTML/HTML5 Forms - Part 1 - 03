@@ -1,0 +1,14 @@
+https://code.sololearn.com/WTJytdgX4w2r/#html
+
+
+
+<!-- Exercises from Course Material -->
+
+<form>
+    <label>Your name: </label>
+    <input type="text" name="name" placeholder="John Smith" /><br />
+    <label for="e-mail">Your e-mail address: </label>
+    <input type="text" name="email" autofocus />
+    <label>Your phone number: </label>
+    <input type="text" name="phone" placeholder="0123456789" />
+</form>
