@@ -1,0 +1,20 @@
+https://code.sololearn.com/WE4Za9k6AFM8/#html
+
+
+
+<!-- Exercises from Course Material -->
+<table border="1">
+    <tr>
+        <td>Red</td>
+        <td>Green</td>
+        <td>Blue</td>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td colspan="2">Two</td><br />
+    </tr>
+    <!-- EDIT: The following mistake left in for historical purposes. -->
+    <tr rowspan="2">    <!-- Don't know how to do rowspan, or if it's possible.' -->
+        <td rowspan="2">Three</td><br />
+    </tr>
+</table>
