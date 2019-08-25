@@ -1,0 +1,19 @@
+https://code.sololearn.com/WE0EHq9hNwwo/#html
+
+
+
+<!-- Exxercises from Course Material -->
+
+<form>
+    <h3>Name</h3>
+    <label>Your first name:</label>
+    <input id="fname" name="firstname" type="text" />
+    <label>Your last name:</label>
+    <input id="lname" name="lastname" type="text" />
+    <br /><br />
+    <h3>Contact</h3>
+    <label>Your phone number:</label>
+    <input id="phone" name="phone" type="text" />
+    <label>Your email:</label>
+    <input id="email" name="email" type="text" />
+</form>
