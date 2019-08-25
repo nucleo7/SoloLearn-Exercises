@@ -1,0 +1,9 @@
+https://code.sololearn.com/Wbby01Iru2pk/#html
+
+
+
+<!-- Exercises from Course Material -->
+<input type="checkbox" name="gender" value="1" />Male</input><br />
+<input type="checkbox" name="gender" value="2" />Female</input><br />
+<input type="checkbox" name="gender" value="3" />Some Thing</input><br />
+<input type="checkbox" name="gender" value="4" />All of the Above</input><br />
