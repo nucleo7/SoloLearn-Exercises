@@ -1,0 +1,40 @@
+https://code.sololearn.com/WPeY1K8qaj00/#html
+
+
+
+<!-- Exercises from Course Material -->
+
+<html>
+    <head></head>
+    <body>
+        <canvas id="canvas1" width="400" height="300">
+        </canvas>
+        <canvas id="canvas2" width="400" height="300">
+        </canvas>
+    <script>
+        // start
+        var c1 = document.getElementById("canvas1");
+        var ctx1 = c1.getContext("2d");
+        c1.style.backgroundColor = "red";
+        ctx1.font = "bold 22px Tahoma";
+        ctx1.textAlign = "start";
+        ctx1.fillText("start", 10, 30);
+        ctx1.fillStyle = "cyan";
+        // start | after translate
+        ctx1.translate(100, 150);
+        ctx1.fillText("after translate", 10, 30);
+        
+        // a different start
+        var c2 = document.getElementById("canvas2");
+        var ctx2 = c2.getContext("2d");
+        c2.style.backgroundColor = "green";
+        ctx2.font = "bold 17px Courier";
+        ctx2.textAlign = "a different start";
+        ctx2.strokeText("a different start", 30, 100);
+        ctx2.fillStyle = "magenta";
+        // a different start | a different translate
+        ctx2.translate(200, 100);
+        ctx2.fillText("a different translate", 30, 100);
+    </script>
+    </body>
+</html>
