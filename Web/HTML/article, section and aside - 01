@@ -1,0 +1,13 @@
+https://code.sololearn.com/We6hmPnr2c9k/#html
+
+
+
+<!-- Exercises from Course Material -->
+<article class="one">
+    <h1>The article title</h1> 
+    <p>Contents of the article element </p>
+</article>
+<article class="two">
+    <h3>Another pointless article</h3>
+    <p>With more pointless content</p>
+</article>
