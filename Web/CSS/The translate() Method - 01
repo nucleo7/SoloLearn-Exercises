@@ -1,0 +1,69 @@
+https://code.sololearn.com/WJBayEqVMDal/#css
+
+
+
+/* Exercises from Course Material */
+
+div.empty-div {
+    border: 1px solid black;
+    height: 70px;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    width: 200px;
+}
+div.one {
+    background-color: #FF0000;
+    height: 70px;
+    padding: 3px;
+    position: absolute;
+    transform: translate(0px, 0px);
+    width: 200px;
+    -webkit-transform: translate(0px, 0px);
+}
+div.two {
+    background-color: #00FF00;
+    height: 70px;
+    padding: 3px;
+    position: absolute;
+    transform: translate(-20px, -10px);
+    width: 200px;
+    -webkit-transform: translate(-20px, -10px);
+}
+div.three {
+    background-color: #0000FF;
+    color: white;
+    height: 70px;
+    padding: 3px;
+    position: absolute;
+    transform: translate(20px, 10px);
+    width: 200px;
+    -webkit-transform: translate(20px, 10px);
+}
+div.four {
+    background-color: #00FFFF;
+    height: 70px;
+    padding: 3px;
+    position: absolute;
+    transform: translate(40px, 20px);
+    width: 200px;
+    -webkit-transform: translate(40px  20px);
+}
+div.five {
+    background-color: #FF00FF;
+    height: 70px;
+    padding: 3px;
+    position: absolute;
+    transform: translate(0px, 40px);
+    width: 200px;
+    -webkit-transform: translate(0px, 40px);
+}
+div.six {
+    background-color: #FFFF00;
+    height: 70px;
+    padding: 3px;
+    position: absolute;
+    transform: translate(80px, 0px);
+    width: 200px;
+    -webkit-transform: translate(80px, 0px);
+}
