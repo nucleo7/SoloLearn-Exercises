@@ -1,0 +1,23 @@
+https://code.sololearn.com/Woa7N8z215nc/#css
+
+
+
+/* Exercises from Course Material */
+
+p.one::first-line {
+    color: #FF0000;
+}
+p.two::first-letter {
+    color: #00FF00;
+}
+p.three::selection {
+    color: #0000FF;
+}
+p.four::before {
+    color: #00FFFF;
+    content: "Inserted before... ";
+}
+p.five::after {
+    color: #FF00FF;
+    content: " ...inserted after.";
+}
