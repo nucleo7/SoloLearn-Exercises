@@ -1,0 +1,15 @@
+https://code.sololearn.com/WkSrUodTCgps/#css
+
+
+
+/* Exercises from Course Material */
+
+table.one {
+    border-collapse: separate;
+    border-spacing: 20px 40px;
+}
+
+table.two {
+    border-collapse: separate;
+    border-spacing: 5px 17px;
+}
