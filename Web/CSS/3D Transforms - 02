@@ -1,0 +1,108 @@
+https://code.sololearn.com/WWvV7VtjtALY/#css
+
+
+
+/* Exercises from Course Material */
+
+/* mybox1 - translateX(0px) translateY(0px) translateZ(0px) */
+#mybox1 {
+    background-color: red;
+    border: 1px solid black;
+    color: green;
+    font-size: 0.7em;
+    font-weight: bold;
+    height: 90px;
+    width: 300px;
+    transform: translateX(0px) translateY(0px) translateZ(0px);
+    -webkit-transform: translateX(0px) translateY(0px) translateZ(0px);
+}
+
+/* one - translateX(50px) translateY(50px) translateZ(50px) */
+div#one {
+    background-color: green;
+    border: 1px solid black;
+    color: blue;
+    font-size: 0.7em;
+    font-weight: bold;
+    height: 90px;
+    width: 300px;
+    transform: translateX(50px) translateY(50px) translateZ(50px);
+    -webkit-transform: translateX(50px) translateY(50px) translateZ(50px);
+}
+
+/* two - translateX(130px) translateY(130px) translateZ(130px) */
+div#two {
+    background-color: blue;
+    border: 1px solid black;
+    color: cyan;
+    font-size: 0.7em;
+    font-weight: bold;
+    height: 90px;
+    width: 300px;
+    transform: translateX(130px) translateY(130px) translateZ(130px);
+}
+
+/* three - translateX(-50px) translateY(-50px) translateZ(-50px) */
+div#three {
+    background-color: cyan;
+    border: 1px solid black;
+    color: magenta;
+    font-size: 0.7em;
+    font-weight: bold;
+    height: 90px;
+    width: 300px;
+    transform: translateX(-50px) translateY(-50px) translateZ(-50px);
+    -webkit-ttransform: translateX(-50px) translateY(-50px) translateZ(-50px);
+}
+
+/* four - translateX(250) translateY(-150px) translateZ(100px) */
+div#four {
+    background-color: magenta;
+    border: 1px solid black;
+    color: yellow;
+    font-size: 0.7em;
+    font-weight: bold;
+    height: 90px;
+    width: 300px;
+    transform: translateX(250px) translateY(-150px) translateZ(100px);
+    -webkit-transform: translateX(250px) translateY(-150px) translateZ(100px);
+}
+
+/* five - translate3d(13px, -77px, 50px) */
+div#five {
+    background-color: yellow;
+    border: 1px solid black;
+    color: black;
+    font-size: 0.7em;
+    font-weight: bold;
+    height: 90px;
+    width: 300px;
+    transform: translate3d(13px, -77px, 50px);
+    -webkit-transform: translate3d(13px, -77px, 50px);
+}
+
+/* six - rotateX(45deg) rotateY(110deg) rotateZ(60deg) */
+div#six {
+    background-color: black;
+    border: 1px solid red;
+    color: white;
+    font-size: 0.7em;
+    font-weight: bold;
+    height: 90px;
+    width: 300px;
+    transform: rotateX(45deg) rotateY(110deg) rotateZ(60deg);
+    -webkit-transform: rotate3d(45deg, rotateY(110deg) rotateZ(60deg);
+}
+
+/* seven - scaleX(0.7) scaleY(1.7) scaleZ(1.3) */
+div#seven { /* I've now looked at this section so many times, and I still don't understand why the box color isn't working. Now I give up. At least it looks like the scale is working. */
+    background-color: red;
+    border: 1px solid black;
+    color: blue;
+    font-size: 0.7em;
+    font-weight: bold;
+    height: 90px;
+    width: 300px;
+    transform: scaleX(0.7) scaleY(1.7) scaleZ(1.3);
+    -webkit-transform: scaleX(0.7) scaleY(1.7) scaleZ(1.3);
+}
