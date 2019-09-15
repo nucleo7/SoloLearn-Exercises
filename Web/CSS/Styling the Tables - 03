@@ -1,0 +1,18 @@
+https://code.sololearn.com/W698v0qBA1b8/#css
+
+
+
+/* Exercises from Course Material */
+
+table.one {
+    border-collapse: separate;
+    empty-cells: hide;
+}
+table.two {
+    border-collapse: separate;
+    empty-cells: hide;
+}
+table.three {
+    border-collapse: separate;
+    empty-cells: show;
+}
