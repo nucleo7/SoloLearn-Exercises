@@ -1,0 +1,31 @@
+https://code.sololearn.com/WyHpR5r3wcdn/#css
+
+
+
+/* Exercises from Course Material */
+
+table {
+    border-collapse: separate;
+    width: 100%;
+    border: 1px solid gray;
+} 
+td {
+    border: 1px solid gray;
+}
+table.auto {
+    table-layout: auto;
+}
+table.fixed {
+    table-layout: fixed;
+}
+
+table.one {
+    width: 300px;
+    border: 3px dotted cyan;
+    table-layout: auto;
+}
+table.two {
+    width: auto;
+    border: 5px dashed red;
+    table-layout: fixed;
+}
