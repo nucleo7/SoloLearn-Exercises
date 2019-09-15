@@ -1,0 +1,61 @@
+https://code.sololearn.com/W0llYsYo1iS6/#css
+
+
+
+/* Exercises from Course Material */
+
+#one {
+    width: 200px;
+    height: 70px;
+    font-weight: bold;
+    margin-top: 30px;
+    background-color: #FF0000;
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+}
+#two {
+    width: 200px;
+    height: 70px;
+    font-weight: bold;
+    margin-top: 30px;
+    background-color: #00FF00;
+    transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+}
+#three {
+    width: 200px;
+    height: 70px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    background-color: #0000FF;
+    transform: rotate(120deg);
+    -webkit-transform: rotate(120deg);
+}
+#four {
+    width: 200px;
+    height: 70px;
+    font-weight: bold;
+    margin-top: 30px;
+    background-color: #00FFFF;
+    transform: rotate(-120deg);
+    -webkit-transform: rotate(-120deg);
+}
+#five {
+    width: 200px;
+    height: 70px;
+    font-weight: bold;
+    margin-top: 30px;
+    background-color: #FF00FF;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+#six {
+    width: 200px;
+    height: 70px;
+    font-weight: bold;
+    margin-top: 30px;
+    background-color: #FFFF00;
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+}
