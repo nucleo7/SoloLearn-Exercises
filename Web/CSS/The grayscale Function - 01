@@ -1,0 +1,66 @@
+https://code.sololearn.com/WE0W9Z6qu91v/#css
+
+
+
+/*
+Exercises from Course Material
+
+HOW?
+    - click RUN
+
+WHAT?
+    - The CSS grayscale filter
+
+WHY?
+    - It sets the colour of an image to grayscale, based on a percentage value
+*/
+
+img {
+    height: 150px;
+    width: 195px;
+}
+
+div.empty-div {
+    border: 1px solid black;
+    height: 195px;
+    padding: 20px;
+    width: 240px;
+}
+
+div.clean {
+    height: 175px;
+    margin: 10px;
+    width: 225px;
+}
+
+.filter01 {
+    filter: grayscale(200%);
+}
+
+.filter02 {
+    filter: grayscale(100%);
+}
+
+.filter03 {
+    filter: grayscale(80%);
+}
+
+.filter04 {
+    filter: grayscale(60%);
+}
+
+.filter05 {
+    filter: grayscale(40%);
+}
+
+.filter06 {
+    filter: grayscale(20%);
+}
+
+.filter07 {
+    filter: grayscale(0%);
+}
+
+.filter08 {
+    filter: grayscale(-200%);
+}
