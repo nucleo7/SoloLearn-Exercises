@@ -1,0 +1,13 @@
+https://code.sololearn.com/W1AQJ2I2R4Lu/#css
+
+
+
+/* Exercises from Course Material */
+
+.floatRight {
+    float: right;
+}
+
+.floatLeft {
+    float: left;
+}
