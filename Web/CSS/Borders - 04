@@ -1,0 +1,60 @@
+https://code.sololearn.com/WO0Y6g7WdWnD/#css
+
+
+
+/* Exercises from Course Material */
+p.none {
+    border-style: none;
+    border-color: red;
+    padding-top: 13px;
+    text-align: center;
+}
+p.dotted {
+    border-style: dotted;
+    border-color: green;
+    padding-right: 13px;
+    text-align: center;
+}
+p.dashed {
+    border-style: dashed;
+    border-color: blue;
+    padding-bottom: 13px;
+    text-align: center;
+}
+p.double {
+    border-style: double;
+    border-color: cyan;
+    padding-left: 13px;
+    text-align: center;
+}
+p.groove {
+    border-style: groove;
+    border-color: magenta;
+    padding-top: 13px;
+    padding-right: 13px;
+    text-align: center;
+}
+p.ridge {
+    border-style: ridge;
+    border-color: yellow;
+    padding-bottom: 13px;
+    padding-left: 13px;
+    text-align: center;
+}
+p.inset {
+    border-style: inset;
+    border-color: black;
+    text-align: center;
+}
+p.outset {
+    background-color: red;
+    border-style: outset;
+    border-color: green;
+    color: blue;
+    text-align: center;
+}
+p.hidden {
+    border-style: hidden;
+    border-color: cyan;
+    text-align: center;
+}
