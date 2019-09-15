@@ -1,0 +1,54 @@
+https://code.sololearn.com/WyXhbOqvucYI/#css
+
+
+
+/* Exercises from Course Material */
+
+div.one {
+    float: left;
+    width: 300px;
+    height: 100px;
+    margin: 4px;
+    color: cyan;
+    text-align: center;
+    font-weight: bold;
+    background: -moz-linear-gradient(left, red, green, blue);
+    background: -ms-linear-gradient(left, red, green, blue);
+    background: -webkit-linear-gradient(left, red, green, blue);
+} 
+div.two { 
+    float: left;
+    width: 300px;
+    height: 100px;
+    margin: 4px;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    background: -moz-linear-gradient(top, cyan, magenta, yellow, black);
+    background: -ms-linear-gradient(top, cyan, magenta, yellow, black);
+    background: -webkit-linear-gradient(top, cyan, magenta, yellow, black);
+}
+div.three {
+    float: left;
+    width: 300px;
+    height: 100px;
+    margin: 4px;
+    color: cyan;
+    text-align: center;
+    font-weight: bold;
+    background: -moz-linear-gradient(right, red, green, blue);
+    background: -ms-linear-gradient(right, red, green, blue);
+    background: -webkit-linear-gradient(right, red, green, blue);
+}
+div.four {
+    float: left;
+    width: 300px;
+    height: 100px;
+    margin: 4px;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    background: -moz-linear-gradient(bottom, cyan, magenta, yellow, black);
+    background: -ms-linear-gradient(bottom, cyan, magenta, yellow, black);
+    background: -webkit-linear-gradient(bottom, cyan, magenta, yellow, black);
+}
