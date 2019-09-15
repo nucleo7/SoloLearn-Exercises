@@ -1,0 +1,37 @@
+https://code.sololearn.com/WI7W5Gb457or/#css
+
+
+
+/* Exercises from Course Material */
+
+/* Highest z-index will be rendered last and thus on top of other elements */
+.red {
+    z-index: 3;
+    position: relative;
+    background-color: #FF0000;
+    margin-bottom: 15px;
+    width: 120px;
+    height: 120px;
+    color: #00FFFF;
+}
+/* Lowest z-index will be rendered first and thus overlapped by other elements */
+.green {
+    z-index: 1;
+    position: relative;
+    background-color: #00FF00;
+    width: 120px;
+    height: 120px;
+    color: #FF00FF;
+    margin-top: -60px;
+    margin-left: 60px;
+}
+.blue {
+    z-index: 2;
+    position: relative;
+    background-color: #0000FF;
+    width: 120px;
+    height: 120px;
+    color: #FFFF00;
+    margin-top: -60px;
+    margin-left: 120px;
+}
