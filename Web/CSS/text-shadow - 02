@@ -1,0 +1,19 @@
+https://code.sololearn.com/WjHNqeU47FVn/#css
+
+
+
+/* Exercises from Course Material */
+h2 {
+    font-size: 23pt;   
+    text-shadow: rgba(255,0,0,1) -1px -3px 0.5em; 
+}
+
+p.one {
+    font-size: 13px;
+    text-shadow: -5px -5px 1px green;
+}
+
+span.two {
+    font-size: 17px;
+    text-shadow: 7px -7px 2px #0000FF;
+}
