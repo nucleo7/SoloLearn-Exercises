@@ -1,0 +1,16 @@
+https://code.sololearn.com/WA1e2Nk59Dve/#css
+
+
+
+/* Exercises from Course Material */
+p.one {
+    color: green;
+}
+
+p.two {
+   color: blue; 
+}
+
+* {
+   color: red; 
+}
