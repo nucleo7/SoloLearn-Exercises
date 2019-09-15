@@ -1,0 +1,107 @@
+https://code.sololearn.com/WQVa0TjpTC58/#css
+
+
+
+
+body {
+    background-color: #191c1f;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+hr {
+    border: 2px dotted deeppink;
+}
+
+
+
+/* DIV'S */
+div.div-01 {
+    border: 1px solid coral;
+    color: coral;
+    height: 200px;
+    width: 400px;
+}
+
+div.div-02 {
+    border: 1px solid blue;
+    color: blue;
+    height: 200px;
+    margin: 13px;
+    width: 400px;
+}
+
+div.div-03 {
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    height: 200px;
+    padding: 13px;
+    width: 400px;
+}
+
+div.div-04 {
+    border: 1px solid brown;
+    color: brown;
+    height: 200px;
+    margin: 13px;
+    padding: 13px;
+    width: 400px;
+}
+
+div.div-05 {
+    border: 1px solid crimson;
+    color: crimson;
+    height: 200px;
+    text-align: center;
+    width: 400px;
+}
+
+
+
+/* SPAN'S */
+span.span-01 {
+    border: 1px dashed aqua;
+    color: aqua;
+}
+
+span.span-02 {
+    border: 1px dashed aquamarine;
+    color: aquamarine;
+    margin: 13px;
+}
+
+span.span-03 {
+    border: 1px dashed bisque;
+    color: bisque;
+    padding: 13px;
+}
+
+span.span-04 {
+    border: 1px dashed aliceblue;
+    color: aliceblue;
+    margin: 13px;
+    padding: 13px;
+}
+
+span.span-05 {
+    border: 1px dashed burlywood;
+    color: burlywood;
+    display: table;
+    margin: 13px auto;
+    padding: 13px;
+}
+
+span.span-06 {
+    border: 1px dashed cadetblue;
+    color: cadetblue;
+    margin: 13px;
+    padding: 13px;
+    text-align: center;
+}
+
+span.span-07 {
+    border: 1px dashed chartreuse;
+    color: chartreuse;
+    margin: 13px auto;
+    padding: 13px;
+}
