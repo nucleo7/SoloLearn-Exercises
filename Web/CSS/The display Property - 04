@@ -1,0 +1,13 @@
+https://code.sololearn.com/Wue8u32dj3QV/#css
+
+
+
+/* Exercises from Course Material */
+
+h1 {
+    display: none;
+}
+
+p.hide {
+    display: none;
+}
