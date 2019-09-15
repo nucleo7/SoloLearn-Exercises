@@ -1,0 +1,14 @@
+https://code.sololearn.com/W9gAmz5DcOOE/#css
+
+
+
+/* Exercises from Course Material */
+p.positive { 
+    letter-spacing: 4px; 
+}
+p.negative { 
+    letter-spacing: -2px; 
+}
+p.inherit {
+    letter-spacing: inherit;
+}
