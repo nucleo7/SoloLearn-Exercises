@@ -1,0 +1,9 @@
+https://code.sololearn.com/WUD3042XKAGt/#css
+
+
+
+/* Exercises from Course Material */
+p {
+    color: pink;
+    font-size:80%;
+}
