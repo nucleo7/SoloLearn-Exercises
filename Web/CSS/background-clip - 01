@@ -1,0 +1,36 @@
+https://code.sololearn.com/WNLe463EVc7D/#css
+
+
+
+/* Exercises From Course Material */
+
+#one {
+    border: 2px dotted red;
+    padding: 20px;
+    background: magenta;
+    background-clip: padding-box;
+    text-align: center;
+}
+
+#two {
+    border: 2px dotted green;
+    padding: 20px;
+    background: yellow;
+    background-clip: content-box;
+    text-align: center;
+}
+
+#three {
+    border: 20px dashed red;
+    padding: 20px;
+    background: cyan;
+    background-clip: border-box;
+    text-align: center;
+}
+#four {
+    border: 20px dashed green;
+    padding: 20px;
+    background: magenta;
+    background-clip: padding-box;
+    text-align: center;
+}
