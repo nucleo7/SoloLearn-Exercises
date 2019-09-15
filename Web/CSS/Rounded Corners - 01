@@ -1,0 +1,38 @@
+https://code.sololearn.com/WmR3rACRqyhh/#css
+
+
+
+/* Exercises from Course Material */
+
+div.one {
+    border-radius: 3px;
+    background-color: red;
+    color: blue;
+    width: 120px;
+    height: 120px;
+    padding: 11px;
+}
+div.two {
+    border-radius: 5px;
+    background-color: green;
+    color: cyan;
+    width: 120px;
+    height: 120px;
+    padding: 7px;
+}
+div.three {
+    border-radius: 7px;
+    background-color: blue;
+    color: magenta;
+    width: 120px;
+    height: 120px;
+    padding: 5px;
+}
+div.four {
+    border-radius: 11px;
+    background-color: cyan;
+    color: yellow;
+    width: 120px;
+    height: 120px;
+    padding: 3px;
+}
