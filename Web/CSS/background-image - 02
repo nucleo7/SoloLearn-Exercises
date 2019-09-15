@@ -1,0 +1,15 @@
+https://code.sololearn.com/W24m1na6HIMg/#css
+
+
+
+/* Exercises from Course Material */
+p.one {
+    padding: 30px;
+    background-image: url("http://www.sololearn.com/images/tree.jpg");
+    color: red;   
+}
+p.two {
+    padding: 10px;
+    background-image: url("https://openclipart.org/image/2400px/svg_to_png/191938/1395382278.png");
+    color: green;
+}
