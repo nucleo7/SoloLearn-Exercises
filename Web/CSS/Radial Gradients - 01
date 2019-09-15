@@ -1,0 +1,49 @@
+https://code.sololearn.com/WsoNm22UWO67/#css
+
+
+
+/* Exercises from Course Material */
+
+/* Ellipse One */
+div.one {
+    height: 250px;
+    width: 250px;
+    color: white;
+    font-weight: bold;
+    background: -moz-radial-gradient(red, green, blue);
+    background: -ms-radial-gradient(red, green, blue);
+    background: -webkit-radial-gradient(red, green, blue);
+}
+
+/* Circle One */
+div.two {
+    height: 250px;
+    width: 250px;
+    color: black;
+    font-weight: bold;
+    background: -moz-radial-gradient(circle, cyan, magenta, yellow);
+    background: -ms-radial-gradient(circle, cyan, magenta, yellow);
+    background: -webkit-radial-gradient(circle, cyan, magenta, yellow);
+}
+
+/* Ellipse Two */
+div.three {
+    height: 150px;
+    width: 250px;
+    color: black;
+    font-weight: bold;
+    background: -moz-radial-gradient(yellow, magenta, orange);
+    background: -ms-radial-gradient(yellow, magenta, orange);
+    background: -webkit-radial-gradient(yellow, magenta, orange);
+}
+
+/* Circle Two */
+div.four {
+    height: 150px;
+    width: 250px;
+    color: white;
+    font-weight: bold;
+    background: -moz-radial-gradient(circle, blue, green, cyan);
+    background: -ms-radial-gradient(circle, blue, green, cyan);
+    background: -webkit-radial-gradient(circle, blue, green, cyan);
+}
