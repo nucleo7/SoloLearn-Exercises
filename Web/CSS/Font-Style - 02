@@ -1,0 +1,17 @@
+https://code.sololearn.com/W8go2jX8sHVf/#css
+
+
+
+/* Exercises from Course Material */
+p.normal {
+    font-style: normal;
+}
+p.italic {
+    font-style: italic;
+}
+p.oblique {
+    font-style: oblique;
+}
+p.test {
+   font-style: normal; 
+}
