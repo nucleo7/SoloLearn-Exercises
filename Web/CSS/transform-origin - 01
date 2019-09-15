@@ -1,0 +1,94 @@
+https://code.sololearn.com/W1giBq7rbk3I/#css
+
+
+
+/* Exercises from Course Material */
+
+div.empty-div {
+    position: relative;
+    height: 70px;
+    width: 200px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+div.one {
+    background-color: #FF0000;
+    border: 1px solid white;
+    height: 60px;
+    position: absolute;
+    transform: rotate(15deg);
+    transform-origin: 25% 75%;
+    width: 160px;
+    -webkit-transform: rotate(15deg);
+    -webkit-transform-origin: 25% 75%;
+}
+div.two {
+    background-color: #0000FF;
+    border: 1px solid white;
+    color: white;
+    height: 60px;
+    position: absolute;
+    transform: rotate(135deg);
+    transform-origin: 25% 75%;
+    width: 160px;
+    -webkit-transform: rotate(135deg);
+    -webkit-transform-origin: 25% 75%;
+}
+div.three {
+    background-color: #00FF00;
+    border: 1px solid white;
+    height: 60px;
+    position: absolute;
+    transform: rotate(60deg);
+    transform-origin: 25% 75%;
+    width: 160px;
+    -webkit-transform: rotate(60deg);
+    -webkit-transform-origin: 25% 75%;
+}
+div.four {
+    background-color: #00FFFF;
+    border: 1px solid white;
+    height: 60px;
+    position: absolute;
+    transform: rotate(60deg);
+    transform-origin: 50% 75%;
+    width: 160px;
+    -webkit-transform: rotate(60deg);
+    -webkit-transform-origin: 50% 75%;
+}
+div.five {
+    background-color: #FF00FF;
+    border: 1px solid white;
+    height: 60px;
+    position: absolute;
+    transform: rotate(60deg);
+    transform-origin: 50% 100%;
+    width: 160px;
+    -webkit-transform: rotate(60deg);
+    -webkit-transform-origin: 50% 100%;
+}
+div.six {
+    background-color: #FFFF00;
+    border: 1px solid white;
+    height: 60px;
+    position: absolute;
+    transform: rotate(60deg);
+    transform-origin: 0% 100%;
+    width: 160px;
+    -webkit-transform: rotate(60deg);
+    -webkit-transform-origin: 0% 100%;
+}
+div.seven {
+    background-color: #000000;
+    border: 1px solid white;
+    color: white;
+    height: 60px;
+    position: absolute;
+    transform: rotate(60deg);
+    transform-origin: 0% 50%;
+    width: 160px;
+    -webkit-transform: rotate(60deg);
+    -webkit-transform-origin: 0% 50%;
+}
