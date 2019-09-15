@@ -1,0 +1,20 @@
+https://code.sololearn.com/WxyCUrYs1vDZ/#css
+
+
+
+/* Exercises from Course Material */
+p.normal {
+    white-space: normal;
+}
+p.pre {
+    white-space: pre;
+}
+p.preline {
+    white-space: pre-line;
+}
+p.prewrap {
+    white-space: pre-wrap;
+}
+p.nowrap {
+    white-space: nowrap;
+}
