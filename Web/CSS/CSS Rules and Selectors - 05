@@ -1,0 +1,14 @@
+https://code.sololearn.com/W9v6Lzfav2yj/#css
+
+
+
+/* Exercises from Course Material */
+#intro .first em {
+    color: pink; 
+    background-color:gray;
+}
+
+#second .second b {
+   color: red;
+   background-color: green; 
+}
