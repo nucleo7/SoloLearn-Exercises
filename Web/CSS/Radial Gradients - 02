@@ -1,0 +1,66 @@
+https://code.sololearn.com/WYpts2DEN1WY/#css
+
+
+
+/* Exercises from Course Material */
+/* Colors from: https://www.canva.com/learn/100-color-combinations/ */
+
+/* top left */
+div.one {
+    height: 150px;
+    width: 250px;
+    color: #FF420E;
+    text-align: center;
+    font-weight: bold;
+    background: -moz-radial-gradient(top left, green, yellow, blue);
+    background: -ms-radial-gradient(top left, green, yellow, blue);
+    background: -webkit-radial-gradient(top left, #80BD9E, #F98866, #89DA59);
+}
+
+/* top right */
+div.two {
+    height: 150px;
+    width: 250px;
+    color: #336B87;
+    text-align: center;
+    font-weight: bold;
+    background: -moz-radial-gradient(green 5%, yellow 15%, blue 60%);
+    background: -ms-radial-gradient(green 5%, yellow 15%, blue 60%);
+    background: -webkit-radial-gradient(top right, #2A3132 5%, #90AFC5 15%, #763626 60%);
+}
+
+/* bottom right */
+div.three {
+    height: 150px;
+    width: 250px;
+    color: #FFBB00;
+    text-align: center;
+    font-weight: bold;
+    background: -moz-radial-gradient(bottom-right, #FB6542 50%, #3F681C 75%, #375E97 100%);
+    background: -ms-radial-gradient(bottom-right, #FB6542 50%, #3F681C 75%, #375E97 100%);
+    background: -webkit-radial-gradient(bottom right, #FB6542 50%, #3F681C 75%, #375E97 100%);
+}
+
+/* bottom left */
+div.four {
+    height: 150px;
+    width: 250px;
+    color: #5BC8AC;
+    text-align: center;
+    font-weight: bold;
+    background: -moz-radial-gradient(bottom-left, #98DBC6 25%, #F18D9E 50%, #E6D72A 75%);
+    background: -ms-radial-gradient(bottom-left, #98DBC6 25%, #F18D9E 50%, #E6D72A 75%);
+    background: -webkit-radial-gradient(bottom left, #98DBC6 25%, #F18D9E 50%, #E6D72A 75%);
+}
+
+/* center */
+div.five {
+    height: 150px;
+    width: 250px;
+    color: ;
+    text-align: center;
+    font-weight: bold;
+    background: -moz-radial-gradient(#EE693F 19%, #FCFDFE 20%, #F69454 39%, #739F3D 40%, #752A07 59%, #B9C9D3 60%, #EB5E30 79%, #FBCB7B 80%, #4D648D 100%);
+    background: -ms-radial-gradient(#EE693F 19%, #FCFDFE 20%, #F69454 39%, #739F3D 40%, #752A07 59%, #B9C9D3 60%, #EB5E30 79%, #FBCB7B 80%, #4D648D 100%);
+    background: -webkit-radial-gradient(#EE693F 19%, #FCFDFE 20%, #F69454 39%, #739F3D 40%, #752A07 59%, #B9C9D3 60%, #EB5E30 79%, #FBCB7B 80%, #4D648D 100%);
+}
