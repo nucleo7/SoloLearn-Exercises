@@ -1,0 +1,70 @@
+https://code.sololearn.com/Wxei237I1M5Y/#css
+
+
+
+/*
+HOW?
+    - click RUN
+
+WHAT?
+    - hue-rotate filter in CSS
+
+WHY?
+    - it allows you to adjust the hue of an image
+*/
+
+img {
+    height: 200px;
+}
+
+.filter01 {
+    filter: hue-rotate(0deg);
+}
+
+.filter02 {
+    filter: hue-rotate(30deg);
+}
+
+.filter03 {
+    filter: hue-rotate(60deg);
+}
+
+.filter04 {
+    filter: hue-rotate(90deg);
+}
+
+.filter05 {
+    filter: hue-rotate(120deg);
+}
+
+.filter06 {
+    filter: hue-rotate(150deg);
+}
+
+.filter07 {
+    filter: hue-rotate(180deg);
+}
+
+.filter08 {
+    filter: hue-rotate(210deg);
+}
+
+.filter09 {
+    filter: hue-rotate(240deg);
+}
+
+.filter10 {
+    filter: hue-rotate(270deg);
+}
+
+.filter11 {
+    filter: hue-rotate(300deg);
+}
+
+.filter12 {
+    filter: hue-rotate(330deg);
+}
+
+.filter13 {
+    filter: hue-rotate(360deg);
+}
