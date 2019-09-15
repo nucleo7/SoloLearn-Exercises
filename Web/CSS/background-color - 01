@@ -1,0 +1,18 @@
+https://code.sololearn.com/WNf0yp6qzM22/#css
+
+
+
+/* Exercises from Course Material */
+body {
+    background-color: lightskyblue;
+}
+p.one {
+    background-color: #FF0000;
+}
+p.two {
+    background-color: #00FF00;
+}
+p.three {
+    background-color: #0000FF;
+    color: #00FFFF;
+}
