@@ -1,0 +1,89 @@
+https://code.sololearn.com/W8vpsXOyXajc/#css
+
+
+
+/* Exercises from Course Material */
+
+body {
+    background:url("http://www.sololearn.com/images/bg2.jpg");
+}
+/* nav nOne - First row of navigation links using RGBA */
+nav.nOne {
+    padding: 50px 0;
+    min-width: 500px; 
+}
+nav.nOne ul.uOne {
+    background: linear-gradient(90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.2) 25%,
+        rgba(255, 255, 255, 0.2) 75%,
+        rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+        inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+nav.nOne ul.uOne li.lOne {
+    display: inline-block;
+    font-weight: bold;
+}
+nav.nOne ul.uOne li.lOne a.aOne {
+    padding: 10px; 
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: Arial;
+    text-decoration: none;
+    display: block;
+ }
+/* nav nTwo - Second row of navigation links using HSLA */
+nav.nTwo {
+    padding: 50px 0;
+    min-width: 500px;
+}
+nav.nTwo ul.uTwo {
+    background: linear-gradient(90deg,
+        hsla(0, 100%, 100%, 0) 0%,
+        hsla(0, 100%, 100%, 0.25) 25%,
+        hsla(0, 100%, 100%, 0.5) 50%,
+        hsla(0, 100%, 100%, 0.25) 75%,
+        hsla(0, 100%, 100%, 0) 100%);
+    box-shadow: 0 0 25px hsla(0, 0%, 0%, 0.1),
+        inset 0 0 1px hsla(0, 100%, 100%, 0.75);
+}
+nav.nTwo ul.uTwo li.lTwo {
+    display: inline-block;
+    font-weight: bold;
+}
+nav.nTwo ul.uTwo li.lTwo a.aTwo {
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: Arial;
+    text-decoration: none;
+    display: block;
+}
+/* nav nThree - Third row of navigation links using HSLA, experimental */
+nav.nThree {
+    padding: 50px 0;
+    min-width: 500px;
+}
+nav.nThree ul.uThree {
+    background: linear-gradient(90deg,
+        hsla(0, 100%, 50%, 0.35) 0%,
+        hsla(60, 100%, 50%, 0.35) 25%,
+        hsla(120, 100%, 50%, 0.35) 50%,
+        hsla(180, 100%, 50%, 0.35) 75%,
+        hsla(240, 100%, 50%, 0.35) 100%);
+    box-shadow: 0 0 25px hsla(0, 0%, 0%, 0.1),
+        inset 0 0 1px hsla(0, 100%, 100%, 0.75);
+}
+nav.nThree ul.uThree li.lThree {
+    display: inline-block;
+    font-weight: bold;
+}
+nav.nThree ul.uThree li.lThree a.aThree {
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: Arial;
+    text-decoration: none;
+    display: block;
+}
