@@ -1,0 +1,23 @@
+https://code.sololearn.com/WssIEVobu01g/#css
+
+
+
+/* Exercises from Course Material */
+p.one {
+    padding: 11px;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: yellow;
+}
+p.two {
+    padding: 17px;    
+    border-style: dotted;
+    border-width: 7px;
+    border-color: #000000;
+} 
+p.three {
+    padding:5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 0, 0);
+}
