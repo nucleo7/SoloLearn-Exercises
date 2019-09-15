@@ -1,0 +1,14 @@
+https://code.sololearn.com/WNaRcM4Kbfty/#css
+
+
+
+/* Exercises from Course Material */
+span.light {   
+    font-weight: lighter;
+}
+span.bold {   
+    font-weight: bold;
+}
+span.bolder {
+    font-weight: bolder;
+}
