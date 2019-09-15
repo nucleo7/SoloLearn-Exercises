@@ -1,0 +1,43 @@
+https://code.sololearn.com/WpPxKNHfMInq/#css
+
+
+
+/* Exercises from Course Material */
+p.positive { 
+    word-spacing: 20px;
+}
+p.negative { 
+    word-spacing: -5px;
+}
+
+p.px {
+    word-spacing: 7px;
+}
+
+p.pt {
+    word-spacing: 7pt;
+}
+
+p.pc {
+    word-spacing: 7pc;
+}
+
+p.cm {
+    word-spacing: 7cm;
+}
+
+p.mm {
+    word-spacing: 7mm;
+}
+
+p.inches {
+    word-spacing: 7in;
+}
+
+p.em {
+    word-spacing: 7em;
+}
+
+p.ex {
+    word-spacing: 7ex;
+}
