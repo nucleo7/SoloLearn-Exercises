@@ -1,0 +1,22 @@
+https://code.sololearn.com/WdrK6udbP0yv/#css
+
+
+
+/* Exercises from Course Materials */
+
+/* Order is important */
+a#one:link {
+    color: cyan;
+}
+
+a#two:visited {
+    color: green;
+}
+
+a#three:hover {
+    color: magenta;
+}
+
+a#four:active {
+    color: yellow;
+}
