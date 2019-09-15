@@ -1,0 +1,14 @@
+https://code.sololearn.com/W25foHpTsJzi/#css
+
+
+
+/* Exercises from Course Material */
+h1.hOne {
+    color: #0000FF;
+}
+p.pOne {
+    color: rgb(255,0,0);
+}
+p.pTwo {
+   color: rgb(0,255,0);
+}
