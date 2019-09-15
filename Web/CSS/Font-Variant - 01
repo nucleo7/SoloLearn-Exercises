@@ -1,0 +1,20 @@
+https://code.sololearn.com/W1fXgG9UGIHT/#css
+
+
+
+/* Exercises from Course Material */
+p.normal {
+    font-variant: normal;
+}
+p.small {
+    font-variant: small-caps;
+}
+span.normal {
+   font-variant: normal;
+}
+span.small {
+   font-variant: small-caps; 
+}
+span.inherit {
+   font-variant: inherit;
+}
