@@ -1,0 +1,53 @@
+https://code.sololearn.com/WolQXeD1q3A7/#css/* Exercises from Course Material */
+
+/* div id one */
+#one {
+    width: 50px;
+    height: 50px;
+    background: #FF0000;
+    font-weight: bold;
+    transition: width 3s;
+    -webkit-transition: width 3s;
+}
+#one:hover {
+    width: 250px;
+}
+
+/* div id two */
+#two {
+    width: 50px;
+    height: 50px;
+    background: #00FF00;
+    font-weight: bold;
+    transition: height 3s;
+    -webkit-transition: height 3s;
+}
+#two:hover {
+    height: 250px;
+}
+
+/* div id three */
+#three {
+    width: 50px;
+    height: 50px;
+    background: #0000FF;
+    font-weight: bold;
+    transition: background 3s;
+    -webkit-transition: background 3s;
+}
+#three:hover {
+    background: #00FFFF;
+}
+
+/* div id four */
+#four {
+    width: 50px;
+    height: 50px;
+    background: #FF00FF;
+    font-weight: bold;
+    transition: opacity 3s;
+    -webkit-transition: opacity 3s;
+}
+#four:hover {
+    opacity: 0.25;
+}
