@@ -1,0 +1,123 @@
+https://code.sololearn.com/W82DciZ1bKy5/#css
+
+
+
+/* Exercises from Course Material */
+
+/* TO DO: */
+/* - keyframes for cChange4 - non-linear keyframes*/
+
+/* Animation properties of first div */
+div.one {
+    animation-duration: 3s;
+    animation-name: cChange1;
+    background-color: red;
+    color: white;
+    height: 100px;
+    width: 200px;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-name: cChange1;
+}
+@keyframes cChange1 {
+    0% { background-color: red; }
+    50% { background-color: green; }
+    100% { background-color: blue; }
+}
+@-webkit-keyframes cChange1 {
+    0% { background-color: red; }
+    50% { background-color: green; }
+    100% { background-color: blue; }
+}
+/* Animation properties of second div */
+div.two {
+    animation-duration: 4s;
+    animation-name: cChange2;
+    background-color: #00FFFF;
+    color: white;
+    height: 100px;
+    width: 200px;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-name: cChange2;
+}
+@keyframes cChange2 {
+    0% { background-color: #00FFFF; }
+    33% { background-color: #FF00FF; }
+    67% { background-color: #FFFF00; }
+    100% { background-color: #000000; }
+}
+@-webkit-keyframes cChange2 {
+    0% { background-color: #00FFFF; }
+    33% { background-color: #FF00FF; }
+    67% { background-color: #FFFF00; }
+    100% { background-color: #000000; }
+}
+/* Animation properties of third div */
+div.three {
+    animation-duration: 7s;
+    animation-name: cChange3;
+    background-color: red;
+    color: white;
+    height: 100px;
+    width: 200px;
+    -webkit-animation-duration: 7s;
+    -webkit-animation-name: cChange3;
+}
+@keyframes cChange3 {
+    0% { background-color: red; }
+    17% { background-color: green; }
+    34% { background-color: blue; }
+    50% { background-color: cyan; }
+    66% { background-color: magenta; }
+    83% { background-color: yellow; }
+    100% { background-color: black; }
+}
+@-webkit-keyframes cChange3 {
+    0% { background-color: red; }
+    17% { background-color: green; }
+    34% { background-color: blue; }
+    50% { background-color: cyan; }
+    66% { background-color: magenta; }
+    83% { background-color: yellow; }
+    100% { background-color: black; }
+}
+/* Animation properties of fourth div */
+div.four {
+    animation-duration: 5s;
+    animation-name: cChange4;
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 200px;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: cChange4;
+}
+@keyframes cChange4 {
+    0% { background-color: black; }
+    40% { background-color: blue;}
+    42% { background-color: cyan; }
+    44% { background-color: magenta; }
+    46% { background-color: yellow; }
+    48% { background-color: magenta; }
+    50% { background-color: cyan; }
+    52% { background-color: blue; }
+    54% { background-color: green; }
+    56% { background-color: blue; }
+    58% { background-color: cyan; }
+    60% { background-color: magenta; }
+    100% { background-color: red; }
+}
+@-webkit-keyframes cChange4 {
+    0% { background-color: black; }
+    40% { background-color: blue; }
+    42% { background-color: cyan; }
+    44% { background-color: magenta; }
+    46% { background-color: yellow; }
+    48% { background-color: magenta; }
+    50% { background-color: cyan; }
+    52% { background-color: blue; }
+    54% { background-color: green; }
+    56% { background-color: blue; }
+    58% { background-color: cyan; }
+    60% { background-color: magenta; }
+    100% { background-color: red; }
+}
