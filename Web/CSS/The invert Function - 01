@@ -1,0 +1,81 @@
+https://code.sololearn.com/Wgn9djf5QNjL/#css
+
+
+
+/*
+Exercises from Course Material
+
+HOW?
+    - click RUN
+WHAT?
+    - The invert Function
+WHY?
+    - Maybe you'd like to invert an image? This is an easy way to do it
+*/
+
+img {
+    height: 200px;
+}
+
+td {
+    border-bottom: 1px solid black;
+    margin: 7px;
+    padding: 7px;
+    text-align: auto;
+}
+
+.filter01a {
+    filter: invert(0%);
+}
+
+.filter01b {
+    filter: invert(0);
+}
+
+.filter02a {
+    filter: invert(20%);
+}
+
+.filter02b {
+    filter: invert(0.2);
+}
+
+.filter03a {
+    filter: invert(40%);
+}
+
+.filter03b {
+    filter: invert(0.4);
+}
+
+.filter04a {
+    filter: invert(60%);
+}
+
+.filter04b {
+    filter: invert(0.6);
+}
+
+.filter05a {
+    filter: invert(80%);
+}
+
+.filter05b {
+    filter: invert(0.8);
+}
+
+.filter06a {
+    filter: invert(100%);
+}
+
+.filter06b {
+    filter: invert(1.0);
+}
+
+.filter07a {
+    filter: invert(125%);
+}
+
+.filter07b {
+    filter: invert(1.25);
+}
