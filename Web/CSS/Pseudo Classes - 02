@@ -1,0 +1,30 @@
+https://code.sololearn.com/Wbmy4J089TS9/#css
+
+
+
+/* Exercises from Course Material */
+
+#divOne p:last-child {
+    color: red;
+    text-decoration: line-through;   
+}
+#divTwo p:last-child {
+    color: green;
+    text-decoration: overline;
+}
+#divThree p:last-child {
+    color: blue;
+    text-decoration: underline;
+}
+#divThree li:last-child {
+    color: cyan;
+    text-decoration: underline;
+}
+#divFour li:first-child {
+    color: magenta;
+    text-decoration: line-through;
+}
+#divFour li:last-child {
+    color: yellow;
+    text-decoration: overline;
+}
