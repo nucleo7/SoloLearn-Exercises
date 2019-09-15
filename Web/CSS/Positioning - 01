@@ -1,0 +1,12 @@
+https://code.sololearn.com/WwapyerAAyiN/#css
+
+
+
+/* Exercises from Course Material */
+
+p.position_static {
+    position: static;
+    top: 30px;
+    right: 5px;
+    color: red;
+}
