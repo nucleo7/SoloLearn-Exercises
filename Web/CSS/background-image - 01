@@ -1,0 +1,19 @@
+https://code.sololearn.com/W8TVzOh0nTQm/#css
+
+
+
+/* Exercises from Course Material */
+/* I can't get the background-image to work, don't know what's wrong. */
+div.one {
+    background-image: url("https://openclipart.org/image/2400px/svg_to_png/191938/1395382278.png");
+    background-color: red;
+}
+
+div.two {
+    background-image: url("https://openclipart.org/image/2400px/svg_to_png/38803/1270637272.png");
+    background-color: green;
+}
+
+p {
+    color: blue;
+}
