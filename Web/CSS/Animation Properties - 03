@@ -1,0 +1,166 @@
+https://code.sololearn.com/WZpY9LDV609G/#css
+
+
+
+/* Exercises from Course Material */
+
+/* ONE - animation-iterating-count: 1 */
+div#one {
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-name: change1;
+    background-color: red;
+    color: cyan;
+    font-weight: bold;
+    height: 70px;
+    width: 250px;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-name: change1;
+}
+@keyframes change1 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+@-webkit-keyframes change1 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+/* TWO - animation-iteration-count: 2 */
+div#two {
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-name: change2;
+    background-color: green;
+    color: magenta;
+    font-weight: bold;
+    height: 70px;
+    width: 250px;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: 2;
+    -webkit-animation-name: change2;
+}
+@keyframes change2 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+@-webkit-keyframes change2 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+/* THREE - animation-iteration-count: 3 */
+div#three {
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    animation-name: change3;
+    background-color: blue;
+    color: yellow;
+    font-weight: bold;
+    height: 70px;
+    width: 250px;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: 3;
+    -webkit-animation-name: change3;
+}
+@keyframes change3 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+@-webkit-keyframes change3 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+/* FOUR - animation-iteration-count: infinity */
+div#four {
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: change4;
+    background-color: black;
+    color: red;
+    font-weight: bold;
+    height: 70px;
+    width: 250px;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: change4;
+}
+@keyframes change4 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+@-webkit-keyframes change4 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+/* FIVE - animation-directing: reverse */
+div#five {
+    animation-direction: reverse;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    animation-name: change5;
+    background-color: cyan;
+    color: red;
+    font-weight: bold;
+    height: 70px;
+    width: 250px;
+    -webkit-animation-direction: reverse;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: 3;
+    -webkit-animation-name: change5;
+}
+@keyframes change5 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+@-webkit-keyframes change5 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+/* SIX - animation-direction: alternate */
+div#six {
+    animation-direction: alternate;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    animation-name: change6;
+    background-color: magenta;
+    color: green;
+    font-weight: bold;
+    height: 70px;
+    width: 250px;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: 3;
+    -wenkit-animation-name: change6;
+}
+@keyframes change6 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+@-webkit-keyframes change6 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+/* SEVEN - animation-direction: alternate-reverse */
+div#seven {
+    animation-direction: alternate-reverse;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    animation-name: change7;
+    background-color: yellow;
+    color: blue;
+    font-weight: bold;
+    height: 70px;
+    width: 250px;
+    -webkit-animation-direction: alternate-reverse;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: 3;
+    -webkit-animation-name: change7;
+}
+@keyframes change7 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+@-webkit-keyframes change7 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
