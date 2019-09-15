@@ -1,0 +1,21 @@
+https://code.sololearn.com/WbtnX3C40oRa/#css
+
+
+
+/* Exercises from Course Material */
+p.one {
+    border: 1px dashed blue;    
+    min-height: 150px;
+}
+p.two {
+    border: 3px dotted red;    
+    min-width: 250px;
+}
+p.three {
+    border: 5px solid green;
+    max-height: 50px;
+}
+p.four {
+    border: 7px dashed cyan;
+    max-width: 50px
+}
