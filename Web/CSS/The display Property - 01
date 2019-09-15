@@ -1,0 +1,29 @@
+https://code.sololearn.com/WiI2DPA7t2Ct/#css
+
+
+
+/* Exercises from Course Material */
+
+span.one {
+    display: inline;
+    color: red;
+    background-color: green;
+}
+
+span.two {
+    display: block;
+    color: blue;
+    background-color: cyan;
+}
+
+span.three {
+    display: flex;
+    color: magenta;
+    background-color: yellow;
+}
+
+span.four {
+    display: inline-block;
+    color: black;
+    background-colour: white;
+}
