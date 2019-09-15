@@ -1,0 +1,164 @@
+https://code.sololearn.com/WXXC31h527xa/#css
+
+
+
+/*
+Exercises from Course Material
+
+HOW?
+    - click RUN
+
+WHAT?
+    - The saturate function
+
+WHY?
+    - It sets the level of colour saturation on images
+*/
+
+img {
+    height: 130px;
+    width: 175px;
+}
+
+td {
+    border-bottom: 1px solid black;
+    margin: 7px;
+    padding: 7px;
+    text-align: center;
+}
+
+.filter01 {
+    filter: saturate(-200%);
+}
+
+.filter02 {
+    filter: saturate(-2.0);
+}
+
+.filter03 {
+    filter: saturate(-100%);
+}
+
+.filter04 {
+    filter: saturate(-1.0);
+}
+
+.filter05 {
+    filter: saturate(-50%);
+}
+
+.filter06 {
+    filter: saturate(-0.5);
+}
+
+.filter07 {
+    filter: saturate(0%);
+}
+
+.filter08 {
+    filter: saturate(0);
+}
+
+.filter09 {
+    filter: saturate(20%);
+}
+
+.filter10 {
+    filter: saturate(0.2);
+}
+
+.filter11 {
+    filter: saturate(40%);
+}
+
+.filter12 {
+    filter: saturate(0.4);
+}
+
+.filter13 {
+    filter: saturate(60%);
+}
+
+.filter14 {
+    filter: saturate(0.6);
+}
+
+.filter15 {
+    filter: saturate(80%);
+}
+
+.filter16 {
+    filter: saturate(0.8);
+}
+
+.filter17 {
+    filter: saturate(100%);
+}
+
+.filter18 {
+    filter: saturate(1.0);
+}
+
+.filter19 {
+    filter: saturate(120%);
+}
+
+.filter20 {
+    filter: saturate(1.2);
+}
+
+.filter21 {
+    filter: saturate(140%);
+}
+
+.filter22 {
+    filter: saturate(1.4);
+}
+
+.filter23 {
+    filter: saturate(160%);
+}
+
+.filter24 {
+    filter: saturate(1.6);
+}
+
+.filter25 {
+    filter: saturate(180%);
+}
+
+.filter26 {
+    filter: saturate(1.8);
+}
+
+.filter27 {
+    filter: saturate(200%);
+}
+
+.filter28 {
+    filter: saturate(2.0);
+}
+
+.filter29 {
+    filter: saturate(250%);
+}
+
+.filter30 {
+    filter: saturate(2.5);
+}
+
+.filter31 {
+    filter: saturate(300%);
+}
+
+.filter32 {
+    filter: saturate(3.0);
+}
+
+.filter33 {
+    filter: saturate(1000%);
+}
+
+.filter34 {
+    filter: saturate(10.0);
+}
