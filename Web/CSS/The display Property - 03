@@ -1,0 +1,17 @@
+https://code.sololearn.com/WncHlM7qnWOy/#css
+
+
+
+/* Exercises from Course Material */
+
+p.inline {
+    display: inline;
+    background-color: red;
+    color: cyan;
+}
+
+p.block {
+    display: block;
+    background-color: green;
+    color: magenta;
+}
