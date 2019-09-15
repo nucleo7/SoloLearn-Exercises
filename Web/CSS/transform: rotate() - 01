@@ -1,0 +1,52 @@
+https://code.sololearn.com/Wodee12xmG6s/#css
+
+
+
+/* Exercises from Course Material */
+
+/* div id one 10deg */
+#one {
+    width: 200px;
+    height: 70px;
+    font-weight: bold;
+    margin-top: 30px;
+    background-color: #FF0000;
+    transform: rotate(10deg);
+}
+/* div id two 30deg */
+#two {
+    width: 200px;
+    height: 70px;
+    font-weight: bold;
+    margin-top: 30px;
+    background-color: #00FF00;
+    transform: rotate(30deg);
+}
+/* div id three 60deg */
+#three {
+    width: 200px;
+    height: 70px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    background-color: #0000FF;
+    transform: rotate(60deg);
+}
+/* div id four 135deg */
+#four {
+    width: 200px;
+    height: 70px;
+    font-weight: bold;
+    margin-top: 30px;
+    background-color: #00FFFF;
+    transform: rotate(135deg);
+}
+/* div id five 210deg */
+#five {
+    width: 200px;
+    height: 70px;
+    font-weight: bold;
+    margin-top: 30px;
+    background-color: #FF00FF;
+    transform: rotate(210deg);
+}
