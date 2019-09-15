@@ -1,0 +1,84 @@
+https://code.sololearn.com/WCHuxnJXl42X/#css
+
+
+
+/* Exercises from Course Material */
+
+div.empty-div {
+    border: 1px solid black;
+    height: 150px;
+    margin: 25px;
+    padding: 10px;
+    position: relative;
+    width: 250px;
+    perspective: 100px;
+    -webkit-perspective: 100px;
+}
+div#one {
+    background-color: red;
+    border: 1px solid black;
+    color: blue;
+    font-weight: bold;
+    padding: 40px;
+    position: absolute;
+    transform: rotateX(45deg);
+    -webkit-transform: rotateX(45deg);
+}
+div#two {
+    background-color: green;
+    border: 1px solid black;
+    color: cyan;
+    font-weight: bold;
+    padding: 40px;
+    position: absolute;
+    transform: rotateY(45deg);
+    -webkit-transform: rotateY(45deg);
+}
+div#three {
+    background-color: blue;
+    border: 1px solid black;
+    color: magenta;
+    font-weight: bold;
+    padding: 40px;
+    position: absolute;
+    transform: rotateZ(45deg);
+    -webkit-transform: rotateZ(45deg);
+}
+div#four {
+    background-color: cyan;
+    border: 1px solid black;
+    color: yellow;
+    font-weight: bold;
+    padding: 40px;
+    position: absolute;
+    transform: scaleX(1.7);
+    -webkit-transform: scaleX(1.7);
+}
+div#five {
+    background-color: magenta;
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+    padding: 40px;
+    position: absolute;
+    transform: scaleY(1.7);
+    -webkit-transform: scaleY(1.7);
+}
+div#six {
+    background-color: yellow;
+    border: 1px solid black;
+    color: red;
+    font-weight: bold;
+    padding: 40px;
+    position: absolute;
+    transform: scaleZ(1.7);
+    -webkit-transform: scaleZ(1.7);
+}
+div#base {
+    background-color: black;
+    border: 1px solid red;
+    color: green;
+    font-weight: bold;
+    padding: 40px;
+    position: absolute;
+}
