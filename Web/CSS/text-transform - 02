@@ -1,0 +1,21 @@
+https://code.sololearn.com/WLKRGhz8Cz5f/#css
+
+
+
+/* Exercises from Course Material */
+
+.upper {
+    text-transform: uppercase;
+    color: red;
+    font-size: 1.1em;
+}
+.lower {
+    text-transform: lowercase;
+    color: green;
+    font-size: 1.1em;
+}
+.capital {
+   text-transform: capitalize;
+   color: blue;
+   font-size: 1.1em; 
+}
