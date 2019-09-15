@@ -1,0 +1,30 @@
+https://code.sololearn.com/W39Mt1mE0kX4/#css
+
+
+
+/* Exercises from Course Material */
+td.top {
+    vertical-align: top;
+}
+td.middle {
+    vertical-align: middle;
+}
+td.bottom {
+    vertical-align: bottom;
+}
+
+td.red {
+   background-color: blue;
+   color:red;
+   vertical-align: bottom; 
+}
+td.green {
+   background-color: red;
+   color: green;
+   vertical-align: top; 
+}
+td.blue {
+   background-color: green;
+   color: blue;
+   vertical-align: middle; 
+}
