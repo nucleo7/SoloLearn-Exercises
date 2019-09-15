@@ -1,0 +1,21 @@
+https://code.sololearn.com/WFx1muFwfPsH/#css
+
+
+
+/* Exercises from Course Material */
+b.baseline {
+   color: red;
+   vertical-align: baseline; 
+}
+b.sub {
+   color: green;
+   vertical-align: sub; 
+}
+b.sup {
+   color: blue;
+   vertical-align: super; 
+}
+b.pixel {
+   color: cyan;
+   vertical-align: 13px;
+}
