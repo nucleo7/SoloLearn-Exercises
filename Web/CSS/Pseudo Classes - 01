@@ -1,0 +1,28 @@
+https://code.sololearn.com/WpfnqZZD37U2/#css
+
+
+
+/* Exercises from Course Material */
+
+#divOne p:first-child {
+    color: red;
+    text-decoration: line-through;
+}
+#divTwo p:first-child {
+    color: green;
+    text-decoration: overline;
+}
+#divThree p:first-child {
+    color: blue;
+    text-decoration: underline;
+}
+#divThree li:first-child {
+    color: cyan;
+    text-decoration: underline;
+}
+/* NOTE: This will also work in this example:
+    li:first-child {
+        color:cyan;
+        text-decoration: underline;
+    }
+*/
