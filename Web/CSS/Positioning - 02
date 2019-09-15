@@ -1,0 +1,12 @@
+https://code.sololearn.com/We5Ox4nZ5azs/#css
+
+
+
+/* Exercises from Course Material */
+
+p.position_fixed {
+    position: fixed;
+    top: 30px;
+    right: 5px;
+    color: red;
+}
