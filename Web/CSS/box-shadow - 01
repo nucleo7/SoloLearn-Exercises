@@ -1,0 +1,40 @@
+https://code.sololearn.com/WEUxE5OYdc1Q/#css
+
+
+
+/* Exercises from Course Material */
+
+/* Bottom-Right */
+div.one {
+    width: 300px;
+    height: 100px;
+    background-color: #FF0000;
+    box-shadow: 7px 7px #00FFFF;
+    color: white;
+    text-align: center;
+}
+/* Bottom-Left */
+div.two {
+    width: 300px;
+    height: 100px;
+    background-color: #00FF00;
+    box-shadow: -7px 7px #FF00FF;
+    text-align: center;
+}
+/* Top-Left */
+div.three {
+    width: 300px;
+    height: 100px;
+    background-color: #0000FF;
+    box-shadow: -7px -7px #FFFF00;
+    color: white;
+    text-align: center;
+}
+/* Top-Right */
+div.four {
+    width: 300px;
+    height: 100px;
+    background-color: #FFFFFF;
+    box-shadow: 7px -7px #000000;
+    text-align: center;
+}
