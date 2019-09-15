@@ -1,0 +1,104 @@
+https://code.sololearn.com/WAqqH7X5Yr7t/#css
+
+
+
+/* Exercises from Course Material */
+
+/* Red bar */
+div#One {
+    animation-duration: 5s;
+    animating-name: cChange1;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    height: 70px;
+    width: 200px;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: cChange1;
+}
+@keyframes cChange1 {
+    from { width: 0px; }
+    to { width: 200px; }
+}
+@-webkit-keyframes cChange1 {
+    from { width: 0px; }
+    to { width: 200px; }
+}
+/* Green bar */
+div#Two {
+    animation-duration: 7s;
+    animation-name: cChange2;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    height: 70px;
+    width: 200px;
+    -webkit-animation-duration: 7s;
+    -webkit-animation-name: cChange2;
+}
+@keyframes cChange2 {
+    from { width: 0px; }
+    to { width: 200px; }
+}
+@-webkit-keyframes cChange2 {
+    from { width: 0px; }
+    to { width: 200px; }
+}
+/* Blue bar */
+div#Three {
+    animation-duration: 3s;
+    animation-name: cChange3;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    height: 70px;
+    width: 200px;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-name: cChange3;
+}
+@keyframes cChange3 {
+    from { width: 0px; }
+    to { width: 200px; }
+}
+@-webkit-keyframes cChange3 {
+    from { width: 0px; }
+    to { width: 200px; }
+}
+/* Cyan bar */
+div#Four {
+    animation-duration: 4s;
+    animation-name: cChange4;
+    background-color: cyan;
+    font-weight: bold;
+    height: 70px;
+    width: 200px;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-name: cChange4;
+}
+@keyframes cChange4 {
+    from { width: 100px; }
+    to { width: 200px; }
+}
+@-webkit-keyframes cChange4 {
+    from { width: 100px; }
+    to { width: 200px; }
+}
+/* Magenta bar */
+div#Five {
+    animation-duration: 4s;
+    animation-name: cChange5;
+    background-color: magenta;
+    font-weight: bold;
+    height: 70px;
+    width: 200px;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-name: cChange5;
+}
+@keyframes cChange5 {
+    from { width: 50px; }
+    to { width: 150px; }
+}
+@-webkit-keyframes cChange5 {
+    from { width: 50px; }
+    to { width: 150px; }
+}
