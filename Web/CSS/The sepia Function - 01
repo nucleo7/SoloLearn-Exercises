@@ -1,0 +1,65 @@
+https://code.sololearn.com/WuN9ukafr6KR/#css
+
+
+/*
+Exercises from Course Material
+
+HOW?
+    - click RUN
+
+WHAT?
+    - CSS sepia filter
+
+WHY?
+    - It allows you to set a variable sepia filter on images
+*/
+
+img {
+    height: 150px;
+    width: 195px;
+}
+
+div.empty-div {
+    border: 1px solid black;
+    height: 195px;
+    padding: 20px;
+    width: 240px;
+}
+
+div.clean {
+    height: 175px;
+    margin: 10px;
+    width: 225px;
+}
+
+.filter01 {
+    filter: sepia(200%);
+}
+
+.filter02 {
+    filter: sepia(100%);
+}
+
+.filter03 {
+    filter: sepia(80%);
+}
+
+.filter04 {
+    filter: sepia(60%);
+}
+
+.filter05 {
+    filter: sepia(40%);
+}
+
+.filter06 {
+    filter: sepia(20%);
+}
+
+.filter07 {
+    filter: sepia(0%);
+}
+
+.filter08 {
+    filter: sepia(-200%);
+}
