@@ -1,0 +1,42 @@
+https://code.sololearn.com/WOqM8RA75K6M/#css
+
+
+
+/* Exercises from Course Material */
+
+div.one {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: red;
+    color: magenta;
+    text-align: center;
+    text-shadow: 1px 1px grey;
+}
+div.two {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: green;
+    color: yellow;
+    text-align: center;
+    text-shadow: 1px 1px grey;
+}
+div.three {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: blue;
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px grey;
+}
+div.four {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: cyan;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px grey;
+}
