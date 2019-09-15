@@ -1,0 +1,42 @@
+https://code.sololearn.com/WAA2Jp9K0tCM/#css
+
+
+
+/* Exercises from Course Material */
+
+p#one {
+    background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-color: rgb(0, 255, 255);
+    border: 20px solid rgba(255, 0, 0, 0.3);
+    font-weight: bold;
+    left: 50px;
+    position: absolute;
+    top: 50px;
+    width: 200px;
+}
+p#two {
+    background-clip: content-box;
+    -moz-background-clip: content-box;
+    -webkit-background-clip: content-box;
+    background-color: rgb(255, 0, 255);
+    border: 20px solid rgba(0, 255, 0, 0.3);
+    font-weight: bold;
+    left: 50px;
+    position: absolute;
+    top: 300px;
+    width: 200px;
+}
+p#three {
+    background-clip: border-box;
+    -moz-background-clip: border-box;
+    -webkit-background-clip: border-box;
+    background-color: rgb(255, 255, 0);
+    border: 20px solid rgba(0, 0, 255, 0.3);
+    font-weight: bold;
+    left: 50px;
+    position: absolute;
+    top: 550px;
+    width: 200px;
+}
