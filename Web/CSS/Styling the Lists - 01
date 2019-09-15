@@ -1,0 +1,24 @@
+https://code.sololearn.com/WVTRYqcc8PYC/#css
+
+
+
+/* Exercises from Course Material */
+
+ol.lower-alpha {
+    list-style-type: lower-alpha;
+}
+ul.circle {
+    list-style-type: circle;
+}
+ul.square {
+    list-style-type: square;
+}
+ol.one {
+    list-style-type: upper-alpha;
+}
+ol.two {
+    list-style-type: disc;
+}
+ul.three {
+    list-style-type: lower-alpha;
+}
