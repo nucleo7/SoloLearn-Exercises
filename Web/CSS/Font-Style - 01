@@ -1,0 +1,11 @@
+https://code.sololearn.com/W7zmETK0WKdr/#css
+
+
+
+/* Exercises from Course Material */
+p.italic {
+    font-style: italic;
+}
+p.bold {
+   font-style: bold; 
+}
