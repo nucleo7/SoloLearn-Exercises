@@ -1,0 +1,42 @@
+https://code.sololearn.com/W18rvj4Os96I/#css
+
+
+
+/* Exercises from Course Material */
+
+div.one {
+    background-color: #FF0000;
+    color: white;
+    height: 100px;
+    margin: 50px;
+    transform: rotate(45deg) scale(1.5, 1.5) translate(100px);
+    width: 200px;
+    -webkit-transform: rotate(45deg) scale(1.5, 1.5) translate(100px);
+}
+div.two {
+    background-color: #00FF00;
+    color: black;
+    height: 100px;
+    margin: 50px;
+    transform: rotate(-45deg) scale(0.7, 0.7) translate(-50px);
+    width: 200px;
+    -webkit-transform: rotate(-45deg) scale(0.7, 0.7) translate(-50px);
+}
+div.three {
+    background-color: #0000FF;
+    color: white;
+    height: 100px;
+    margin: 50px;
+    transform: rotate(135deg) scale(0.7, 1.5) translate(150px);
+    width: 200px;
+    -webkit-transform: rotate(135deg) scale(0.7, 1.5) translate(150px);
+}
+div.four {
+    background-color: #00FFFF;
+    color: black;
+    height: 100px;
+    margin: 50px;
+    transform: rotate(-135deg) scale(2.0, 0.5) translate(-200px);
+    width: 200px;
+    -webkit-transform: rotate(-135deg) scale(2.0, 0.5) translate(-200px);
+}
