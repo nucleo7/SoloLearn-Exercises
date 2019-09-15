@@ -1,0 +1,32 @@
+https://code.sololearn.com/WRrARp2x9pfj/#css
+
+
+
+/* Exercises from Course Material */
+
+/* No z-index, so elements are rendered normally */
+.red { 
+    background-color: #FF0000;
+    margin-bottom: 15px;
+    width: 120px;
+    height: 120px;
+    color: #00FFFF;
+}
+.green {
+    background-color: #00FF00;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    color: #FF00FF;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+.blue {
+    background-color: #0000FF;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    color: #FFFF00;
+    margin-top: -50px;
+    margin-left: 100px;
+}
