@@ -1,0 +1,14 @@
+https://code.sololearn.com/WnAF455TXjzD/#css
+
+
+
+/* Exercises from Course Material */
+p.red {
+    text-align: left;
+}
+p.green {
+    text-align: center;
+}
+p.blue {
+    text-align: right;
+}
