@@ -1,0 +1,172 @@
+https://code.sololearn.com/Wb6cqwwmwRgk/#css
+
+
+
+/* Exercises from Course Material */
+
+/* img scales the size of the images */
+img {
+    height: 150px;
+    width: 195px;
+}
+
+div.empty-div {
+    border: 1px solid black;
+    height: 195px;
+    padding: 20px;
+    width: 240px;
+}
+
+div.clean {
+    height: 175px;
+    margin: 10px;
+    width: 225px;
+}
+
+/* Position */
+div.one {
+    filter: drop-shadow(-5px -5px 5px red);
+    height: 130px;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    -webkit-filter: drop-shadow(-5px -5px 5px red);
+}
+
+div.two {
+    filter: drop-shadow(5px -5px 5px green);
+    height: 130px;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    -webkit-filter: drop-shadow(5px -5px 5px green);
+}
+
+div.three {
+    filter: drop-shadow(5px 5px 5px blue);
+    height: 130px;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    -webkit-filter: drop-shadow(5px 5px 5px blue);
+}
+
+div.four {
+    filter: drop-shadow(-5px 5px 5px cyan);
+    height: 130px;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    -webkit-filter: drop-shadow(-5px 5px 5px cyan);
+}
+
+/* Blur */
+div.five {
+    filter: drop-shadow(5px 5px 1px magenta);
+    height: 130px;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    -webkit-filter: drop-shadow(5px 5px 1px magenta);
+}
+
+div.six {
+    filter: drop-shadow(5px 5px 3px yellow);
+    height: 130px;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    -webkit-filter: drop-shadow(5px 5px 3px yellow);
+}
+
+div.seven {
+    filter: drop-shadow(5px 5px 5px black);
+    height: 130px;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    -webkit-filter: drop-shadow(5px 5px 5px black);
+}
+
+div.eight {
+    filter: drop-shadow(5px 5px 7px red);
+    height: 130px;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    -webkit-filter: drop-shadow(5px 5px 7px red);
+}
+
+/* Size - x */
+div.nine {
+    filter: drop-shadow(1px 5px 5px green);
+    height: 130px;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    -webkit-filter: drop-shadow(1px 5px 5px green);
+}
+
+div.ten {
+    filter: drop-shadow(5px 5px 5px blue);
+    height: 130px;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    -webkit-filter: drop-shadow(5px 5px 5px blue);
+}
+
+div.eleven {
+    filter: drop-shadow(10px 5px 5px cyan);
+    height: 130px;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    -webkit-filter: drop-shadow(10px 5px 5px cyan);
+}
+
+div.twelve {
+    filter: drop-shadow(15px 5px 5px magenta);
+    height: 130px;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    -webkit-filter: drop-shadow(15px 5px 5px magenta);
+}
+
+/* Size - y */
+div.thirteen {
+    filter: drop-shadow(5px 1px 5px yellow);
+    height: 130px;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    -webkit-filter: drop-shadow(5px 1px 5px yellow);
+}
+
+div.fourteen {
+    filter: drop-shadow(5px 5px 5px black);
+    height: 130px;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    -webkit-filter: drop-shadow(5px 5px 5px black);
+}
+
+div.fifteen {
+    filter: drop-shadow(5px 10px 5px red);
+    height: 130px;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    -webkit-filter: drop-shadow(5px 10px 5px red);
+}
+
+div.sixteen {
+    filter: drop-shadow(5px 15px 5px green);
+    height: 130px;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    -webkit-filter: drop-shadow(5px 15px 5px green);
+}
