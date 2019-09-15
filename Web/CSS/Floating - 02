@@ -1,0 +1,22 @@
+https://code.sololearn.com/WKHGWAH49YOr/#css
+
+
+
+/* Exercises from Course Material */
+
+img.left {
+    float: left;
+    width: 120px;
+    margin-right: 10px;
+}
+
+img.right {
+    float: right;
+    width: 75px;
+    margin-left: 23px;
+}
+
+p {
+    width: 150px;
+    float: left;
+}
