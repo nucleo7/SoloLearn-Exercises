@@ -1,0 +1,247 @@
+https://code.sololearn.com/WEJiZNsc3j69/#css
+
+
+
+/* Exercises from Course Material */
+
+/* ONE - linear */
+div#one {
+    animation-duration: 5s;
+    animation-name: change1;
+    animation-timing-function: linear;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    height: 70px;
+    width: 250px;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: change1;
+    -webkit-animation-timing-function: linear;
+}
+@keyframes change1 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+@-webkit-keyframes change1 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+/* TWO - linear - delay: 2s */
+div#two {
+    animation-delay: 2s;
+    animation-duration: 5s;
+    animation-name: change2;
+    animation-timing-function: linear;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    height: 70px;
+    width: 250px;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: change2;
+    -webkit-animation-timing-function: linear;
+}
+@keyframes change2 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+@-webkit-keyframes change2 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+/* THREE - ease */
+div#three {
+    animation-duration: 5s;
+    animation-name: change3;
+    animation-timing-function: ease;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    height: 70px;
+    width: 250px;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: change3;
+    -webkit-animation-timing-function: ease;
+}
+@keyframes change3 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+@-webkit-keyframes change3 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+/* FOUR - ease-in */
+div#four {
+    animation-duration: 5s;
+    animation-name: change4;
+    animation-timing-function: ease-in;
+    background-color: cyan;
+    font-weight: bold;
+    height: 70px;
+    width: 250px;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: change4;
+    -webkit-animation-timing-function: ease-in;
+}
+@keyframes change4 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+@-webkit-keyframes change4 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+/* FIVE - ease-out */
+div#five {
+    animation-duration: 5s;
+    animation-name: change5;
+    animation-timing-function: ease-out;
+    background-color: magenta;
+    font-weight: bold;
+    height: 70px;
+    width: 250px;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: change5;
+    -webkit-animation-timing-function: ease-out;
+}
+@keyframes change5 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+@-webkit-keyframes change5 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+/* SIX - ease-in-out */
+div#six {
+    animation-duration: 5s;
+    animation-name: change6;
+    animation-timing-function: ease-in-out;
+    background-color: yellow;
+    font-weight: bold;
+    height: 70px;
+    width: 250px;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: change6;
+    -webkit-animation-timing-function: ease-in-out;
+}
+@keyframes change6 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+@-webkit-keyframes change6 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+/* SEVEN - cubic-bezier(0, 0, 1, 1) */
+div#seven {
+    animation-duration: 5s;
+    animation-name: change7;
+    animation-timing-function: cubic-bezier(0, 0, 1, 1);
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    height: 70px;
+    width: 250px;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: change7;
+    -webkit-animation-timing-function: cubic-bezier(0, 0, 1, 1);
+}
+@keyframes change7 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+@-webkit-keyframes change7 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+/* EIGHT - cubic-bezier(0, 0.25, 5, 0.75) */
+div#eight {
+    animation-duration: 5s;
+    animation-name: eight;
+    animation-timing-function: cubic-bezier(0, 0.25, 0.5, 0.75);
+    background-color: #232B2B;
+    color: #DC3D24;
+    font-weight: bold;
+    height: 70px;
+    width: 250px;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: change8;
+    -webkit-animation-timing-function: cubic-bezier(0, 0.25, 0.5, 0.75);
+}
+@keyframes change8 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+@-webkit-keyframes change8 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+/* NINE - cubic-bezier(0, 0.33, 0.67, 1) */
+div#nine {
+    animation-duration: 5s;
+    animation-name: change9;
+    animation-timing-function: cubic-bezier(0, 0.33, 0.67, 1);
+    background-color: #222930;
+    color: #4EB1BA;
+    font-weight: bold;
+    height: 70px;
+    width: 250px;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: change9;
+    -webkit-animation-timing-function: cubic-bezier(0, 0.33, 0.67, 1);
+}
+@keyframes change9 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+@-webkit-keyframes change9 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+/* TEN - cubic-bezier(1, 0, 1, 0) */
+div#ten {
+    animation-duration: 5s;
+    animation-name: change10;
+    animation-timing-delay: cubic-bezier(1, 0, 1, 0);
+    background-color: #AC2832;
+    color: #DFD297;
+    font-weight: bold;
+    height: 70px;
+    width: 250px;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: change10;
+    -webkit-animation-timing-delay: cubic-bezier(1, 0, 1, 0);
+}
+@keyframes change10 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+@-webkit-keyframes change10 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+/* ELEVEN - cubic-bezier(0.33, 0.33, 0.67, 0.67) */
+div#eleven {
+    animation-duration: 5s;
+    animation-name: change11;
+    animation-timing-delay: cubic-bezier(0.33, 0.33, 0.67, 0.67);
+    background-color: #F2EFE4;
+    color: #CB8C1D;
+    font-weight: bold;
+    height: 70px;
+    width: 250px;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: change11;
+    -webkit-animation-timing-delay: cubic-bezier(0.33, 0.33, 0.67, 0.67);
+}
+@keyframes change11 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
+@-webkit-keyframes change11 {
+    from { width: 0px; }
+    to { width: 250px; }
+}
