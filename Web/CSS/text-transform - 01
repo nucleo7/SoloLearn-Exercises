@@ -1,0 +1,12 @@
+https://code.sololearn.com/WtXrNxGFAuWS/#css
+
+
+
+/* Exercises from Course Material */
+p.capitalize {
+    text-transform: capitalize;
+}
+p.capital {
+   text-transform: capitalize; /* Doesn't change the whole word, only the first letter. */
+   font-size: 1.2em;
+}
