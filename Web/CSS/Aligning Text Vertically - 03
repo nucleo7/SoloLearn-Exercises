@@ -1,0 +1,25 @@
+https://code.sololearn.com/Wd4SxsdLQ4Wq/#css
+
+
+
+/* Exercises from Course Material */
+.one {
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    color: green;
+    display: inline-table;
+}
+.two {
+    height: 100px;
+    width: 250px;
+    background-color: blue;
+    color: cyan;
+    display: inline-block;
+}
+.three {
+    display: table-cell;
+    vertical-align: bottom;
+    align: right;
+    color: magenta;
+}
