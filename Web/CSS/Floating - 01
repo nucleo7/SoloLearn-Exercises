@@ -1,0 +1,17 @@
+https://code.sololearn.com/WBG6Dqiby7db/#css
+
+
+
+/* Exercises from Course Material */
+
+img.right {
+    float: right;
+}
+
+img.left {
+    float: left;
+}
+
+img.none {
+    float: none;
+}
