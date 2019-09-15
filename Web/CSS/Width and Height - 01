@@ -1,0 +1,22 @@
+https://code.sololearn.com/WerfOSMueOyI/#css
+
+
+
+/* Exercises from Course Material */
+div.one {
+    border: 5px solid red;    
+    width: 90px;
+    height: 90px;
+}
+div.two {
+    border: 3px dotted green;
+    width: 150px;
+    height: 150px;
+    padding: 3px;
+}
+div.three {
+    border: 7px dashed blue;
+    height: 250px;
+    padding: 7px;
+    width: 250px;
+}
