@@ -1,0 +1,38 @@
+https://code.sololearn.com/WSOZNUTDk2Ly/#css
+
+
+
+/* Exercises from Course Material */
+
+div#one {
+    background: url("http://www.sololearn.com/uploads/css_logo.png") left top no-repeat,  url("http://www.sololearn.com/uploads/better-code.jpg") right bottom no-repeat;
+    width: 400px;
+    height: 300px;
+    color: cyan;
+    font-weight: bold;
+    text-align: center;
+}
+div#two {
+    background: url("http://www.sololearn.com/uploads/css_logo.png") right top no-repeat, url("http://www.sololearn.com/uploads/better-code.jpg") left bottom no-repeat;
+    width: 400px;
+    height: 300px;
+    color: cyan;
+    font-weight: bold;
+    text-align: center;
+}
+div#three {
+    background: url("http://www.sololearn.com/uploads/css_logo.png") right bottom no-repeat, url("http://www.sololearn.com/uploads/better-code.jpg") left top no-repeat;
+    width: 400px;
+    height: 300px;
+    color: cyan;
+    font-weight: bold;
+    text-align: center;
+}
+div#four {
+    background: url("http://www.sololearn.com/uploads/css_logo.png") left bottom no-repeat, url("http://www.sololearn.com/uploads/better-code.jpg") right top no-repeat;
+    width: 400px;
+    height: 300px;
+    color: cyan;
+    font-weight: bold;
+    text-align: center;
+}
