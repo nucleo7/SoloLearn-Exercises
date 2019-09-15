@@ -1,0 +1,22 @@
+https://code.sololearn.com/W0241wv95NMH/#css
+
+
+
+/* Exercises from Course Material */
+h2 {
+    color: red;
+    font-size: 30pt;
+    text-shadow: 5px 1px 3px cyan;
+}
+
+p.one {
+    color: green;
+    font-size: 1.5em;
+    text-shadow: 3px 5px 7px magenta;
+}
+
+.two {
+    color: blue;
+    font-size: 1.25em;
+    text-shadow: 3px 3px 3px yellow;
+}
