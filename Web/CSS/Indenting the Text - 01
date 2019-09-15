@@ -1,0 +1,28 @@
+https://code.sololearn.com/WQVhVt2xM9NP/#css
+
+
+
+/* Exercises from Course Material */
+p {
+    text-indent: 60px;
+}
+
+p.px {
+   text-indent: 5px; 
+}
+
+p.pt {
+   text-indent: 5pt; 
+}
+
+p.cm {
+   text-indent: 5cm; 
+}
+
+p.em {
+   text-indent: 5em; 
+}
+
+p.% {
+   text-indent: 5%; 
+}
