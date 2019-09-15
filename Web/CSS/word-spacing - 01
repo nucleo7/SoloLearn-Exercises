@@ -1,0 +1,15 @@
+https://code.sololearn.com/W9jG95VXI2J1/#css
+
+
+
+/* Exercises from Course Material */
+
+b.normal {
+    word-spacing: normal;
+}
+b.inherit {
+    word-spacing: inherit;
+}
+b.length {
+    word-spacing: 23px;
+}
