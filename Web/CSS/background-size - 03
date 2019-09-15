@@ -1,0 +1,27 @@
+https://code.sololearn.com/WNXNs2p6tU5k/#css
+
+
+
+/* Exercises from Course Material */
+
+div.one {
+    height: 150px;
+    width: 250px;
+    border: 1px solid #FF0000;
+    background: url("http://www.sololearn.com/uploads/css_logo.png") no-repeat 50% 50%;
+    background-size: cover;
+}
+div.two {
+    height: 250px;
+    width: 250px;
+    border: 5px dashed #FF00FF;
+    background: url("http://www.sololearn.com/uploads/css_logo.png");
+    background-size: cover;
+}
+div.three {
+    height: 250px;
+    width: 150px;
+    border: 3px dotted #00FFFF;
+    background: url("http://www.sololearn.com/uploads/css_logo.png");
+    background-size: cover;
+}
