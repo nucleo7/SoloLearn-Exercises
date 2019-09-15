@@ -1,0 +1,24 @@
+https://code.sololearn.com/Wvf32Con3QrU/#css
+
+
+
+/* Exercises from Course Material */
+/* EDIT: This doesn't seem to work the way I expect it to. */
+p.one {
+    font-weight: 150;
+}
+p.two {
+    font-weight: 300;
+}
+p.three {
+    font-weight: 450;
+}
+p.four {
+   font-weight: 600; 
+}
+p.five {
+   font-weight: 750; 
+}
+p.six {
+   font-weight: 900; 
+}
