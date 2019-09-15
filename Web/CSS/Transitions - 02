@@ -1,0 +1,150 @@
+https://code.sololearn.com/WFpSNlZc00e8/#css
+
+
+
+/* Exercises from Course Material */
+
+/* div id one cubic-bezier(0, 0, 1, 1) */
+#one {
+    width: 75px;
+    height: 60px;
+    font-weight: bold;
+    background: #FF0000;
+    transition: width 3s;
+    transition-timing-function: cubic-bezier(0, 0, 1, 1);
+    -webkit-transition: width 3s;
+    -webkit-transition-timing-function: cubic-bezier(0, 0, 1, 1);
+}
+#one:hover {
+    width: 300px;
+}
+/* div id two cubic-bezier(0, 1, 1, 1) */
+#two {
+    width: 75px;
+    height: 60px;
+    font-weight: bold;
+    background: #00FF00;
+    transition: width 3s;
+    transition-timing-function: cubic-bezier(0, 1, 1, 1);
+    -webkit-transition: width 3s;
+    -webkit-transition-timing-function: cubic-bezier(1, 0, 1, 1);
+}
+#two:hover {
+    width: 300px;
+}
+/* div id three ease */
+#three {
+    width: 75px;
+    height: 60px;
+    font-weight: bold;
+    background: #0000FF;
+    transition: width 3s;
+    transition-timing-function: ease;
+    -webkit-transition: width 3s;
+    -webkit-transition-timing-function: ease;
+}
+#three:hover {
+    width: 300px;
+}
+/* div id four ease-in */
+#four {
+    width: 75px;
+    height: 60px;
+    font-weight: bold;
+    background: #00FFFF;
+    transition: width 3s;
+    transition-timing-function: ease-in;
+    -webkit-transition: width 3s;
+    -webkit-transition-timing-function: ease-in;
+}
+#four:hover {
+    width: 300px;
+}
+/* div id five ease-out*/
+#five {
+    width: 75px;
+    height: 60px;
+    font-weight: bold;
+    background: #FF00FF;
+    transition: width 3s;
+    transition-timing-function: ease-out;
+    -webkit-transition: width 3s;
+    -webkit-transition-timing-function: ease-out;
+}
+#five:hover {
+    width: 300px;
+}
+/* div id six ease-in-out */
+#six {
+    width: 75px;
+    height: 60px;
+    font-weight: bold;
+    background: #FFFF00;
+    transition: width 3s;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: width 3s;
+    -webkit-transition-timing-function: ease-in-out;
+}
+#six:hover {
+    width: 300px;
+}
+/* div id seven linear */
+#seven {
+    width: 75px;
+    height: 60px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #000000;
+    transition: width 3s;
+    transition-timing-function: linear;
+    -webkit-transition: width 3s;
+    -webkit-transition-timing-function: linear;
+}
+#seven:hover {
+    width: 300px;
+}
+/* div id eight cubic-bezier(1, 1, 0, 0) */
+#eight {
+    width: 75px;
+    height: 60px;
+    font-weight: bold;
+    color: #0A1B2C;
+    background: #A0B1C2;
+    transition: width 3s;
+    transition-timing-function: cubic-bezier(1, 1, 0, 0);
+    -webkit-transition: width 3s;
+    -webkit-transition-timing-function: cubic-bezier(1, 1, 0, 0);
+}
+#eight:hover {
+    width: 300px;
+}
+/* div id nine cubic-bezier(1, 0, 0, 1) */
+#nine {
+    width: 75px;
+    height: 60px;
+    font-weight: bold;
+    color: #012345;
+    background: #ABCDEF;
+    transition: width 3s;
+    transition-timing-function: cubic-bezier(1, 0, 0, 1);
+    -webkit-transition: width 3s;
+    -webkit-transition-timing-function: cubic-bezier(1, 0, 0, 1);
+}
+#nine:hover {
+    width: 300px;
+}
+/* div id ten cubic-bezier(0, 0.3, 0.7, 1) */
+#ten {
+    width: 75px;
+    height: 60px;
+    font-weight: bold;
+    color: #9F8E7D;
+    background: #F9E8D7;
+    transition: width 3s;
+    transition-timing-function: cubic-bezier(0, 0.3, 0.7, 1);
+    -webkit-transition: width 3s;
+    -webkit-transition-timing-function: cubic-bezier(0, 0.3, 0.7, 1);
+}
+#ten:hover {
+    width: 300px;
+}
