@@ -1,0 +1,15 @@
+https://code.sololearn.com/W7buB0I7QU9Z/#css
+
+
+
+/* Exercises from Course Material */
+
+ul.one {
+    list-style-type: square;
+    list-style-position: outside;
+    list-style-image: none;
+}
+
+ul.two {
+    list-style: circle inside none;
+}
